@@ -15,27 +15,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Christi/user login'), [('username') : '14426', ('password') : 'Password2'], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Christi/Page_Homepage/i_My Learning Icon_app-icon wi wi-menu fa-lg'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Christi/Page_Homepage/span_Online Learning'), FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main')
 
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Christi/Page_Job Functions/input_Back button_searchModul'), search_module)
-
-WebUI.click(findTestObject('Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search'))
+WebUI.click(findTestObject('Object Repository/Christi/Page_Main/span_login'))
 
 WebUI.delay(3)
 
-if (expected == 'pass') {
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci'), 
-        0)
-} else if (expected == 'fail') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan'), 
-        0)
-}
+WebUI.setText(findTestObject('Object Repository/Christi/Page_Main/input_NPK_username'), username)
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Christi/Page_Main/input_Password_password'), password)
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Main/span_Remember me'))
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Main/span_login_1'))
+
+WebUI.delay(5)
 

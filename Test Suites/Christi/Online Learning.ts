@@ -25,18 +25,6 @@
          <testDataId>Data Files/Christi/search module</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>860d8b19-2dc7-4944-9f54-75e2c5ba96dc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e1fa64f6-d02c-425e-be3a-ee4d497cf6c5</variableId>
-      </variableLink>
-      <variableLink>
          <testDataLinkId>7308fbd1-ccb3-4a1f-9008-99b5192339fe</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>search module</value>
