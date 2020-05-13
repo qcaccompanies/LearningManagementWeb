@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>User-Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ab8c1200-eb23-434a-bb88-ab7e4d027f09</testSuiteGuid>
+   <testCaseLink>
+      <guid>82313455-dc8f-4b22-a3f8-cf4132f85723</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Denna/User - Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>27656284-e920-4590-b9d2-c8f4a25517d7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Denna/User - Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>27656284-e920-4590-b9d2-c8f4a25517d7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NPK_Username</value>
+         <variableId>7b540867-6a85-4a65-a314-170edd2d24ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27656284-e920-4590-b9d2-c8f4a25517d7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>8dea1796-9cc2-428b-86eb-867228798628</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27656284-e920-4590-b9d2-c8f4a25517d7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Kondisi</value>
+         <variableId>5c49b9e9-8921-4ece-a969-b8b1fa7d70ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27656284-e920-4590-b9d2-c8f4a25517d7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Keterangan</value>
+         <variableId>7c042c80-bfeb-4245-a687-4754818ee54d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
