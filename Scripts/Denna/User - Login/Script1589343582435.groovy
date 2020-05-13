@@ -51,3 +51,5 @@ switch (Kondisi) {
         break
 }
 
+WebUI.closeBrowser()
+
