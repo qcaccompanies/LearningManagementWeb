@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Login" time="379.707" tests="4" failures="0" errors="0">
+   <testsuite name="Admin - Login" tests="4" failures="0" errors="0" time="379.707" timestamp="2020-05-13 15:52:54" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200513_155237\\Rizka\\Admin - Login\\20200513_155237"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200513_155237\\Rizka\\Admin - Login\\20200513_155237\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="304cf1cd2ebd2d2ded63314721d0b2fc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="100.404" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 15:52:55 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 15:52:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 15:52:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 15:52:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-13 15:53:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 15:53:15 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:53:44 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:53:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 15:53:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 15:53:46 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 15:54:16 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 15:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:54:18 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:54:19 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:54:19 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 15:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 15:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 15:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:54:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 15:54:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 15:54:31 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 15:54:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 15:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="119.94" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 15:54:35 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 15:54:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 15:54:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 15:54:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 15:54:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 15:54:40 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:55:18 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:55:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 15:55:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 15:55:19 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 15:55:49 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 15:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:55:56 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:55:59 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:55:59 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:56:01 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:56:08 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): null
+
+2020-05-13 15:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:56:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 15:56:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 15:56:24 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 15:56:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 15:56:35 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="90.912" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 15:56:35 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 15:56:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 15:56:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 15:56:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 15:56:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 15:56:40 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:56:51 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:56:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 15:56:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 15:56:52 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 15:57:22 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 15:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11688' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:57:31 - [MESSAGE][PASSED] - Text '11688' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:57:34 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:57:40 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 15:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 15:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 15:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:57:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 15:58:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 15:58:04 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-13 15:58:04 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+
+2020-05-13 15:58:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/label_Email address does not existPassword is wrong")): Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+
+2020-05-13 15:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="64.683" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 15:58:06 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 15:58:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 15:58:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 15:58:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 15:58:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 15:58:11 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:58:24 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 15:58:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 15:58:26 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 15:58:26 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 15:58:56 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 15:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 15:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:58:58 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 15:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Pas' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:58:59 - [MESSAGE][PASSED] - Text 'Pas' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 15:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 15:59:00 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): null
+
+2020-05-13 15:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 15:59:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 15:59:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 15:59:11 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-13 15:59:11 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+
+2020-05-13 15:59:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/label_Email address does not existPassword is wrong")): Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+
+2020-05-13 15:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-13 15:52:54 - [TEST_SUITE][PASSED] - Admin - Login: Test Cases/Rizka/Admin - Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
