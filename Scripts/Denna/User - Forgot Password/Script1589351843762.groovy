@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Denna/User - Forgot Password/button login'))
 
 WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button Forgot Password'))
@@ -28,27 +30,62 @@ WebUI.setText(findTestObject('Denna/User - Forgot Password/input NPK npkUser'), 
 
 WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button Kirim OTP'))
 
-WebUI.setText(findTestObject('Denna/User - Forgot Password/input Icon newPassword'), newPassword)
-
-WebUI.setText(findTestObject('Denna/User - Forgot Password/input Icon newPasswordConfirm'), newPasswordConfirm)
-
-WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button RESET PASSWORD'))
-
 switch (Kondisi) {
     case 'fail':
-        if (true) {
-        } else if (true) {
-        } else if (true) {
-        } else if (true) {
-        } else if (true) {
-        } else if (true) {
-        } else if (true) {
-        } else if (true) {
-        } else if (true) {
+        WebUI.setText(findTestObject('Denna/User - Forgot Password/input Icon newPassword'), newPassword)
+
+        WebUI.setText(findTestObject('Denna/User - Forgot Password/input Icon newPasswordConfirm'), newPasswordConfirm)
+
+        WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button RESET PASSWORD'))
+
+        if (Keterangan == 'emptyAllPassword') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers'))
+        } else if (Keterangan == 'emptyPasswordConfirm') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Password tidak sama'))
+        } else if (Keterangan == 'emptyNewPassword') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers'))
+        } else if (Keterangan == 'PasswordNotMatch') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Password tidak sama'))
+        } else if (Keterangan == 'PasswordInvalid') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers'))
+        } else if (Keterangan == 'PasswordInvalidDefault') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Password tidak boleh sama dengan default'))
+        } else if (Keterangan == 'wrongOTP') {
+            WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'), otp1)
+
+            WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'), otp2)
+
+            WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'), otp3)
+
+            WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'), otp4)
+
+            WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'), otp5)
+
+            WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'), otp6)
+
+            WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button Konfirmasi'))
+
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Account Confirmation'))
+        }
+        
+        break
+    case 'fail1':
+        if (Keterangan == 'emptyNPK') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Masukkan NPK anda kami akan mengirim kode OTP ke nomor anda'))
+        } else if (Keterangan == 'wrongNPK') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Masukan anda salah'))
+        } else if (Kondisi == 'npkNotFound') {
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label NPK tidak ditemukan'))
         }
         
         break
     case 'pass':
+        WebUI.setText(findTestObject('Denna/User - Forgot Password/input Icon newPassword'), newPassword)
+
+        WebUI.setText(findTestObject('Denna/User - Forgot Password/input Icon newPasswordConfirm'), newPasswordConfirm)
+
+        WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button RESET PASSWORD'))
+
         WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'), otp1)
 
         WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'), otp2)
@@ -62,6 +99,8 @@ switch (Kondisi) {
         WebUI.setText(findTestObject('Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'), otp6)
 
         WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button Konfirmasi'))
+
+        WebUI.verifyElementVisible(findTestObject('Denna/User - Forgot Password/label Password anda berhasil diganti Mohon login kembali menggunakan password baru'))
 
         WebUI.click(findTestObject('Object Repository/Denna/User - Forgot Password/button Back to Login Page'))
 

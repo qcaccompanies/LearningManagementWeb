@@ -28,6 +28,10 @@ WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), NPK_Usernam
 
 WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), Password)
 
+if (Keterangan == 'remember') {
+    WebUI.check(findTestObject('Denna/User-Login/button Remember me'))
+}
+
 WebUI.click(findTestObject('Denna/User-Login/button login 1 masuk'))
 
 switch (Kondisi) {
@@ -43,8 +47,6 @@ switch (Kondisi) {
         } else if (Keterangan == 'PasswordEmpty') {
             WebUI.verifyElementVisible(findTestObject('Denna/User-Login/button login 1 masuk'))
         } else if (Keterangan == 'wrongPassword') {
-            WebUI.verifyElementVisible(findTestObject('Denna/User-Login/label Email address does not existPassword is wrong'))
-        } else if (Keterangan == 'wrongNpk') {
             WebUI.verifyElementVisible(findTestObject('Denna/User-Login/label Email address does not existPassword is wrong'))
         }
         
