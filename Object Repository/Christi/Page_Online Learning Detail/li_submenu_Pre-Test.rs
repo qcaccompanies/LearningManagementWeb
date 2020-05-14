@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_submenu_Pre-Test</name>
+   <tag></tag>
+   <elementGuidId>81c94a25-9b0e-4848-9480-c328efd83179</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-onlinelearningdetail/div/main/div/div/div/div[3]/div[3]/div/div[3]/ul/li/div[2]/ul/li</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = '${text}' or . = '${text}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>listitemindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${text}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-onlinelearningdetail[1]/div[@class=&quot;app-page container&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column col-md-12 col-sm-12&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix grey-grid&quot;]/div[@class=&quot;app-grid-column col-sm-3&quot;]/div[@class=&quot;app-container contLesson&quot;]/div[@class=&quot;app-livelist app-panel media-list None&quot;]/ul[@class=&quot;app-livelist-container clearfix list-group&quot;]/li[@class=&quot;app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active&quot;]/div[@class=&quot;app-livelist app-panel media-list None&quot;]/ul[@class=&quot;app-livelist-container clearfix list-group&quot;]/li[@class=&quot;app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-onlinelearningdetail/div/main/div/div/div/div[3]/div[3]/div/div[3]/ul/li/div[2]/ul/li</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Icon'])[3]/following::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pre-Test'])[3]/following::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belajar apa aja kita?'])[1]/preceding::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li</value>
+   </webElementXpaths>
+</WebElementEntity>

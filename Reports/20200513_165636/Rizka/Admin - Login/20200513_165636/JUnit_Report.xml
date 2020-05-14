@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Login" time="291.484" tests="4" failures="1" errors="0">
+   <testsuite name="Admin - Login" tests="4" failures="1" errors="0" time="291.484" timestamp="2020-05-13 16:56:48" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Rizka/Admin - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200513_165636\\Rizka\\Admin - Login\\20200513_165636"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200513_165636\\Rizka\\Admin - Login\\20200513_165636\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200513_165636\\Rizka\\Admin - Login\\20200513_165636\\1589364096680.png, C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200513_165636\\Rizka\\Admin - Login\\20200513_165636\\1589364097499.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="15513524f018f65ec7af7dbeffa9a96f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="68.475" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 16:56:49 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 16:56:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 16:56:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 16:56:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-13 16:56:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:56:58 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 16:57:06 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 16:57:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 16:57:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 16:57:08 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 16:57:38 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 16:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 16:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 16:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 16:57:40 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 16:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 16:57:41 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 16:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 16:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 16:57:41 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 16:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 16:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 16:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 16:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 16:57:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 16:57:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 16:57:53 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 16:57:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 16:57:58 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="62.112" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 16:57:58 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 16:57:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 16:57:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:57:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 16:58:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:58:02 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 16:58:12 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 16:58:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 16:58:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 16:58:13 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 16:58:43 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 16:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 16:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 16:58:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 16:58:45 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 16:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 16:58:45 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 16:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 16:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 16:58:46 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): null
+
+2020-05-13 16:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 16:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 16:58:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 16:58:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 16:58:57 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 16:58:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-13 16:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="62.75" classname="Test Cases/Rizka/Admin - Login" status="PASSED">
+         <system-out><![CDATA[2020-05-13 16:59:00 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-13 16:59:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 16:59:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 16:59:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 16:59:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 16:59:04 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 16:59:15 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 16:59:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 16:59:17 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 16:59:17 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 16:59:47 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 16:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 16:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 16:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11688' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 16:59:48 - [MESSAGE][PASSED] - Text '11688' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 16:59:48 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 16:59:49 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 16:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 16:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 16:59:50 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 16:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 16:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-13 16:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 16:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 16:59:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 17:00:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 17:00:02 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-13 17:00:02 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+
+2020-05-13 17:00:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/label_Email address does not existPassword is wrong")): Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+
+2020-05-13 17:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Login" time="94.755" classname="Test Cases/Rizka/Admin - Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-13 17:00:03 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-13 17:00:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-13 17:00:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-13 17:00:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 17:00:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-13 17:00:08 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 17:00:20 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-13 17:00:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 17:00:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 17:00:22 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-13 17:00:52 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-13 17:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 17:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-13 17:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 17:00:53 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-13 17:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Pas' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 17:00:54 - [MESSAGE][PASSED] - Text 'Pas' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-13 17:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 17:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-13 17:00:55 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): null
+
+2020-05-13 17:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 17:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-13 17:00:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-13 17:01:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-13 17:01:06 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-13 17:01:06 - [TEST_STEP][FAILED] - else: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-13 17:01:06 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/label_Email address does not existPassword is wrong")): Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-13 17:01:37 - [MESSAGE][FAILED] - Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200513_165636\\Rizka\\Admin - Login\\20200513_165636\\1589364096680.png]]
+
+2020-05-13 17:01:38 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200513_165636\\Rizka\\Admin - Login\\20200513_165636\\1589364097499.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-13 17:00:03 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-13 16:56:48 - [TEST_SUITE][FAILED] - Admin - Login: Test Cases/Rizka/Admin - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-13 16:56:48 - [TEST_SUITE][FAILED] - Admin - Login: Test Cases/Rizka/Admin - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Login.run(Admin - Login:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589363796745.run(TempTestSuite1589363796745.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin - Login/label_Email address does not existPassword is wrong' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

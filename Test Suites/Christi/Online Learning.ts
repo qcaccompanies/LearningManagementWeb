@@ -13,8 +13,8 @@
    <testCaseLink>
       <guid>e5569c0e-dbab-4d48-8deb-81a04cdd43b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Christi/User - Online Learning - Search</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Christi/User/Online Learning - Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7308fbd1-ccb3-4a1f-9008-99b5192339fe</id>
@@ -35,6 +35,45 @@
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>23addd19-4b14-40e2-8079-96b6d713b44d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e34a8479-585f-45bb-8804-a9201527a84a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Christi/User/Online Learning - Lihat Modul</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7dc7571a-7311-4fba-a3f2-d8f68adecde1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Christi/lihat modul</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7dc7571a-7311-4fba-a3f2-d8f68adecde1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>module_name</value>
+         <variableId>a488de2a-f132-48a0-88fc-e17a9903c4bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7dc7571a-7311-4fba-a3f2-d8f68adecde1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>found</value>
+         <variableId>a2884e62-22f4-4243-aa4e-005159e80f60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7dc7571a-7311-4fba-a3f2-d8f68adecde1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status</value>
+         <variableId>69166b5a-ca29-467c-8bc0-30b0d37a7aff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7dc7571a-7311-4fba-a3f2-d8f68adecde1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>d985db95-024a-4f1f-901a-13be8e90bc46</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

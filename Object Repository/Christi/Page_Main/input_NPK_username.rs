@@ -6,6 +6,10 @@
    <elementGuidId>203b0cc6-0995-4c1e-96d0-af744d1fa48e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'username' and @placeholder = 'Username']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='username']</value>
       </entry>
