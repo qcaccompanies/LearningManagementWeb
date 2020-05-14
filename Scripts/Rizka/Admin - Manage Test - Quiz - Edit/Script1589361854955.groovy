@@ -98,8 +98,7 @@ if (condition == 'passed') {
     WebUI.delay(5)
 }
 
-attribute = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/txtSoal - Copy', [('text') : soalQuestion]), 
-    'text')
+attribute = WebUI.getText(findTestObject('null'))
 
 WebUI.verifyMatch(attribute, soalQuestion, false)
 
