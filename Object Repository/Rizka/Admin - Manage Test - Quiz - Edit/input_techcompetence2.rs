@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtSoal</name>
+   <name>input_techcompetence2</name>
    <tag></tag>
-   <elementGuidId>fbe51b9b-5f8f-45ae-922a-ddd424e5206d</elementGuidId>
+   <elementGuidId>0faa2290-4ae5-40ec-8e75-f808a239b9cf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='widget-id2231']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//textarea[@name = 'question' and @placeholder = 'Place your text' and @id = 'widget-id2231']</value>
+         <value>//input[@id='widget-id4376']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control app-textarea ng-untouched ng-pristine ng-valid</value>
+      <value>form-control app-textbox ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,9 +36,16 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>question</value>
+      <value>technicalCompetence</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,45 +55,45 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>Place your text</value>
+      <value>on</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>widget-id2231</value>
+      <value>widget-id4376</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widget-id2231&quot;)</value>
+      <value>id(&quot;widget-id4376&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='widget-id2231']</value>
+      <value>//input[@id='widget-id4376']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-editquiz/div/main/div/div/div/div[3]/div/div/div/div/div/div/div/wm-textarea/textarea</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-editquiz/div/main/div/div/div/div[2]/div[2]/div/div[3]/div/div/div/wm-input/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

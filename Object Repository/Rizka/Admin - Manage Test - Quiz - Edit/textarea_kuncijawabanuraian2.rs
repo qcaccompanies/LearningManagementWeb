@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtSoal</name>
+   <name>textarea_kuncijawabanuraian2</name>
    <tag></tag>
-   <elementGuidId>fbe51b9b-5f8f-45ae-922a-ddd424e5206d</elementGuidId>
+   <elementGuidId>b49b292b-ce6f-4028-881f-15db9d00f5f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='widget-id2231']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//textarea[@name = 'question' and @placeholder = 'Place your text' and @id = 'widget-id2231']</value>
+         <value>//textarea[@id='widget-id4431']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>question</value>
+      <value>correctAnswerUraian</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,34 +59,34 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>widget-id2231</value>
+      <value>widget-id4431</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widget-id2231&quot;)</value>
+      <value>id(&quot;widget-id4431&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='widget-id2231']</value>
+      <value>//textarea[@id='widget-id4431']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-editquiz/div/main/div/div/div/div[3]/div/div/div/div/div/div/div/wm-textarea/textarea</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-editquiz/div/main/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/wm-textarea/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//div[2]/div/div/div/div/div/wm-textarea/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

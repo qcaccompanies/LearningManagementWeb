@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>e6c73a14-9e14-4938-8558-dace9b990b7b</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <iterationType>ALL</iterationType>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Rizka/Admin - Manage Test - Quiz - Edit</testDataId>
       </testDataLink>

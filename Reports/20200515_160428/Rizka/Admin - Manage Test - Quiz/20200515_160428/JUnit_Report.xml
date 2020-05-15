@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="394.132" tests="3" failures="3" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="3" failures="3" errors="0" time="394.132" timestamp="2020-05-15 16:04:45" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533649192.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533649626.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533757828.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533875951.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="62cd05a064a8e44beb506c5d7340f856"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" time="162.508" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-15 16:04:47 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-15 16:04:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-15 16:04:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-15 16:04:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-15 16:05:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-15 16:05:01 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:05:18 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:05:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:05:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:05:26 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:05:26 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:05:27 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:05:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:05:29 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-15 16:05:49 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-15 16:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:05:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:06:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:06:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:06:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:06:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal"), tipeSoal, false): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:06:37 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:06:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobFunction"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:06:38 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:06:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:06:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:06:43 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobPosition"), jobPosition, false): All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:06:44 - [MESSAGE][PASSED] - All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:06:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/module"), module, false): All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:06:45 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:06:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint"), subModule, false): All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:06:46 - [MESSAGE][PASSED] - All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text '-' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:06:47 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:06:47 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence"), levelCompetence, STOP_ON_FAILURE): Text '-' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:06:47 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:06:47 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/txtSoal"), soalQuestion): Text 'Apa yang ditawarkan ACC?' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:06:49 - [MESSAGE][PASSED] - Text 'Apa yang ditawarkan ACC?' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:06:49 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan' 
+
+2020-05-15 16:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA"), jawabanA): Text 'Mobil' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA'
+
+2020-05-15 16:06:50 - [MESSAGE][PASSED] - Text 'Mobil' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA'
+
+2020-05-15 16:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB"), jawabanB): Text 'Motor' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB'
+
+2020-05-15 16:06:51 - [MESSAGE][PASSED] - Text 'Motor' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB'
+
+2020-05-15 16:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC"), jawabanC): Text 'Truk' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC'
+
+2020-05-15 16:06:52 - [MESSAGE][PASSED] - Text 'Truk' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC'
+
+2020-05-15 16:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD"), jawabanD): Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD'
+
+2020-05-15 16:06:53 - [MESSAGE][PASSED] - Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD'
+
+2020-05-15 16:06:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan"), kunciJawabanPilgan, false): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan' 
+
+2020-05-15 16:06:54 - [MESSAGE][PASSED] - All options with label 'A' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan' 
+
+2020-05-15 16:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:06:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:07:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:07:04 - [TEST_STEP][FAILED] - if (condition == "passed"): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:07:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:07:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:07:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:07:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:07:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:07:23 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2"), tipeSoal, false, 0): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:07:27 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:07:27 - [TEST_STEP][FAILED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2"), jobFunction, false, 0): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:07:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:07:29 - [MESSAGE][FAILED] - Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533649192.png]]
+
+2020-05-15 16:07:30 - [MESSAGE][FAILED] - Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533649626.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-15 16:04:47 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" time="107.563" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-15 16:07:30 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-15 16:07:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-15 16:07:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-15 16:07:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-15 16:07:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-15 16:07:36 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:07:52 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:07:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:07:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:07:59 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:08:00 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:08:02 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-15 16:08:22 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-15 16:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:08:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:08:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:08:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:09:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:09:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal"), tipeSoal, false): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:09:06 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:09:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobFunction"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:09:07 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:09:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:09:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:09:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobPosition"), jobPosition, false): All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:09:13 - [MESSAGE][PASSED] - All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:09:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/module"), module, false): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:09:14 - [MESSAGE][PASSED] - All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:09:14 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint"), subModule, false): Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1589361854955.run(Script1589361854955.groovy:63)
+	... 13 more
+)
+
+2020-05-15 16:09:18 - [MESSAGE][FAILED] - Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1589361854955.run(Script1589361854955.groovy:63)
+	... 13 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533757828.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-15 16:07:30 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" time="117.665" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-15 16:09:18 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-15 16:09:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-15 16:09:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-15 16:09:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-15 16:09:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-15 16:09:24 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:09:43 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:09:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:09:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:09:53 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:09:54 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:09:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-15 16:10:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-15 16:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:10:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:10:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:10:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:11:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:11:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal"), tipeSoal, false): All options with label 'Uraian' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:11:04 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:11:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobFunction"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:11:05 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:11:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:11:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:11:10 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobPosition"), jobPosition, false): All options with label 'BRANCH MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:11:11 - [MESSAGE][PASSED] - All options with label 'BRANCH MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:11:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/module"), module, false): All options with label 'NEOP ARHO' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:11:12 - [MESSAGE][PASSED] - All options with label 'NEOP ARHO' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:11:12 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint"), subModule, false): Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1589361854955.run(Script1589361854955.groovy:63)
+	... 13 more
+)
+
+2020-05-15 16:11:16 - [MESSAGE][FAILED] - Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1589361854955.run(Script1589361854955.groovy:63)
+	... 13 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_160428\\Rizka\\Admin - Manage Test - Quiz\\20200515_160428\\1589533875951.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-15 16:09:18 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '(Asuransi) Apa saja yang dijual?' of object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: (Asuransi) Apa saja yang dijual?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-15 16:04:45 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-15 16:04:45 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589533468153.run(TempTestSuite1589533468153.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

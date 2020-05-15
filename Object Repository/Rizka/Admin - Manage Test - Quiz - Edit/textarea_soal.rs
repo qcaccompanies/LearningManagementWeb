@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtSoal</name>
+   <name>textarea_soal</name>
    <tag></tag>
-   <elementGuidId>fbe51b9b-5f8f-45ae-922a-ddd424e5206d</elementGuidId>
+   <elementGuidId>a5ec8f08-0b2f-45f9-919e-e99b424f7c98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='widget-id2231']</value>
+         <value>//textarea[@id='widget-id4389']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[@name = 'question' and @placeholder = 'Place your text' and @id = 'widget-id2231']</value>
+         <value>id(&quot;widget-id4389&quot;)[count(. | //textarea[@class = 'form-control app-textarea ng-untouched ng-pristine ng-valid' and @name = 'question' and @id = 'widget-id4389']) = count(//textarea[@class = 'form-control app-textarea ng-untouched ng-pristine ng-valid' and @name = 'question' and @id = 'widget-id4389'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -63,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>widget-id2231</value>
+      <value>widget-id4389</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widget-id2231&quot;)</value>
+      <value>id(&quot;widget-id4389&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='widget-id2231']</value>
+      <value>//textarea[@id='widget-id4389']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

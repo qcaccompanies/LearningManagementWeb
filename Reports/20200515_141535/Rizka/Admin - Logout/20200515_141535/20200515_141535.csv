@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Logout,Chrome 81.0.4044.138,,,2020-05-15 14:15:47,2020-05-15 14:17:11,"1m - 23,894s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin - Logout,Chrome 81.0.4044.138,,,2020-05-15 14:15:48,2020-05-15 14:17:11,"1m - 23,153s",PASSED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-15 14:15:49,2020-05-15 14:15:58,"9,012s",PASSED
+"navigateToUrl(""https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"")",Chrome 81.0.4044.138,,,2020-05-15 14:15:58,2020-05-15 14:16:16,"18,178s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-15 14:16:16,2020-05-15 14:16:21,"5,098s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnLogin""))",Chrome 81.0.4044.138,,,2020-05-15 14:16:21,2020-05-15 14:16:23,"1,664s",PASSED
+"setText(findTestObject(""Rizka/Admin - Login/txtUsername""), ""11666"")",Chrome 81.0.4044.138,,,2020-05-15 14:16:23,2020-05-15 14:16:24,"1,023s",PASSED
+"setText(findTestObject(""Rizka/Admin - Login/txtPassword""), ""Password3"")",Chrome 81.0.4044.138,,,2020-05-15 14:16:24,2020-05-15 14:16:24,"0,763s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-15 14:16:24,2020-05-15 14:16:25,"0,524s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/checkboxRememberMe""))",Chrome 81.0.4044.138,,,2020-05-15 14:16:25,2020-05-15 14:16:26,"0,566s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnLogin2""))",Chrome 81.0.4044.138,,,2020-05-15 14:16:26,2020-05-15 14:16:26,"0,724s",PASSED
+delay(20),Chrome 81.0.4044.138,,,2020-05-15 14:16:26,2020-05-15 14:16:46,"20,006s",PASSED
+"click(findTestObject(""Rizka/Admin - Logout/userImage""))",Chrome 81.0.4044.138,,,2020-05-15 14:16:46,2020-05-15 14:16:54,"7,799s",PASSED
+"click(findTestObject(""Rizka/Admin - Logout/btnLogout""))",Chrome 81.0.4044.138,,,2020-05-15 14:16:54,2020-05-15 14:16:55,"0,593s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-15 14:16:55,2020-05-15 14:17:02,"7,006s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-15 14:17:02,2020-05-15 14:17:11,"9,427s",PASSED

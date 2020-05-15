@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Logout,Chrome 81.0.4044.138,,,2020-05-15 14:03:45,2020-05-15 14:05:00,"1m - 15,457s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin - Logout,Chrome 81.0.4044.138,,,2020-05-15 14:03:47,2020-05-15 14:05:00,"1m - 13,847s",PASSED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-15 14:03:48,2020-05-15 14:03:57,"9,088s",PASSED
+"navigateToUrl(""https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"")",Chrome 81.0.4044.138,,,2020-05-15 14:03:57,2020-05-15 14:04:17,"20,175s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-15 14:04:17,2020-05-15 14:04:22,"5,078s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnLogin""))",Chrome 81.0.4044.138,,,2020-05-15 14:04:22,2020-05-15 14:04:24,"2,566s",PASSED
+"setText(findTestObject(""Rizka/Admin - Login/txtUsername""), ""11666"")",Chrome 81.0.4044.138,,,2020-05-15 14:04:24,2020-05-15 14:04:25,"0,777s",PASSED
+"setText(findTestObject(""Rizka/Admin - Login/txtPassword""), ""Password3"")",Chrome 81.0.4044.138,,,2020-05-15 14:04:25,2020-05-15 14:04:26,"0,602s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-15 14:04:26,2020-05-15 14:04:26,"0,428s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/checkboxRememberMe""))",Chrome 81.0.4044.138,,,2020-05-15 14:04:26,2020-05-15 14:04:27,"0,571s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnLogin2""))",Chrome 81.0.4044.138,,,2020-05-15 14:04:27,2020-05-15 14:04:27,"0,558s",PASSED
+delay(20),Chrome 81.0.4044.138,,,2020-05-15 14:04:27,2020-05-15 14:04:47,"20,005s",PASSED
+"click(findTestObject(""Rizka/Admin - Logout/userImage""))",Chrome 81.0.4044.138,,,2020-05-15 14:04:47,2020-05-15 14:04:48,"0,444s",PASSED
+"click(findTestObject(""Rizka/Admin - Logout/btnLogout""))",Chrome 81.0.4044.138,,,2020-05-15 14:04:48,2020-05-15 14:04:48,"0,612s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-15 14:04:48,2020-05-15 14:05:00,"11,985s",PASSED

@@ -93,12 +93,58 @@ WebUI.delay(10)
 if (condition == 'passed') {
     WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete'))
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnEdit'))
 
     WebUI.delay(5)
+
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2'), tipeSoal, 
+        false, 0)
+
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'), jobFunction, 
+        false, 0)
+
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_jobposition2'), jobPosition, 
+        false, 0)
+
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_module2'), module, 
+        false, 0)
+
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_submodule2'), subModule, 
+        false, 0)
+
+    attribute = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/textarea_soal'), 'value')
+
+    WebUI.verifyMatch(attribute, soalQuestion, false)
+
+    if (tipeSoal == 'Pilihan Ganda') {
+        A1 = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/input_answerA2'), 'value')
+
+        A2 = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/input_answerB2'), 'value')
+
+        A3 = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/input_answerC2'), 'value')
+
+        A4 = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/input_answerD2'), 'value')
+
+        WebUI.verifyMatch(A1, soalQuestion, false)
+
+        WebUI.verifyMatch(A2, soalQuestion, false)
+
+        WebUI.verifyMatch(A3, soalQuestion, false)
+
+        WebUI.verifyMatch(A4, soalQuestion, false)
+
+        WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_kuncijawabanpilgan2'), 
+            kunciJawabanPilgan, false, 0)
+    } else if (tipeSoal == 'Benar / Salah') {
+        WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/select_kuncijawabanbenarsalah2'), 
+            kunciJawaban, false, 0)
+    } else {
+        uraian = WebUI.getAttribute(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/textarea_kuncijawabanuraian2'), 
+            'value')
+
+        WebUI.verifyMatch(uraian, soalQuestion, false)
+    }
 }
-
-attribute = WebUI.getText(findTestObject('null'))
-
-WebUI.verifyMatch(attribute, soalQuestion, false)
 

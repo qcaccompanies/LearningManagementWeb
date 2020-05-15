@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="450.568" tests="3" failures="3" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="3" failures="3" errors="0" time="450.568" timestamp="2020-05-15 16:38:31" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535668492.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535668930.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535804291.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535804621.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535956961.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535957412.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="563036b0371c06c6f58505e2122436f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" time="156.477" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-15 16:38:32 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-15 16:38:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-15 16:38:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-15 16:38:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-15 16:38:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-15 16:38:45 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:39:10 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:39:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:39:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:39:19 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:39:20 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:39:22 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-15 16:39:42 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-15 16:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:39:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:39:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:40:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:40:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:40:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal"), tipeSoal, false): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:40:18 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:40:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobFunction"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:40:18 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:40:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:40:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:40:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobPosition"), jobPosition, false): All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:40:24 - [MESSAGE][PASSED] - All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:40:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/module"), module, false): All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:40:25 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:40:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint"), subModule, false): All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:40:28 - [MESSAGE][PASSED] - All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:40:28 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text 'Lalala' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:40:31 - [MESSAGE][PASSED] - Text 'Lalala' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence"), levelCompetence, STOP_ON_FAILURE): Text 'Lalala' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:40:31 - [MESSAGE][PASSED] - Text 'Lalala' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/txtSoal"), soalQuestion): Text 'Apa yang ditawarkan ACC?' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:40:32 - [MESSAGE][PASSED] - Text 'Apa yang ditawarkan ACC?' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:40:32 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan' 
+
+2020-05-15 16:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA"), jawabanA): Text 'Mobil' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA'
+
+2020-05-15 16:40:33 - [MESSAGE][PASSED] - Text 'Mobil' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA'
+
+2020-05-15 16:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB"), jawabanB): Text 'Motor' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB'
+
+2020-05-15 16:40:33 - [MESSAGE][PASSED] - Text 'Motor' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB'
+
+2020-05-15 16:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC"), jawabanC): Text 'Truk' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC'
+
+2020-05-15 16:40:34 - [MESSAGE][PASSED] - Text 'Truk' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC'
+
+2020-05-15 16:40:34 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD"), jawabanD): Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD'
+
+2020-05-15 16:40:35 - [MESSAGE][PASSED] - Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD'
+
+2020-05-15 16:40:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan"), kunciJawabanPilgan, false): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan' 
+
+2020-05-15 16:40:36 - [MESSAGE][PASSED] - All options with label 'A' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan' 
+
+2020-05-15 16:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:40:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:40:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:40:46 - [TEST_STEP][FAILED] - if (condition == "passed"): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:40:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:40:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:40:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:41:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:41:03 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2"), tipeSoal, false, 0): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:41:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:41:07 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:41:07 - [TEST_STEP][FAILED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2"), jobFunction, false, 0): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:41:08 - [MESSAGE][FAILED] - Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535668492.png]]
+
+2020-05-15 16:41:09 - [MESSAGE][FAILED] - Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535668930.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-15 16:38:32 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" time="135.216" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-15 16:41:09 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-15 16:41:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-15 16:41:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-15 16:41:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-15 16:41:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-15 16:41:14 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:41:31 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:41:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:41:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:41:37 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:41:38 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:41:38 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:41:39 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:41:40 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-15 16:42:00 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-15 16:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:42:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:42:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:42:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:42:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:42:38 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal"), tipeSoal, false): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:42:39 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:42:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobFunction"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:42:40 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:42:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:42:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:42:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobPosition"), jobPosition, false): All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:42:45 - [MESSAGE][PASSED] - All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:42:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/module"), module, false): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:42:46 - [MESSAGE][PASSED] - All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:42:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint"), subModule, false): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:42:49 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:42:49 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text 'Nanana' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:42:52 - [MESSAGE][PASSED] - Text 'Nanana' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:42:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence"), levelCompetence, STOP_ON_FAILURE): Text 'Nanana' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:42:52 - [MESSAGE][PASSED] - Text 'Nanana' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:42:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/txtSoal"), soalQuestion): Text 'Uang kartal adalah alat yang sah yang digunakan sebagai pengganti uang karena lebih praktis dan ekonomis. Tetapi tidak berlaku mutlak sebagai alat pengukur karena dapat ditolak  tanpa adanya sanksi hukum ' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:42:55 - [MESSAGE][PASSED] - Text 'Uang kartal adalah alat yang sah yang digunakan sebagai pengganti uang karena lebih praktis dan ekonomis. Tetapi tidak berlaku mutlak sebagai alat pengukur karena dapat ditolak  tanpa adanya sanksi hukum ' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:42:55 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): null
+
+2020-05-15 16:42:55 - [TEST_STEP][PASSED] - else if (tipeSoal == "Benar / Salah"): All options with label 'Benar' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawaban' 
+
+2020-05-15 16:42:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/kunciJawaban"), kunciJawaban, false): All options with label 'Benar' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawaban' 
+
+2020-05-15 16:42:55 - [MESSAGE][PASSED] - All options with label 'Benar' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawaban' 
+
+2020-05-15 16:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:42:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:43:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:43:06 - [TEST_STEP][FAILED] - if (condition == "passed"): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:43:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:43:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:43:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:43:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:43:19 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2"), tipeSoal, false, 0): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:43:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:43:22 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:43:22 - [TEST_STEP][FAILED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2"), jobFunction, false, 0): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:43:24 - [MESSAGE][FAILED] - Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535804291.png]]
+
+2020-05-15 16:43:25 - [MESSAGE][FAILED] - Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535804621.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-15 16:41:09 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" time="152.501" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-15 16:43:25 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-15 16:43:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-15 16:43:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-15 16:43:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-15 16:43:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-15 16:43:29 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:43:48 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-15 16:43:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:43:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-15 16:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:43:54 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-15 16:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:43:55 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-15 16:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-15 16:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-15 16:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-15 16:43:56 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-15 16:44:16 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-15 16:44:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/button_Manage Test' is clicked on
+
+2020-05-15 16:44:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:44:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:44:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz' is clicked on
+
+2020-05-15 16:44:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest' is clicked on
+
+2020-05-15 16:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:44:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:45:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:45:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal"), tipeSoal, false): All options with label 'Uraian' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:45:05 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/tipeSoal' 
+
+2020-05-15 16:45:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobFunction"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:45:06 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobFunction' 
+
+2020-05-15 16:45:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:45:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:45:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/jobPosition"), jobPosition, false): All options with label 'BRANCH MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:45:12 - [MESSAGE][PASSED] - All options with label 'BRANCH MANAGER' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/jobPosition' 
+
+2020-05-15 16:45:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/module"), module, false): All options with label 'NEOP ARHO' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:45:13 - [MESSAGE][PASSED] - All options with label 'NEOP ARHO' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/module' 
+
+2020-05-15 16:45:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint"), subModule, false): All options with label 'Belajar apa aja kita?' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:45:16 - [MESSAGE][PASSED] - All options with label 'Belajar apa aja kita?' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/subModule-learningPoint' 
+
+2020-05-15 16:45:16 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text 'Kakaka' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:45:18 - [MESSAGE][PASSED] - Text 'Kakaka' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/technicalCompetence'
+
+2020-05-15 16:45:18 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence"), levelCompetence, STOP_ON_FAILURE): Text 'Kakaka' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:45:19 - [MESSAGE][PASSED] - Text 'Kakaka' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/levelCompetence'
+
+2020-05-15 16:45:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/txtSoal"), soalQuestion): Text 'Uang kartal adalah ...' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:45:20 - [MESSAGE][PASSED] - Text 'Uang kartal adalah ...' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/txtSoal'
+
+2020-05-15 16:45:20 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): null
+
+2020-05-15 16:45:20 - [TEST_STEP][PASSED] - else if (tipeSoal == "Benar / Salah"): null
+
+2020-05-15 16:45:20 - [TEST_STEP][PASSED] - else: Text 'Alat yang sah yang digunakan sebagai pengganti uang karena lebih praktis dan ekonomis. Tetapi tidak berlaku mutlak sebagai alat pengukur karena dapat ditolak  tanpa adanya sanksi hukum ' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'
+
+2020-05-15 16:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian"), uraian): Text 'Alat yang sah yang digunakan sebagai pengganti uang karena lebih praktis dan ekonomis. Tetapi tidak berlaku mutlak sebagai alat pengukur karena dapat ditolak  tanpa adanya sanksi hukum ' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'
+
+2020-05-15 16:45:23 - [MESSAGE][PASSED] - Text 'Alat yang sah yang digunakan sebagai pengganti uang karena lebih praktis dan ekonomis. Tetapi tidak berlaku mutlak sebagai alat pengukur karena dapat ditolak  tanpa adanya sanksi hukum ' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'
+
+2020-05-15 16:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnSubmit' is clicked on
+
+2020-05-15 16:45:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-15 16:45:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-15 16:45:33 - [TEST_STEP][FAILED] - if (condition == "passed"): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete' is clicked on
+
+2020-05-15 16:45:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:45:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/btnEdit")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/btnEdit' is clicked on
+
+2020-05-15 16:45:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-15 16:45:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-15 16:45:51 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2"), tipeSoal, false, 0): All options with label 'Uraian' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:45:54 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_tipesoal2' 
+
+2020-05-15 16:45:54 - [TEST_STEP][FAILED] - verifyOptionSelectedByLabel(findTestObject("Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2"), jobFunction, false, 0): Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-15 16:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-15 16:45:57 - [MESSAGE][FAILED] - Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535956961.png]]
+
+2020-05-15 16:45:57 - [MESSAGE][FAILED] - Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200515_163819\\Rizka\\Admin - Manage Test - Quiz\\20200515_163819\\1589535957412.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-15 16:43:25 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Edit: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-15 16:38:31 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-15 16:38:31 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin - Manage Test - Quiz - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'SALES' in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Edit.run(Admin - Manage Test - Quiz - Edit:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589535499131.run(TempTestSuite1589535499131.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Only 0 in 1 option(s) with label 'SALES' is/are selected in object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Edit/select_jobfunction2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
