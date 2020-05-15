@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>bcf25af7-e936-4b26-b4cf-a2a9f2ecd491</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin - Manage Test - Quiz - Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -124,14 +124,14 @@
    <testCaseLink>
       <guid>8c92f3e0-95c7-4efb-9fe9-98eccc54d1e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rizka/Admin - Manage Test - Quiz - Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fd8dc93f-fbd6-46e6-b3d4-a0a014549e19</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Rizka/Admin - Manage Test - Quiz - Delete</testDataId>
       </testDataLink>

@@ -43,11 +43,31 @@ WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz'))
 
 WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest'))
 
-WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/btnOptions2'))
+if (condition == 'passed') {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_160708926'))
 
-if(condition == 'passed'){
-	WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/span_YES'))
-}else{
-	WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/span_CANCEL'))
+    WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/i_AS_app-icon wi wi-more-vert fa-2x'))
+
+    WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnDelete'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/span_YES'))
+
+    WebUI.delay(5)
+
+    WebUI.verifyElementNotVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_160708926'), FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'))
+
+    WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/i_NEOP Teller Cash  PDC dan FAB_app-icon wi wi-more-vert fa-2x'))
+
+    WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnDelete'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/span_CANCEL'))
+
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'))
 }
 
