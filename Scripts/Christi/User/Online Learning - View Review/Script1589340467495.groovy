@@ -40,19 +40,22 @@ if (found == 'yes') {
 
     WebUI.delay(3)
 
-    not_run: WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Detail/label_active_module'), 0)
-
     WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Detail/span_Review'), 0)
 
     WebUI.click(findTestObject('Christi/Page_Online Learning Detail/span_Review'))
 
-    if (status == 'review empty') {
+    if (expected == 'fail') {
         WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Detail/Review_div_No data found'), 0)
+    } else if (expected == 'pass') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Detail/label_review_author', [('text') : view_review_by]), 
+            0)
     }
 } else if (found == 'no') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan'), 
         0)
 }
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

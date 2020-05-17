@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Christi/Page_Homepage/span_Online Learning'), Failur
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Christi/Page_Job Functions/input_Back button_searchModul'), module_name)
+WebUI.setText(findTestObject('Christi/Page_Job Functions/input_Back button_searchModul'), nama_modul)
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search'))
 
@@ -45,11 +45,19 @@ if (found == 'yes') {
     
     WebUI.delay(3)
 
-    WebUI.click(findTestObject('Christi/Page_Online Learning Detail/label_menu_Pre-Test', [('text') : menu_materi_belajar]))
+    WebUI.click(findTestObject('Christi/Page_Online Learning Detail/label_menu_Pre-Test', [('text') : nama_materi]))
 
     WebUI.delay(3)
 
-    WebUI.click(findTestObject('Christi/Page_Online Learning Detail/li_submenu_Pre-Test', [('text') : sub_menu_materi]))
+    WebUI.click(findTestObject('Christi/Page_Online Learning Detail/li_submenu_Pre-Test', [('text') : sub_materi]))
+
+    if (expected == 'pass') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Detail/label_Pre-Test_oranye', [('text') : sub_materi]), 
+            0)
+    } else if (expected == 'fail') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Online Learning Detail/label_Maaf bagian ini masih terkunci Silahkan buka bagian sebelumnya ya )'), 
+            0)
+    }
 } else if (found == 'no') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan'), 
         0)

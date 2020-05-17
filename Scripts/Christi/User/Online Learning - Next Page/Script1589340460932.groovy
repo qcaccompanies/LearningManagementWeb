@@ -15,3 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Christi/User/user login'), [('username') : '14426', ('password') : 'Password2'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Christi/Page_Homepage/i_My Learning Icon_app-icon wi wi-menu fa-lg'))
+
+WebUI.click(findTestObject('Christi/Page_Homepage/span_Online Learning'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Job Functions/label_materi'), 0)
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Christi/Page_Job Functions/label_ACC LEMON'), 0)
+
+WebUI.click(findTestObject('Christi/Page_Job Functions/a_Next'))
+
+WebUI.delay(3)
+
+if (expected == 'pass') {
+    WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Job Functions/label_materi'), 0)
+} else if (true) {
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Job Functions/label_materi'), 0)
+}
+
+WebUI.delay(3)
+
