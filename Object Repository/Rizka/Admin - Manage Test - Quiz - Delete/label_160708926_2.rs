@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut</name>
+   <name>label_160708926_2</name>
    <tag></tag>
-   <elementGuidId>b38353eb-7f79-43e1-af21-0c048c78cfd7</elementGuidId>
+   <elementGuidId>50019e0c-53bc-4e96-bfcb-cb289158ab3e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'labelSoal' and (text() = 'Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut' or . = 'Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//label[@name='labelSoal'])[3]</value>
+         <value>//label[@name='labelSoal']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>widget-id</name>
       <type>Main</type>
-      <value>widget-id329</value>
+      <value>widget-id573</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut</value>
+      <value>160708926_2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,55 +80,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//label[@name='labelSoal'])[3]</value>
+      <value>//label[@name='labelSoal']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[4]/div/div/app-partial-quizlistcms/section/div/div/ul/li[3]/div/div[2]/div/div[6]/label</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[4]/div/div/app-partial-quizlistcms/section/div/div/ul/li/div/div[2]/div/div[6]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEOP Teller Cash &amp; PDC, dan FAB'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modul &amp; 10'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TELLER PDC'])[2]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SALES HEAD'])[1]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Icon'])[4]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Icon'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='pilihanganda'])[3]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='benarsalah'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='160708926_2']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/div/div[2]/div/div[6]/label</value>
+      <value>//div[2]/div/div[6]/label</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnQuiz'))
 WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Edit/btnManageTest'))
 
 if (condition == 'passed') {
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_160708926'))
+    WebUI.verifyElementPresent(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_160708926_1'), 0)
 
     WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/i_AS_app-icon wi wi-more-vert fa-2x'))
 
@@ -56,9 +56,10 @@ if (condition == 'passed') {
 
     WebUI.delay(5)
 
-    WebUI.verifyElementNotVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_160708926'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementNotPresent(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_160708926_1'), 0)
 } else {
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'))
+    WebUI.verifyElementPresent(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'), 
+        0)
 
     WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/i_NEOP Teller Cash  PDC dan FAB_app-icon wi wi-more-vert fa-2x'))
 
@@ -68,6 +69,7 @@ if (condition == 'passed') {
 
     WebUI.click(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/span_CANCEL'))
 
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'))
+    WebUI.verifyElementPresent(findTestObject('Rizka/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'), 
+        0)
 }
 
