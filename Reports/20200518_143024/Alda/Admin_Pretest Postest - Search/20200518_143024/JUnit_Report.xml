@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin_Pretest Postest - Search" time="1464.015" tests="10" failures="0" errors="0">
+   <testsuite name="Admin_Pretest Postest - Search" tests="10" failures="0" errors="0" time="1464.015" timestamp="2020-05-18 14:30:44" hostname="asus - LAPTOP-FC1SHEB6" id="Test Suites/Alda/Admin_Pretest Postest - Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asus\\git\\LMSUpdate18Mei\\Reports\\20200518_143024\\Alda\\Admin_Pretest Postest - Search\\20200518_143024"/>
+         <property name="logFiles" value="C:\\Users\\asus\\git\\LMSUpdate18Mei\\Reports\\20200518_143024\\Alda\\Admin_Pretest Postest - Search\\20200518_143024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-FC1SHEB6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.100.37"/>
+         <property name="sessionId" value="4c708acc7c5df1718762887b0e03539f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="117.993" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:30:45 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:30:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:30:45 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:30:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:30:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:30:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-18 14:30:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:30:53 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:31:30 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:31:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:31:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:31:31 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:32:01 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:32:02 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:32:03 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:32:03 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:32:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:32:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:32:15 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:32:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:32:21 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:32:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:32:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:32:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text '1686' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:32:36 - [MESSAGE][PASSED] - Text '1686' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:32:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:32:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:32:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:32:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:32:39 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:32:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:32:40 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:32:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:32:43 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="123.522" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:32:43 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:32:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:32:43 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:32:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:32:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:32:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:32:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:32:53 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:33:31 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:33:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:33:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:33:32 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:34:02 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:34:03 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:34:03 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:34:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:34:04 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:34:04 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:34:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:34:14 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:34:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:34:22 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:34:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:34:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:34:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'benarsalah' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:34:38 - [MESSAGE][PASSED] - Text 'benarsalah' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:34:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:34:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:34:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:34:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:34:41 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:34:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:34:43 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:34:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:34:46 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="137.239" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:34:46 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:34:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:34:46 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:34:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:34:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:34:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:34:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:34:58 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:35:41 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:35:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:35:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:35:43 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:36:13 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:36:14 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:36:14 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:36:14 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:36:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:36:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:36:25 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:36:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:36:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:36:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:36:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'pretest' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:36:51 - [MESSAGE][PASSED] - Text 'pretest' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:36:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:36:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:36:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:36:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:36:54 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:36:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:37:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:37:03 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="112.292" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:37:03 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:37:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:37:03 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:37:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:37:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:37:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:37:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:37:07 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:37:40 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:37:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:37:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:37:41 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:38:11 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:38:12 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:38:13 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:38:13 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:38:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:38:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:38:24 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:38:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:38:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:38:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:38:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'posttest' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:38:45 - [MESSAGE][PASSED] - Text 'posttest' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:38:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:38:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:38:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:38:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:38:49 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:38:53 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:38:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:38:56 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="123.216" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:38:56 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:38:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:38:56 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:38:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:38:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:39:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:39:00 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:39:36 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:39:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:39:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:39:37 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:40:07 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:40:08 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:40:09 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:40:09 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:40:10 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:40:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:40:20 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:40:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:40:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:40:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:40:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'SALES' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:40:41 - [MESSAGE][PASSED] - Text 'SALES' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:40:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:40:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:40:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:40:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:40:45 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:40:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:40:56 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:40:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:40:59 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="136.03" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:40:59 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:40:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:40:59 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:40:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:40:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:41:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:41:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:41:09 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:41:57 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:41:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:41:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:41:59 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:42:29 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:42:29 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:42:30 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:42:30 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:42:31 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:42:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:42:41 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:42:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:42:49 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:42:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:42:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:42:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:42:55 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'GENERAL' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:43:04 - [MESSAGE][PASSED] - Text 'GENERAL' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:43:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:43:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:43:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:43:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:43:08 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:43:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:43:12 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:43:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:43:15 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="140.945" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:43:15 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:43:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:43:15 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:43:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:43:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:43:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:43:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:43:25 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:44:15 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:44:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:44:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:44:16 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:44:46 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:44:47 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:44:48 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:44:48 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:44:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:44:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:44:59 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:44:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:45:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:45:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:45:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:45:15 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'NEOP CSO' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:45:28 - [MESSAGE][PASSED] - Text 'NEOP CSO' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:45:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:45:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:45:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:45:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:45:31 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:45:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:45:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:45:36 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="208.277" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:45:36 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:45:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:45:36 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:45:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:45:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:45:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:45:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:45:40 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:46:30 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:46:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:46:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:46:32 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:47:02 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:47:02 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:47:11 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:47:13 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:47:19 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:47:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:47:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:47:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:47:43 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:47:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:47:48 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:47:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:47:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:47:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:48:42 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'Hasil survey dapat diisi oleh surveyor melalui aplikasi' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:48:57 - [MESSAGE][PASSED] - Text 'Hasil survey dapat diisi oleh surveyor melalui aplikasi' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:48:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:48:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:48:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:49:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:49:00 - [TEST_STEP][PASSED] - if (expected_output == "found"): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:49:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/tap_row", ["variable":var_search])): Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:49:01 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/tap_row' is visible
+
+2020-05-18 14:49:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:49:04 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="151.831" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:49:04 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:49:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:49:04 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:49:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:49:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:49:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:49:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:49:13 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:50:19 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:50:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:50:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:50:20 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:50:50 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:50:50 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:50:51 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:50:52 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:50:52 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:50:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:51:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:51:03 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:51:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:51:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:51:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:51:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:51:18 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text '2000' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:51:29 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:51:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:51:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:51:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:51:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:51:33 - [TEST_STEP][PASSED] - if (expected_output == "found"): null
+
+2020-05-18 14:51:33 - [TEST_STEP][PASSED] - else if (expected_output == "not found"): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found' is clicked on
+
+2020-05-18 14:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found' is clicked on
+
+2020-05-18 14:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found' is clicked on
+
+2020-05-18 14:51:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:51:36 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" time="206.193" classname="Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-18 14:51:36 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search
+
+2020-05-18 14:51:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:51:36 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Login: Test Cases/Rizka/Admin - Login
+
+2020-05-18 14:51:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-18 14:51:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-18 14:51:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-18 14:52:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-18 14:52:20 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:53:47 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-18 14:53:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-18 14:53:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-18 14:53:48 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-18 14:54:18 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-18 14:54:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-18 14:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:54:19 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-18 14:54:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:54:19 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-18 14:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-18 14:54:19 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-18 14:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-18 14:54:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-18 14:54:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-18 14:54:30 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:54:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:54:39 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Login/span_Dashboard' is visible
+
+2020-05-18 14:54:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin - Login' successfully
+
+2020-05-18 14:54:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:54:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_manage_test' is clicked on
+
+2020-05-18 14:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/btn_pretest_dan_posttest' is clicked on
+
+2020-05-18 14:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-05-18 14:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), var_search): Text 'vasdgasdtqweh' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:54:56 - [MESSAGE][PASSED] - Text 'vasdgasdtqweh' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-05-18 14:54:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:54:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search'
+
+2020-05-18 14:54:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:54:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-18 14:54:59 - [TEST_STEP][PASSED] - if (expected_output == "found"): null
+
+2020-05-18 14:54:59 - [TEST_STEP][PASSED] - else if (expected_output == "not found"): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found' is clicked on
+
+2020-05-18 14:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found' is clicked on
+
+2020-05-18 14:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/alert_no_data_found' is clicked on
+
+2020-05-18 14:54:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-18 14:55:02 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-18 14:30:44 - [TEST_SUITE][PASSED] - Admin_Pretest Postest - Search: Test Cases/Alda/Admin - Manage Test/Pretest Posttest - Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
