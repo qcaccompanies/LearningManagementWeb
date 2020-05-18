@@ -55,4 +55,16 @@
          <variableId>5b644962-7c61-495b-a0c6-2cb5ca4e34b6</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5bf2c7a9-7436-4a14-acb1-034c09a9daf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Christi/Admin/Manage Slider - Edit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>038f8429-8380-4a40-8775-53f34cec0dab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Christi/Admin/Manage Slider - Delete</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

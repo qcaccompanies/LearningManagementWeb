@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>e34a8479-585f-45bb-8804-a9201527a84a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Christi/User/Online Learning - Lihat Modul</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -74,6 +74,96 @@
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>d985db95-024a-4f1f-901a-13be8e90bc46</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d806fe1-5626-42a4-8915-3902b9248989</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Christi/User/Online Learning - Materi Belajar</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Christi/materi belajar</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama_modul</value>
+         <variableId>efeba9c4-6a42-43cb-88b6-98c1d55663f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>found</value>
+         <variableId>eea1b5c0-885e-4001-9c45-06044f9a8e66</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama_materi</value>
+         <variableId>a972eb59-70dd-47dc-b78c-cbae16a09da5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sub_materi</value>
+         <variableId>5cae014c-2b62-4f50-a9e6-fdb1392b775d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status</value>
+         <variableId>6787df30-896b-4a68-a7dc-f0d9d8644f0f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>df4a6d1b-6078-48d0-9e4f-b56b76be3b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>74d4e6a0-9ad6-42f1-9e96-c05dd2b6f9c2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6586ac60-03b0-4255-a625-663875658d36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Christi/User/Online Learning - View Review</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>323a4751-f77b-453d-a06b-a1e0a8cd8ca3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Christi/view review</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>323a4751-f77b-453d-a06b-a1e0a8cd8ca3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>module_name</value>
+         <variableId>9dcb4843-88f5-4640-a1f3-018a70c3c67c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>323a4751-f77b-453d-a06b-a1e0a8cd8ca3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>found</value>
+         <variableId>10d20930-27c7-4bc6-a5a6-15382772010c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>323a4751-f77b-453d-a06b-a1e0a8cd8ca3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>view review by</value>
+         <variableId>25fd9237-b1b0-4f38-ae80-5c467fab3b45</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>323a4751-f77b-453d-a06b-a1e0a8cd8ca3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>52296833-c964-4941-bd4c-3a7ddb627997</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

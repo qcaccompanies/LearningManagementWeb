@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Manage Test</name>
+   <name>label_ACC LEMON</name>
    <tag></tag>
-   <elementGuidId>ce955205-afca-4c29-8980-4ce80f3584b8</elementGuidId>
+   <elementGuidId>f2fa14ce-7cc7-422f-9622-c270464942b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='undefined']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'label2' and (text() = 'ACC LEMON' or . = 'ACC LEMON')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'undefined' and (text() = 'Manage Test' or . = 'Manage Test')]</value>
+         <key>XPATH</key>
+         <value>(//label[@name='label2'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,146 +21,132 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-haspopup</name>
+      <name>caption</name>
       <type>Main</type>
-      <value>true</value>
+      <value>ACC LEMON</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>caption.bind</name>
+      <name>color</name>
       <type>Main</type>
-      <value>caption</value>
+      <value>#91A7BA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>hint.bind</name>
+      <name>fontfamily</name>
       <type>Main</type>
-      <value>hint</value>
+      <value>Nunito Sans Black</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>iconclass.bind</name>
+      <name>fontsize</name>
       <type>Main</type>
-      <value>iconclass</value>
+      <value>18</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>iconposition.bind</name>
+      <name>fontweight</name>
       <type>Main</type>
-      <value>iconposition</value>
+      <value>bold</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>shortcutkey.bind</name>
+      <name>marginright</name>
       <type>Main</type>
-      <value>shortcutkey</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex.bind</name>
-      <type>Main</type>
-      <value>tabindex</value>
+      <value>2em</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>widget-id</name>
       <type>Main</type>
-      <value>widget-id148</value>
+      <value>widget-id4073</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn app-button dropdown-toggle navAdminAnchor</value>
+      <value>app-label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>undefined</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>icon-position</name>
-      <type>Main</type>
-      <value>left</value>
+      <value>label2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Manage Test</value>
+      <value>ACC LEMON</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-dashboardadmin[1]/div[@class=&quot;app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/aside[@class=&quot;app-left-panel left-panel-collapsed slide-in col-md-2 col-sm-2 col-xs-10&quot;]/app-partial-leftnavadmin[1]/section[@class=&quot;app-partial clearfix&quot;]/ul[@class=&quot;nav app-nav NavAdmin nav-pills nav-stacked&quot;]/li[@class=&quot;app-nav-item navAdminItem&quot;]/div[@class=&quot;dropdown app-menu&quot;]/button[@class=&quot;btn app-button dropdown-toggle navAdminAnchor&quot;]</value>
+      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-onlinelearning[1]/div[@class=&quot;app-page container&quot;]/footer[@class=&quot;app-footer clearfix&quot;]/app-partial-footer[1]/section[@class=&quot;app-partial clearfix&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-10&quot;]/label[@class=&quot;app-label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='undefined']</value>
+      <value>(//label[@name='label2'])[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[3]/div/button</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-onlinelearning/div/footer/app-partial-footer/section/div/div[2]/div[2]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Test'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About LEMON'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Modules'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help and Support'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage FAQ'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright 2020 Astra Credit Companies'])[1]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//section/div/div[2]/div[2]/label</value>
    </webElementXpaths>
 </WebElementEntity>
