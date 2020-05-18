@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Manage Test</name>
+   <name>nav_FirstPrevious  3NextLast</name>
    <tag></tag>
-   <elementGuidId>ce955205-afca-4c29-8980-4ce80f3584b8</elementGuidId>
+   <elementGuidId>d0cd1803-0d13-4042-b07b-c2a3a0dde8b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='undefined']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'undefined' and (text() = 'Manage Test' or . = 'Manage Test')]</value>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-onlinelearning/div/main/div/div/div/div/div[2]/div/div[4]/div/div/div/nav</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,77 +17,84 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>nav</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-haspopup</name>
+      <name>boundarylinks.bind</name>
       <type>Main</type>
-      <value>true</value>
+      <value>boundarylinks</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>caption.bind</name>
+      <name>directionlinks.bind</name>
       <type>Main</type>
-      <value>caption</value>
+      <value>directionlinks</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>hint.bind</name>
+      <name>forceellipses.bind</name>
       <type>Main</type>
-      <value>hint</value>
+      <value>forceellipses</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>iconclass.bind</name>
+      <name>maxsize.bind</name>
       <type>Main</type>
-      <value>iconclass</value>
+      <value>maxsize</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>iconposition.bind</name>
+      <name>navigation.bind</name>
       <type>Main</type>
-      <value>iconposition</value>
+      <value>navControls</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>shortcutkey.bind</name>
+      <name>navigationalign.bind</name>
       <type>Main</type>
-      <value>shortcutkey</value>
+      <value>navigationalign</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex.bind</name>
+      <name>paginationchange.event</name>
       <type>Main</type>
-      <value>tabindex</value>
+      <value>beforePaginationChange($event, $index)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>show.bind</name>
+      <type>Main</type>
+      <value>!onDemandLoad</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>showrecordcount.bind</name>
+      <type>Main</type>
+      <value>showrecordcount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>widget-id</name>
       <type>Main</type>
-      <value>widget-id148</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn app-button dropdown-toggle navAdminAnchor</value>
+      <value>widget-id2039</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>undefined</value>
+      <value>app-datanavigator clearfix text-left</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,66 +104,45 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>icon-position</name>
-      <type>Main</type>
-      <value>left</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Manage Test</value>
+      <value>FirstPrevious / 3NextLast</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-dashboardadmin[1]/div[@class=&quot;app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/aside[@class=&quot;app-left-panel left-panel-collapsed slide-in col-md-2 col-sm-2 col-xs-10&quot;]/app-partial-leftnavadmin[1]/section[@class=&quot;app-partial clearfix&quot;]/ul[@class=&quot;nav app-nav NavAdmin nav-pills nav-stacked&quot;]/li[@class=&quot;app-nav-item navAdminItem&quot;]/div[@class=&quot;dropdown app-menu&quot;]/button[@class=&quot;btn app-button dropdown-toggle navAdminAnchor&quot;]</value>
+      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-onlinelearning[1]/div[@class=&quot;app-page container&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column col-md-12 col-sm-12&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-10&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-livelist app-panel media-list Classic&quot;]/div[@class=&quot;panel-footer&quot;]/nav[@class=&quot;app-datanavigator clearfix text-left&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='undefined']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[3]/div/button</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-onlinelearning/div/main/div/div/div/div/div[2]/div/div[4]/div/div/div/nav</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Test'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRIORITY'])[1]/following::nav[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Modules'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage FAQ'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SAVE'])[1]/following::nav[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//nav</value>
    </webElementXpaths>
 </WebElementEntity>

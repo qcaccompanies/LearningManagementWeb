@@ -23,21 +23,14 @@ WebUI.click(findTestObject('Christi/Page_Homepage/span_Online Learning'), Failur
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Job Functions/label_materi'), 0)
-
 WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('Christi/Page_Job Functions/label_ACC LEMON'), 0)
 
-WebUI.click(findTestObject('Christi/Page_Job Functions/a_Next'))
-
 WebUI.delay(3)
 
-if (expected == 'pass') {
-    WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Job Functions/label_materi'), 0)
-} else if (true) {
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Job Functions/label_materi'), 0)
-}
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Job Functions/div_page_navigation', [('variable') : nama_modul]), 
+    0)
 
 WebUI.delay(3)
 

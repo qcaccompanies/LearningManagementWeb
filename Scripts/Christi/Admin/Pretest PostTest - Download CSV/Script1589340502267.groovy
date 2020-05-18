@@ -30,3 +30,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_Manage Quiz/span_Download CSV'))
 
+WebUI.delay(3)
+

@@ -19,13 +19,21 @@ WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '1
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Manage Test'), 0)
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/span_Manage Test'), 0)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/button_Manage Test'))
-
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/a_Quiz'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Manage Test'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Christi/Page_Manage Quiz/span_Exporting to CSV'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Test/label_Manage Pre-Test dan Post-Test'), 0)
+
+WebUI.delay(3)
+
+WebUI.uploadFile(findTestObject('Christi/Page_Manage Test/input_Clear button_files'), 'C:\\Users\\ASUS\\git\\LearningManagementWeb\\konten lms\\Pre-Test_LEMON.csv')
+
+WebUI.delay(3)
 
