@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Manage Modules,Chrome 81.0.4044.138,,,2020-05-19 15:08:06,2020-05-19 15:10:00,"1m - 54,280s",FAILED
+,,,,,,,
+Test Cases/Rizka/Admin - Manage Modules,Chrome 81.0.4044.138,,,2020-05-19 15:08:07,2020-05-19 15:10:00,"1m - 53,260s",FAILED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-19 15:08:08,2020-05-19 15:08:17,"8,984s",PASSED
+"navigateToUrl(""https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"")",Chrome 81.0.4044.138,,,2020-05-19 15:08:17,2020-05-19 15:08:27,"10,745s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-19 15:08:27,2020-05-19 15:08:33,"5,072s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnLogin""))",Chrome 81.0.4044.138,,,2020-05-19 15:08:33,2020-05-19 15:08:34,"1,403s",PASSED
+"setText(findTestObject(""Rizka/Admin - Login/txtUsername""), ""11666"")",Chrome 81.0.4044.138,,,2020-05-19 15:08:34,2020-05-19 15:08:35,"0,974s",PASSED
+"setText(findTestObject(""Rizka/Admin - Login/txtPassword""), ""Password3"")",Chrome 81.0.4044.138,,,2020-05-19 15:08:35,2020-05-19 15:08:36,"0,812s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-19 15:08:36,2020-05-19 15:08:36,"0,513s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/checkboxRememberMe""))",Chrome 81.0.4044.138,,,2020-05-19 15:08:36,2020-05-19 15:08:37,"0,549s",PASSED
+"click(findTestObject(""Rizka/Admin - Login/btnLogin2""))",Chrome 81.0.4044.138,,,2020-05-19 15:08:37,2020-05-19 15:08:37,"0,617s",PASSED
+delay(20),Chrome 81.0.4044.138,,,2020-05-19 15:08:37,2020-05-19 15:08:57,"20,006s",PASSED
+"click(findTestObject(""Rizka/Admin - Manage Modules/btnManageModules""))",Chrome 81.0.4044.138,,,2020-05-19 15:08:57,2020-05-19 15:08:58,"0,511s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-19 15:08:58,2020-05-19 15:09:03,"5,011s",PASSED
+"setText(findTestObject(""Rizka/Admin - Manage Modules/inputSearch""), namaModul)",Chrome 81.0.4044.138,,,2020-05-19 15:09:03,2020-05-19 15:09:08,"4,747s",PASSED
+"click(findTestObject(""Rizka/Admin - Manage Modules/btnSearch""))",Chrome 81.0.4044.138,,,2020-05-19 15:09:08,2020-05-19 15:09:08,"0,571s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-19 15:09:08,2020-05-19 15:09:13,"5,009s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-19 15:09:13,2020-05-19 15:10:00,"46,670s",FAILED

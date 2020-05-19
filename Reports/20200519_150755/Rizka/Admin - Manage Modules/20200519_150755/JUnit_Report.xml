@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Modules" time="116.116" tests="1" failures="1" errors="0">
+   <testsuite name="Admin - Manage Modules" tests="1" failures="1" errors="0" time="116.116" timestamp="2020-05-19 15:08:06" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin - Manage Modules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200519_150755\\Rizka\\Admin - Manage Modules\\20200519_150755"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200519_150755\\Rizka\\Admin - Manage Modules\\20200519_150755\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200519_150755\\Rizka\\Admin - Manage Modules\\20200519_150755\\1589875799646.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200519_150755\\Rizka\\Admin - Manage Modules\\20200519_150755\\1589875800058.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="ba45ac7a38ea6507375fc1c30f5c4264"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Manage Modules" time="113.26" classname="Test Cases/Rizka/Admin - Manage Modules" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Modules FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class=&quot;app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column adminPageContent col-md-10 col-sm-10&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-container&quot;]/app-partial-contentmanagemodule[1]/section[@class=&quot;app-partial clearfix&quot;]/div[@class=&quot;app-livelist app-panel media-list Classic&quot;]/ul[@class=&quot;app-livelist-container clearfix media-list&quot;]/li[@class=&quot;app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item&quot;]/div[@class=&quot;app-container media-body&quot;]/div[@class=&quot;app-grid-row clearfix gridTableContent&quot;]/div[@class=&quot;app-grid-column col-sm-2&quot;]/label[@class=&quot;app-label&quot;][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&amp;*()__+_)' or . = 'security testing !@#$%^&amp;*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&amp;*()__+_)' or . = 'security testing !@#$%^&amp;*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-19 15:08:07 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Modules: Test Cases/Rizka/Admin - Manage Modules FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-19 15:08:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-19 15:08:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-19 15:08:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-19 15:08:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-19 15:08:17 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-19 15:08:27 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-19 15:08:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-19 15:08:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-19 15:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-19 15:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-19 15:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-19 15:08:35 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-19 15:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-19 15:08:36 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-19 15:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-19 15:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-19 15:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-19 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-19 15:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-19 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-19 15:08:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-19 15:08:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-19 15:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Modules/btnManageModules")): Object: 'Object Repository/Rizka/Admin - Manage Modules/btnManageModules' is clicked on
+
+2020-05-19 15:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Modules/btnManageModules' is clicked on
+
+2020-05-19 15:08:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-19 15:09:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-19 15:09:03 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Modules/inputSearch"), namaModul): Text 'security testing !@#$%^&*()__+_)' is set on object 'Object Repository/Rizka/Admin - Manage Modules/inputSearch'
+
+2020-05-19 15:09:08 - [MESSAGE][PASSED] - Text 'security testing !@#$%^&*()__+_)' is set on object 'Object Repository/Rizka/Admin - Manage Modules/inputSearch'
+
+2020-05-19 15:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Modules/btnSearch")): Object: 'Object Repository/Rizka/Admin - Manage Modules/btnSearch' is clicked on
+
+2020-05-19 15:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Modules/btnSearch' is clicked on
+
+2020-05-19 15:09:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-19 15:09:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-19 15:09:13 - [TEST_STEP][FAILED] - if (condition == "passed"): Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-19 15:09:13 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB", ["text":namaModul]), STOP_ON_FAILURE): Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-19 15:09:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-19 15:10:00 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200519_150755\\Rizka\\Admin - Manage Modules\\20200519_150755\\1589875799646.png]]
+
+2020-05-19 15:10:00 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200519_150755\\Rizka\\Admin - Manage Modules\\20200519_150755\\1589875800058.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-19 15:08:07 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Modules: Test Cases/Rizka/Admin - Manage Modules FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-19 15:08:06 - [TEST_SUITE][FAILED] - Admin - Manage Modules: Test Cases/Rizka/Admin - Manage Modules FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-19 15:08:06 - [TEST_SUITE][FAILED] - Admin - Manage Modules: Test Cases/Rizka/Admin - Manage Modules FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Admin - Manage Modules.run(Admin - Manage Modules:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589875675735.run(TempTestSuite1589875675735.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Modules/label_NEOP Teller Cash  PDC dan FAB' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managemoduls[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column adminPageContent col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-contentmanagemodule[1]/section[@class="app-partial clearfix"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item"]/div[@class="app-container media-body"]/div[@class="app-grid-row clearfix gridTableContent"]/div[@class="app-grid-column col-sm-2"]/label[@class="app-label"][count(. | //*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')]) = count(//*[@name = 'label19' and (text() = 'security testing !@#$%^&*()__+_)' or . = 'security testing !@#$%^&*()__+_)')])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
