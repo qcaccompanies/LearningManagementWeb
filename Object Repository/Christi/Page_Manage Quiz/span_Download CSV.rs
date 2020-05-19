@@ -6,12 +6,12 @@
    <elementGuidId>0edb35db-dbd7-4a5e-91db-c5669cafdaf9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[2]/div[2]/button/span[2]</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn-caption' and (text() = 'Download CSV' or . = 'Download CSV')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Download CSV' or . = 'Download CSV')]</value>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[2]/div[2]/button/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

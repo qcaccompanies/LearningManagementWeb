@@ -24,11 +24,15 @@ WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_M
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/button_Manage Test'))
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/a_Quiz'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Manage Quiz/span_Download CSV'))
+WebUI.click(findTestObject('Christi/Page_Manage Test/button_Download CSV IconDownload CSV'))
+
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Quiz/span_Exporting to CSV'), 0)
 
 WebUI.delay(3)
+
+WebUI.closeBrowser()
 

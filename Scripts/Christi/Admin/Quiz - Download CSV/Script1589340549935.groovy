@@ -15,3 +15,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '11666', ('password') : 'Password3'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Manage Test'), 0)
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/button_Manage Test'))
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/a_Quiz'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Christi/Page_Manage Quiz/button_Download CSV IconDownload CSV'))
+
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Quiz/span_Exporting to CSV'), 0)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+
