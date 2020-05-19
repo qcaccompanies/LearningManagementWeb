@@ -6,6 +6,10 @@
    <elementGuidId>b38353eb-7f79-43e1-af21-0c048c78cfd7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'labelSoal' and (text() = 'Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut' or . = 'Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//label[@name='labelSoal'])[3]</value>
       </entry>

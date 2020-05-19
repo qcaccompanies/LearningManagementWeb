@@ -3,11 +3,11 @@
    <description></description>
    <name>i_AS_app-icon wi wi-more-vert fa-2x</name>
    <tag></tag>
-   <elementGuidId>6ecd0b3d-e0e7-4a98-aadd-a5ff28f96115</elementGuidId>
+   <elementGuidId>ec5684c3-7427-4cb1-a698-4f09657245d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[4]/div/div/app-partial-quizlistcms/section/div/div/ul/li/div/div[2]/div/div[7]/div/a/i</value>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[4]/div/div/app-partial-quizlistcms/section/div/div/ul/li[2]/div/div[2]/div/div[7]/div/a/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,13 +45,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[4]/div/div/app-partial-quizlistcms/section/div/div/ul/li/div/div[2]/div/div[7]/div/a/i</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managequiz/div/main/div/div/div/div[4]/div/div/app-partial-quizlistcms/section/div/div/ul/li[2]/div/div[2]/div/div[7]/div/a/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div/a/i</value>
+      <value>//li[2]/div/div[2]/div/div[7]/div/a/i</value>
    </webElementXpaths>
 </WebElementEntity>
