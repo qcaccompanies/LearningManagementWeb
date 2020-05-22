@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>61de9ac3-31fa-43af-a21b-3b216170c175</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin - Manage Modules - Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -36,5 +36,11 @@
          <value>condition</value>
          <variableId>54162407-d7bb-4c0b-95be-3646c83afb6e</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>22415f01-6a8a-4ed9-8ed0-1fbe09e5afb5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rizka/Admin - Manage Modules - Next Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

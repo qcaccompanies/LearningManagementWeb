@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Modules" time="73.244" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Manage Modules" tests="1" failures="0" errors="0" time="73.244" timestamp="2020-05-22 15:42:27" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin - Manage Modules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200522_154214\\Rizka\\Admin - Manage Modules\\20200522_154214"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200522_154214\\Rizka\\Admin - Manage Modules\\20200522_154214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="2f0ccbea4622ac99278400d641331f1b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Manage Modules - Next Page" time="70.337" classname="Test Cases/Rizka/Admin - Manage Modules - Next Page" status="PASSED">
+         <system-out><![CDATA[2020-05-22 15:42:28 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Manage Modules - Next Page: Test Cases/Rizka/Admin - Manage Modules - Next Page
+
+2020-05-22 15:42:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-22 15:42:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-22 15:42:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-22 15:42:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-22 15:42:39 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-22 15:42:50 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-22 15:42:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-22 15:42:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-22 15:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-22 15:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-22 15:42:57 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-22 15:42:58 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-22 15:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-22 15:42:59 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-22 15:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-22 15:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-22 15:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-22 15:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-22 15:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-22 15:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-22 15:43:01 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-22 15:43:21 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-22 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Modules - Search/btnManageModules")): Object: 'Object Repository/Rizka/Admin - Manage Modules - Search/btnManageModules' is clicked on
+
+2020-05-22 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Modules - Search/btnManageModules' is clicked on
+
+2020-05-22 15:43:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-22 15:43:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-22 15:43:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Rizka/Admin - Manage Modules - Next Page/btnNextPage"), 0): Scroll to object 'Object Repository/Rizka/Admin - Manage Modules - Next Page/btnNextPage' successfully
+
+2020-05-22 15:43:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-22 15:43:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rizka/Admin - Manage Modules - Next Page/btnNextPage' successfully
+
+2020-05-22 15:43:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-22 15:43:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-22 15:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Modules - Next Page/btnNextPage")): Object: 'Object Repository/Rizka/Admin - Manage Modules - Next Page/btnNextPage' is clicked on
+
+2020-05-22 15:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Modules - Next Page/btnNextPage' is clicked on
+
+2020-05-22 15:43:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Rizka/Admin - Manage Modules - Next Page/btnPreviousPage")): Object 'Object Repository/Rizka/Admin - Manage Modules - Next Page/btnPreviousPage' is clickable
+
+2020-05-22 15:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Manage Modules - Next Page/btnPreviousPage' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-22 15:42:27 - [TEST_SUITE][PASSED] - Admin - Manage Modules: Test Cases/Rizka/Admin - Manage Modules - Next Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
