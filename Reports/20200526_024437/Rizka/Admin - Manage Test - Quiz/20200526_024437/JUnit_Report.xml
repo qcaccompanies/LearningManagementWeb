@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="330.235" tests="2" failures="1" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="2" failures="1" errors="0" time="330.235" timestamp="2020-05-26 02:44:59" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200526_024437\\Rizka\\Admin - Manage Test - Quiz\\20200526_024437"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200526_024437\\Rizka\\Admin - Manage Test - Quiz\\20200526_024437\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200526_024437\\Rizka\\Admin - Manage Test - Quiz\\20200526_024437\\1590436094073.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200526_024437\\Rizka\\Admin - Manage Test - Quiz\\20200526_024437\\1590436094929.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="57082168cf5886a3a2f37d3cae315cba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Search" time="194.849" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Search" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class=&quot;app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column col-md-10 col-sm-10&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-container&quot;]/app-partial-quizlistcms[1]/section[@class=&quot;app-partial clearfix&quot;]/div[@class=&quot;app-container&quot;]/div[@class=&quot;app-livelist app-panel media-list Classic&quot;]/ul[@class=&quot;app-livelist-container clearfix media-list&quot;]/li[@class=&quot;app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active&quot;]/div[@class=&quot;app-container containerRowTest&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-6&quot;]/label[@class=&quot;app-label txtRowSoal&quot;][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-26 02:45:00 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-26 02:45:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 02:45:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 02:45:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 02:45:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 02:45:15 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-26 02:45:49 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-26 02:45:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 02:45:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 02:45:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 02:45:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 02:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-26 02:45:56 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59849}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 46338e8ed2520655c255a5b04178ffbe
+
+2020-05-26 02:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-26 02:45:57 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-26 02:45:58 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-26 02:45:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-26 02:45:59 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-26 02:45:59 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-26 02:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-26 02:46:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-26 02:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-26 02:46:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-26 02:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-26 02:46:02 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-26 02:46:22 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-26 02:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Next Page/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnManageTest' is clicked on
+
+2020-05-26 02:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnManageTest' is clicked on
+
+2020-05-26 02:46:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-26 02:46:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-26 02:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Next Page/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnQuiz' is clicked on
+
+2020-05-26 02:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnQuiz' is clicked on
+
+2020-05-26 02:46:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 02:46:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 02:46:38 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), judulQuiz): Text 'Salah satu lini Bisnis Astra adalah ...' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-26 02:47:21 - [MESSAGE][PASSED] - Text 'Salah satu lini Bisnis Astra adalah ...' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-26 02:47:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch' is clicked on
+
+2020-05-26 02:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch' is clicked on
+
+2020-05-26 02:47:22 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), Keys.chord(ENTER, "")): NOT_RUN: sendKeys(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), Keys.chord(ENTER, ""))
+
+2020-05-26 02:47:22 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), Keys.chord(ENTER, ""))
+
+2020-05-26 02:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/btnSearch")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-26 02:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-26 02:47:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 02:47:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 02:47:28 - [TEST_STEP][FAILED] - if (condition == "passed"): Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-26 02:47:28 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/label_1", ["text":judulQuiz]), STOP_ON_FAILURE): Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-26 02:48:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-26 02:48:14 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200526_024437\\Rizka\\Admin - Manage Test - Quiz\\20200526_024437\\1590436094073.png]]
+
+2020-05-26 02:48:15 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200526_024437\\Rizka\\Admin - Manage Test - Quiz\\20200526_024437\\1590436094929.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-26 02:45:00 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin - Manage Test - Quiz - Search" time="132.631" classname="Test Cases/Rizka/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-26 02:48:15 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin - Manage Test - Quiz - Search
+
+2020-05-26 02:48:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 02:48:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-26 02:48:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 02:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 02:48:21 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-26 02:49:00 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-26 02:49:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 02:49:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 02:49:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 02:49:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 02:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-26 02:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin' is clicked on
+
+2020-05-26 02:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-26 02:49:11 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin - Login/txtUsername'
+
+2020-05-26 02:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-26 02:49:13 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin - Login/txtPassword'
+
+2020-05-26 02:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-26 02:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnEyePass' is clicked on
+
+2020-05-26 02:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-26 02:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-26 02:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-26 02:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Login/btnLogin2' is clicked on
+
+2020-05-26 02:49:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-05-26 02:49:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-05-26 02:49:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Next Page/btnManageTest")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnManageTest' is clicked on
+
+2020-05-26 02:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnManageTest' is clicked on
+
+2020-05-26 02:49:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-26 02:49:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-26 02:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Next Page/btnQuiz")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnQuiz' is clicked on
+
+2020-05-26 02:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Next Page/btnQuiz' is clicked on
+
+2020-05-26 02:49:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 02:49:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 02:49:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), judulQuiz): Text 'ABC lima dasar' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-26 02:50:21 - [MESSAGE][PASSED] - Text 'ABC lima dasar' is set on object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-26 02:50:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch' is clicked on
+
+2020-05-26 02:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/fieldSearch' is clicked on
+
+2020-05-26 02:50:22 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), Keys.chord(ENTER, "")): NOT_RUN: sendKeys(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), Keys.chord(ENTER, ""))
+
+2020-05-26 02:50:22 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/fieldSearch"), Keys.chord(ENTER, ""))
+
+2020-05-26 02:50:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/btnSearch")): Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-26 02:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-26 02:50:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 02:50:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 02:50:27 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-26 02:50:27 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/alertNoDataFound' is present
+
+2020-05-26 02:50:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Rizka/Admin - Manage Test - Quiz - Search/alertNoDataFound"), 0): Object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/alertNoDataFound' is present
+
+2020-05-26 02:50:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-26 02:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/alertNoDataFound' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 02:44:59 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-26 02:44:59 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590435877956.run(TempTestSuite1590435877956.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin - Manage Test - Quiz - Search/label_1' located by 'By.xpath: id("ng-app")/app-root[1]/app-page-outlet[1]/app-page-managequiz[1]/div[@class="app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2"]/main[@class="app-content clearfix"]/div[@class="row app-content-row clearfix"]/div[@class="app-page-content app-content-column col-md-10 col-sm-10"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-12"]/div[@class="app-container"]/app-partial-quizlistcms[1]/section[@class="app-partial clearfix"]/div[@class="app-container"]/div[@class="app-livelist app-panel media-list Classic"]/ul[@class="app-livelist-container clearfix media-list"]/li[@class="app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 list-group-item active"]/div[@class="app-container containerRowTest"]/div[@class="app-grid-layout clearfix"]/div[@class="app-grid-row clearfix"]/div[@class="app-grid-column col-sm-6"]/label[@class="app-label txtRowSoal"][count(. | //*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))]) = count(//*[(contains(text(), 'Salah satu lini Bisnis Astra adalah ...') or contains(., 'Salah satu lini Bisnis Astra adalah ...'))])]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

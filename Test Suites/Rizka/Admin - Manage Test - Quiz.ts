@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>8c92f3e0-95c7-4efb-9fe9-98eccc54d1e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin - Manage Test - Quiz - Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -140,6 +140,39 @@
          <type>DATA_COLUMN</type>
          <value>condition</value>
          <variableId>007e2ba2-04ba-42a3-a582-3956e9c2d7df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c81e37ba-9bbf-4f03-a07a-b5df8ad82b35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Rizka/Admin - Manage Test - Quiz - Next Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3dc5495-7e0d-4b16-b7bc-d0c9541b714a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rizka/Admin - Manage Test - Quiz - Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ec0b6ee4-d71a-4081-9f71-136591c35a75</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Rizka/Admin - Manage Test - Quiz - Search</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ec0b6ee4-d71a-4081-9f71-136591c35a75</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>judulQuiz</value>
+         <variableId>7bb2d449-08ab-4685-9796-b7cc07074b53</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ec0b6ee4-d71a-4081-9f71-136591c35a75</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>condition</value>
+         <variableId>867b7add-a38a-4579-bb3c-e0fe0628be16</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
