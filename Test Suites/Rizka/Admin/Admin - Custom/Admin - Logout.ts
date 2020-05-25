@@ -17,15 +17,15 @@
       <testCaseId>Test Cases/Rizka/Admin/Custom/Admin - Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0b433bfb-b40a-4bb9-9d5c-cb634790ec99</id>
+         <id>784eea4b-6407-4386-b1c0-3222f4004a6c</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Rizka/Admin - Logout</testDataId>
+         <testDataId>Data Files/Rizka/Admin/Admin - Custom/Admin - Logout</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>0b433bfb-b40a-4bb9-9d5c-cb634790ec99</testDataLinkId>
+         <testDataLinkId>784eea4b-6407-4386-b1c0-3222f4004a6c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>condition</value>
          <variableId>a0f5c8a1-3314-45f5-810c-5c8313798140</variableId>

@@ -17,33 +17,33 @@
       <testCaseId>Test Cases/Rizka/Admin/Custom/Admin - Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5ddd71bc-14ae-45c5-8a59-62a3c88c24ce</id>
+         <id>50b2d086-0fda-4142-9b44-b8b03227fce7</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Rizka/Admin - Login</testDataId>
+         <testDataId>Data Files/Rizka/Admin/Admin - Custom/Admin - Login</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>5ddd71bc-14ae-45c5-8a59-62a3c88c24ce</testDataLinkId>
+         <testDataLinkId>50b2d086-0fda-4142-9b44-b8b03227fce7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>3d3ecd71-f815-4ab3-a3ca-56a7241b55cf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5ddd71bc-14ae-45c5-8a59-62a3c88c24ce</testDataLinkId>
+         <testDataLinkId>50b2d086-0fda-4142-9b44-b8b03227fce7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>29e22449-aebe-4082-b264-e08af3dd39ae</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5ddd71bc-14ae-45c5-8a59-62a3c88c24ce</testDataLinkId>
+         <testDataLinkId>50b2d086-0fda-4142-9b44-b8b03227fce7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>condition</value>
          <variableId>2f9e39bb-f144-461f-bb69-c974bfe6d350</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5ddd71bc-14ae-45c5-8a59-62a3c88c24ce</testDataLinkId>
+         <testDataLinkId>50b2d086-0fda-4142-9b44-b8b03227fce7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>rememberMe</value>
          <variableId>be7f7d8b-16a5-4269-9f79-04e91fdc1796</variableId>

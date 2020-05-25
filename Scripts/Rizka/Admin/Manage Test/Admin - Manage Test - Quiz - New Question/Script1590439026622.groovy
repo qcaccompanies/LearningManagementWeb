@@ -15,3 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/button_Manage Test'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnQuiz'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnManageTest'))
+
