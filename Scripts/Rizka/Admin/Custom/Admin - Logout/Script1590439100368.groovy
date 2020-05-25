@@ -14,30 +14,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username') : '11666', ('password') : 'Password3', ('rememberMe') : 'yes'
-        , ('condition') : 'passed'], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Dashboard Admin/btn_manage_faq'))
+WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/previous page'), 0)
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
 
-if (next_page_status == 'choose') {
-    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_next_page'))
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
 
-    WebUI.delay(3)
-} else if (next_page_status == 'click') {
-    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/previous page'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Logout/userImage'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Logout/btnLogout'))
+
+WebUI.delay(7)
+
+if (condition == 'passed') {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Logout/btnLogin'))
 }
-
-WebUI.closeBrowser()
 

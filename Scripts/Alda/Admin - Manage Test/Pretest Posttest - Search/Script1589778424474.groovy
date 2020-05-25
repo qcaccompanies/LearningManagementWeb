@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Rizka/Admin - Login'), [('username') : '11666', ('password') : 'Password3', ('rememberMe') : 'yes'
+WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username') : '11666', ('password') : 'Password3', ('rememberMe') : 'yes'
         , ('condition') : 'passed'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

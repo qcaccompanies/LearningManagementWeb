@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Admin - Change Password</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>17406fbe-03c6-4125-a4cb-f1f8ad129cb4</testSuiteGuid>
+   <testCaseLink>
+      <guid>bdf302f9-47fe-4a0d-9e07-396875c3178e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rizka/Admin/Custom/Admin - Change Password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>26ca90f0-dbb5-456d-8695-d0cf4efe2f27</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Rizka/Admin - Change Password</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>26ca90f0-dbb5-456d-8695-d0cf4efe2f27</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentPassword</value>
+         <variableId>1ee87851-1751-40f0-a946-593c20ccc5af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ca90f0-dbb5-456d-8695-d0cf4efe2f27</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newPassword</value>
+         <variableId>c40d2736-885d-4f28-98d2-fcf736109fb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ca90f0-dbb5-456d-8695-d0cf4efe2f27</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmPassword</value>
+         <variableId>87ece8cf-88fe-444b-a220-55c3435168bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ca90f0-dbb5-456d-8695-d0cf4efe2f27</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>condition</value>
+         <variableId>b628dae1-f403-4a35-8bb0-1b15f896405d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -16,28 +16,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username') : '11666', ('password') : 'Password3', ('rememberMe') : 'yes'
-        , ('condition') : 'passed'], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.delay(3)
+WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
 
-WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Dashboard Admin/btn_manage_faq'))
+WebUI.maximizeWindow()
 
-WebUI.delay(5)
+WebUI.delay(30)
 
-WebUI.scrollToElement(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/previous page'), 0)
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), username)
 
-if (next_page_status == 'choose') {
-    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_next_page'))
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), password)
 
-    WebUI.delay(3)
-} else if (next_page_status == 'click') {
-    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/previous page'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
 
-    WebUI.delay(3)
+if (rememberMe == 'yes') {
+    WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
 }
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
+
+WebUI.delay(10)
+
+if (condition == 'passed') {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Login/span_Dashboard'))
+} else {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Login/label_Email address does not existPassword is wrong'))
+}
 

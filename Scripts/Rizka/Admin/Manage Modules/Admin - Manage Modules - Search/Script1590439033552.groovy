@@ -17,21 +17,38 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
 
-WebUI.click(findTestObject('Christi/Page_Main/button_login'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Object Repository/Christi/Page_Main/input_NPK_username'), username)
-
-WebUI.setText(findTestObject('Object Repository/Christi/Page_Main/input_Password_password'), password)
-
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
 
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModules'))
+
 WebUI.delay(5)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch'), namaModul)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch'))
+
+WebUI.delay(5)
+
+if (condition == 'passed') {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/label_NEOP Teller Cash  PDC dan FAB', [('text') : namaModul]), 
+        FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/alertNoDataFound'), 0)
+}
 
