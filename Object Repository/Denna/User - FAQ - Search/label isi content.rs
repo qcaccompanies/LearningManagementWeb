@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label isi content</name>
+   <tag></tag>
+   <elementGuidId>d9c04992-f047-407b-a2c4-89c058de8d60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@name='txtContent']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'txtContent' and (text() = 'Modul General Knowledge sesuai dengan namanya, modul ini bersifat umum yang berisi tentang gambaran besar Astra International,ACC, EBEK, dll. Modul general knowledge ini dapat diakses oleh semua karyawan/karyawati di ACC' or . = 'Modul General Knowledge sesuai dengan namanya, modul ini bersifat umum yang berisi tentang gambaran besar Astra International,ACC, EBEK, dll. Modul general knowledge ini dapat diakses oleh semua karyawan/karyawati di ACC')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>caption.bind</name>
+      <type>Main</type>
+      <value>item.answer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>app-label txtContent</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>widget-id</name>
+      <type>Main</type>
+      <value>widget-id1542</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>txtContent</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Modul General Knowledge sesuai dengan namanya, modul ini bersifat umum yang berisi tentang gambaran besar Astra International,ACC, EBEK, dll. Modul general knowledge ini dapat diakses oleh semua karyawan/karyawati di ACC</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-faq[1]/div[@class=&quot;app-page container&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column col-md-12 col-sm-12&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-livelist app-panel media-list Scroll&quot;]/ul[@class=&quot;app-livelist-container clearfix media-list&quot;]/li[@class=&quot;app-list-item col-xs-12 col-sm-12 col-md-12 col-lg-12 media active&quot;]/div[@class=&quot;app-container media-body&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-accordion panel-group&quot;]/div[@class=&quot;app-accordion-panel panel titleAccordion&quot;]/div[@class=&quot;panel-collapse collapse in&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/label[@class=&quot;app-label txtContent&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@name='txtContent']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-faq/div/main/div/div/div/div/div/div/div[2]/div/div/ul/li/div/div/div/div/div/div/div[2]/div/div/div[2]/div/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apa itu modul General Knowledge ?'])[2]/following::label[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apa itu modul General Knowledge ?'])[1]/following::label[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apakah artikel ini membantu?'])[1]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Likes'])[1]/preceding::label[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/label</value>
+   </webElementXpaths>
+</WebElementEntity>

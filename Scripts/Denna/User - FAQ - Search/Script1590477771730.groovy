@@ -14,18 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main')
+WebUI.callTestCase(findTestCase('Denna/Login(User)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Denna/User - FAQ - Search/button menu My Learning'))
 
-WebUI.click(findTestObject('Denna/User-Login/button login'))
+WebUI.click(findTestObject('Object Repository/Denna/User - FAQ - Search/button FAQ'))
 
-WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), '14426')
+WebUI.setText(findTestObject('Object Repository/Denna/User - FAQ - Search/input search'), search)
 
-WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), 'Password2')
+if (keterangan == 'notFound') {
+    WebUI.verifyElementVisible(findTestObject('Denna/User - FAQ - Search/label No data found'))
+} else {
+    WebUI.verifyElementVisible(findTestObject('Denna/User - FAQ - Search/content2'))
+}
 
-WebUI.click(findTestObject('Denna/User-Login/button login 1 masuk'))
-
-WebUI.verifyElementVisible(findTestObject('Denna/User-Login/button_My Learning IconMy Learning'))
+WebUI.closeBrowser()
 

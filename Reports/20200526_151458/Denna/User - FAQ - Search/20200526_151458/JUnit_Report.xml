@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - FAQ - Search" time="95.256" tests="2" failures="1" errors="0">
+   <testsuite name="User - FAQ - Search" tests="2" failures="1" errors="0" time="95.256" timestamp="2020-05-26 15:15:17" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User - FAQ - Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_151458\\Denna\\User - FAQ - Search\\20200526_151458"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_151458\\Denna\\User - FAQ - Search\\20200526_151458\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="1d1b50b77b97e360bbfec1bca0909c48"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - FAQ - Search" time="48.004" classname="Test Cases/Denna/User - FAQ - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-26 15:15:18 - [TEST_CASE][PASSED] - Test Cases/Denna/User - FAQ - Search: Test Cases/Denna/User - FAQ - Search
+
+2020-05-26 15:15:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 15:15:19 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 15:15:19 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 15:15:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 15:15:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 15:15:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 15:15:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 15:15:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 15:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 15:15:41 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:4748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d96ddb78fedd128dcc4b611d6614dd2
+
+2020-05-26 15:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 15:15:42 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 15:15:43 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 15:15:43 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 15:15:43 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 15:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 15:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 15:15:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 15:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 15:15:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 15:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button menu My Learning")): Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 15:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 15:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button FAQ")): Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 15:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 15:16:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - FAQ - Search/input search"), search): Text 'qwerty' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 15:16:02 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 15:16:02 - [TEST_STEP][PASSED] - if (keterangan == "notFound"): Object 'Object Repository/Denna/User - FAQ - Search/label No data found' is visible
+
+2020-05-26 15:16:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - FAQ - Search/label No data found")): Object 'Object Repository/Denna/User - FAQ - Search/label No data found' is visible
+
+2020-05-26 15:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - FAQ - Search/label No data found' is visible
+
+2020-05-26 15:16:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 15:16:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - FAQ - Search" time="45.52" classname="Test Cases/Denna/User - FAQ - Search" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/User - FAQ - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-26 15:16:06 - [TEST_CASE][FAILED] - Test Cases/Denna/User - FAQ - Search: Test Cases/Denna/User - FAQ - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)
+
+
+2020-05-26 15:16:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 15:16:06 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 15:16:06 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 15:16:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 15:16:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 15:16:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 15:16:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 15:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 15:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 15:16:26 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 15:16:27 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 15:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 15:16:27 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 15:16:27 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 15:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 15:16:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 15:16:39 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 15:16:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 15:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button menu My Learning")): Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 15:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 15:16:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button FAQ")): Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 15:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 15:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - FAQ - Search/input search"), search): Text 'Apa itu modul General Knowledge ?' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 15:16:48 - [MESSAGE][PASSED] - Text 'Apa itu modul General Knowledge ?' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 15:16:48 - [TEST_STEP][PASSED] - if (keterangan == "notFound"): null
+
+2020-05-26 15:16:48 - [TEST_STEP][FAILED] - else: Unable to verify equal between actual object 'null' and expected object 'Apa itu modul General Knowledge ?' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)
+)
+
+2020-05-26 15:16:48 - [TEST_STEP][PASSED] - search1 = getAttribute(findTestObject("Denna/User - FAQ - Search/content"), "value"): Attribute 'value' of object 'Object Repository/Denna/User - FAQ - Search/content' is: 'null'
+
+2020-05-26 15:16:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/User - FAQ - Search/content' is: 'null'
+
+2020-05-26 15:16:51 - [TEST_STEP][FAILED] - verifyEqual(search1, search): Unable to verify equal between actual object 'null' and expected object 'Apa itu modul General Knowledge ?' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)
+)
+
+2020-05-26 15:16:51 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'null' and expected object 'Apa itu modul General Knowledge ?' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2020-05-26 15:16:06 - [TEST_CASE][FAILED] - Test Cases/Denna/User - FAQ - Search: Test Cases/Denna/User - FAQ - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 15:15:17 - [TEST_SUITE][FAILED] - User - FAQ - Search: Test Cases/Denna/User - FAQ - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-26 15:15:17 - [TEST_SUITE][FAILED] - User - FAQ - Search: Test Cases/Denna/User - FAQ - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Apa itu modul General Knowledge ?' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at User - FAQ - Search.run(User - FAQ - Search:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590480898925.run(TempTestSuite1590480898925.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

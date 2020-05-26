@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>button_login</name>
    <tag></tag>
-   <elementGuidId>16fe6cb8-c380-439f-8e95-5220c64c8adf</elementGuidId>
+   <elementGuidId>8c884273-1bcd-4728-bf72-0f449f776b79</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='password']</value>
+         <value>//button[@name='loginBtn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,35 +17,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>caption</name>
+      <type>Main</type>
+      <value>login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control app-textbox ng-untouched txtInputLogin ng-dirty ng-valid</value>
+      <value>btn app-button btnloginForm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>click.event</name>
       <type>Main</type>
-      <value>input</value>
+      <value>loginBtnClick($event, widget)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>#ffffff</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>marginleft</name>
+      <type>Main</type>
+      <value>16%</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>marginright</name>
+      <type>Main</type>
+      <value>0.5%</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>widget-id</name>
       <type>Main</type>
-      <value>password</value>
+      <value>widget-id28</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,71 +85,64 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Password</value>
+      <value>loginBtn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>text</name>
       <type>Main</type>
-      <value>on</value>
+      <value>login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-main[1]/div[@class=&quot;app-page container&quot;]/header[@class=&quot;app-header clearfix header-main&quot;]/div[@class=&quot;app-header-container&quot;]/app-partial-header[1]/section[@class=&quot;app-partial clearfix&quot;]/div[@class=&quot;app-container containerFormLogin&quot;]/div[@class=&quot;app-container&quot;]/div[@class=&quot;app-login&quot;]/form[@class=&quot;align-left app-form app-login-form login-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;panel-body form-body&quot;]/div[@class=&quot;form-elements&quot;]/div[@class=&quot;app-container&quot;]/wm-input[@class=&quot;ng-untouched app-input-wrapper ng-dirty ng-valid&quot;]/input[@class=&quot;form-control app-textbox ng-untouched txtInputLogin ng-dirty ng-valid&quot;]</value>
+      <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-main[1]/div[@class=&quot;app-page container&quot;]/header[@class=&quot;app-header clearfix header-main&quot;]/div[@class=&quot;app-header-container&quot;]/app-partial-header[1]/section[@class=&quot;app-partial clearfix&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-4&quot;]/div[@class=&quot;app-container container-login-btn&quot;]/button[@class=&quot;btn app-button btnloginForm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='password']</value>
+      <value>//button[@name='loginBtn']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-main/div/header/div/app-partial-header/section/div[2]/div[2]/div/form/div/div/div[4]/wm-input/input</value>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-main/div/header/div/app-partial-header/section/div/div/div[3]/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LEMON'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NPK'])[1]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Icon'])[1]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Account'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/wm-input/input</value>
+      <value>//button</value>
    </webElementXpaths>
 </WebElementEntity>
