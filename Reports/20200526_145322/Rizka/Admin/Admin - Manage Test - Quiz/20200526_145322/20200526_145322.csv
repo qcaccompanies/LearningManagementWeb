@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Manage Test - Quiz,Chrome 81.0.4044.138,,,2020-05-26 14:53:36,2020-05-26 15:01:20,"7m - 43,427s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question,Chrome 81.0.4044.138,,,2020-05-26 14:53:38,2020-05-26 14:56:19,"2m - 41,452s",PASSED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-26 14:53:39,2020-05-26 14:53:48,"8,547s",PASSED
+"navigateToUrl(""https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"")",Chrome 81.0.4044.138,,,2020-05-26 14:53:48,2020-05-26 14:54:01,"12,705s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:54:01,2020-05-26 14:54:06,"5,069s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnLogin""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:06,2020-05-26 14:54:06,"0,689s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Login/txtUsername""), ""11666"")",Chrome 81.0.4044.138,,,2020-05-26 14:54:06,2020-05-26 14:54:07,"0,795s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Login/txtPassword""), ""Password3"")",Chrome 81.0.4044.138,,,2020-05-26 14:54:07,2020-05-26 14:54:08,"0,737s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:08,2020-05-26 14:54:08,"0,487s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/checkboxRememberMe""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:08,2020-05-26 14:54:09,"0,511s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnLogin2""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:09,2020-05-26 14:54:09,"0,571s",PASSED
+delay(20),Chrome 81.0.4044.138,,,2020-05-26 14:54:09,2020-05-26 14:54:29,"20,007s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:29,2020-05-26 14:54:30,"0,523s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:54:30,2020-05-26 14:54:40,"10,005s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:40,2020-05-26 14:54:40,"0,510s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:54:40,2020-05-26 14:54:51,"10,007s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion""))",Chrome 81.0.4044.138,,,2020-05-26 14:54:51,2020-05-26 14:55:05,"14,675s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:55:05,2020-05-26 14:55:15,"10,008s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal""), tipeSoal, false)",Chrome 81.0.4044.138,,,2020-05-26 14:55:15,2020-05-26 14:55:16,"0,791s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobFunction""), jobFunction, false)",Chrome 81.0.4044.138,,,2020-05-26 14:55:16,2020-05-26 14:55:23,"7,063s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:55:23,2020-05-26 14:55:28,"5,007s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition""), jobPosition, false)",Chrome 81.0.4044.138,,,2020-05-26 14:55:28,2020-05-26 14:55:29,"0,858s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul""), module, false)",Chrome 81.0.4044.138,,,2020-05-26 14:55:29,2020-05-26 14:55:30,"0,821s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul""), subModule, false)",Chrome 81.0.4044.138,,,2020-05-26 14:55:30,2020-05-26 14:55:33,"3,244s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence""), technicalCompetence, STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-26 14:55:33,2020-05-26 14:55:36,"2,671s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence""), levelCompetence, STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-26 14:55:36,2020-05-26 14:55:36,"0,512s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion""), soalQuestion)",Chrome 81.0.4044.138,,,2020-05-26 14:55:36,2020-05-26 14:55:37,"0,905s",PASSED
+"if (tipeSoal == ""Pilihan Ganda"")",Chrome 81.0.4044.138,,,2020-05-26 14:55:37,2020-05-26 14:55:41,"3,954s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit""))",Chrome 81.0.4044.138,,,2020-05-26 14:55:41,2020-05-26 14:55:42,"0,666s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:55:42,2020-05-26 14:55:52,"10,003s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch""), soalQuestion)",Chrome 81.0.4044.138,,,2020-05-26 14:55:52,2020-05-26 14:56:13,"21,250s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch""))",Chrome 81.0.4044.138,,,2020-05-26 14:56:13,2020-05-26 14:56:14,"0,700s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:56:14,2020-05-26 14:56:19,"5,005s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-26 14:56:19,2020-05-26 14:56:19,"0,573s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question,Chrome 81.0.4044.138,,,2020-05-26 14:56:20,2020-05-26 14:58:52,"2m - 32,119s",PASSED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-26 14:56:20,2020-05-26 14:56:24,"4,445s",PASSED
+"navigateToUrl(""https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"")",Chrome 81.0.4044.138,,,2020-05-26 14:56:24,2020-05-26 14:56:34,"9,578s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:56:34,2020-05-26 14:56:39,"5,005s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnLogin""))",Chrome 81.0.4044.138,,,2020-05-26 14:56:39,2020-05-26 14:56:39,"0,580s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Login/txtUsername""), ""11666"")",Chrome 81.0.4044.138,,,2020-05-26 14:56:39,2020-05-26 14:56:40,"0,838s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Login/txtPassword""), ""Password3"")",Chrome 81.0.4044.138,,,2020-05-26 14:56:40,2020-05-26 14:56:41,"0,726s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-26 14:56:41,2020-05-26 14:56:41,"0,426s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/checkboxRememberMe""))",Chrome 81.0.4044.138,,,2020-05-26 14:56:41,2020-05-26 14:56:42,"0,650s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnLogin2""))",Chrome 81.0.4044.138,,,2020-05-26 14:56:42,2020-05-26 14:56:43,"0,525s",PASSED
+delay(20),Chrome 81.0.4044.138,,,2020-05-26 14:56:43,2020-05-26 14:57:03,"20,006s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest""))",Chrome 81.0.4044.138,,,2020-05-26 14:57:03,2020-05-26 14:57:03,"0,555s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:57:03,2020-05-26 14:57:13,"10,005s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz""))",Chrome 81.0.4044.138,,,2020-05-26 14:57:13,2020-05-26 14:57:14,"0,497s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:57:14,2020-05-26 14:57:24,"10,007s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion""))",Chrome 81.0.4044.138,,,2020-05-26 14:57:24,2020-05-26 14:57:40,"16,637s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:57:40,2020-05-26 14:57:50,"10,003s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal""), tipeSoal, false)",Chrome 81.0.4044.138,,,2020-05-26 14:57:50,2020-05-26 14:57:51,"0,732s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobFunction""), jobFunction, false)",Chrome 81.0.4044.138,,,2020-05-26 14:57:51,2020-05-26 14:57:58,"7,007s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:57:58,2020-05-26 14:58:03,"5,006s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition""), jobPosition, false)",Chrome 81.0.4044.138,,,2020-05-26 14:58:03,2020-05-26 14:58:04,"0,861s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul""), module, false)",Chrome 81.0.4044.138,,,2020-05-26 14:58:04,2020-05-26 14:58:05,"0,734s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul""), subModule, false)",Chrome 81.0.4044.138,,,2020-05-26 14:58:05,2020-05-26 14:58:08,"3,218s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence""), technicalCompetence, STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-26 14:58:08,2020-05-26 14:58:11,"2,773s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence""), levelCompetence, STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-26 14:58:11,2020-05-26 14:58:11,"0,662s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion""), soalQuestion)",Chrome 81.0.4044.138,,,2020-05-26 14:58:11,2020-05-26 14:58:12,"0,956s",PASSED
+"if (tipeSoal == ""Pilihan Ganda"")",Chrome 81.0.4044.138,,,2020-05-26 14:58:12,2020-05-26 14:58:12,"0,001s",PASSED
+"else if (tipeSoal == ""Benar / Salah"")",Chrome 81.0.4044.138,,,2020-05-26 14:58:12,2020-05-26 14:58:13,"0,903s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit""))",Chrome 81.0.4044.138,,,2020-05-26 14:58:13,2020-05-26 14:58:14,"0,682s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:58:14,2020-05-26 14:58:24,"10,004s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch""), soalQuestion)",Chrome 81.0.4044.138,,,2020-05-26 14:58:24,2020-05-26 14:58:46,"21,901s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch""))",Chrome 81.0.4044.138,,,2020-05-26 14:58:46,2020-05-26 14:58:46,"0,705s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:58:46,2020-05-26 14:58:51,"5,005s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-26 14:58:51,2020-05-26 14:58:52,"0,404s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question,Chrome 81.0.4044.138,,,2020-05-26 14:58:52,2020-05-26 15:01:20,"2m - 27,536s",PASSED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-26 14:58:52,2020-05-26 14:58:57,"4,454s",PASSED
+"navigateToUrl(""https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"")",Chrome 81.0.4044.138,,,2020-05-26 14:58:57,2020-05-26 14:59:06,"9,259s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 14:59:06,2020-05-26 14:59:11,"5,005s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnLogin""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:11,2020-05-26 14:59:11,"0,431s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Login/txtUsername""), ""11666"")",Chrome 81.0.4044.138,,,2020-05-26 14:59:11,2020-05-26 14:59:12,"0,730s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Login/txtPassword""), ""Password3"")",Chrome 81.0.4044.138,,,2020-05-26 14:59:12,2020-05-26 14:59:13,"0,588s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:13,2020-05-26 14:59:13,"0,521s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/checkboxRememberMe""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:13,2020-05-26 14:59:14,"0,532s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Login/btnLogin2""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:14,2020-05-26 14:59:14,"0,503s",PASSED
+delay(20),Chrome 81.0.4044.138,,,2020-05-26 14:59:14,2020-05-26 14:59:34,"20,004s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:34,2020-05-26 14:59:35,"0,478s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:59:35,2020-05-26 14:59:45,"10,004s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:45,2020-05-26 14:59:45,"0,480s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 14:59:45,2020-05-26 14:59:55,"10,004s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion""))",Chrome 81.0.4044.138,,,2020-05-26 14:59:55,2020-05-26 15:00:11,"16,133s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 15:00:11,2020-05-26 15:00:21,"10,004s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal""), tipeSoal, false)",Chrome 81.0.4044.138,,,2020-05-26 15:00:21,2020-05-26 15:00:22,"0,891s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobFunction""), jobFunction, false)",Chrome 81.0.4044.138,,,2020-05-26 15:00:22,2020-05-26 15:00:29,"7,056s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 15:00:29,2020-05-26 15:00:34,"5,005s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition""), jobPosition, false)",Chrome 81.0.4044.138,,,2020-05-26 15:00:34,2020-05-26 15:00:35,"0,686s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul""), module, false)",Chrome 81.0.4044.138,,,2020-05-26 15:00:35,2020-05-26 15:00:36,"0,691s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul""), subModule, false)",Chrome 81.0.4044.138,,,2020-05-26 15:00:36,2020-05-26 15:00:39,"3,197s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence""), technicalCompetence, STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-26 15:00:39,2020-05-26 15:00:39,"0,623s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence""), levelCompetence, STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-26 15:00:39,2020-05-26 15:00:41,"1,953s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion""), soalQuestion)",Chrome 81.0.4044.138,,,2020-05-26 15:00:41,2020-05-26 15:00:42,"0,868s",PASSED
+"if (tipeSoal == ""Pilihan Ganda"")",Chrome 81.0.4044.138,,,2020-05-26 15:00:42,2020-05-26 15:00:42,"0,001s",PASSED
+"else if (tipeSoal == ""Benar / Salah"")",Chrome 81.0.4044.138,,,2020-05-26 15:00:42,2020-05-26 15:00:43,"0,812s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit""))",Chrome 81.0.4044.138,,,2020-05-26 15:00:43,2020-05-26 15:00:44,"0,657s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-26 15:00:44,2020-05-26 15:00:54,"10,004s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch""), soalQuestion)",Chrome 81.0.4044.138,,,2020-05-26 15:00:54,2020-05-26 15:01:13,"19,633s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch""))",Chrome 81.0.4044.138,,,2020-05-26 15:01:13,2020-05-26 15:01:14,"0,760s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-26 15:01:14,2020-05-26 15:01:19,"5,005s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-26 15:01:19,2020-05-26 15:01:20,"0,493s",PASSED

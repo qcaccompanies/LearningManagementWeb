@@ -36,13 +36,13 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/button_Manage Test'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnQuiz'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnManageTest'))
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete'))
 
@@ -63,7 +63,8 @@ WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz
 WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/subModule-learningPoint'), subModule, 
     false)
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/technicalCompetence'), technicalCompetence, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/technicalCompetence'), technicalCompetence, 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/levelCompetence'), levelCompetence, FailureHandling.STOP_ON_FAILURE)
 
@@ -81,7 +82,8 @@ if (tipeSoal == 'Pilihan Ganda') {
     WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan'), kunciJawabanPilgan, 
         false)
 } else if (tipeSoal == 'Benar / Salah') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawaban'), kunciJawaban, false)
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawaban'), kunciJawaban, 
+        false)
 } else {
     WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'), uraian)
 }
@@ -99,20 +101,20 @@ if (condition == 'passed') {
 
     WebUI.delay(5)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_tipesoal2'), tipeSoal, 
-        false, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_tipesoal2'), 
+        tipeSoal, false, 0)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_jobfunction2'), jobFunction, 
-        false, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_jobfunction2'), 
+        jobFunction, false, 0)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_jobposition2'), jobPosition, 
-        false, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_jobposition2'), 
+        jobPosition, false, 0)
 
     WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_module2'), module, 
         false, 0)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_submodule2'), subModule, 
-        false, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_submodule2'), 
+        subModule, false, 0)
 
     attribute = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/textarea_soal'), 'value')
 

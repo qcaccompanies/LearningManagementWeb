@@ -35,13 +35,13 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/button_Manage Test'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnQuiz'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnManageTest'))
+WebUI.delay(10)
 
 if (condition == 'passed') {
     WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/label_160708926_1'), 0)

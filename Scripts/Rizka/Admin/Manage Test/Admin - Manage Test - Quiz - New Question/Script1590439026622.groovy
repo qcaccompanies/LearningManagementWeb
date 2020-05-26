@@ -35,11 +35,74 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/button_Manage Test'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnQuiz'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnManageTest'))
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion'))
+
+WebUI.delay(10)
+
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal'), tipeSoal, 
+    false)
+
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobFunction'), jobFunction, 
+    false)
+
+WebUI.delay(5)
+
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition'), jobPosition, 
+    false)
+
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul'), module, false)
+
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul'), subModule, 
+    false)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'), technicalCompetence, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'), levelCompetence, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'), soalQuestion)
+
+if (tipeSoal == 'Pilihan Ganda') {
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerA'), jawabanA)
+
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerB'), jawabanB)
+
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerC'), jawabanC)
+
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerD'), jawabanD)
+
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan'), 
+        kunciJawabanPilgan, false)
+} else if (tipeSoal == 'Benar / Salah') {
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah'), kunciJawaban, 
+        false)
+} else {
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'), uraian)
+}
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
+
+WebUI.delay(10)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'), soalQuestion)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch'))
+
+WebUI.delay(5)
+
+if (condition == 'passed') {
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali', 
+            [('text') : soalQuestion]), FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/alertNoDataFound'), 0)
+}
 

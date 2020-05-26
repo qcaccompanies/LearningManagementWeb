@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>c81e37ba-9bbf-4f03-a07a-b5df8ad82b35</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Next Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -178,7 +178,7 @@
    <testCaseLink>
       <guid>7c4d5e9a-5dd8-49e2-99a9-52992a37c875</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -189,5 +189,101 @@
          </iterationEntity>
          <testDataId>Data Files/Rizka/Admin/Admin - Manage Test/Admin - Manage Tets - Quiz - New Question</testDataId>
       </testDataLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tipeSoal</value>
+         <variableId>fcf2552f-23d6-4a47-a405-6d26dd4f4d1f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobFunction</value>
+         <variableId>56a6d07f-7021-4221-b91f-83a9ce17430f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobPosition</value>
+         <variableId>4c4d07bd-07ed-4f4b-9781-db4c2024b7e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>module</value>
+         <variableId>14b52ca7-0e7e-436b-8e99-a0fd4e63d981</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>subModule</value>
+         <variableId>dc7c9386-e28f-4f9e-bf40-bec44a5c2b0c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>technicalCompetence</value>
+         <variableId>4310cfb2-d952-4dc4-aeea-3072b20bbcc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>levelCompetence</value>
+         <variableId>e29d82ae-5a15-4f87-9cb8-027f331b0b3f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>soalQuestion</value>
+         <variableId>07588419-8abb-4af4-9bef-206a397bc271</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kunciJawaban</value>
+         <variableId>14ec4c72-07d6-4af7-86ba-b5f05cf23081</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jawabanA</value>
+         <variableId>8ea909b3-d48c-4b01-8232-7a186489781f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jawabanB</value>
+         <variableId>01df5417-63cd-43b3-a892-4645fa542386</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jawabanC</value>
+         <variableId>b61aab43-3126-43a7-b788-85fa8f873b0f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jawabanD</value>
+         <variableId>b685f70f-4e83-4388-912d-dc404a23edd9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kunciJawabanPilgan</value>
+         <variableId>00326dd6-35e9-44b2-aa59-ac26f21569b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>uraian</value>
+         <variableId>4817eb3a-47c7-4aa9-8af6-972581da0938</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>condition</value>
+         <variableId>611b8cd8-35ca-4c97-857f-7d98688cfbd6</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
