@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - Ganti Password" time="180.543" tests="4" failures="0" errors="0">
+   <testsuite name="User - Ganti Password" tests="4" failures="0" errors="0" time="180.543" timestamp="2020-05-26 17:21:41" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User - Ganti Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_172132\\Denna\\User - Ganti Password\\20200526_172132"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_172132\\Denna\\User - Ganti Password\\20200526_172132\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="098343d43e2c7712fb8b16f8f54c9e4c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="53.531" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:21:42 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:21:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:21:43 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:21:43 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:21:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:21:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 17:21:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:21:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:21:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:22:03 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:22:03 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:22:03 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:22:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:22:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:22:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:22:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:22:32 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:22:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:22:32 - [MESSAGE][PASSED] - Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:22:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:22:33 - [MESSAGE][PASSED] - Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:22:34 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:22:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:22:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="45.386" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:22:35 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:22:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:22:36 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:22:36 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:22:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:22:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:22:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:22:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:22:49 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0643dfd020434a6a8079630905883442
+
+2020-05-26 17:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:22:50 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:22:51 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:22:52 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:22:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:23:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:23:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:23:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:23:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password4' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:23:18 - [MESSAGE][PASSED] - Text 'Password4' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:23:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:23:19 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:23:19 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:23:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:23:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:23:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="40.098" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:23:21 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:23:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:23:21 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:23:21 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:23:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:23:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:23:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:23:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:23:35 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5f897ebae172cb3ec2fd75755c736063
+
+2020-05-26 17:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:23:37 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:23:37 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:23:37 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:23:37 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:23:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:23:46 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:23:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:23:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:23:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:23:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password5' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:23:58 - [MESSAGE][PASSED] - Text 'Password5' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:23:59 - [MESSAGE][PASSED] - Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:23:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:23:59 - [MESSAGE][PASSED] - Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:24:00 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:24:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:24:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="40.621" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:24:01 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:24:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:24:01 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:24:01 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:24:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:24:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:24:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:24:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:24:16 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:24:17 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:24:17 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:24:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:24:26 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:24:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:24:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:24:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:24:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:24:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:24:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password6' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:24:39 - [MESSAGE][PASSED] - Text 'Password6' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:24:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:24:40 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:24:40 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:24:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:24:41 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:24:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:24:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 17:21:41 - [TEST_SUITE][PASSED] - User - Ganti Password: Test Cases/Denna/User - Ganti Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

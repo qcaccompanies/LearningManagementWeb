@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Denna/Login(User)'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Denna/User - Ganti Password/profile'))
 
 WebUI.click(findTestObject('Object Repository/Denna/User - Ganti Password/button Ganti Password'))
@@ -87,6 +89,22 @@ switch (kondisi) {
         not_run: WebUI.delay(3)
 
         WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label Password telah di Update'))
+
+        WebUI.click(findTestObject('Object Repository/Denna/User - Logout/icon Photo Profile'))
+
+        WebUI.click(findTestObject('Object Repository/Denna/User - Logout/button Log  Out'))
+
+        WebUI.delay(5)
+
+        WebUI.click(findTestObject('Denna/User-Login/button login'))
+
+        WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), '14426')
+
+        WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), 'Password3')
+
+        WebUI.click(findTestObject('Denna/User-Login/button login 1 masuk'))
+
+        WebUI.verifyElementVisible(findTestObject('Denna/User-Login/button_My Learning IconMy Learning'))
 
         break
 }

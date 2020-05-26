@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User-Forgot Password" time="156.872" tests="6" failures="0" errors="0">
+   <testsuite name="User-Forgot Password" tests="6" failures="0" errors="0" time="156.872" timestamp="2020-05-26 17:02:43" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User-Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_170236\\Denna\\User-Forgot Password\\20200526_170236"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_170236\\Denna\\User-Forgot Password\\20200526_170236\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="c63a36bbd61d5a4f739af7442216ca5a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="29.108" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:02:43 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 17:02:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 17:02:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:02:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 17:02:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 17:02:49 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:03:01 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:03:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:03:03 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:03:07 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:03:07 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 17:03:07 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:03:07 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:03:10 - [MESSAGE][PASSED] - Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:03:11 - [MESSAGE][PASSED] - Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:03:11 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:03:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:03:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="21.36" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:03:12 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 17:03:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 17:03:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:03:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 17:03:16 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:03:22 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:03:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:03:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:03:24 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:03:28 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:03:28 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:03:29 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 17:03:29 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:03:29 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:03:31 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:03:32 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:03:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:03:33 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:03:33 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:03:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:03:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="23.606" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:03:34 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 17:03:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 17:03:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:03:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 17:03:37 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:03:46 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:03:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:03:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:03:50 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21adbfd58c243cab8b8070d899e9c07f
+
+2020-05-26 17:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:03:52 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:03:53 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 17:03:53 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:03:55 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:03:55 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:03:56 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): null
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalidDefault"): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak boleh sama dengan default' is visible
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Password tidak boleh sama dengan default")): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak boleh sama dengan default' is visible
+
+2020-05-26 17:03:56 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Password tidak boleh sama dengan default' is visible
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:03:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:03:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="18.191" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:03:57 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 17:03:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 17:03:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:04:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 17:04:01 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:04:07 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:04:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:04:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '55555' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:04:14 - [MESSAGE][PASSED] - Text '55555' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:04:15 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 17:04:15 - [TEST_STEP][PASSED] - case "fail1":: null
+
+2020-05-26 17:04:15 - [TEST_STEP][PASSED] - if (Keterangan == "emptyNPK"): null
+
+2020-05-26 17:04:15 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:04:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:04:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="28.167" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:04:16 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 17:04:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 17:04:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:04:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 17:04:19 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:04:26 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:04:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:04:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:04:32 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:04:33 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 17:04:33 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:04:33 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:04:34 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:04:35 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): null
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalidDefault"): null
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - else if (Keterangan == "wrongOTP"): Object 'Object Repository/Denna/User - Forgot Password/label Account Confirmation' is visible
+
+2020-05-26 17:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1"), otp1): Text '1' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'
+
+2020-05-26 17:04:39 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'
+
+2020-05-26 17:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2"), otp2): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'
+
+2020-05-26 17:04:40 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'
+
+2020-05-26 17:04:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3"), otp3): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'
+
+2020-05-26 17:04:40 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'
+
+2020-05-26 17:04:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4"), otp4): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'
+
+2020-05-26 17:04:41 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'
+
+2020-05-26 17:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5"), otp5): Text '8' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'
+
+2020-05-26 17:04:41 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'
+
+2020-05-26 17:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6"), otp6): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'
+
+2020-05-26 17:04:42 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'
+
+2020-05-26 17:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Konfirmasi")): Object: 'Object Repository/Denna/User - Forgot Password/button Konfirmasi' is clicked on
+
+2020-05-26 17:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Konfirmasi' is clicked on
+
+2020-05-26 17:04:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Account Confirmation")): Object 'Object Repository/Denna/User - Forgot Password/label Account Confirmation' is visible
+
+2020-05-26 17:04:43 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Account Confirmation' is visible
+
+2020-05-26 17:04:43 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:04:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:04:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="35.596" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:04:44 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 17:04:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 17:04:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:04:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 17:04:47 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:04:56 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 17:04:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:04:58 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 17:05:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 17:05:02 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:05:03 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 17:05:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 17:05:03 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 17:05:03 - [TEST_STEP][PASSED] - case "pass":: null
+
+2020-05-26 17:05:03 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:05:07 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 17:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:05:08 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 17:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 17:05:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1"), otp1): Text '2' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'
+
+2020-05-26 17:05:12 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'
+
+2020-05-26 17:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2"), otp2): Text '4' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'
+
+2020-05-26 17:05:13 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'
+
+2020-05-26 17:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3"), otp3): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'
+
+2020-05-26 17:05:13 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'
+
+2020-05-26 17:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4"), otp4): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'
+
+2020-05-26 17:05:14 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'
+
+2020-05-26 17:05:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5"), otp5): Text '2' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'
+
+2020-05-26 17:05:14 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'
+
+2020-05-26 17:05:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6"), otp6): Text '1' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'
+
+2020-05-26 17:05:15 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'
+
+2020-05-26 17:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Konfirmasi")): Object: 'Object Repository/Denna/User - Forgot Password/button Konfirmasi' is clicked on
+
+2020-05-26 17:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Konfirmasi' is clicked on
+
+2020-05-26 17:05:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Password anda berhasil diganti Mohon login kembali menggunakan password baru")): Object 'Object Repository/Denna/User - Forgot Password/label Password anda berhasil diganti Mohon login kembali menggunakan password baru' is visible
+
+2020-05-26 17:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Password anda berhasil diganti Mohon login kembali menggunakan password baru' is visible
+
+2020-05-26 17:05:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Back to Login Page")): Object: 'Object Repository/Denna/User - Forgot Password/button Back to Login Page' is clicked on
+
+2020-05-26 17:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Back to Login Page' is clicked on
+
+2020-05-26 17:05:18 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:05:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:05:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 17:02:43 - [TEST_SUITE][PASSED] - User-Forgot Password: Test Cases/Denna/User - Forgot Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

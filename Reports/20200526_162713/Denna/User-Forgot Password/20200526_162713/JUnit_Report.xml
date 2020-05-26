@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User-Forgot Password" time="534.339" tests="16" failures="3" errors="0">
+   <testsuite name="User-Forgot Password" tests="16" failures="3" errors="0" time="534.339" timestamp="2020-05-26 16:27:20" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User-Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485508099.png, C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485508547.png, C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485614021.png, C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485774028.png"/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="c3a7f8bf65a155ee920b9bf0f9cef93c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="43.184" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:27:21 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:27:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:27:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:27:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 16:27:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:27:28 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:27:53 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:27:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:27:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:27:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:28:02 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:28:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - case "fail1":: null
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - if (Keterangan == "emptyNPK"): Object 'Object Repository/Denna/User - Forgot Password/label Masukkan NPK anda kami akan mengirim kode OTP ke nomor anda' is visible
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Masukkan NPK anda kami akan mengirim kode OTP ke nomor anda")): Object 'Object Repository/Denna/User - Forgot Password/label Masukkan NPK anda kami akan mengirim kode OTP ke nomor anda' is visible
+
+2020-05-26 16:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Masukkan NPK anda kami akan mengirim kode OTP ke nomor anda' is visible
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:28:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:28:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="30.523" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:28:04 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:28:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:28:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:28:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:28:08 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:28:26 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:28:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:28:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:28:33 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '1a2b3c' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:28:33 - [MESSAGE][PASSED] - Text '1a2b3c' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - case "fail1":: null
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - if (Keterangan == "emptyNPK"): null
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - else if (Keterangan == "wrongNPK"): Object 'Object Repository/Denna/User - Forgot Password/label Masukan anda salah' is visible
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Masukan anda salah")): Object 'Object Repository/Denna/User - Forgot Password/label Masukan anda salah' is visible
+
+2020-05-26 16:28:34 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Masukan anda salah' is visible
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:28:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:28:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="27.448" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:28:35 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:28:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:28:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:28:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:28:38 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:28:49 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:28:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:28:51 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:28:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:28:57 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:28:57 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:28:58 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:28:58 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:28:58 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:29:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:29:00 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:29:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:29:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:29:01 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:29:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:29:01 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:29:01 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:29:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:29:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="21.769" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:29:02 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:29:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:29:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:29:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:29:06 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:29:12 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:29:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:29:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:29:19 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:29:19 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:29:20 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:29:20 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:29:22 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:29:22 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:29:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:29:23 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:29:23 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak sama' is visible
+
+2020-05-26 16:29:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Password tidak sama")): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak sama' is visible
+
+2020-05-26 16:29:23 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Password tidak sama' is visible
+
+2020-05-26 16:29:23 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:29:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:29:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="22.261" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:29:24 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:29:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:29:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:29:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:29:27 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:29:34 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:29:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:29:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:29:38 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:6811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: efb0d6d3019cefd3c2ff099ef034f9ab
+
+2020-05-26 16:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:29:41 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:29:42 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:29:42 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:29:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:29:45 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:29:45 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:29:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:29:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="21.982" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:29:46 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:29:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:29:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:29:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:29:50 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:29:57 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:29:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:29:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:29:59 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:30:01 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:6857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f8530bc8b6a6175a7f9ce1f1f5e9ef82
+
+2020-05-26 16:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:30:03 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:30:03 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:30:04 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:30:04 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:30:04 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:30:06 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password9' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:30:06 - [MESSAGE][PASSED] - Text 'Password9' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak sama' is visible
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Password tidak sama")): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak sama' is visible
+
+2020-05-26 16:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Password tidak sama' is visible
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:30:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:30:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="22.14" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:30:08 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:30:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:30:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:30:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:30:12 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:30:20 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:30:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:30:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:30:22 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:30:24 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:6903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7b42c511f21c9eef7eec217f09fdbb9
+
+2020-05-26 16:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:30:25 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:30:26 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:30:26 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:30:26 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:30:26 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'password' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:30:29 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'password' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:30:29 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:30:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:30:30 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:30:30 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:30:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:30:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="77.843" classname="Test Cases/Denna/User - Forgot Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-26 16:30:31 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-26 16:30:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:30:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:30:34 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:30:41 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:30:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:30:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:30:47 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:30:48 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:30:48 - [TEST_STEP][FAILED] - switch (Kondisi): Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-26 16:30:48 - [TEST_STEP][FAILED] - case "fail":: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-26 16:30:48 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Passworddddddddddddddddddddddddddddddddddddddddddddddddd2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:30:51 - [MESSAGE][PASSED] - Text 'Passworddddddddddddddddddddddddddddddddddddddddddddddddd2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Passworddddddddddddddddddddddddddddddddddddddddddddddddd2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:30:52 - [MESSAGE][PASSED] - Text 'Passworddddddddddddddddddddddddddddddddddddddddddddddddd2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:30:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:30:52 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:30:52 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:30:52 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:30:52 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:30:52 - [TEST_STEP][FAILED] - else if (Keterangan == "PasswordInvalid"): Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-26 16:30:52 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-26 16:31:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //label[@name='validationErrorMessage']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-26 16:31:48 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485508099.png]]
+
+2020-05-26 16:31:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485508547.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-26 16:30:31 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="22.517" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:31:49 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:31:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:31:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-26 16:31:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:31:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:31:53 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:32:00 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:32:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:32:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:32:04 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:7001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdc793151b126cd867027ab67417c217
+
+2020-05-26 16:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:32:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:32:05 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:32:06 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:32:06 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:32:06 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:32:06 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:32:09 - [MESSAGE][PASSED] - Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:32:09 - [MESSAGE][PASSED] - Text 'Passworddddddddddddddddddddddddddddddddddddddddddddd' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:32:10 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:32:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:32:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="21.338" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:32:11 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:32:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:32:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:32:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:32:14 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:32:22 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:32:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:32:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:32:27 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:32:28 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:32:28 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:32:28 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text '123456' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:32:31 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text '123456' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:32:31 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:32:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:32:32 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:32:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:32:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="61.496" classname="Test Cases/Denna/User - Forgot Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&amp;*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-26 16:32:32 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-26 16:32:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:32:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:32:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:32:36 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:32:42 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:32:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:32:45 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:32:49 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:32:49 - [TEST_STEP][FAILED] - switch (Kondisi): Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:35)
+	... 13 more
+)
+
+2020-05-26 16:32:49 - [TEST_STEP][FAILED] - case "fail":: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:35)
+	... 13 more
+)
+
+2020-05-26 16:32:49 - [TEST_STEP][FAILED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:35)
+	... 13 more
+)
+
+2020-05-26 16:33:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='newPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-26 16:33:34 - [MESSAGE][FAILED] - Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:35)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485614021.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-26 16:32:32 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '!@#$%^&*()_' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="29.194" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:33:34 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:33:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:33:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-26 16:33:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:33:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:33:38 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:33:47 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:33:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:33:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:33:55 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:33:56 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:33:56 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:34:01 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:34:01 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:34:02 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:34:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:34:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="22.784" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:34:03 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:34:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:34:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:34:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:34:07 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:34:13 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:34:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:34:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:34:21 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:34:21 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:34:21 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:34:24 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:34:24 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): null
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalidDefault"): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak boleh sama dengan default' is visible
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Password tidak boleh sama dengan default")): Object 'Object Repository/Denna/User - Forgot Password/label Password tidak boleh sama dengan default' is visible
+
+2020-05-26 16:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Password tidak boleh sama dengan default' is visible
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:34:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:34:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="17.398" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:34:26 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:34:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:34:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:34:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:34:29 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:34:36 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:34:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:34:38 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:34:42 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '55555' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:34:42 - [MESSAGE][PASSED] - Text '55555' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:34:43 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:34:43 - [TEST_STEP][PASSED] - case "fail1":: null
+
+2020-05-26 16:34:43 - [TEST_STEP][PASSED] - if (Keterangan == "emptyNPK"): null
+
+2020-05-26 16:34:43 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:34:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:34:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="28.173" classname="Test Cases/Denna/User - Forgot Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:34:44 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password
+
+2020-05-26 16:34:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:34:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:34:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:34:47 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:34:54 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:34:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:34:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:34:56 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:34:57 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:7290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 85c11866b159aa9a1f9a3bf6ebf3cf0a
+
+2020-05-26 16:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:35:00 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:35:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:35:00 - [TEST_STEP][PASSED] - switch (Kondisi): null
+
+2020-05-26 16:35:00 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 16:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:35:03 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPasswordConfirm"), newPasswordConfirm): Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:35:03 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Forgot Password/input Icon newPasswordConfirm'
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button RESET PASSWORD")): Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button RESET PASSWORD' is clicked on
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - if (Keterangan == "emptyAllPassword"): null
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyPasswordConfirm"): null
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - else if (Keterangan == "emptyNewPassword"): null
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordNotMatch"): null
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalid"): null
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - else if (Keterangan == "PasswordInvalidDefault"): null
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - else if (Keterangan == "wrongOTP"): Object 'Object Repository/Denna/User - Forgot Password/label Account Confirmation' is visible
+
+2020-05-26 16:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1"), otp1): Text '1' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'
+
+2020-05-26 16:35:07 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text1'
+
+2020-05-26 16:35:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2"), otp2): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'
+
+2020-05-26 16:35:08 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text2'
+
+2020-05-26 16:35:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3"), otp3): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'
+
+2020-05-26 16:35:08 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text3'
+
+2020-05-26 16:35:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4"), otp4): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'
+
+2020-05-26 16:35:09 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text4'
+
+2020-05-26 16:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5"), otp5): Text '8' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'
+
+2020-05-26 16:35:09 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text5'
+
+2020-05-26 16:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6"), otp6): Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'
+
+2020-05-26 16:35:10 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Forgot Password/input_Kode OTP_text6'
+
+2020-05-26 16:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Konfirmasi")): Object: 'Object Repository/Denna/User - Forgot Password/button Konfirmasi' is clicked on
+
+2020-05-26 16:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Konfirmasi' is clicked on
+
+2020-05-26 16:35:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Forgot Password/label Account Confirmation")): Object 'Object Repository/Denna/User - Forgot Password/label Account Confirmation' is visible
+
+2020-05-26 16:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Forgot Password/label Account Confirmation' is visible
+
+2020-05-26 16:35:11 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 16:35:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:35:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Forgot Password" time="61.886" classname="Test Cases/Denna/User - Forgot Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-26 16:35:12 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-26 16:35:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 16:35:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:35:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 16:35:15 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:35:23 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 16:35:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:35:26 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Forgot Password/button login")): Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:35:28 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:7335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c3a7f8bf65a155ee920b9bf0f9cef93c
+
+2020-05-26 16:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button login' is clicked on
+
+2020-05-26 16:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Forgot Password")): Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Forgot Password' is clicked on
+
+2020-05-26 16:35:29 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Forgot Password/input NPK npkUser"), NPK): Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:35:30 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User - Forgot Password/input NPK npkUser'
+
+2020-05-26 16:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Forgot Password/button Kirim OTP")): Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Forgot Password/button Kirim OTP' is clicked on
+
+2020-05-26 16:35:30 - [TEST_STEP][FAILED] - switch (Kondisi): Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:83)
+	... 13 more
+)
+
+2020-05-26 16:35:30 - [TEST_STEP][FAILED] - case "pass":: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:83)
+	... 13 more
+)
+
+2020-05-26 16:35:30 - [TEST_STEP][FAILED] - setText(findTestObject("Denna/User - Forgot Password/input Icon newPassword"), newPassword): Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:83)
+	... 13 more
+)
+
+2020-05-26 16:36:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='newPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-26 16:36:14 - [MESSAGE][FAILED] - Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1589351843762.run(Script1589351843762.groovy:83)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_162713\\Denna\\User-Forgot Password\\20200526_162713\\1590485774028.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-26 16:35:12 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Password2' of object 'Object Repository/Denna/User - Forgot Password/input Icon newPassword'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/User - Forgot Password/input Icon newPassword' located by 'By.xpath: //input[@name='newPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 16:27:20 - [TEST_SUITE][FAILED] - User-Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-26 16:27:20 - [TEST_SUITE][FAILED] - User-Forgot Password: Test Cases/Denna/User - Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at User - Forgot Password.run(User - Forgot Password:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590485233027.run(TempTestSuite1590485233027.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User - Forgot Password/label password must be at least 6 characters and contain uppercase lowercase letters and numbers' located by 'By.xpath: //label[@name='validationErrorMessage']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

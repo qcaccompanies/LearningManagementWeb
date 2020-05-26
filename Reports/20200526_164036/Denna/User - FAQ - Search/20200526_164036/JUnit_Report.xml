@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - FAQ - Search" time="95.16" tests="2" failures="0" errors="0">
+   <testsuite name="User - FAQ - Search" tests="2" failures="0" errors="0" time="95.16" timestamp="2020-05-26 16:40:44" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User - FAQ - Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_164036\\Denna\\User - FAQ - Search\\20200526_164036"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_164036\\Denna\\User - FAQ - Search\\20200526_164036\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="7740065718369a67d7feddc008021a46"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - FAQ - Search" time="51.59" classname="Test Cases/Denna/User - FAQ - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:40:44 - [TEST_CASE][PASSED] - Test Cases/Denna/User - FAQ - Search: Test Cases/Denna/User - FAQ - Search
+
+2020-05-26 16:40:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 16:40:45 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 16:40:45 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 16:40:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:40:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 16:41:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 16:41:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:41:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 16:41:10 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:7723}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 80430d43030a0d8aea0404eea588497f
+
+2020-05-26 16:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 16:41:11 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 16:41:12 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 16:41:12 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 16:41:12 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 16:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 16:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 16:41:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 16:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 16:41:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 16:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button menu My Learning")): Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 16:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 16:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button FAQ")): Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 16:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 16:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - FAQ - Search/input search"), search): Text 'qwerty' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 16:41:30 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 16:41:30 - [TEST_STEP][PASSED] - if (keterangan == "notFound"): Object 'Object Repository/Denna/User - FAQ - Search/label No data found' is visible
+
+2020-05-26 16:41:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - FAQ - Search/label No data found")): Object 'Object Repository/Denna/User - FAQ - Search/label No data found' is visible
+
+2020-05-26 16:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - FAQ - Search/label No data found' is visible
+
+2020-05-26 16:41:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:41:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - FAQ - Search" time="43.056" classname="Test Cases/Denna/User - FAQ - Search" status="PASSED">
+         <system-out><![CDATA[2020-05-26 16:41:36 - [TEST_CASE][PASSED] - Test Cases/Denna/User - FAQ - Search: Test Cases/Denna/User - FAQ - Search
+
+2020-05-26 16:41:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 16:41:36 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 16:41:36 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 16:41:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 16:41:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 16:41:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 16:41:51 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 16:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 16:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 16:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 16:41:56 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 16:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 16:41:56 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 16:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 16:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 16:41:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 16:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 16:42:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 16:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button menu My Learning")): Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 16:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button menu My Learning' is clicked on
+
+2020-05-26 16:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - FAQ - Search/button FAQ")): Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 16:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - FAQ - Search/button FAQ' is clicked on
+
+2020-05-26 16:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - FAQ - Search/input search"), search): Text 'Apa itu modul General Knowledge ?' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 16:42:15 - [MESSAGE][PASSED] - Text 'Apa itu modul General Knowledge ?' is set on object 'Object Repository/Denna/User - FAQ - Search/input search'
+
+2020-05-26 16:42:15 - [TEST_STEP][PASSED] - if (keterangan == "notFound"): null
+
+2020-05-26 16:42:15 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Denna/User - FAQ - Search/content2' is visible
+
+2020-05-26 16:42:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - FAQ - Search/content2")): Object 'Object Repository/Denna/User - FAQ - Search/content2' is visible
+
+2020-05-26 16:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - FAQ - Search/content2' is visible
+
+2020-05-26 16:42:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 16:42:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 16:40:44 - [TEST_SUITE][PASSED] - User - FAQ - Search: Test Cases/Denna/User - FAQ - Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

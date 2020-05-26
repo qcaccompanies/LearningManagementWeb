@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - Ganti Password" time="336.448" tests="7" failures="1" errors="0">
+   <testsuite name="User - Ganti Password" tests="7" failures="1" errors="0" time="336.448" timestamp="2020-05-26 17:32:13" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User - Ganti Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_173207\\Denna\\User - Ganti Password\\20200526_173207"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_173207\\Denna\\User - Ganti Password\\20200526_173207\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_173207\\Denna\\User - Ganti Password\\20200526_173207\\1590489468301.png, C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_173207\\Denna\\User - Ganti Password\\20200526_173207\\1590489468808.png"/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="664b6746ef15f88cb50f91f1fb6a0861"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="45.91" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:32:14 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:32:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:32:15 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:32:15 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:32:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:32:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 17:32:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:32:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:32:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:32:33 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:32:34 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:32:34 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:32:34 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:32:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:32:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:32:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:32:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password4' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:32:57 - [MESSAGE][PASSED] - Text 'Password4' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:32:57 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:32:58 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:32:58 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:32:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:32:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="42.711" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:32:59 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:33:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:33:00 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:33:00 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:33:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:33:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:33:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:33:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:33:17 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:33:17 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:33:17 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:33:18 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:33:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:33:26 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:33:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:33:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:33:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:33:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password5' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:33:40 - [MESSAGE][PASSED] - Text 'Password5' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:33:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:33:40 - [MESSAGE][PASSED] - Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:33:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:33:41 - [MESSAGE][PASSED] - Text '!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:33:41 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:33:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:33:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="44.057" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:33:42 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:33:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:33:42 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:33:42 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:33:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:33:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:33:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:33:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:34:00 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:34:00 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:34:00 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:34:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:34:10 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:34:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:34:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:34:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password6' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:34:24 - [MESSAGE][PASSED] - Text 'Password6' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:34:24 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:34:25 - [MESSAGE][PASSED] - Text 'Paaaaaa!@#$%^&*()_' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers")): Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers' is visible
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:34:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:34:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="40.65" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:34:26 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:34:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:34:27 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:34:27 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:34:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:34:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:34:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:34:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:34:42 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:34:43 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:34:43 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:34:43 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:34:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:34:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:34:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:34:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:35:05 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:35:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:35:05 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:35:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text 'Password4' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:35:05 - [MESSAGE][PASSED] - Text 'Password4' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - else if (keterangan == "notMatch"): Object 'Object Repository/Denna/User - Ganti Password/label Passwords are not match' is visible
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label Passwords are not match")): Object 'Object Repository/Denna/User - Ganti Password/label Passwords are not match' is visible
+
+2020-05-26 17:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label Passwords are not match' is visible
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:35:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:35:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="49.987" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:35:07 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:35:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:35:07 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:35:07 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:35:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:35:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:35:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:35:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:35:22 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 975c5ca4110fa912c97c13070558e10a
+
+2020-05-26 17:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:35:23 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:35:24 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:35:24 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:35:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:35:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:35:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:35:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:35:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:35:50 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:35:51 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:35:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:35:51 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "notMatch"): null
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - else if (keterangan == "cancel"): Object: 'Object Repository/Denna/User - Ganti Password/button Batal' is clicked on
+
+2020-05-26 17:35:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:35:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Ganti Password/button Batal")): Object: 'Object Repository/Denna/User - Ganti Password/button Batal' is clicked on
+
+2020-05-26 17:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Batal' is clicked on
+
+2020-05-26 17:35:56 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:35:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:35:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="48.673" classname="Test Cases/Denna/User - Ganti Password" status="PASSED">
+         <system-out><![CDATA[2020-05-26 17:35:57 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password
+
+2020-05-26 17:35:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:35:57 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 17:35:57 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:35:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:36:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:36:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:36:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:36:13 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:36:13 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:36:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:36:21 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 17:36:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 17:36:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-26 17:36:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-26 17:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/profile")): Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/profile' is clicked on
+
+2020-05-26 17:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Ganti Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Ganti Password' is clicked on
+
+2020-05-26 17:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input Current Password"), currentPassword): Text 'Password2' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:36:35 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User - Ganti Password/input Current Password'
+
+2020-05-26 17:36:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input newPassword"), newPassword): Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:36:35 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input newPassword'
+
+2020-05-26 17:36:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input confirmNewPassword"), confirmPassword): Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:36:36 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/User - Ganti Password/input confirmNewPassword'
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Submit new Password")): Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Submit new Password' is clicked on
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - if (keterangan == "emptyAll"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "emptyCurrentPassword"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "emptyNewPassword"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "emptyConfirmPassword"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "invalidCurrentPassword"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "invalidNewPassword"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "notMatch"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "cancel"): null
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - else if (keterangan == "wrongOTP"): Object 'Object Repository/Denna/User - Ganti Password/label_Account Confirmation' is visible
+
+2020-05-26 17:36:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input_Kode OTP_text1"), otp1): Text '9' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text1'
+
+2020-05-26 17:36:40 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text1'
+
+2020-05-26 17:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input_Kode OTP_text2"), otp2): Text '6' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text2'
+
+2020-05-26 17:36:41 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text2'
+
+2020-05-26 17:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input_Kode OTP_text3"), otp3): Text '8' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text3'
+
+2020-05-26 17:36:41 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text3'
+
+2020-05-26 17:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input_Kode OTP_text4"), otp4): Text '5' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text4'
+
+2020-05-26 17:36:42 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text4'
+
+2020-05-26 17:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input_Kode OTP_text5"), otp5): Text '2' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text5'
+
+2020-05-26 17:36:42 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text5'
+
+2020-05-26 17:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Ganti Password/input_Kode OTP_text6"), otp6): Text '6' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text6'
+
+2020-05-26 17:36:43 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Denna/User - Ganti Password/input_Kode OTP_text6'
+
+2020-05-26 17:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Ganti Password/button Konfirmasi")): Object: 'Object Repository/Denna/User - Ganti Password/button Konfirmasi' is clicked on
+
+2020-05-26 17:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Ganti Password/button Konfirmasi' is clicked on
+
+2020-05-26 17:36:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Ganti Password/label_Account Confirmation")): Object 'Object Repository/Denna/User - Ganti Password/label_Account Confirmation' is visible
+
+2020-05-26 17:36:44 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Ganti Password/label_Account Confirmation' is visible
+
+2020-05-26 17:36:44 - [TEST_STEP][PASSED] - break: null
+
+2020-05-26 17:36:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 17:36:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Ganti Password" time="62.783" classname="Test Cases/Denna/User - Ganti Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/User - Ganti Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2020-05-26 17:36:46 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-05-26 17:36:46 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Denna/Login(User)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-26 17:36:46 - [TEST_CASE][FAILED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-05-26 17:36:46 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:36:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 17:36:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main'
+
+2020-05-26 17:36:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 17:37:00 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 17:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 17:37:02 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:37:03 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 17:37:03 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:37:03 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 17:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 17:37:04 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-26 17:37:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type='undefined']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-26 17:37:48 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_173207\\Denna\\User - Ganti Password\\20200526_173207\\1590489468301.png]]
+
+2020-05-26 17:37:49 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_173207\\Denna\\User - Ganti Password\\20200526_173207\\1590489468808.png]]
+
+2020-05-26 17:37:49 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Denna/Login(User)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-26 17:36:46 - [TEST_CASE][FAILED] - Test Cases/Denna/User - Ganti Password: Test Cases/Denna/User - Ganti Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 17:32:13 - [TEST_SUITE][FAILED] - User - Ganti Password: Test Cases/Denna/User - Ganti Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2020-05-26 17:32:13 - [TEST_SUITE][FAILED] - User - Ganti Password: Test Cases/Denna/User - Ganti Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Denna/Login(User)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at User - Ganti Password.run(User - Ganti Password:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590489127596.run(TempTestSuite1590489127596.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Login(User).run(Login(User):30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' located by 'By.xpath: //button[@type='undefined']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>
