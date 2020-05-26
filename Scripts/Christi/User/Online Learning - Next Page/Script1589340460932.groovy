@@ -30,9 +30,11 @@ WebUI.scrollToElement(findTestObject('Object Repository/Christi/Page_Job Functio
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Christi/Page_Job Functions/a_Next'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Job Functions/div_page_navigation'), 0)
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Christi/Page_Job Functions/a_Next'))
 
 WebUI.verifyElementClickable(findTestObject('Christi/Page_Job Functions/a_Previous'))
 

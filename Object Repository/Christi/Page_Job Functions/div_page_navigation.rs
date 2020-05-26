@@ -6,11 +6,15 @@
    <elementGuidId>4632a53a-c0e8-44d1-9417-8ec56234b2e8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'panel-footer' and (text() = 'FirstPrevious / 3NextLast' or . = 'FirstPrevious / 3NextLast')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-onlinelearning/div/main/div/div/div/div/div[2]/div/div[4]/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
