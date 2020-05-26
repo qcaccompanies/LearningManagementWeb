@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Admin_Manage FAQ - New FAQ dan Next Page</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e3b0b5f7-32e1-4c09-9ec1-528282de5a18</testSuiteGuid>
+   <testCaseLink>
+      <guid>7998dc7c-0303-41fd-9f26-31c9f153d804</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Alda/Admin - Manage FAQ/New FAQ</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1dfb40c1-2a80-4212-90b7-e84546850a87</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Alda/Admin_Manage FAQ - New FAQ</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_question</value>
+         <variableId>a9f19caf-2ab2-4b51-b99f-4ec1320047b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_answer</value>
+         <variableId>82be7e74-35db-4022-94d2-c4ae7cff152b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>optional_gambar</value>
+         <variableId>758b7666-1e13-4ce9-8f73-5ebe1b648cfd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_gambar</value>
+         <variableId>4708ed46-dc36-4557-afe9-b6abdca5b337</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_image</value>
+         <variableId>8829a19b-6ed3-48bd-8d0d-99d401639cc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>optional_tag</value>
+         <variableId>d468e69f-b791-414f-aa88-c87791b0accb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_tag</value>
+         <variableId>633b56a3-71c0-4818-a891-01bd2c04cba3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1dfb40c1-2a80-4212-90b7-e84546850a87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_output</value>
+         <variableId>49dca003-0959-4b4c-92de-4c477e7eee6d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43e1598d-6520-4cca-9960-022ebab500ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Alda/Admin - Manage FAQ/Next Page</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

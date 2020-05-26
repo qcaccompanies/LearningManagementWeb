@@ -11,13 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>41716ab6-f7c1-408b-869c-81141ee793f7</testSuiteGuid>
    <testCaseLink>
-      <guid>02c6685d-ebcd-47ec-9c2c-6fac2b889617</guid>
+      <guid>d48c1193-23ad-4f13-b42f-1924b4680122</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Alda/Admin - Manage FAQ/Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>abd0b597-2616-4165-be54-d1e79ed77ad6</id>
+         <id>9f1fa1b6-2a8b-4186-a1b8-802e5fd27e0f</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,16 +25,16 @@
          <testDataId>Data Files/Alda/Admin_Manage FAQ - Search</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>abd0b597-2616-4165-be54-d1e79ed77ad6</testDataLinkId>
+         <testDataLinkId>9f1fa1b6-2a8b-4186-a1b8-802e5fd27e0f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_search</value>
-         <variableId>a71546f3-e5e6-4509-88ba-48395ab1b1fc</variableId>
+         <variableId>664f1113-4871-45c4-b719-51206103c637</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>abd0b597-2616-4165-be54-d1e79ed77ad6</testDataLinkId>
+         <testDataLinkId>9f1fa1b6-2a8b-4186-a1b8-802e5fd27e0f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected_output</value>
-         <variableId>8d6f0571-0992-4431-8174-1538a0e9f4c5</variableId>
+         <variableId>87902323-72f8-40f3-b0cc-4278cfee4990</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
