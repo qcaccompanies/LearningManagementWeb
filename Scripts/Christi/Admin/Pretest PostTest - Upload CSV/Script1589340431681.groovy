@@ -19,9 +19,9 @@ WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '1
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/span_Manage Test'), 0)
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Manage Test'), 0)
 
-WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Manage Test'))
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/button_Manage Test'))
 
 WebUI.delay(3)
 
@@ -33,7 +33,17 @@ WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Test/label_Manage
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('Christi/Page_Manage Test/input_Clear button_files'), 'C:\\Users\\ASUS\\git\\LearningManagementWeb\\konten lms\\Pre-Test_LEMON.csv')
+WebUI.uploadFile(findTestObject('Christi/Page_Manage Test/input_Clear button_files'), file_upload)
 
 WebUI.delay(3)
+
+if (expected == 'pass') {
+    WebUI.getAlertText()
+} else if (expected == 'fail') {
+    if (status == 'error, expected file csv') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Test/div_Expected file extension is csv'), 0)
+    } else if (status == 'Some header missing or invalid') {
+        WebUI.acceptAlert()
+    }
+}
 

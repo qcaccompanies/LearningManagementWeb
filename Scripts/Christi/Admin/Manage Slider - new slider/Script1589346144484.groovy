@@ -28,8 +28,6 @@ WebUI.click(findTestObject('Christi/Page_Manage Sliders/button_New Slider'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('Christi/Page_Manage Sliders/label_Add Slider'))
-
 WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtS_4aaddd'), 
     nama_slider)
 
@@ -39,35 +37,45 @@ WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/inpu
 
 WebUI.delay(3)
 
-if (upload == 'yes') {
-    WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
+if (expected == 'pass') {
+    if (upload == 'yes') {
+        WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
 
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 0)
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 0)
+    }
+    
+    WebUI.delay(3)
+
+    WebUI.verifyElementClickable(findTestObject('Christi/Page_Manage Sliders/span_Confirm'))
+
+    WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Confirm'))
 
     WebUI.delay(3)
+
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/button_New Slider'), 0)
+
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider]), 0)
+} else if (expected == 'fail') {
+    if (upload == 'yes') {
+        WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
+
+        if (max_image_size == 'yes') {
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                1)
+        } else if (img_file_invalid == 'yes') {
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                1)
+        }
+    }
+    
+    WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Confirm'))
+
+    WebUI.delay(3)
+
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Add Slider'), 0)
 }
-
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/span_Confirm'), 0)
-
-WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/span_Confirm'))
 
 WebUI.delay(3)
-
-if (expected == 'pass') {
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Add Slider', [('text') : nama_slider]), 
-        0)
-
-    WebUI.delay(3)
-} else if (expected == 'fail') {
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/span_Data belum lengkap'), 0)
-
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/p_Mohon isi kolom yang kosong atau format data yang tidak sesuai'), 
-        0)
-
-    WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_OK'))
-
-    WebUI.delay(3)
-}
 
 WebUI.closeBrowser()
 

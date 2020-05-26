@@ -6,12 +6,12 @@
    <elementGuidId>9f042714-1d2a-4b9d-87f5-6d103f1334d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/modal-container/app-page-managesliders/div/div/div/div/div[6]/div/button/span</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn-caption' and (text() = 'Update Slider' or . = 'Update Slider')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Update Slider' or . = 'Update Slider')]</value>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/modal-container/app-page-managesliders/div/div/div/div/div[6]/div/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

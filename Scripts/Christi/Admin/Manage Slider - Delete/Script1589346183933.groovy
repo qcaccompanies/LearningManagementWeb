@@ -17,9 +17,28 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '11666', ('password') : 'Password3'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider'))
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/span_Delete'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/button_YA'))
+if (expected == 'pass') {
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider]), 0)
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/span_Delete'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/button_YA'))
+} else if (expected == 'fail') {
+    WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider]), 
+        0)
+}
+
+WebUI.delay(3)
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

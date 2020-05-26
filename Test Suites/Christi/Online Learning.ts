@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>e5569c0e-dbab-4d48-8deb-81a04cdd43b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/User/Online Learning - Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>e34a8479-585f-45bb-8804-a9201527a84a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/User/Online Learning - Lihat Modul</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -79,7 +79,7 @@
    <testCaseLink>
       <guid>3d806fe1-5626-42a4-8915-3902b9248989</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/User/Online Learning - Materi Belajar</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -165,5 +165,11 @@
          <value>expected</value>
          <variableId>52296833-c964-4941-bd4c-3a7ddb627997</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c877261-08b6-4d4d-9394-614c9618cce9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Christi/User/Online Learning - Next Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

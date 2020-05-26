@@ -6,11 +6,15 @@
    <elementGuidId>974c0adf-6fb4-45f1-9ad9-5250cf3f559d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'txtEditSliderName' and @placeholder = 'Enter text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='txtEditSliderName']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

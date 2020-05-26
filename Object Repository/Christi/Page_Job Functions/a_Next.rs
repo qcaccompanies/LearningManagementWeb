@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//a[@name='next']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0);' and @name = 'next' and @title = 'Next' and (text() = 'Next' or . = 'Next')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

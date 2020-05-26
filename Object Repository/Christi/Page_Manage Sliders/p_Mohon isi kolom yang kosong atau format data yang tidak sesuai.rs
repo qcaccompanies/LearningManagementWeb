@@ -6,11 +6,15 @@
    <elementGuidId>eb2fbc72-7e3d-459f-9481-39c2496a4d12</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'app-dialog-message text-error' and (text() = 'Mohon isi kolom yang kosong atau format data yang tidak sesuai !' or . = 'Mohon isi kolom yang kosong atau format data yang tidak sesuai !')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//body[@id='ng-app']/modal-container[2]/app-page-managesliders/div/div/div[2]/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>p</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

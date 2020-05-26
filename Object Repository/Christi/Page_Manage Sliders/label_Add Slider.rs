@@ -6,12 +6,12 @@
    <elementGuidId>a3bfc620-28f7-4e87-8275-91f18296453b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@name='label24']</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'app-label labelNewSlider' and (text() = 'Add Slider' or . = 'Add Slider')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'label24' and (text() = 'Add Slider' or . = 'Add Slider')]</value>
+         <key>XPATH</key>
+         <value>//label[@name='label24']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>Add Slider</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -73,7 +73,7 @@
       <value>widget-id320</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

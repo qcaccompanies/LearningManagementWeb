@@ -6,12 +6,12 @@
    <elementGuidId>eab80693-f9ea-44e2-a748-2bf8e6f1a9be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/modal-container[2]/app-page-managesliders/div/div/div/h4/span</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'dialog-heading' and (text() = 'Data belum lengkap' or . = 'Data belum lengkap')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Data belum lengkap' or . = 'Data belum lengkap')]</value>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/modal-container[2]/app-page-managesliders/div/div/div/h4/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

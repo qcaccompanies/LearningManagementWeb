@@ -17,8 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main')
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Main/span_login'))

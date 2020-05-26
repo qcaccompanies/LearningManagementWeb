@@ -21,5 +21,32 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/Admin/Quiz - Upload CSV</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>985e3921-5c02-4b52-8e70-48316b244cad</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Christi/upload quiz</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>985e3921-5c02-4b52-8e70-48316b244cad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status</value>
+         <variableId>7747bbe1-449f-4323-b210-acd91869d1ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>985e3921-5c02-4b52-8e70-48316b244cad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>file upload</value>
+         <variableId>e582b4af-6753-452c-957b-de99540f4b42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>985e3921-5c02-4b52-8e70-48316b244cad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>413cd19b-3ad3-45ad-a439-3110412f1c96</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

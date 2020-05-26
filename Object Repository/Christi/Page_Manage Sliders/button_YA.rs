@@ -6,15 +6,15 @@
    <elementGuidId>3e4a17f5-8fc6-4912-b16e-9257563e48cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='undefined'])[3]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'undefined' and (text() = 'YA' or . = 'YA')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='undefined'])[3]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>widget-id</name>
       <type>Main</type>
-      <value>widget-id442</value>
+      <value>widget-id243</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
