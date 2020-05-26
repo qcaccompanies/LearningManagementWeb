@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - Minta Dukungan" time="117.859" tests="2" failures="0" errors="0">
+   <testsuite name="User - Minta Dukungan" tests="2" failures="0" errors="0" time="117.859" timestamp="2020-05-26 14:06:56" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/User - Minta Dukungan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_140648\\Denna\\User - Minta Dukungan\\20200526_140648"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200526_140648\\Denna\\User - Minta Dukungan\\20200526_140648\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="7c0f72463960d0ecb65c53783a7f3baa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Minta Dukungan" time="50.107" classname="Test Cases/Denna/User - Minta Dukungan" status="PASSED">
+         <system-out><![CDATA[2020-05-26 14:06:56 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Minta Dukungan: Test Cases/Denna/User - Minta Dukungan
+
+2020-05-26 14:06:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 14:06:57 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 14:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 14:06:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 14:06:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 14:07:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 14:07:03 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 14:07:13 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 14:07:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 14:07:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 14:07:15 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 14:07:16 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cb5e3da40de161b24e113c1f5602c82e
+
+2020-05-26 14:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 14:07:17 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 14:07:18 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 14:07:18 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 14:07:18 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 14:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 14:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 14:07:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 14:07:38 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 14:07:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 14:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Minta Dukungan/profile")): Object: 'Object Repository/Denna/User - Minta Dukungan/profile' is clicked on
+
+2020-05-26 14:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Minta Dukungan/profile' is clicked on
+
+2020-05-26 14:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan")): Object: 'Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan' is clicked on
+
+2020-05-26 14:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan' is clicked on
+
+2020-05-26 14:07:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE"), issue): Text '' is set on object 'Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE'
+
+2020-05-26 14:07:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE'
+
+2020-05-26 14:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Minta Dukungan/button Kirim")): Object: 'Object Repository/Denna/User - Minta Dukungan/button Kirim' is clicked on
+
+2020-05-26 14:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Minta Dukungan/button Kirim' is clicked on
+
+2020-05-26 14:07:45 - [TEST_STEP][PASSED] - if (keterangan == "emptyIssue"): Object 'Object Repository/Denna/User - Minta Dukungan/label Inputan tidak boleh kosong' is visible
+
+2020-05-26 14:07:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Minta Dukungan/label Inputan tidak boleh kosong")): Object 'Object Repository/Denna/User - Minta Dukungan/label Inputan tidak boleh kosong' is visible
+
+2020-05-26 14:07:46 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Minta Dukungan/label Inputan tidak boleh kosong' is visible
+
+2020-05-26 14:07:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 14:07:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Minta Dukungan" time="67.117" classname="Test Cases/Denna/User - Minta Dukungan" status="PASSED">
+         <system-out><![CDATA[2020-05-26 14:07:47 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Minta Dukungan: Test Cases/Denna/User - Minta Dukungan
+
+2020-05-26 14:07:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 14:07:47 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-05-26 14:07:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-26 14:07:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 14:07:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-26 14:07:50 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 14:08:13 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main' successfully
+
+2020-05-26 14:08:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 14:08:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 14:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 14:08:20 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7c0f72463960d0ecb65c53783a7f3baa
+
+2020-05-26 14:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-05-26 14:08:21 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "14426"): Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 14:08:22 - [MESSAGE][PASSED] - Text '14426' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-05-26 14:08:22 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "Password2"): Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 14:08:22 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-05-26 14:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 14:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-05-26 14:08:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 14:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-05-26 14:08:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-05-26 14:08:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Minta Dukungan/profile")): Object: 'Object Repository/Denna/User - Minta Dukungan/profile' is clicked on
+
+2020-05-26 14:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Minta Dukungan/profile' is clicked on
+
+2020-05-26 14:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan")): Object: 'Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan' is clicked on
+
+2020-05-26 14:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan' is clicked on
+
+2020-05-26 14:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE"), issue): Text 'issue testing' is set on object 'Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE'
+
+2020-05-26 14:08:51 - [MESSAGE][PASSED] - Text 'issue testing' is set on object 'Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE'
+
+2020-05-26 14:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Minta Dukungan/button Kirim")): Object: 'Object Repository/Denna/User - Minta Dukungan/button Kirim' is clicked on
+
+2020-05-26 14:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Minta Dukungan/button Kirim' is clicked on
+
+2020-05-26 14:08:52 - [TEST_STEP][PASSED] - if (keterangan == "emptyIssue"): null
+
+2020-05-26 14:08:52 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Denna/User - Minta Dukungan/label Permintaan Dukungan Telah Dikirim' is visible
+
+2020-05-26 14:08:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Denna/User - Minta Dukungan/label Permintaan Dukungan Telah Dikirim")): Object 'Object Repository/Denna/User - Minta Dukungan/label Permintaan Dukungan Telah Dikirim' is visible
+
+2020-05-26 14:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Minta Dukungan/label Permintaan Dukungan Telah Dikirim' is visible
+
+2020-05-26 14:08:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-26 14:08:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 14:06:56 - [TEST_SUITE][PASSED] - User - Minta Dukungan: Test Cases/Denna/User - Minta Dukungan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
