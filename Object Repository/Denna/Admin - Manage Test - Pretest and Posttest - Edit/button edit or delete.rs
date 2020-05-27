@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Contoh perilaku negosiasi yang terbaik da_9077c4</name>
+   <name>button edit or delete</name>
    <tag></tag>
-   <elementGuidId>616597ca-ccec-4740-bf19-bb008f6e4bc2</elementGuidId>
+   <elementGuidId>c1d06a49-f0b2-4dfa-bcc0-1a300b7942e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contoh perilaku negosiasi yang terbaik dari seorang Sales Officer adalah'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='apaa yaaa'])[1]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEOP Sales New / Used Car'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COBA AH'])[1]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
