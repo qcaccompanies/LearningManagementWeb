@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Delete" time="89.051" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Delete" tests="1" failures="0" errors="0" time="89.051" timestamp="2020-05-27 13:59:13" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Delete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200527_135906\\Denna\\Admin - Manage Test - Pretest and Posttest - Delete\\20200527_135906"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200527_135906\\Denna\\Admin - Manage Test - Pretest and Posttest - Delete\\20200527_135906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="41a63054457d064f0f97fceddff83945"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete" time="88.599" classname="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete" status="PASSED">
+         <system-out><![CDATA[2020-05-27 13:59:14 - [TEST_CASE][PASSED] - Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete
+
+2020-05-27 13:59:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-27 13:59:14 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-27 13:59:15 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-27 13:59:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 13:59:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-27 13:59:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-27 13:59:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 13:59:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 13:59:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-27 13:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-27 13:59:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-27 13:59:35 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-27 13:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-27 13:59:35 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-27 13:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-27 13:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-27 13:59:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-27 13:59:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 13:59:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 13:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test' is clicked on
+
+2020-05-27 14:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test' is clicked on
+
+2020-05-27 14:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test' is clicked on
+
+2020-05-27 14:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test' is clicked on
+
+2020-05-27 14:00:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-27 14:00:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-27 14:00:17 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), searchID): Text 'qwerty' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:00:33 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:00:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 14:00:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 14:00:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:00:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:00:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-27 14:00:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-27 14:00:41 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-27 14:00:41 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-27 14:00:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/div_No data found")): Object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/div_No data found' is visible
+
+2020-05-27 14:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/div_No data found' is visible
+
+2020-05-27 14:00:42 - [TEST_STEP][PASSED] - break: null
+
+2020-05-27 14:00:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-27 14:00:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-27 13:59:13 - [TEST_SUITE][PASSED] - Admin - Manage Test - Pretest and Posttest - Delete: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
