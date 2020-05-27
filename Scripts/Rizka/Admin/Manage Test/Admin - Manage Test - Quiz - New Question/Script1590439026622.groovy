@@ -85,6 +85,6 @@ if (condition == 'passed') {
     WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali', 
             [('text') : soalQuestion]), FailureHandling.STOP_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/alertNoDataFound'), 0)
+    WebUI.verifyElementNotClickable(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
 }
 

@@ -130,5 +130,7 @@ if (condition == 'passed') {
 
         WebUI.verifyMatch(uraian, soalQuestion, false)
     }
+} else {
+    WebUI.verifyElementNotClickable(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnSubmit'))
 }
 
