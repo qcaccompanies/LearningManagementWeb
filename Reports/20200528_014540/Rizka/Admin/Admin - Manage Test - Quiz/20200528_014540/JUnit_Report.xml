@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="177.662" tests="1" failures="1" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="1" failures="1" errors="0" time="177.662" timestamp="2020-05-28 01:45:58" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_014540\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_014540"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_014540\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_014540\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_014540\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_014540\\1590605330850.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_014540\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_014540\\1590605331560.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="350971c82a62b4dfdd1a2ce1580d1624"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="171.164" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-28 01:46:00 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-28 01:46:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 01:46:03 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-05-28 01:46:04 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 01:46:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 01:46:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 01:46:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 01:46:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 01:46:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 01:46:52 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 01:47:07 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 01:47:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 01:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 01:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 01:47:10 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 01:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 01:47:12 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 01:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 01:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 01:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 01:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 01:47:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 01:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 01:47:15 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 01:47:30 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 01:47:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 01:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 01:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 01:47:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 01:47:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 01:47:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 01:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 01:47:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 01:47:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 01:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 01:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 01:48:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 01:48:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 01:48:22 - [TEST_STEP][PASSED] - if (tipeSoal != ""): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 01:48:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal"), tipeSoal, false): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 01:48:27 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 01:48:27 - [TEST_STEP][PASSED] - if (jobFunction != ""): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 01:48:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 01:48:35 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 01:48:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 01:48:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 01:48:38 - [TEST_STEP][PASSED] - if (jobPosition != ""): All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 01:48:38 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2"), jobPosition, false): All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 01:48:39 - [MESSAGE][PASSED] - All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 01:48:39 - [TEST_STEP][PASSED] - if (module != ""): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 01:48:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul"), module, false): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 01:48:40 - [MESSAGE][PASSED] - All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 01:48:40 - [TEST_STEP][PASSED] - if (subModule != ""): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 01:48:40 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul"), subModule, false): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 01:48:43 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 01:48:43 - [TEST_STEP][PASSED] - if (technicalCompetence != ""): Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 01:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 01:48:46 - [MESSAGE][PASSED] - Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 01:48:46 - [TEST_STEP][PASSED] - if (levelCompetence != ""): Text '12' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'
+
+2020-05-28 01:48:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence"), levelCompetence, STOP_ON_FAILURE): Text '12' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'
+
+2020-05-28 01:48:47 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'
+
+2020-05-28 01:48:47 - [TEST_STEP][PASSED] - if (soalQuestion != ""): Text 'New Question (12)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 01:48:47 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion"), soalQuestion): Text 'New Question (12)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 01:48:49 - [MESSAGE][PASSED] - Text 'New Question (12)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 01:48:49 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): null
+
+2020-05-28 01:48:49 - [TEST_STEP][PASSED] - else if (tipeSoal == "Benar / Salah"): All options with label '' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 01:48:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah"), kunciJawaban, false): All options with label '' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 01:48:50 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 01:48:50 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-28 01:48:50 - [TEST_STEP][FAILED] - else: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-28 01:48:50 - [TEST_STEP][FAILED] - verifyElementNotClickable(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit")): Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-28 01:48:51 - [MESSAGE][FAILED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_014540\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_014540\\1590605330850.png]]
+
+2020-05-28 01:48:52 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_014540\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_014540\\1590605331560.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-28 01:46:00 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 01:45:58 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-28 01:45:58 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$5.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605140803.run(TempTestSuite1590605140803.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

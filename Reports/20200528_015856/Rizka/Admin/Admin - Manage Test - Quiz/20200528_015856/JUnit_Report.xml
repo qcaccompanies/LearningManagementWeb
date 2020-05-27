@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="888.582" tests="5" failures="2" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="5" failures="2" errors="0" time="888.582" timestamp="2020-05-28 01:59:11" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_015856\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_015856"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_015856\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_015856\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_015856\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_015856\\1590606508633.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_015856\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_015856\\1590606836376.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="5570406f23db3c9248d502e5745a8960"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="218.177" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-28 01:59:14 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question
+
+2020-05-28 01:59:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 01:59:17 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-05-28 01:59:18 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 01:59:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 01:59:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 02:00:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:00:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 02:00:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 02:00:13 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:00:28 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:00:30 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:00:31 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:00:32 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:00:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:00:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:00:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:00:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:00:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:00:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:01:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:01:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:01:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:01:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:01:43 - [TEST_STEP][PASSED] - if (tipeSoal != ""): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:01:43 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal"), tipeSoal, false): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:01:47 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:01:47 - [TEST_STEP][PASSED] - if (jobFunction != ""): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 02:01:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 02:01:54 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 02:01:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:01:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:01:57 - [TEST_STEP][PASSED] - if (jobPosition != ""): All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 02:01:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2"), jobPosition, false): All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 02:01:58 - [MESSAGE][PASSED] - All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 02:01:58 - [TEST_STEP][PASSED] - if (module != ""): All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:01:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul"), module, false): All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:01:59 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:01:59 - [TEST_STEP][PASSED] - if (subModule != ""): All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:01:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul"), subModule, false): All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:02:02 - [MESSAGE][PASSED] - All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:02:02 - [TEST_STEP][PASSED] - if (technicalCompetence != ""): null
+
+2020-05-28 02:02:02 - [TEST_STEP][PASSED] - if (levelCompetence != ""): null
+
+2020-05-28 02:02:02 - [TEST_STEP][PASSED] - if (soalQuestion != ""): Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion"), soalQuestion): Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:02:05 - [MESSAGE][PASSED] - Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:02:05 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan' 
+
+2020-05-28 02:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerA"), jawabanA): Text 'Mobil' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerA'
+
+2020-05-28 02:02:06 - [MESSAGE][PASSED] - Text 'Mobil' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerA'
+
+2020-05-28 02:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerB"), jawabanB): Text 'Motor' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerB'
+
+2020-05-28 02:02:07 - [MESSAGE][PASSED] - Text 'Motor' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerB'
+
+2020-05-28 02:02:07 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerC"), jawabanC): Text 'Truk' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerC'
+
+2020-05-28 02:02:08 - [MESSAGE][PASSED] - Text 'Truk' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerC'
+
+2020-05-28 02:02:08 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerD"), jawabanD): Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerD'
+
+2020-05-28 02:02:09 - [MESSAGE][PASSED] - Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerD'
+
+2020-05-28 02:02:09 - [TEST_STEP][PASSED] - if (kunciJawabanPilgan != ""): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan' 
+
+2020-05-28 02:02:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan"), kunciJawabanPilgan, false): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan' 
+
+2020-05-28 02:02:10 - [MESSAGE][PASSED] - All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan' 
+
+2020-05-28 02:02:10 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-05-28 02:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-05-28 02:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-05-28 02:02:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:02:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch"), soalQuestion): Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-28 02:02:47 - [MESSAGE][PASSED] - Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-28 02:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-28 02:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-28 02:02:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:02:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:02:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali", ["text":soalQuestion]), STOP_ON_FAILURE): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-05-28 02:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="198.814" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-28 02:02:52 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question
+
+2020-05-28 02:02:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:02:52 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-05-28 02:02:52 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:02:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 02:02:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 02:03:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:03:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 02:03:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 02:03:25 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:03:40 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:03:42 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:03:43 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:03:45 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:04:00 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:04:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:04:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:04:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:04:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:04:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:04:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:04:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:04:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:04:53 - [TEST_STEP][PASSED] - if (tipeSoal != ""): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:04:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal"), tipeSoal, false): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:04:57 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:04:57 - [TEST_STEP][PASSED] - if (jobFunction != ""): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 02:04:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 02:05:04 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2' 
+
+2020-05-28 02:05:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:05:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:05:07 - [TEST_STEP][PASSED] - if (jobPosition != ""): All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 02:05:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2"), jobPosition, false): All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 02:05:08 - [MESSAGE][PASSED] - All options with label 'SALES MANAGER' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+
+2020-05-28 02:05:08 - [TEST_STEP][PASSED] - if (module != ""): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:05:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul"), module, false): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:05:08 - [MESSAGE][PASSED] - All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:05:08 - [TEST_STEP][PASSED] - if (subModule != ""): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:05:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul"), subModule, false): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:05:12 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:05:12 - [TEST_STEP][PASSED] - if (technicalCompetence != ""): Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 02:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 02:05:15 - [MESSAGE][PASSED] - Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 02:05:15 - [TEST_STEP][PASSED] - if (levelCompetence != ""): null
+
+2020-05-28 02:05:15 - [TEST_STEP][PASSED] - if (soalQuestion != ""): Text 'New Question (2)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion"), soalQuestion): Text 'New Question (2)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:05:16 - [MESSAGE][PASSED] - Text 'New Question (2)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:05:16 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): null
+
+2020-05-28 02:05:16 - [TEST_STEP][PASSED] - else if (tipeSoal == "Benar / Salah"): All options with label 'Benar' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 02:05:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah"), kunciJawaban, false): All options with label 'Benar' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 02:05:17 - [MESSAGE][PASSED] - All options with label 'Benar' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 02:05:17 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-05-28 02:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-05-28 02:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-05-28 02:05:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:05:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch"), soalQuestion): Text 'New Question (2)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-28 02:06:06 - [MESSAGE][PASSED] - Text 'New Question (2)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-28 02:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-28 02:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-28 02:06:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:06:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:06:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali", ["text":soalQuestion]), STOP_ON_FAILURE): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-05-28 02:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="137.315" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-28 02:06:11 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-28 02:06:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:06:12 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-05-28 02:06:12 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:06:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 02:06:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 02:06:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:06:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 02:06:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 02:06:48 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:07:03 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:07:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:07:04 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:07:05 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:07:05 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:07:06 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:07:08 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:07:23 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:07:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:07:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:07:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:07:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:07:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:08:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:08:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:08:15 - [TEST_STEP][PASSED] - if (tipeSoal != ""): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:08:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal"), tipeSoal, false): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:08:21 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:08:21 - [TEST_STEP][PASSED] - if (jobFunction != ""): null
+
+2020-05-28 02:08:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:08:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:08:24 - [TEST_STEP][FAILED] - if (jobPosition != ""): Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1590439026622.run(Script1590439026622.groovy:45)
+	... 13 more
+)
+
+2020-05-28 02:08:24 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2"), jobPosition, false): Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1590439026622.run(Script1590439026622.groovy:45)
+	... 13 more
+)
+
+2020-05-28 02:08:29 - [MESSAGE][FAILED] - Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Script1590439026622.run(Script1590439026622.groovy:45)
+	... 13 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_015856\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_015856\\1590606508633.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-28 02:06:11 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="200.758" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-28 02:08:29 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question
+
+2020-05-28 02:08:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:08:29 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-05-28 02:08:29 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:08:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 02:08:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 02:09:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:09:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 02:09:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 02:09:08 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:09:23 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:09:25 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:09:25 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:09:25 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:09:27 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:09:42 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:09:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' is clicked on
+
+2020-05-28 02:09:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:09:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz' is clicked on
+
+2020-05-28 02:09:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:09:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-05-28 02:10:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:10:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:10:28 - [TEST_STEP][PASSED] - if (tipeSoal != ""): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:10:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal"), tipeSoal, false): All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:10:33 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal' 
+
+2020-05-28 02:10:33 - [TEST_STEP][PASSED] - if (jobFunction != ""): null
+
+2020-05-28 02:10:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:10:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:10:36 - [TEST_STEP][PASSED] - if (jobPosition != ""): null
+
+2020-05-28 02:10:36 - [TEST_STEP][PASSED] - if (module != ""): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:10:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul"), module, false): All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:10:39 - [MESSAGE][PASSED] - All options with label 'NEOP RCCA' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul' 
+
+2020-05-28 02:10:39 - [TEST_STEP][PASSED] - if (subModule != ""): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:10:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul"), subModule, false): All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:10:43 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul' 
+
+2020-05-28 02:10:43 - [TEST_STEP][PASSED] - if (technicalCompetence != ""): Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 02:10:43 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence"), technicalCompetence, STOP_ON_FAILURE): Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 02:10:45 - [MESSAGE][PASSED] - Text 'Coba ya' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'
+
+2020-05-28 02:10:45 - [TEST_STEP][PASSED] - if (levelCompetence != ""): Text '12' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'
+
+2020-05-28 02:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence"), levelCompetence, STOP_ON_FAILURE): Text '12' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'
+
+2020-05-28 02:10:46 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'
+
+2020-05-28 02:10:46 - [TEST_STEP][PASSED] - if (soalQuestion != ""): Text 'New Question (4)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion"), soalQuestion): Text 'New Question (4)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:10:48 - [MESSAGE][PASSED] - Text 'New Question (4)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'
+
+2020-05-28 02:10:48 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): null
+
+2020-05-28 02:10:48 - [TEST_STEP][PASSED] - else if (tipeSoal == "Benar / Salah"): All options with label 'Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 02:10:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah"), kunciJawaban, false): All options with label 'Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 02:10:49 - [MESSAGE][PASSED] - All options with label 'Salah' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah' 
+
+2020-05-28 02:10:49 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-05-28 02:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-05-28 02:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-05-28 02:10:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 02:10:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 02:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch"), soalQuestion): Text 'New Question (4)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-28 02:11:46 - [MESSAGE][PASSED] - Text 'New Question (4)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-05-28 02:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-28 02:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-05-28 02:11:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 02:11:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 02:11:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali", ["text":soalQuestion]), STOP_ON_FAILURE): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-05-28 02:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="126.297" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' located by 'By.xpath: //body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[5]/div/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-28 02:11:50 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' located by 'By.xpath: //body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[5]/div/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-28 02:11:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:11:50 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-05-28 02:11:50 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:11:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 02:11:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 02:12:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 02:12:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 02:12:34 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 02:12:34 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:12:49 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 02:12:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:12:51 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 02:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:12:52 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 02:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 02:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 02:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 02:12:54 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 02:13:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 02:13:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-05-28 02:13:09 - [TEST_STEP][FAILED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest")): Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' located by 'By.xpath: //body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[5]/div/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1590439026622.run(Script1590439026622.groovy:20)
+	... 13 more
+)
+
+2020-05-28 02:13:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[5]/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-28 02:13:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' located by 'By.xpath: //body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[5]/div/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1590439026622.run(Script1590439026622.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200528_015856\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200528_015856\\1590606836376.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-28 02:11:50 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest' located by 'By.xpath: //body[@id='ng-app']/app-root/app-page-outlet/app-page-dashboardadmin/div/main/div/aside/app-partial-leftnavadmin/section/ul/li[5]/div/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 01:59:11 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-28 01:59:11 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'SALES MANAGER' of object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Quiz - New Question.run(Admin - Manage Test - Quiz - New Question:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590605936632.run(TempTestSuite1590605936632.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: SALES MANAGER
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.1.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:310)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

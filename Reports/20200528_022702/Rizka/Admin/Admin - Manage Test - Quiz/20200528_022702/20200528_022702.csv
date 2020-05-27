@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Manage Test - Quiz,Chrome 81.0.4044.138,,,2020-05-28 02:27:22,2020-05-28 02:35:20,"7m - 57,474s",FAILED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question,Chrome 81.0.4044.138,,,2020-05-28 02:27:25,2020-05-28 02:29:48,"2m - 22,650s",FAILED
+"callTestCase(findTestCase(""Rizka/Admin/AdminMainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 02:27:28,2020-05-28 02:28:43,"1m - 15,394s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest""))",Chrome 81.0.4044.138,,,2020-05-28 02:28:43,2020-05-28 02:28:44,"1,012s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:28:44,2020-05-28 02:28:49,"5,006s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz""))",Chrome 81.0.4044.138,,,2020-05-28 02:28:49,2020-05-28 02:28:50,"0,894s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:28:50,2020-05-28 02:28:55,"5,010s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion""))",Chrome 81.0.4044.138,,,2020-05-28 02:28:55,2020-05-28 02:29:29,"33,932s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:29:29,2020-05-28 02:29:34,"5,011s",PASSED
+"if (tipeSoal != """")",Chrome 81.0.4044.138,,,2020-05-28 02:29:34,2020-05-28 02:29:39,"5,168s",PASSED
+"if (jobFunction != """")",Chrome 81.0.4044.138,,,2020-05-28 02:29:39,2020-05-28 02:29:39,"0,002s",PASSED
+delay(3),Chrome 81.0.4044.138,,,2020-05-28 02:29:39,2020-05-28 02:29:42,"3,010s",PASSED
+"if (jobPosition != """")",Chrome 81.0.4044.138,,,2020-05-28 02:29:42,2020-05-28 02:29:48,"5,423s",FAILED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question,Chrome 81.0.4044.138,,,2020-05-28 02:29:49,2020-05-28 02:32:51,"3m - 1,866s",PASSED
+"callTestCase(findTestCase(""Rizka/Admin/AdminMainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 02:29:49,2020-05-28 02:30:57,"1m - 7,692s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest""))",Chrome 81.0.4044.138,,,2020-05-28 02:30:57,2020-05-28 02:30:59,"1,660s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:30:59,2020-05-28 02:31:04,"5,009s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz""))",Chrome 81.0.4044.138,,,2020-05-28 02:31:04,2020-05-28 02:31:04,"0,820s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:31:04,2020-05-28 02:31:09,"5,005s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion""))",Chrome 81.0.4044.138,,,2020-05-28 02:31:09,2020-05-28 02:31:42,"32,276s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:31:42,2020-05-28 02:31:47,"5,004s",PASSED
+"if (tipeSoal != """")",Chrome 81.0.4044.138,,,2020-05-28 02:31:47,2020-05-28 02:31:51,"4,665s",PASSED
+"if (jobFunction != """")",Chrome 81.0.4044.138,,,2020-05-28 02:31:51,2020-05-28 02:31:51,"0,001s",PASSED
+delay(3),Chrome 81.0.4044.138,,,2020-05-28 02:31:51,2020-05-28 02:31:54,"3,007s",PASSED
+"if (jobPosition != """")",Chrome 81.0.4044.138,,,2020-05-28 02:31:54,2020-05-28 02:31:54,"0,003s",PASSED
+"if (module != """")",Chrome 81.0.4044.138,,,2020-05-28 02:31:54,2020-05-28 02:31:58,"3,881s",PASSED
+"if (subModule != """")",Chrome 81.0.4044.138,,,2020-05-28 02:31:58,2020-05-28 02:32:01,"3,207s",PASSED
+"if (technicalCompetence != """")",Chrome 81.0.4044.138,,,2020-05-28 02:32:01,2020-05-28 02:32:04,"2,891s",PASSED
+"if (levelCompetence != """")",Chrome 81.0.4044.138,,,2020-05-28 02:32:04,2020-05-28 02:32:05,"0,987s",PASSED
+"if (soalQuestion != """")",Chrome 81.0.4044.138,,,2020-05-28 02:32:05,2020-05-28 02:32:07,"1,236s",PASSED
+"if (tipeSoal == ""Pilihan Ganda"")",Chrome 81.0.4044.138,,,2020-05-28 02:32:07,2020-05-28 02:32:07,"0,001s",PASSED
+"else if (tipeSoal == ""Benar / Salah"")",Chrome 81.0.4044.138,,,2020-05-28 02:32:07,2020-05-28 02:32:07,"0,886s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 02:32:07,2020-05-28 02:32:51,"43,495s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question,Chrome 81.0.4044.138,,,2020-05-28 02:32:51,2020-05-28 02:35:20,"2m - 28,548s",PASSED
+"callTestCase(findTestCase(""Rizka/Admin/AdminMainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 02:32:52,2020-05-28 02:34:02,"1m - 10,185s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest""))",Chrome 81.0.4044.138,,,2020-05-28 02:34:02,2020-05-28 02:34:03,"0,911s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:34:03,2020-05-28 02:34:08,"5,007s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz""))",Chrome 81.0.4044.138,,,2020-05-28 02:34:08,2020-05-28 02:34:09,"0,995s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:34:09,2020-05-28 02:34:14,"5,006s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion""))",Chrome 81.0.4044.138,,,2020-05-28 02:34:14,2020-05-28 02:34:51,"36,901s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-28 02:34:51,2020-05-28 02:34:56,"5,004s",PASSED
+"if (tipeSoal != """")",Chrome 81.0.4044.138,,,2020-05-28 02:34:56,2020-05-28 02:34:56,"0,000s",PASSED
+"if (jobFunction != """")",Chrome 81.0.4044.138,,,2020-05-28 02:34:56,2020-05-28 02:35:01,"5,117s",PASSED
+delay(3),Chrome 81.0.4044.138,,,2020-05-28 02:35:01,2020-05-28 02:35:04,"3,004s",PASSED
+"if (jobPosition != """")",Chrome 81.0.4044.138,,,2020-05-28 02:35:04,2020-05-28 02:35:05,"0,867s",PASSED
+"if (module != """")",Chrome 81.0.4044.138,,,2020-05-28 02:35:05,2020-05-28 02:35:05,"0,969s",PASSED
+"if (subModule != """")",Chrome 81.0.4044.138,,,2020-05-28 02:35:05,2020-05-28 02:35:09,"3,314s",PASSED
+"if (technicalCompetence != """")",Chrome 81.0.4044.138,,,2020-05-28 02:35:09,2020-05-28 02:35:12,"2,826s",PASSED
+"if (levelCompetence != """")",Chrome 81.0.4044.138,,,2020-05-28 02:35:12,2020-05-28 02:35:13,"1,117s",PASSED
+"if (soalQuestion != """")",Chrome 81.0.4044.138,,,2020-05-28 02:35:13,2020-05-28 02:35:14,"1,002s",PASSED
+"if (tipeSoal == ""Pilihan Ganda"")",Chrome 81.0.4044.138,,,2020-05-28 02:35:14,2020-05-28 02:35:14,"0,001s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 02:35:14,2020-05-28 02:35:14,"0,000s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 02:35:14,2020-05-28 02:35:20,"6,181s",PASSED
