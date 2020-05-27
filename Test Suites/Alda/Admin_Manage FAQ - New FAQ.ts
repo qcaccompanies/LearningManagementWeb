@@ -10,4 +10,67 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6809ab3d-feed-44c3-bbcc-de6373fb79d3</testSuiteGuid>
+   <testCaseLink>
+      <guid>3b4d436e-d834-4af1-ab77-35d19f1f3c0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Alda/Admin - Manage FAQ/New FAQ</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Alda/Admin_Manage FAQ - New FAQ</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_question</value>
+         <variableId>a9f19caf-2ab2-4b51-b99f-4ec1320047b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_answer</value>
+         <variableId>82be7e74-35db-4022-94d2-c4ae7cff152b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>optional_gambar</value>
+         <variableId>758b7666-1e13-4ce9-8f73-5ebe1b648cfd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_gambar</value>
+         <variableId>4708ed46-dc36-4557-afe9-b6abdca5b337</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_image</value>
+         <variableId>8829a19b-6ed3-48bd-8d0d-99d401639cc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>optional_tag</value>
+         <variableId>d468e69f-b791-414f-aa88-c87791b0accb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_tag</value>
+         <variableId>633b56a3-71c0-4818-a891-01bd2c04cba3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_output</value>
+         <variableId>49dca003-0959-4b4c-92de-4c477e7eee6d</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
