@@ -15,37 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
-
-WebUI.delay(20)
+WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal'), tipeSoal, 
     false)
@@ -53,7 +35,7 @@ WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz
 WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobFunction'), jobFunction, 
     false)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition'), jobPosition, 
     false)
@@ -91,13 +73,13 @@ if (tipeSoal == 'Pilihan Ganda') {
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'), soalQuestion)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 if (condition == 'passed') {
     WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali', 

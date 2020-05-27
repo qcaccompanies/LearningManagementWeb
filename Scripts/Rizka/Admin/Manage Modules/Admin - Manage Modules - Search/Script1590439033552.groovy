@@ -15,39 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
-
-WebUI.delay(20)
+WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModules'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch'), namaModul)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 if (condition == 'passed') {
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/label_NEOP Teller Cash  PDC dan FAB', [('text') : namaModul]), 
-        FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/label_NEOP Teller Cash  PDC dan FAB', 
+            [('text') : namaModul]), FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/alertNoDataFound'), 0)
 }

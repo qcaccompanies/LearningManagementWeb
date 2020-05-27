@@ -15,9 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
+WebUI.openBrowser('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
 
 WebUI.delay(5)
 
@@ -33,13 +31,13 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
 
-WebUI.delay(20)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Logout/userImage'))
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Logout/btnLogout'))
 
-WebUI.delay(7)
+WebUI.delay(5)
 
 if (condition == 'passed') {
     WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Logout/btnLogin'))

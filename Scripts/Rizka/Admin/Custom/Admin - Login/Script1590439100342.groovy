@@ -16,9 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
+WebUI.openBrowser('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
 
 WebUI.maximizeWindow()
 
@@ -42,6 +40,8 @@ WebUI.delay(10)
 
 if (condition == 'passed') {
     WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Login/span_Dashboard'))
+} else if (condition == 'isEmpty') {
+	WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
 } else {
     WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Login/label_Email address does not existPassword is wrong'))
 }

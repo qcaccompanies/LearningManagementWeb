@@ -16,39 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
-
-WebUI.delay(20)
+WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete'))
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnEdit'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/tipeSoal'), tipeSoal, false)
 
@@ -90,7 +72,7 @@ if (tipeSoal == 'Pilihan Ganda') {
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnSubmit'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 if (condition == 'passed') {
     WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnOptionsEditDelete'))
