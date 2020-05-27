@@ -29,28 +29,25 @@ WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/btn_add_ne
 
 WebUI.delay(3)
 
-WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_category'), var_category, 
+WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_category'), var_category, true)
+
+WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_tipe_soal'), var_tipe_soal, true)
+
+WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_job_function'), var_job_function, 
     true)
 
-WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_tipe_soal'), var_tipe_soal, 
+WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_job_position'), var_job_position, 
     true)
 
-WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_job_function'), 
-    var_job_function, true)
-
-WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_job_position'), 
-    var_job_position, true)
-
-WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_module'), var_module, 
-    true)
+WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_module'), var_module, true)
 
 WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/input_technical_competence'))
 
 WebUI.setText(findTestObject('Alda/Admin - Manage Test/add new question/input_technical_competence'), var_technical_comp)
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/input_Level Competence_levelCompetence (1)'))
+WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'))
 
-WebUI.setText(findTestObject('Alda/Admin - Manage Test/add new question/input_Level Competence_levelCompetence (1)'), var_level_comp)
+WebUI.setText(findTestObject('Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'), var_level_comp)
 
 WebUI.setText(findTestObject('Alda/Admin - Manage Test/add new question/textarea_soal'), var_soal)
 
@@ -64,13 +61,13 @@ switch (var_tipe_soal) {
 
         WebUI.setText(findTestObject('Alda/Admin - Manage Test/add new question/input_jawaban_d'), var_jawaban_d)
 
-        WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_ABCD'), 
-            var_kunci_jawaban, true)
+        WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_ABCD'), var_kunci_jawaban, 
+            true)
 
         break
     case 'Benar / Salah':
-        WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_BenarSalah'), 
-            var_kunci_jawaban, true)
+        WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_BenarSalah'), var_kunci_jawaban, 
+            true)
 
         break
     case 'Uraian':

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username') : '11666', ('password') : 'Password3'
         , ('rememberMe') : 'yes', ('condition') : 'passed'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Dashboard Admin/span_manage_faq'))
 
 WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
