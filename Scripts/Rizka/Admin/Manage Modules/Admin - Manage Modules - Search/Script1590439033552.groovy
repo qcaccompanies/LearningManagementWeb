@@ -15,39 +15,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/button_Modules'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/a_Manage Modules'))
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch_v2'), namaModul)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch_v2'))
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
-
-WebUI.delay(20)
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModules'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch'), namaModul)
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch'))
-
-WebUI.delay(5)
+WebUI.delay(3)
 
 if (condition == 'passed') {
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/label_NEOP Teller Cash  PDC dan FAB', [('text') : namaModul]), 
-        FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/label_NEOP Teller Cash  PDC dan FAB', 
+            [('text') : namaModul]), FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/alertNoDataFound'), 0)
 }

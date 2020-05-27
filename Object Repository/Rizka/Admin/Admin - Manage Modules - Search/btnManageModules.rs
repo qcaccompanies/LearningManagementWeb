@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(//a[@id='linkAdmin1']/span)[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Manage Modules' or . = 'Manage Modules')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

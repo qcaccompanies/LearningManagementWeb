@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-addquiz/div/main/div/div/div/div[4]/div/button/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-addquiz[1]/div[@class=&quot;app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column col-md-10 col-sm-10&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/button[@class=&quot;btn app-button btnRadius btnDisabled&quot;]/span[@class=&quot;btn-caption&quot;][count(. | //span[(text() = 'Submit' or . = 'Submit')]) = count(//span[(text() = 'Submit' or . = 'Submit')])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

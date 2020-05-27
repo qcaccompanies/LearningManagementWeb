@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Delete" time="93.394" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Delete" tests="1" failures="0" errors="0" time="93.394" timestamp="2020-05-27 14:29:29" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Delete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200527_142915\\Denna\\Admin - Manage Test - Pretest and Posttest - Delete\\20200527_142915"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200527_142915\\Denna\\Admin - Manage Test - Pretest and Posttest - Delete\\20200527_142915\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="44a0eaf81b68ec8e0bc464b8339956d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete" time="92.882" classname="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete" status="PASSED">
+         <system-out><![CDATA[2020-05-27 14:29:30 - [TEST_CASE][PASSED] - Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete
+
+2020-05-27 14:29:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-27 14:29:31 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-27 14:29:31 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-27 14:29:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 14:29:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-27 14:29:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-27 14:29:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 14:29:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 14:29:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-27 14:29:46 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:4443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44a0eaf81b68ec8e0bc464b8339956d5
+
+2020-05-27 14:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-27 14:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-27 14:29:47 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-27 14:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-27 14:29:48 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-27 14:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-27 14:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-27 14:29:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-27 14:29:48 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2020-05-27 14:29:48 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2020-05-27 14:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test' is clicked on
+
+2020-05-27 14:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test' is clicked on
+
+2020-05-27 14:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test' is clicked on
+
+2020-05-27 14:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test' is clicked on
+
+2020-05-27 14:30:25 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2020-05-27 14:30:25 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2020-05-27 14:30:25 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), searchID): Text '1774' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:27 - [MESSAGE][PASSED] - Text '1774' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:27 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2020-05-27 14:30:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2020-05-27 14:30:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 14:30:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 14:30:46 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-05-27 14:30:46 - [TEST_STEP][PASSED] - case "pass":: null
+
+2020-05-27 14:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/button edit or delete")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button edit or delete' is clicked on
+
+2020-05-27 14:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button edit or delete' is clicked on
+
+2020-05-27 14:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Delete")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Delete' is clicked on
+
+2020-05-27 14:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Delete' is clicked on
+
+2020-05-27 14:30:47 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button CANCEL' is clicked on
+
+2020-05-27 14:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/button CANCEL")): Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button CANCEL' is clicked on
+
+2020-05-27 14:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button CANCEL' is clicked on
+
+2020-05-27 14:30:47 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), ""): Text '' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:48 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-27 14:30:56 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-05-27 14:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), searchID): Text '1774' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:56 - [MESSAGE][PASSED] - Text '1774' is set on object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'
+
+2020-05-27 14:30:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-27 14:31:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-27 14:31:02 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): Object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/content' is visible
+
+2020-05-27 14:31:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Prestest and Protest - Delete/content")): Object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/content' is visible
+
+2020-05-27 14:31:02 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/content' is visible
+
+2020-05-27 14:31:02 - [TEST_STEP][PASSED] - break: null
+
+2020-05-27 14:31:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-27 14:31:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-27 14:29:29 - [TEST_SUITE][PASSED] - Admin - Manage Test - Pretest and Posttest - Delete: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

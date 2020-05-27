@@ -15,33 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn')
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/button_Modules'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/a_Manage Modules'))
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtUsername'), '11666')
-
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Login/txtPassword'), 'Password3')
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnEyePass'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/checkboxRememberMe'))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Login/btnLogin2'))
-
-WebUI.delay(20)
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModules'))
-
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnNextPage'), 0)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnNextPage'))
 

@@ -28,6 +28,8 @@ if (keterangan == 'notFound') {
     WebUI.verifyElementVisible(findTestObject('Denna/User - FAQ - Search/label No data found'))
 } else {
     WebUI.verifyElementVisible(findTestObject('Denna/User - FAQ - Search/content2'))
+
+    WebUI.click(findTestObject('Denna/User - FAQ - Search/content2'))
 }
 
 WebUI.closeBrowser()

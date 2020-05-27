@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>22415f01-6a8a-4ed9-8ed0-1fbe09e5afb5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>176fbb21-de1d-4c5b-9a68-3268e561be9b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
