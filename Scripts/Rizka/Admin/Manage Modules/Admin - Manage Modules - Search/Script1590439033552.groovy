@@ -17,13 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModules'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/button_Modules'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch'), namaModul)
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/a_Manage Modules'))
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch'))
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch_v2'), namaModul)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch_v2'))
 
 WebUI.delay(3)
 

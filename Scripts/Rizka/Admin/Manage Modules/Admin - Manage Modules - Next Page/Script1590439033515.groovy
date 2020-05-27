@@ -17,7 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModules'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/button_Modules'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/a_Manage Modules'))
 
 WebUI.delay(3)
 
