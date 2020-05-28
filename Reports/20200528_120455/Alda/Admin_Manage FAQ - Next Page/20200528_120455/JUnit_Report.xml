@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin_Manage FAQ - Next Page" time="89.123" tests="1" failures="0" errors="0">
+   <testsuite name="Admin_Manage FAQ - Next Page" tests="1" failures="0" errors="0" time="89.123" timestamp="2020-05-28 12:04:59" hostname="asus - LAPTOP-FC1SHEB6" id="Test Suites/Alda/Admin_Manage FAQ - Next Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200528_120455\\Alda\\Admin_Manage FAQ - Next Page\\20200528_120455"/>
+         <property name="logFiles" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200528_120455\\Alda\\Admin_Manage FAQ - Next Page\\20200528_120455\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-FC1SHEB6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.7.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.15"/>
+         <property name="sessionId" value="15857bd9fc04e0b3e4005fa7f336f23f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alda/Admin - Manage FAQ/Next Page" time="87.842" classname="Test Cases/Alda/Admin - Manage FAQ/Next Page" status="PASSED">
+         <system-out><![CDATA[2020-05-28 12:05:00 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage FAQ/Next Page: Test Cases/Alda/Admin - Manage FAQ/Next Page
+
+2020-05-28 12:05:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-28 12:05:00 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-28 12:05:00 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 12:05:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 12:05:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 12:05:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-28 12:05:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 12:05:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 12:05:18 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-28 12:05:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-28 12:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 12:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-28 12:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 12:05:50 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-28 12:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 12:05:50 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-28 12:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 12:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-28 12:05:51 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 12:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 12:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-28 12:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 12:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-28 12:05:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 12:06:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 12:06:07 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-28 12:06:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-28 12:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-28 12:06:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-28 12:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Dashboard Admin/span_manage_faq")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Dashboard Admin/span_manage_faq' is clicked on
+
+2020-05-28 12:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Dashboard Admin/span_manage_faq' is clicked on
+
+2020-05-28 12:06:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 12:06:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 12:06:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/next_page_1"), 0): Scroll to object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/next_page_1' successfully
+
+2020-05-28 12:06:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 12:06:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/next_page_1' successfully
+
+2020-05-28 12:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/next_page_2")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/next_page_2' is clicked on
+
+2020-05-28 12:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/next_page_2' is clicked on
+
+2020-05-28 12:06:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/previous_page")): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/previous_page' is clickable
+
+2020-05-28 12:06:27 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/previous_page' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 12:04:59 - [TEST_SUITE][PASSED] - Admin_Manage FAQ - Next Page: Test Cases/Alda/Admin - Manage FAQ/Next Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
