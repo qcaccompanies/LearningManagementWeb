@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_Manage Test'))
+WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test'))
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_Pre-Test  Post-Test'))
-
-WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/btn_add_new_question'))
+WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/btn_add_new_question'))
 
 WebUI.selectOptionByLabel(findTestObject('Alda/Admin - Manage Test/add new question/select_category'), var_category, true)
 
@@ -71,22 +71,28 @@ switch (var_tipe_soal) {
 
         break
     case 'Uraian':
-        WebUI.setText(findTestObject('Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'), var_soal)
+        WebUI.setText(findTestObject('Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'), var_kunci_jawaban)
+
+        WebUI.delay(3)
+
+        WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit'))
 
         break
 }
 
 switch (expected_output) {
     case 'pass':
-        WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/span_Submit'))
+        WebUI.delay(3)
 
-        WebUI.delay(5)
+        WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Add Test/button_Submit'))
 
-        WebUI.click(findTestObject('Alda/Admin - Manage Test/add new question/check_input_in_list'))
+        WebUI.delay(8)
+
+        WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage Test/add new question/check_input_in_list', [('text') : var_soal]))
 
         break
     case 'fail':
-        WebUI.verifyElementNotClickable(findTestObject('Alda/Admin - Manage Test/add new question/span_Submit'))
+        WebUI.verifyElementNotClickable(findTestObject('Alda/Admin - Manage Test/Page_Add Test/button_Submit'))
 
         break
 }

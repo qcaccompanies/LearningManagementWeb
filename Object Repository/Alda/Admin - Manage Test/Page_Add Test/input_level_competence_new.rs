@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='widget-id702']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'number' and @name = 'levelCompetence' and @autocomplete = 'on']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -76,7 +80,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>

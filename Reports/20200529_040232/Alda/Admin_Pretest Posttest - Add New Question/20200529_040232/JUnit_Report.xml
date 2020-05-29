@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin_Pretest Posttest - Add New Question" time="1065.038" tests="8" failures="1" errors="0">
+   <testsuite name="Admin_Pretest Posttest - Add New Question" tests="8" failures="1" errors="0" time="1065.038" timestamp="2020-05-29 04:02:43" hostname="asus - LAPTOP-FC1SHEB6" id="Test Suites/Alda/Admin_Pretest Posttest - Add New Question">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_040232\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_040232"/>
+         <property name="logFiles" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_040232\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_040232\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_040232\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_040232\\1590700456976.png"/>
+         <property name="hostName" value="asus - LAPTOP-FC1SHEB6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.7.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.15"/>
+         <property name="sessionId" value="c37730a6730c76731552b58e135c9728"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="164.345" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:02:44 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:02:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:02:44 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:02:44 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:02:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:02:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 04:03:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:03:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:03:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:03:19 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:03:49 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:03:49 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:03:50 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:03:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:03:50 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:03:51 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:03:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:04:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:04:01 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:04:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:04:09 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:04:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:04:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:04:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:04:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:04:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:04:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:04:47 - [MESSAGE][PASSED] - All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:04:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:05:03 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:05:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label 'AR' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:05:11 - [MESSAGE][PASSED] - All options with label 'AR' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:05:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label 'RMA' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:05:16 - [MESSAGE][PASSED] - All options with label 'RMA' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:05:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:05:17 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:05:22 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text 'coba' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:05:23 - [MESSAGE][PASSED] - Text 'coba' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '3' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:05:24 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text 'Matahari terbenam ke arah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:05:24 - [MESSAGE][PASSED] - Text 'Matahari terbenam ke arah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:05:24 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:05:24 - [TEST_STEP][PASSED] - case "Pilihan Ganda":: null
+
+2020-05-29 04:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_a"), var_jawaban_a): Text 'timur' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_a'
+
+2020-05-29 04:05:25 - [MESSAGE][PASSED] - Text 'timur' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_a'
+
+2020-05-29 04:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_b"), var_jawaban_b): Text 'utara' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_b'
+
+2020-05-29 04:05:25 - [MESSAGE][PASSED] - Text 'utara' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_b'
+
+2020-05-29 04:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_c"), var_jawaban_c): Text 'selatan' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_c'
+
+2020-05-29 04:05:26 - [MESSAGE][PASSED] - Text 'selatan' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_c'
+
+2020-05-29 04:05:26 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_d"), var_jawaban_d): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_d'
+
+2020-05-29 04:05:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_d'
+
+2020-05-29 04:05:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_ABCD"), var_kunci_jawaban, true): All options with label 'D' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_ABCD'  using regular expression
+
+2020-05-29 04:05:28 - [MESSAGE][PASSED] - All options with label 'D' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_ABCD'  using regular expression
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:05:28 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="156.515" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:05:28 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:05:28 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:05:28 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:05:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:05:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:06:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:06:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:06:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:06:14 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:06:44 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:06:45 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:06:45 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:06:46 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:06:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:06:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:06:56 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:06:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:07:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:07:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:07:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:07:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:07:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:07:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:07:27 - [MESSAGE][PASSED] - All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:07:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:07:43 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:07:43 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label 'AR' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:07:51 - [MESSAGE][PASSED] - All options with label 'AR' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:07:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label 'RMA' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:07:54 - [MESSAGE][PASSED] - All options with label 'RMA' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:07:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:07:56 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text 'coba' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:07:59 - [MESSAGE][PASSED] - Text 'coba' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:08:00 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '3' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:08:00 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:08:00 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text 'Matahari terbenam ke arah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:08:01 - [MESSAGE][PASSED] - Text 'Matahari terbenam ke arah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:08:01 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:08:01 - [TEST_STEP][PASSED] - case "Pilihan Ganda":: null
+
+2020-05-29 04:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_a"), var_jawaban_a): Text 'timur' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_a'
+
+2020-05-29 04:08:01 - [MESSAGE][PASSED] - Text 'timur' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_a'
+
+2020-05-29 04:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_b"), var_jawaban_b): Text 'utara' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_b'
+
+2020-05-29 04:08:02 - [MESSAGE][PASSED] - Text 'utara' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_b'
+
+2020-05-29 04:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_c"), var_jawaban_c): Text 'selatan' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_c'
+
+2020-05-29 04:08:02 - [MESSAGE][PASSED] - Text 'selatan' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_c'
+
+2020-05-29 04:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_jawaban_d"), var_jawaban_d): Text 'barat' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_d'
+
+2020-05-29 04:08:03 - [MESSAGE][PASSED] - Text 'barat' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_jawaban_d'
+
+2020-05-29 04:08:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_ABCD"), var_kunci_jawaban, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_ABCD'  using regular expression
+
+2020-05-29 04:08:04 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_ABCD'  using regular expression
+
+2020-05-29 04:08:04 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:08:04 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:08:04 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:08:04 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:08:04 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:08:04 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="135.452" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:08:05 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:08:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:08:05 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:08:05 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:08:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:08:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:08:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:08:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:08:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:08:28 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:08:58 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:08:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:08:59 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:09:00 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:09:00 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:09:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:09:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:09:11 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:09:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:09:17 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:09:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:09:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:09:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:09:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:09:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:09:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:09:49 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:09:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Benar / Salah' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:10:03 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:10:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label 'UNDERWRITING' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:10:10 - [MESSAGE][PASSED] - All options with label 'UNDERWRITING' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:10:10 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label 'CREDIT ANALYST' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:10:14 - [MESSAGE][PASSED] - All options with label 'CREDIT ANALYST' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:10:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:10:15 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:10:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:10:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:10:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:10:19 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:10:19 - [TEST_STEP][PASSED] - case "Benar / Salah":: null
+
+2020-05-29 04:10:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_BenarSalah"), var_kunci_jawaban, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+
+2020-05-29 04:10:20 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="118.788" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:10:20 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:10:20 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:10:20 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:10:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:10:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:10:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:10:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:10:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:10:35 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:11:05 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:11:05 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:11:06 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:11:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:11:06 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:11:06 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:11:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:11:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:11:17 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:11:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:11:20 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:11:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:11:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:11:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:11:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:11:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:11:40 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:11:50 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:11:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Benar / Salah' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:12:04 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:12:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:12:11 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:12:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:12:12 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:12:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:12:14 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:12:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:12:17 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:12:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:12:17 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text '1x1?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:12:17 - [MESSAGE][PASSED] - Text '1x1?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:12:17 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:12:17 - [TEST_STEP][PASSED] - case "Benar / Salah":: null
+
+2020-05-29 04:12:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_BenarSalah"), var_kunci_jawaban, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+
+2020-05-29 04:12:18 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+
+2020-05-29 04:12:18 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:12:18 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:12:18 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:12:18 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:12:19 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="117.958" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 04:12:19 - [TEST_CASE][FAILED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 04:12:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:12:19 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:12:19 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:12:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:12:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:12:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:12:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:12:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:12:33 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:13:03 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:13:03 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:13:04 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:13:04 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:13:04 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:13:05 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:13:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:13:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:13:15 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:13:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:13:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:13:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:13:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:13:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:13:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:13:38 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:13:48 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:13:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Benar / Salah' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:14:02 - [MESSAGE][PASSED] - All options with label 'Benar / Salah' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:14:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:14:10 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:14:10 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:14:11 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:14:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:14:12 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:14:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:14:15 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:14:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:14:16 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:14:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:14:16 - [TEST_STEP][FAILED] - switch (var_tipe_soal): Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Script1590532622909.run(Script1590532622909.groovy:69)
+	... 13 more
+)
+
+2020-05-29 04:14:16 - [TEST_STEP][FAILED] - case "Benar / Salah":: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Script1590532622909.run(Script1590532622909.groovy:69)
+	... 13 more
+)
+
+2020-05-29 04:14:16 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_BenarSalah"), var_kunci_jawaban, true): Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Script1590532622909.run(Script1590532622909.groovy:69)
+	... 13 more
+)
+
+2020-05-29 04:14:16 - [MESSAGE][FAILED] - No option matched.
+
+2020-05-29 04:14:17 - [MESSAGE][FAILED] - Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Script1590532622909.run(Script1590532622909.groovy:69)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_040232\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_040232\\1590700456976.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 04:12:19 - [TEST_CASE][FAILED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="126.24" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:14:17 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:14:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:14:17 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:14:17 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:14:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:14:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:14:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:14:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:14:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:14:35 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:15:05 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:15:06 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:15:07 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:15:07 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:15:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:15:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:15:18 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:15:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:15:21 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:15:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:15:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:15:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:15:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:15:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:15:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:15:51 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:15:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:16:05 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:16:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:16:13 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:16:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:16:13 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:16:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:16:15 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:16:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:16:18 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:16:18 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:16:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:16:18 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text 'coba soal uraian' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:16:19 - [MESSAGE][PASSED] - Text 'coba soal uraian' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:16:19 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:16:19 - [TEST_STEP][PASSED] - case "Uraian":: null
+
+2020-05-29 04:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban"), var_kunci_jawaban): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 04:16:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 04:16:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:16:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit' is clicked on
+
+2020-05-29 04:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit' is clicked on
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="125.858" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:16:23 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:16:23 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:16:23 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:16:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:16:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:16:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:16:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:16:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:16:42 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:17:12 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:17:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:17:13 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:17:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:17:14 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:17:14 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:17:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:17:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:17:25 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:17:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:17:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:17:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:17:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:17:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:17:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:17:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:17:58 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:17:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:18:11 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:18:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:18:19 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:18:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:18:20 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:18:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:18:21 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:18:23 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:18:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:18:24 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:18:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:18:25 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:18:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:18:25 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:18:25 - [TEST_STEP][PASSED] - case "Uraian":: null
+
+2020-05-29 04:18:25 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban"), var_kunci_jawaban): Text 'jawaban uraian' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 04:18:25 - [MESSAGE][PASSED] - Text 'jawaban uraian' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 04:18:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:18:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:18:28 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit' is clicked on
+
+2020-05-29 04:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit' is clicked on
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="118.401" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 04:18:29 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:18:29 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 04:18:29 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:18:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 04:18:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 04:18:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 04:18:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 04:18:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 04:18:42 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 04:19:12 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 04:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 04:19:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:19:13 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 04:19:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:19:14 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 04:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 04:19:14 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 04:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 04:19:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 04:19:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 04:19:25 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:19:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:19:26 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 04:19:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 04:19:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:19:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 04:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 04:19:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:19:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 04:19:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:19:56 - [MESSAGE][PASSED] - All options with label 'Post-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 04:19:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:20:10 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 04:20:10 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:20:17 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 04:20:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:20:18 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 04:20:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:20:19 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 04:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 04:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:20:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 04:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 04:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:20:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 04:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:20:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 04:20:23 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 04:20:23 - [TEST_STEP][PASSED] - case "Uraian":: null
+
+2020-05-29 04:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban"), var_kunci_jawaban): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 04:20:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 04:20:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 04:20:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 04:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit' is clicked on
+
+2020-05-29 04:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/Page_Add Test/span_Submit' is clicked on
+
+2020-05-29 04:20:27 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 04:20:27 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 04:20:27 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-05-29 04:20:27 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:20:27 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is NOT clickable
+
+2020-05-29 04:20:27 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 04:02:43 - [TEST_SUITE][FAILED] - Admin_Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-29 04:02:43 - [TEST_SUITE][FAILED] - Admin_Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '3' of object 'Object Repository/Alda/Admin - Manage Test/add new question/select_BenarSalah'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$4.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590699752470.run(TempTestSuite1590699752470.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>3bab68f8-a76f-4ce3-959a-91e03150a9dd</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>8</value>
          </iterationEntity>
          <testDataId>Data Files/Alda/Admin_Manage FAQ - Edit</testDataId>
       </testDataLink>

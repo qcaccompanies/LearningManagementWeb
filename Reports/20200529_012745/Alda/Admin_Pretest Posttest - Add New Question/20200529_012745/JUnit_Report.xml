@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin_Pretest Posttest - Add New Question" time="322.04" tests="2" failures="1" errors="0">
+   <testsuite name="Admin_Pretest Posttest - Add New Question" tests="2" failures="1" errors="0" time="322.04" timestamp="2020-05-29 01:27:52" hostname="asus - LAPTOP-FC1SHEB6" id="Test Suites/Alda/Admin_Pretest Posttest - Add New Question">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_012745\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_012745"/>
+         <property name="logFiles" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_012745\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_012745\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_012745\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_012745\\1590690643352.png, C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_012745\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_012745\\1590690643738.png"/>
+         <property name="hostName" value="asus - LAPTOP-FC1SHEB6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.7.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.15"/>
+         <property name="sessionId" value="547fb9003c301621cf096f76faba57b7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="171.566" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 01:27:52 - [TEST_CASE][FAILED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 01:27:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 01:27:53 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 01:27:53 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 01:27:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 01:27:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 01:28:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 01:28:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 01:28:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 01:28:05 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 01:28:35 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 01:28:35 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 01:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 01:28:35 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 01:28:36 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 01:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 01:28:36 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 01:28:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 01:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 01:28:37 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 01:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 01:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 01:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 01:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 01:28:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 01:28:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 01:28:47 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 01:28:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 01:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 01:28:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 01:28:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 01:28:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 01:28:53 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 01:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 01:28:53 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 01:28:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 01:28:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 01:28:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 01:28:57 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 01:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 01:29:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 01:29:20 - [MESSAGE][PASSED] - All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 01:29:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 01:29:34 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 01:29:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label 'SERVICE' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 01:29:41 - [MESSAGE][PASSED] - All options with label 'SERVICE' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 01:29:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label 'FINANCE & BANKING OFFICER' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 01:29:45 - [MESSAGE][PASSED] - All options with label 'FINANCE & BANKING OFFICER' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 01:29:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Teller Cash & PDC, dan FAB' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 01:29:46 - [MESSAGE][PASSED] - All options with label 'NEOP Teller Cash & PDC, dan FAB' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 01:29:46 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 01:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 01:29:48 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text 'testest' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 01:29:49 - [MESSAGE][PASSED] - Text 'testest' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 01:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 01:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 01:29:49 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '5' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 01:29:50 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 01:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text 'Mata uang negara Indonesia adalah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 01:29:50 - [MESSAGE][PASSED] - Text 'Mata uang negara Indonesia adalah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 01:29:50 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 01:29:50 - [TEST_STEP][PASSED] - case "Uraian":: null
+
+2020-05-29 01:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban"), var_kunci_jawaban): Text 'Rupiah' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 01:29:51 - [MESSAGE][PASSED] - Text 'Rupiah' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 01:29:51 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 01:29:51 - [TEST_STEP][FAILED] - switch (expected_output): Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-29 01:29:51 - [TEST_STEP][FAILED] - case "pass":: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-29 01:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is clicked on
+
+2020-05-29 01:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is clicked on
+
+2020-05-29 01:29:51 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-29 01:29:59 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-05-29 01:29:59 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/add new question/check_input_in_list", ["text":var_soal])): Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-29 01:30:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-29 01:30:43 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_012745\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_012745\\1590690643352.png]]
+
+2020-05-29 01:30:44 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\asus\\git\\LMS27Mei\\Reports\\20200529_012745\\Alda\\Admin_Pretest Posttest - Add New Question\\20200529_012745\\1590690643738.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 01:27:52 - [TEST_CASE][FAILED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" time="149.301" classname="Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question" status="PASSED">
+         <system-out><![CDATA[2020-05-29 01:30:44 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question
+
+2020-05-29 01:30:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 01:30:44 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-05-29 01:30:44 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 01:30:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 01:30:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 01:30:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 01:30:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 01:30:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 01:30:54 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-05-29 01:31:24 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-05-29 01:31:24 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 01:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-05-29 01:31:24 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 01:31:25 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-05-29 01:31:25 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 01:31:25 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-05-29 01:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 01:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-05-29 01:31:25 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 01:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 01:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-05-29 01:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 01:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-29 01:31:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 01:31:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 01:31:36 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 01:31:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 01:31:41 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-05-29 01:31:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-05-29 01:31:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 01:31:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 01:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 01:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test' is clicked on
+
+2020-05-29 01:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 01:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest' is clicked on
+
+2020-05-29 01:31:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 01:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 01:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/btn_add_new_question")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 01:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/btn_add_new_question' is clicked on
+
+2020-05-29 01:32:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_category"), var_category, true): All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 01:32:12 - [MESSAGE][PASSED] - All options with label 'Pre-Test' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_category'  using regular expression
+
+2020-05-29 01:32:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_tipe_soal"), var_tipe_soal, true): All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 01:32:26 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_tipe_soal'  using regular expression
+
+2020-05-29 01:32:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_function"), var_job_function, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 01:32:33 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_function'  using regular expression
+
+2020-05-29 01:32:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_job_position"), var_job_position, true): All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 01:32:34 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_job_position'  using regular expression
+
+2020-05-29 01:32:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Alda/Admin - Manage Test/add new question/select_module"), var_module, true): All options with label 'NEOP Teller Cash & PDC, dan FAB' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 01:32:35 - [MESSAGE][PASSED] - All options with label 'NEOP Teller Cash & PDC, dan FAB' are selected in object 'Object Repository/Alda/Admin - Manage Test/add new question/select_module'  using regular expression
+
+2020-05-29 01:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence")): Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 01:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence' is clicked on
+
+2020-05-29 01:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/input_technical_competence"), var_technical_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 01:32:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/input_technical_competence'
+
+2020-05-29 01:32:38 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 01:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new' is clicked on
+
+2020-05-29 01:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new"), var_level_comp): Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 01:32:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/input_level_competence_new'
+
+2020-05-29 01:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_soal"), var_soal): Text 'Mata uang negara Indonesia adalah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 01:32:39 - [MESSAGE][PASSED] - Text 'Mata uang negara Indonesia adalah?' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_soal'
+
+2020-05-29 01:32:39 - [TEST_STEP][PASSED] - switch (var_tipe_soal): null
+
+2020-05-29 01:32:39 - [TEST_STEP][PASSED] - case "Uraian":: null
+
+2020-05-29 01:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban"), var_kunci_jawaban): Text 'Rupiah' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 01:32:40 - [MESSAGE][PASSED] - Text 'Rupiah' is set on object 'Object Repository/Alda/Admin - Manage Test/add new question/textarea_kunci_jawaban'
+
+2020-05-29 01:32:40 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 01:32:40 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-05-29 01:32:40 - [TEST_STEP][PASSED] - case "pass":: null
+
+2020-05-29 01:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Add Test/button_Submit")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is clicked on
+
+2020-05-29 01:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Add Test/button_Submit' is clicked on
+
+2020-05-29 01:32:40 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-29 01:32:48 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-05-29 01:32:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage Test/add new question/check_input_in_list", ["text":var_soal])): Object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+
+2020-05-29 01:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+
+2020-05-29 01:33:13 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 01:27:52 - [TEST_SUITE][FAILED] - Admin_Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-29 01:27:52 - [TEST_SUITE][FAILED] - Admin_Pretest Posttest - Add New Question: Test Cases/Alda/Admin - Manage Test - Pretest Posttest/Pretest Posttest - Add New Question FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Pretest Posttest - Add New Question.run(Pretest Posttest - Add New Question:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590690465518.run(TempTestSuite1590690465518.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Alda/Admin - Manage Test/add new question/check_input_in_list' located by 'By.xpath: //*[@name = 'labelSoal' and (text() = 'Mata uang negara Indonesia adalah?' or . = 'Mata uang negara Indonesia adalah?')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
