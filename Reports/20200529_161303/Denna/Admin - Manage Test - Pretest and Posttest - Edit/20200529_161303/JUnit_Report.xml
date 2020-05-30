@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Edit" time="153.564" tests="1" failures="1" errors="0">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Edit" tests="1" failures="1" errors="0" time="153.564" timestamp="2020-05-29 16:13:15" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_161303\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_161303"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_161303\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_161303\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_161303\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_161303\\1590743744377.png"/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="ced6da121b2aff72773d8958e7b4dd85"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit" time="149.238" classname="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 16:13:16 - [TEST_CASE][FAILED] - Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 16:13:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-29 16:13:16 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-29 16:13:17 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 16:13:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 16:13:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 16:13:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 16:13:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 16:13:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 16:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-29 16:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-29 16:13:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-29 16:13:42 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-29 16:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-29 16:13:42 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-29 16:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-29 16:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-29 16:13:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-29 16:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test' is clicked on
+
+2020-05-29 16:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test' is clicked on
+
+2020-05-29 16:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test' is clicked on
+
+2020-05-29 16:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test' is clicked on
+
+2020-05-29 16:13:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 16:13:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 16:13:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), searchID): Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:14 - [MESSAGE][PASSED] - Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:14 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-29 16:14:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-29 16:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete' is clicked on
+
+2020-05-29 16:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete' is clicked on
+
+2020-05-29 16:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit' is clicked on
+
+2020-05-29 16:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit' is clicked on
+
+2020-05-29 16:14:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-29 16:14:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-29 16:14:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Category"), category, true): All options with label 'Pre-Test' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Category'  using regular expression
+
+2020-05-29 16:14:29 - [MESSAGE][PASSED] - All options with label 'Pre-Test' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Category'  using regular expression
+
+2020-05-29 16:14:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Tipe Soal"), tipeSoal, true): All options with label 'Uraian' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Tipe Soal'  using regular expression
+
+2020-05-29 16:14:30 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Tipe Soal'  using regular expression
+
+2020-05-29 16:14:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Function"), jobFunction, true): All options with label 'AR' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Function'  using regular expression
+
+2020-05-29 16:14:31 - [MESSAGE][PASSED] - All options with label 'AR' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Function'  using regular expression
+
+2020-05-29 16:14:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Position"), jobPosition, true): All options with label 'ARMA' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Position'  using regular expression
+
+2020-05-29 16:14:35 - [MESSAGE][PASSED] - All options with label 'ARMA' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Position'  using regular expression
+
+2020-05-29 16:14:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Module"), module, true): All options with label 'NEOP Surveyor' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Module'  using regular expression
+
+2020-05-29 16:14:36 - [MESSAGE][PASSED] - All options with label 'NEOP Surveyor' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Module'  using regular expression
+
+2020-05-29 16:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Technical Competence"), technicalCompentence): Text 'Technical Compentence' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Technical Competence'
+
+2020-05-29 16:14:36 - [MESSAGE][PASSED] - Text 'Technical Compentence' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Technical Competence'
+
+2020-05-29 16:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Level Competence"), levelCompetence): Text 'Level Medium' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Level Competence'
+
+2020-05-29 16:14:37 - [MESSAGE][PASSED] - Text 'Level Medium' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Level Competence'
+
+2020-05-29 16:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Soal question"), soal): Text 'Soal ini adalah' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Soal question'
+
+2020-05-29 16:14:37 - [MESSAGE][PASSED] - Text 'Soal ini adalah' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Soal question'
+
+2020-05-29 16:14:37 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): null
+
+2020-05-29 16:14:37 - [TEST_STEP][PASSED] - else if (tipeSoal == "Uraian"): Text 'ini jawaban' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Kunci Jawaban Uraian'
+
+2020-05-29 16:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Kunci Jawaban Uraian"), jawabanUraian): Text 'ini jawaban' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Kunci Jawaban Uraian'
+
+2020-05-29 16:14:38 - [MESSAGE][PASSED] - Text 'ini jawaban' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/textarea Kunci Jawaban Uraian'
+
+2020-05-29 16:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Submit")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Submit' is clicked on
+
+2020-05-29 16:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Submit' is clicked on
+
+2020-05-29 16:14:38 - [TEST_STEP][FAILED] - switch (kondisi): Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Script1590566556422.run(Script1590566556422.groovy:117)
+	... 13 more
+)
+
+2020-05-29 16:14:38 - [TEST_STEP][FAILED] - case "pass":: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Script1590566556422.run(Script1590566556422.groovy:117)
+	... 13 more
+)
+
+2020-05-29 16:14:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/label Edit Test Success")): Object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/label Edit Test Success' is visible
+
+2020-05-29 16:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/label Edit Test Success' is visible
+
+2020-05-29 16:14:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 16:14:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 16:14:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), searchID): Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:54 - [MESSAGE][PASSED] - Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:14:55 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-29 16:14:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-29 16:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete' is clicked on
+
+2020-05-29 16:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete' is clicked on
+
+2020-05-29 16:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit' is clicked on
+
+2020-05-29 16:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit' is clicked on
+
+2020-05-29 16:15:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 16:15:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 16:15:03 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/select category veriff"), category, false, 0): NOT_RUN: verifyOptionSelectedByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/select category veriff"), category, false, 0)
+
+2020-05-29 16:15:03 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/select category veriff"), category, false, 0)
+
+2020-05-29 16:15:03 - [TEST_STEP][FAILED] - verifyOptionSelectedByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif"), tipeSoal, false, 0): Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Script1590566556422.run(Script1590566556422.groovy:117)
+	... 13 more
+)
+
+2020-05-29 16:15:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 16:15:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-29 16:15:45 - [MESSAGE][FAILED] - Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Script1590566556422.run(Script1590566556422.groovy:117)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_161303\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_161303\\1590743744377.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:13:16 - [TEST_CASE][FAILED] - Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 16:13:15 - [TEST_SUITE][FAILED] - Admin - Manage Test - Pretest and Posttest - Edit: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-29 16:13:15 - [TEST_SUITE][FAILED] - Admin - Manage Test - Pretest and Posttest - Edit: Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by label 'Uraian' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.verifyOptionSelectedByLabel(VerifyOptionSelectedByLabelKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword.execute(VerifyOptionSelectedByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByLabel(WebUiBuiltInKeywords.groovy:2153)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByLabel$6.call(Unknown Source)
+	at Admin - Manage Test - Pretest and PostTest - Edit.run(Admin - Manage Test - Pretest and PostTest - Edit:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743583070.run(TempTestSuite1590743583070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select soal verif' located by 'By.xpath: //select[@name = 'tipeSoal' and @id = 'widget-id4513' and (text() = 'Pilihan GandaBenar / SalahUraian' or . = 'Pilihan GandaBenar / SalahUraian')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.doCall(VerifyOptionSelectedByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByLabelKeyword$_verifyOptionSelectedByLabel_closure1.call(VerifyOptionSelectedByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

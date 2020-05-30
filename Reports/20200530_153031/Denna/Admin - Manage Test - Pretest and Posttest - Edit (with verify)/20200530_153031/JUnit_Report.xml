@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Edit (with verify)" time="85.115" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Edit (with verify)" tests="1" failures="0" errors="0" time="85.115" timestamp="2020-05-30 15:30:39" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Edit (with verify)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_153031\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_153031"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_153031\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_153031\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="4834fe3137beb488c593d00890a6be68"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2" time="84.629" classname="Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2" status="PASSED">
+         <system-out><![CDATA[2020-05-30 15:30:40 - [TEST_CASE][PASSED] - Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2: Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2
+
+2020-05-30 15:30:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-30 15:30:41 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-30 15:30:41 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-30 15:30:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-30 15:30:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-30 15:30:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-30 15:30:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-30 15:30:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-30 15:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-30 15:30:56 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:4030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4834fe3137beb488c593d00890a6be68
+
+2020-05-30 15:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-30 15:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-30 15:30:57 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-30 15:30:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-30 15:30:57 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-30 15:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-30 15:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-30 15:30:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-30 15:30:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test' is clicked on
+
+2020-05-30 15:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test' is clicked on
+
+2020-05-30 15:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test' is clicked on
+
+2020-05-30 15:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test' is clicked on
+
+2020-05-30 15:31:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-30 15:31:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-30 15:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete' is clicked on
+
+2020-05-30 15:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete' is clicked on
+
+2020-05-30 15:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit' is clicked on
+
+2020-05-30 15:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit' is clicked on
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - delay(4): NOT_RUN: delay(4)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(4)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category"), category, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category"), category, true)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category"), category, true)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal"), tipeSoal, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal"), tipeSoal, true)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal"), tipeSoal, true)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function"), jobFunction, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function"), jobFunction, true)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function"), jobFunction, true)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position"), jobPosition, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position"), jobPosition, true)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position"), jobPosition, true)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module"), module, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module"), module, true)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module"), module, true)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence"), technicalCompentence): NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence"), technicalCompentence)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence"), technicalCompentence)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence"), levelCompetence): NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence"), levelCompetence)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence"), levelCompetence)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal"), soal): NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal"), soal)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal"), soal)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - if (tipeSoal == "Pilihan Ganda"): NOT_RUN: if (tipeSoal == "Pilihan Ganda")
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: if (tipeSoal == "Pilihan Ganda")
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit")): NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit"))
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit"))
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success")): NOT_RUN: verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success"))
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success"))
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2020-05-30 15:31:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete")): NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete"))
+
+2020-05-30 15:31:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete"))
+
+2020-05-30 15:31:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-30 15:31:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-30 15:31:56 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif"), category, false, 0): 1 option(s) with label 'Pre-Test' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif' 
+
+2020-05-30 15:31:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 15:32:00 - [MESSAGE][PASSED] - 1 option(s) with label 'Pre-Test' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif' 
+
+2020-05-30 15:32:00 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif"), tipeSoal, false, 0): 1 option(s) with label 'Uraian' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif' 
+
+2020-05-30 15:32:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 15:32:01 - [MESSAGE][PASSED] - 1 option(s) with label 'Uraian' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif' 
+
+2020-05-30 15:32:01 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif"), jobFunction, false, 0): 1 option(s) with label 'SALES' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif' 
+
+2020-05-30 15:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 15:32:01 - [MESSAGE][PASSED] - 1 option(s) with label 'SALES' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif' 
+
+2020-05-30 15:32:01 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif"), jobPosition, false, 0): 1 option(s) with label 'SALES HEAD' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif' 
+
+2020-05-30 15:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 15:32:02 - [MESSAGE][PASSED] - 1 option(s) with label 'SALES HEAD' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif' 
+
+2020-05-30 15:32:02 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif"), module, false, 0): 1 option(s) with label '' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+
+2020-05-30 15:32:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 15:32:03 - [MESSAGE][PASSED] - 1 option(s) with label '' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+
+2020-05-30 15:32:03 - [TEST_STEP][PASSED] - technical = getAttribute(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence verif"), "value"): Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence verif' is: ''
+
+2020-05-30 15:32:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence verif' is: ''
+
+2020-05-30 15:32:03 - [TEST_STEP][PASSED] - level = getAttribute(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence verif"), "value"): Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence verif' is: ''
+
+2020-05-30 15:32:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence verif' is: ''
+
+2020-05-30 15:32:03 - [TEST_STEP][PASSED] - soal = getAttribute(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal verif"), "value"): Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal verif' is: ''
+
+2020-05-30 15:32:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal verif' is: ''
+
+2020-05-30 15:32:04 - [TEST_STEP][PASSED] - uraian = getAttribute(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Kunci Jawaban Uraian verif"), "value"): Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Kunci Jawaban Uraian verif' is: ''
+
+2020-05-30 15:32:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Kunci Jawaban Uraian verif' is: ''
+
+2020-05-30 15:32:04 - [TEST_STEP][PASSED] - verifyEqual(technical, technicalCompentence, STOP_ON_FAILURE): Actual object '' and expected object '' are equal
+
+2020-05-30 15:32:04 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2020-05-30 15:32:04 - [TEST_STEP][PASSED] - verifyMatch(technical, technicalCompentence, false): Actual text '' and expected text '' are matched 
+
+2020-05-30 15:32:04 - [MESSAGE][PASSED] - Actual text '' and expected text '' are matched 
+
+2020-05-30 15:32:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-30 15:32:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-30 15:30:39 - [TEST_SUITE][PASSED] - Admin - Manage Test - Pretest and Posttest - Edit (with verify): Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

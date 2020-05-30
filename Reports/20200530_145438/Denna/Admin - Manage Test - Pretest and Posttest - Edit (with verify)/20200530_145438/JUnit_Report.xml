@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Edit (with verify)" time="91.548" tests="1" failures="1" errors="0">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Edit (with verify)" tests="1" failures="1" errors="0" time="91.548" timestamp="2020-05-30 14:54:48" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Edit (with verify)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_145438\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_145438"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_145438\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_145438\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_145438\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_145438\\1590825378234.png, C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_145438\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_145438\\1590825378591.png"/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="63b0db1238ed666f3db85e3a5f5677ec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2" time="90.389" classname="Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL &amp; 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL &amp; 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-30 14:54:48 - [TEST_CASE][FAILED] - Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2: Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-30 14:54:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-30 14:54:49 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-30 14:54:49 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-30 14:54:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-30 14:54:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-30 14:55:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-30 14:55:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-30 14:55:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-30 14:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-30 14:55:11 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 63b0db1238ed666f3db85e3a5f5677ec
+
+2020-05-30 14:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-30 14:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-30 14:55:12 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-30 14:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-30 14:55:12 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-30 14:55:12 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-30 14:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-30 14:55:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-30 14:55:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test' is clicked on
+
+2020-05-30 14:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test' is clicked on
+
+2020-05-30 14:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test' is clicked on
+
+2020-05-30 14:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test' is clicked on
+
+2020-05-30 14:55:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-30 14:55:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-30 14:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete' is clicked on
+
+2020-05-30 14:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete' is clicked on
+
+2020-05-30 14:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit' is clicked on
+
+2020-05-30 14:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit' is clicked on
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - delay(4): NOT_RUN: delay(4)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(4)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category"), category, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category"), category, true)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category"), category, true)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal"), tipeSoal, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal"), tipeSoal, true)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal"), tipeSoal, true)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function"), jobFunction, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function"), jobFunction, true)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function"), jobFunction, true)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position"), jobPosition, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position"), jobPosition, true)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position"), jobPosition, true)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module"), module, true): NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module"), module, true)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module"), module, true)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence"), technicalCompentence): NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence"), technicalCompentence)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence"), technicalCompentence)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence"), levelCompetence): NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence"), levelCompetence)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence"), levelCompetence)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal"), soal): NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal"), soal)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal"), soal)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - if (tipeSoal == "Pilihan Ganda"): NOT_RUN: if (tipeSoal == "Pilihan Ganda")
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: if (tipeSoal == "Pilihan Ganda")
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit")): NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit"))
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit"))
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success")): NOT_RUN: verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success"))
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success"))
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2020-05-30 14:56:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete")): NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete"))
+
+2020-05-30 14:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete"))
+
+2020-05-30 14:56:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-30 14:56:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-30 14:56:12 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif"), category, false, 0): 1 option(s) with label 'Pre-Test' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif' 
+
+2020-05-30 14:56:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 14:56:15 - [MESSAGE][PASSED] - 1 option(s) with label 'Pre-Test' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif' 
+
+2020-05-30 14:56:15 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif"), tipeSoal, false, 0): 1 option(s) with label 'Uraian' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif' 
+
+2020-05-30 14:56:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 14:56:16 - [MESSAGE][PASSED] - 1 option(s) with label 'Uraian' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif' 
+
+2020-05-30 14:56:16 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif"), jobFunction, false, 0): 1 option(s) with label 'SALES' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif' 
+
+2020-05-30 14:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 14:56:16 - [MESSAGE][PASSED] - 1 option(s) with label 'SALES' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif' 
+
+2020-05-30 14:56:16 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif"), jobPosition, false, 0): 1 option(s) with label 'SALES HEAD' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif' 
+
+2020-05-30 14:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 14:56:17 - [MESSAGE][PASSED] - 1 option(s) with label 'SALES HEAD' is/are present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif' 
+
+2020-05-30 14:56:17 - [TEST_STEP][FAILED] - verifyOptionPresentByLabel(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif"), module, false, 0): Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-30 14:56:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-30 14:56:18 - [MESSAGE][FAILED] - There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_145438\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_145438\\1590825378234.png]]
+
+2020-05-30 14:56:18 - [MESSAGE][FAILED] - Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200530_145438\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit (with verify)\\20200530_145438\\1590825378591.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-30 14:54:48 - [TEST_CASE][FAILED] - Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2: Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-30 14:54:48 - [TEST_SUITE][FAILED] - Admin - Manage Test - Pretest and Posttest - Edit (with verify): Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-30 14:54:48 - [TEST_SUITE][FAILED] - Admin - Manage Test - Pretest and Posttest - Edit (with verify): Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is present by label 'MODUL & 10' in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.verifyOptionPresentByLabel(VerifyOptionPresentByLabelKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword.execute(VerifyOptionPresentByLabelKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionPresentByLabel(WebUiBuiltInKeywords.groovy:1988)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionPresentByLabel$3.call(Unknown Source)
+	at Admin - Manage Test - Pretest and Posttest - Edit2.run(Admin - Manage Test - Pretest and Posttest - Edit2:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590825278643.run(TempTestSuite1590825278643.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with label 'MODUL & 10' present in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.doCall(VerifyOptionPresentByLabelKeyword.groovy:91)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionPresentByLabelKeyword$_verifyOptionPresentByLabel_closure1.call(VerifyOptionPresentByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

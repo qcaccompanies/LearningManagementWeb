@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Edit" time="68.423" tests="1" failures="0" errors="1">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Edit" tests="1" failures="0" errors="1" time="68.423" timestamp="2020-05-29 16:53:11" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_165300\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_165300"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_165300\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_165300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="081a7afb19dd17155058b5087a641587"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1" time="66.223" classname="Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590745980936.run(TempTestSuite1590745980936.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-29 16:53:11 - [TEST_CASE][ERROR] - Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590745980936.run(TempTestSuite1590745980936.groovy:36)
+
+
+2020-05-29 16:53:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-29 16:53:12 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-29 16:53:12 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 16:53:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 16:53:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 16:53:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 16:53:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 16:53:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 16:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-29 16:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-29 16:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-29 16:53:43 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-29 16:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-29 16:53:43 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-29 16:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-29 16:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-29 16:53:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-29 16:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test' is clicked on
+
+2020-05-29 16:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test' is clicked on
+
+2020-05-29 16:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test' is clicked on
+
+2020-05-29 16:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test' is clicked on
+
+2020-05-29 16:53:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 16:54:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 16:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), searchID): Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:54:17 - [MESSAGE][PASSED] - Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:54:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), Keys.chord(ENTER)): null]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:53:11 - [TEST_CASE][ERROR] - Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590745980936.run(TempTestSuite1590745980936.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 16:53:11 - [TEST_SUITE][ERROR] - Admin - Manage Test - Pretest and Posttest - Edit: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590745980936.run(TempTestSuite1590745980936.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-29 16:53:11 - [TEST_SUITE][ERROR] - Admin - Manage Test - Pretest and Posttest - Edit: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590745980936.run(TempTestSuite1590745980936.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

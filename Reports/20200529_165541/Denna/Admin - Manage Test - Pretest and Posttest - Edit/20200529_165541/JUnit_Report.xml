@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Pretest and Posttest - Edit" time="79.182" tests="1" failures="0" errors="1">
+   <testsuite name="Admin - Manage Test - Pretest and Posttest - Edit" tests="1" failures="0" errors="1" time="79.182" timestamp="2020-05-29 16:55:54" hostname="Denna Leksanti - 192.168.152.1" id="Test Suites/Denna/Admin - Manage Test - Pretest and Posttest - Edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_165541\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_165541"/>
+         <property name="logFiles" value="C:\\Users\\Hari Sapto\\git\\LearningManagementWeb\\Reports\\20200529_165541\\Denna\\Admin - Manage Test - Pretest and Posttest - Edit\\20200529_165541\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Denna Leksanti - 192.168.152.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.152.1"/>
+         <property name="sessionId" value="7289040185ed440c08469aa10b97ab09"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1" time="77.871" classname="Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: technicalCompentence for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590746141441.run(TempTestSuite1590746141441.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-29 16:55:54 - [TEST_CASE][ERROR] - Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: technicalCompentence for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590746141441.run(TempTestSuite1590746141441.groovy:36)
+
+
+2020-05-29 16:55:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(Admin)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-29 16:55:55 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(Admin): Test Cases/Denna/Login(Admin)
+
+2020-05-29 16:55:55 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 16:55:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 16:55:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 16:56:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-05-29 16:56:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 16:56:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 16:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Login/button login")): Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-29 16:56:16 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-ETRGFK2', ip: '192.168.152.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\HARISA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:12166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7289040185ed440c08469aa10b97ab09
+
+2020-05-29 16:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login' is clicked on
+
+2020-05-29 16:56:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_NPK_username"), "11666"): Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-29 16:56:18 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Denna/Admin - Login/input_NPK_username'
+
+2020-05-29 16:56:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Login/input_Password_password"), "Password3"): Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-29 16:56:18 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Denna/Admin - Login/input_Password_password'
+
+2020-05-29 16:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Denna/Admin - Login/button login1")): Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-29 16:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Login/button login1' is clicked on
+
+2020-05-29 16:56:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(Admin)' successfully
+
+2020-05-29 16:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test' is clicked on
+
+2020-05-29 16:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Manage Test' is clicked on
+
+2020-05-29 16:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test' is clicked on
+
+2020-05-29 16:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Pre-Test  Post-Test' is clicked on
+
+2020-05-29 16:56:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 16:56:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 16:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), searchID): Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:56:49 - [MESSAGE][PASSED] - Text '1764' is set on object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:56:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:56:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input search'
+
+2020-05-29 16:56:49 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-29 16:56:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-29 16:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete' is clicked on
+
+2020-05-29 16:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button edit or delete' is clicked on
+
+2020-05-29 16:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit")): Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit' is clicked on
+
+2020-05-29 16:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/button Edit' is clicked on
+
+2020-05-29 16:56:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-29 16:56:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-29 16:56:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Category"), category, true): All options with label 'Pre-Test' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Category'  using regular expression
+
+2020-05-29 16:57:05 - [MESSAGE][PASSED] - All options with label 'Pre-Test' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Category'  using regular expression
+
+2020-05-29 16:57:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Tipe Soal"), tipeSoal, true): All options with label 'Uraian' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Tipe Soal'  using regular expression
+
+2020-05-29 16:57:06 - [MESSAGE][PASSED] - All options with label 'Uraian' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Tipe Soal'  using regular expression
+
+2020-05-29 16:57:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Function"), jobFunction, true): All options with label 'AR' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Function'  using regular expression
+
+2020-05-29 16:57:06 - [MESSAGE][PASSED] - All options with label 'AR' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Function'  using regular expression
+
+2020-05-29 16:57:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Position"), jobPosition, true): All options with label 'ARMA' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Position'  using regular expression
+
+2020-05-29 16:57:11 - [MESSAGE][PASSED] - All options with label 'ARMA' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Job Position'  using regular expression
+
+2020-05-29 16:57:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Module"), module, true): All options with label 'NEOP Surveyor' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Module'  using regular expression
+
+2020-05-29 16:57:12 - [MESSAGE][PASSED] - All options with label 'NEOP Surveyor' are selected in object 'Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/select Module'  using regular expression
+
+2020-05-29 16:57:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit/input Technical Competence"), technicalCompentence): null]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:55:54 - [TEST_CASE][ERROR] - Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: technicalCompentence for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590746141441.run(TempTestSuite1590746141441.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 16:55:54 - [TEST_SUITE][ERROR] - Admin - Manage Test - Pretest and Posttest - Edit: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: technicalCompentence for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590746141441.run(TempTestSuite1590746141441.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-29 16:55:54 - [TEST_SUITE][ERROR] - Admin - Manage Test - Pretest and Posttest - Edit: Test Cases/Denna/Admin - Manage Test - Prestest and Posttest - Edit1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: technicalCompentence for class: Script1590745559852
+	at Admin - Manage Test - Prestest and Posttest - Edit1.run(Admin - Manage Test - Prestest and Posttest - Edit1:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590746141441.run(TempTestSuite1590746141441.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
