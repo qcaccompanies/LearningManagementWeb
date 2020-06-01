@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='toast-container']/div/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'File size exceeded limit. Max upload size is 1MB' or . = 'File size exceeded limit. Max upload size is 1MB')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>639e638c-8edf-4b1e-ae8a-64c6593c971c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Christi/Admin/Manage Slider - new slider</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -77,7 +77,7 @@
          <id>cb1da0f2-018c-4d21-8b10-f9592d0a7b80</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>6</value>
          </iterationEntity>
          <testDataId>Data Files/Christi/edit slider</testDataId>
       </testDataLink>
@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>038f8429-8380-4a40-8775-53f34cec0dab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/Admin/Manage Slider - Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

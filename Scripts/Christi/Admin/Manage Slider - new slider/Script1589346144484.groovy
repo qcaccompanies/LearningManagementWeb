@@ -28,8 +28,7 @@ WebUI.click(findTestObject('Christi/Page_Manage Sliders/button_New Slider'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtS_4aaddd'), 
-    nama_slider)
+WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), nama_slider)
 
 WebUI.delay(3)
 

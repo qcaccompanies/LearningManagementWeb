@@ -24,24 +24,49 @@ WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/span_
 WebUI.delay(3)
 
 if (find_slider == 'found') {
-    WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/span_Edit'))
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider]), 3)
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Edit NEOP SERVICE'))
 
     WebUI.delay(3)
 
     switch (edit.toString()) {
         case 'nama slider':
-            if (nama_slider_baru == 'erase nama slider') {
-                WebUI.clearText(findTestObject('Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f'))
-            } else {
-                WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f'), 
-                    nama_slider_baru)
-            }
-            
-            WebUI.delay(3)
+            WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                nama_slider_baru)
 
-            if (max_character == 'yes') {
-                WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
-                    0)
+            WebUI.click(findTestObject('Christi/Page_Manage Sliders_Edit/button_Update Slider'))
+
+            if (expected == 'pass') {
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Edit NEOP SERVICE'))
+
+                WebUI.delay(3)
+
+                WebUI.verifyElementAttributeValue(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                    'text', nama_slider_baru, 0)
+
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg'))
+            } else if (expected == 'fail') {
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Edit NEOP SERVICE'))
+
+                WebUI.delay(3)
+
+                if (max_character == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                        0)
+                }
+                
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg'))
             }
             
             break
@@ -49,44 +74,60 @@ if (find_slider == 'found') {
             WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
                 url_slider_baru)
 
-            if (nama_slider_baru == 'erase url slider') {
-                WebUI.clearText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
-                    FailureHandling.STOP_ON_FAILURE)
-            } else {
-                WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
-                    url_slider_baru)
+            WebUI.click(findTestObject('Christi/Page_Manage Sliders_Edit/button_Update Slider'))
+
+            if (expected == 'pass') {
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Edit NEOP SERVICE'))
+
+                WebUI.delay(3)
+
+                WebUI.verifyElementAttributeValue(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                    'text', nama_slider_baru, 0)
+
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg'))
+            } else if (expected == 'fail') {
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Edit NEOP SERVICE'))
+
+                WebUI.delay(3)
+
+                if (max_character == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                        0)
+                }
+                
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg'))
             }
             
-            WebUI.delay(3)
-
             break
         case 'img slider':
-            WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
-
-            WebUI.delay(3)
-
-            WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 0)
+            WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider_baru)
 
             if (max_image_size == 'yes') {
-                WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
                     0)
             } else if (img_file_invalid == 'yes') {
-                WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
                     0)
             } else {
                 WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
                     0)
             }
             
-            WebUI.delay(3)
-
             break
         case 'change all':
-            WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f'), 
+            WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
                 nama_slider_baru)
 
             if (max_character == 'yes') {
-                WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
                     0)
             }
             
@@ -100,31 +141,103 @@ if (find_slider == 'found') {
             WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider_baru)
 
             if (max_image_size == 'yes') {
-                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
-                    0)
-
-                WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
                     0)
             } else if (img_file_invalid == 'yes') {
-                WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
                     0)
             } else {
                 WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
                     0)
             }
             
-            WebUI.delay(3)
-
             break
     }
     
-    WebUI.delay(3)
-
     WebUI.click(findTestObject('Christi/Page_Manage Sliders_Edit/button_Update Slider'))
 
-    not_run: if (expected == 'pass') {
-        not_run: switch (edit.toString()) {
+    if (expected == 'pass') {
+        switch (edit.toString()) {
             case 'nama slider':
+                if (nama_slider_baru == 'erase nama slider') {
+                    WebUI.clearText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'))
+                } else {
+                    WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                        nama_slider_baru)
+
+                    if (max_character == 'yes') {
+                        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                            0)
+                    }
+                }
+                
+                break
+            case 'url slider':
+                if (url_slider_baru == 'erase url slider') {
+                    WebUI.clearText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
+                        FailureHandling.STOP_ON_FAILURE)
+                } else {
+                    WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
+                        url_slider_baru)
+                }
+                
+                break
+            case 'img slider':
+                WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider_baru)
+
+                if (max_image_size == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                        0)
+                } else if (img_file_invalid == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                        0)
+                } else {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
+                        0)
+                }
+                
+                break
+            case 'change all':
+                WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                    nama_slider_baru)
+
+                if (max_character == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                        0)
+                }
+                
+                WebUI.delay(3)
+
+                WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
+                    url_slider_baru)
+
+                WebUI.delay(3)
+
+                WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider_baru)
+
+                if (max_image_size == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                        0)
+                } else if (img_file_invalid == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                        0)
+                } else {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
+                        0)
+                }
+                
+                break
+        }
+        
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Edit/div_Data has been updated'), 0)
+
+        switch (edit.toString()) {
+            case 'nama slider':
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider_baru]), 
+                    0)
+
+                break
+            case 'change all':
                 WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider_baru]), 
                     0)
 
@@ -136,11 +249,87 @@ if (find_slider == 'found') {
                 break
         }
     } else if (expected == 'fail') {
-        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/span_Data belum lengkap'), 0)
+        switch (edit.toString()) {
+            case 'nama slider':
+                if (nama_slider_baru == 'erase nama slider') {
+                    WebUI.clearText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'))
+                } else {
+                    WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                        nama_slider_baru)
+
+                    if (max_character == 'yes') {
+                        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                            0)
+                    }
+                }
+                
+                not_run: WebUI.click(findTestObject('Christi/Page_Manage Sliders_Edit/button_Update Slider'))
+
+                break
+            case 'url slider':
+                if (url_slider_baru == 'erase url slider') {
+                    WebUI.clearText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
+                        FailureHandling.STOP_ON_FAILURE)
+                } else {
+                    WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
+                        url_slider_baru)
+                }
+                
+                not_run: WebUI.click(findTestObject('Christi/Page_Manage Sliders_Edit/button_Update Slider'))
+
+                break
+            case 'img slider':
+                WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider_baru)
+
+                if (max_image_size == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                        0)
+                } else if (img_file_invalid == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                        0)
+                } else {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
+                        0)
+                }
+                
+                not_run: WebUI.click(findTestObject('Christi/Page_Manage Sliders_Edit/button_Update Slider'))
+
+                break
+            case 'change all':
+                WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), 
+                    nama_slider_baru)
+
+                if (max_character == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/label_Slider name maximum 25 character'), 
+                        0)
+                }
+                
+                WebUI.delay(3)
+
+                WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'), 
+                    url_slider_baru)
+
+                WebUI.delay(3)
+
+                WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider_baru)
+
+                if (max_image_size == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB'), 
+                        0)
+                } else if (img_file_invalid == 'yes') {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff'), 
+                        0)
+                } else {
+                    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 
+                        0)
+                }
+                
+                break
+        }
     }
 } else if (find_slider == 'not found') {
     WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider]), 
-        0)
+        3)
 }
 
 WebUI.delay(3)

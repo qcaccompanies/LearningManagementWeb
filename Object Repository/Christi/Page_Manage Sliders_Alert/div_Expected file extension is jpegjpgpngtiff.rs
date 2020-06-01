@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='toast-container']/div/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'toast-message' and (text() = 'Expected file extension is .jpeg,.jpg,.png,.tiff' or . = 'Expected file extension is .jpeg,.jpg,.png,.tiff')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -27,14 +31,14 @@
       <value>polite</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>alert</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

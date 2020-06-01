@@ -6,15 +6,15 @@
    <elementGuidId>1158da03-30a4-4a0b-b4be-a2c74de6831a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managesliders/div/main/div/div/div/div[3]/div/div/div/ul/li[4]/div/div/div[2]/a[2]/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;ng-app&quot;)/app-root[1]/app-page-outlet[1]/app-page-managesliders[1]/div[@class=&quot;app-page container left-panel-collapsed-container slide-in-left-panel-container left-panel-container-md-10 left-panel-container-sm-10 left-panel-container-xs-2&quot;]/main[@class=&quot;app-content clearfix&quot;]/div[@class=&quot;row app-content-row clearfix&quot;]/div[@class=&quot;app-page-content app-content-column col-md-10 col-sm-10&quot;]/div[@class=&quot;app-grid-layout clearfix&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-12&quot;]/div[@class=&quot;app-container sliderContainer&quot;]/div[@class=&quot;app-livelist app-panel list-card Scroll&quot;]/ul[@class=&quot;app-livelist-container clearfix list-group&quot;]/li[@class=&quot;app-list-item col-xs-12 col-sm-12 col-md-6 col-lg-6&quot;]/div[@class=&quot;app-grid-layout clearfix gridSlider&quot;]/div[@class=&quot;app-grid-row clearfix&quot;]/div[@class=&quot;app-grid-column col-sm-6&quot;]/a[@class=&quot;app-anchor&quot;]/span[@class=&quot;anchor-caption&quot;][count(. | //*[(text() = 'Delete' or . = 'Delete')]) = count(//*[(text() = 'Delete' or . = 'Delete')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Delete' or . = 'Delete')]</value>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managesliders/div/main/div/div/div/div[3]/div/div/div/ul/li[2]/div/div/div[2]/a[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <value>Delete</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -46,6 +46,48 @@
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managesliders/div/main/div/div/div/div[3]/div/div/div/ul/li[2]/div/div/div[2]/a[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEOP SALES'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEOP SERVICE'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div[2]/a[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

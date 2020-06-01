@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='toast-container']/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'toast-success toast' and (text() = 'Data has been saved' or . = 'Data has been saved')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Slider" time="112.433" tests="1" failures="0" errors="0">
+   <testsuite name="Manage Slider" tests="1" failures="0" errors="0" time="112.433" timestamp="2020-05-27 19:59:59" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Manage Slider">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200527_195949\\Christi\\Manage Slider\\20200527_195949"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200527_195949\\Christi\\Manage Slider\\20200527_195949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="d56376549f109cedeab076edcdb661c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - Edit" time="111.344" classname="Test Cases/Christi/Admin/Manage Slider - Edit" status="PASSED">
+         <system-out><![CDATA[2020-05-27 20:00:00 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - Edit: Test Cases/Christi/Admin/Manage Slider - Edit
+
+2020-05-27 20:00:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-05-27 20:00:01 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-05-27 20:00:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-27 20:00:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 20:00:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-27 20:00:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-27 20:00:12 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-27 20:00:35 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-05-27 20:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-05-27 20:00:40 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d56376549f109cedeab076edcdb661c5
+
+2020-05-27 20:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-05-27 20:00:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:00:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-05-27 20:00:44 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-05-27 20:00:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-05-27 20:00:44 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-05-27 20:00:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-27 20:00:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-27 20:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-27 20:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-05-27 20:00:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-27 20:00:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-27 20:00:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-05-27 20:00:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:00:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-05-27 20:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-05-27 20:01:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:01:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:01:07 - [TEST_STEP][PASSED] - if (find_slider == "found"): Object: 'Object Repository/Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg' is clicked on
+
+2020-05-27 20:01:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Slider", ["text":nama_slider]), 3): Object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+
+2020-05-27 20:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+
+2020-05-27 20:01:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:01:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Edit NEOP SERVICE")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE' is clicked on
+
+2020-05-27 20:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE' is clicked on
+
+2020-05-27 20:01:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:01:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:01:20 - [TEST_STEP][PASSED] - switch (edit.toString()): null
+
+2020-05-27 20:01:20 - [TEST_STEP][PASSED] - case "nama slider":: null
+
+2020-05-27 20:01:20 - [TEST_STEP][PASSED] - if (nama_slider_baru == "erase nama slider"): Text of object 'Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f' is cleared
+
+2020-05-27 20:01:20 - [TEST_STEP][PASSED] - clearText(findTestObject("Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f")): Text of object 'Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f' is cleared
+
+2020-05-27 20:01:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Christi/Page_Manage Sliders/input_Slider name maximum 25 character_txtE_3ccb7f' is cleared
+
+2020-05-27 20:01:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:01:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - break: null
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders_Edit/button_Update Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders_Edit/button_Update Slider' is clicked on
+
+2020-05-27 20:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders_Edit/button_Update Slider' is clicked on
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object: 'Object Repository/Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg' is clicked on
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - if (max_character == "yes"): null
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Christi/Page_Manage Sliders/label_Edit Slider' is present
+
+2020-05-27 20:01:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Edit Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Edit Slider' is present
+
+2020-05-27 20:01:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-27 20:01:46 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Edit Slider' is present
+
+2020-05-27 20:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg")): Object: 'Object Repository/Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg' is clicked on
+
+2020-05-27 20:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/i_NEOP UW_app-icon wi wi-close fa-lg' is clicked on
+
+2020-05-27 20:01:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-27 20:01:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-27 20:01:50 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-05-27 20:01:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-27 19:59:59 - [TEST_SUITE][PASSED] - Manage Slider: Test Cases/Christi/Admin/Manage Slider - Edit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

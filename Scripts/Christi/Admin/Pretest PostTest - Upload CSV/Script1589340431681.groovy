@@ -38,7 +38,7 @@ WebUI.uploadFile(findTestObject('Christi/Page_Manage Test/input_Clear button_fil
 WebUI.delay(3)
 
 if (expected == 'pass') {
-    WebUI.getAlertText()
+    WebUI.acceptAlert()
 } else if (expected == 'fail') {
     if (status == 'error, expected file csv') {
         WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Test/div_Expected file extension is csv'), 0)

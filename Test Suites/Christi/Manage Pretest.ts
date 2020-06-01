@@ -26,7 +26,7 @@
          <id>15225a56-f87e-4271-9811-d850e911b709</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>3</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Christi/upload pretest posttest</testDataId>
       </testDataLink>

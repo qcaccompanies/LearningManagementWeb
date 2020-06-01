@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'anchor-caption' and (text() = 'Edit' or . = 'Edit') and @ref_element = 'Object Repository/Christi/Page_Manage Sliders_Edit/div_NEOP SALESEditDelete']</value>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managesliders/div/main/div/div/div/div[3]/div/div/div/ul/li/div/div/div[2]/a/span[count(. | //span[(text() = 'Edit' or . = 'Edit')]) = count(//span[(text() = 'Edit' or . = 'Edit')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -15,20 +15,19 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -42,7 +41,7 @@
       <value>Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

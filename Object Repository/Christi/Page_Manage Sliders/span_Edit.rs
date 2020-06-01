@@ -6,15 +6,15 @@
    <elementGuidId>21e715fb-331a-4cd4-972e-7655a6eb654f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managesliders/div/main/div/div/div/div[3]/div/div/div/ul/li[4]/div/div/div[2]/a/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Edit' or . = 'Edit')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/app-root/app-page-outlet/app-page-managesliders/div/main/div/div/div/div[3]/div/div/div/ul/li[4]/div/div/div[2]/a/span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
