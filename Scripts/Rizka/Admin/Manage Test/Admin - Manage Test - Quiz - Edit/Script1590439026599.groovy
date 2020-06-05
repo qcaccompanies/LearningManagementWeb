@@ -33,40 +33,41 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnEdi
 WebUI.delay(5)
 
 if (tipeSoal != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/tipeSoal'), tipeSoal, false)
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3'), tipeSoal, 
+        false)
 }
 
 if (jobFunction != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2'), jobFunction, 
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3'), jobFunction, 
         false)
 }
 
 WebUI.delay(5)
 
 if (jobPosition != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2'), 
-        jobPosition, false)
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3'), jobPosition, 
+        false)
 }
 
 if (module != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/module'), module, false)
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3'), module, false)
 }
 
 if (subModule != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/subModule-learningPoint'), subModule, 
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3'), subModule, 
         false)
 }
 
 if (technicalCompetence != '') {
-    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/technicalCompetence'), technicalCompetence, 
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTechnicalComp_v3'), technicalCompetence, 
         FailureHandling.STOP_ON_FAILURE)
 }
 
 if (levelCompetence != '') {
-    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/levelCompetence'), levelCompetence, FailureHandling.STOP_ON_FAILURE)
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputLevelComp_v3'), levelCompetence, FailureHandling.STOP_ON_FAILURE)
 
     if (levelCompetence == 'Alfabet') {
-        atribut = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'), 
+        atribut = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputLevelComp_v3'), 
             'value')
 
         WebUI.verifyNotMatch(atribut, levelCompetence, false)
@@ -75,35 +76,38 @@ if (levelCompetence != '') {
 
 if (levelCompetence != 'Alfabet') {
     if (soalQuestion != '') {
-        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/txtSoal'), soalQuestion)
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'), soalQuestion)
     }
     
     if (tipeSoal == 'Pilihan Ganda') {
-		if (jawabanA != '') {
-			WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_Jawaban A_answerA'), jawabanA)
-		}
-		if (jawabanB != '') {
-			WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_Jawaban B_answerB'), jawabanB)
-		}
-		if (jawabanC != '') {
-			WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_Jawaban C_answerC'), jawabanC)
-		}
-		if (jawabanD != '') {
-			WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_Jawaban D_answerD'), jawabanD)
-		}
+        if (jawabanA != '') {
+            WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanA_v3'), jawabanA)
+        }
+        
+        if (jawabanB != '') {
+            WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanB_v3'), jawabanB)
+        }
+        
+        if (jawabanC != '') {
+            WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanC_v3'), jawabanC)
+        }
+        
+        if (jawabanD != '') {
+            WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanD_v3'), jawabanD)
+        }
         
         if (kunciJawabanPilgan != '') {
-            WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanPilgan'), 
+            WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3'), 
                 kunciJawabanPilgan, false)
         }
     } else if (tipeSoal == 'Benar / Salah') {
         if (tipeSoal != '') {
-            WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawaban'), kunciJawaban, 
-                false)
+            WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanBenarSalah_v3'), 
+                kunciJawaban, false)
         }
     } else {
         if (uraian != '') {
-            WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'), uraian)
+            WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputKunciJawabanUraian_v3'), uraian)
         }
     }
     
@@ -121,32 +125,32 @@ if (levelCompetence != 'Alfabet') {
         WebUI.delay(5)
 
         if (tipeSoal != '') {
-            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_tipesoal2'), 
+            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3'), 
                 tipeSoal, false, 0)
         }
         
         if (jobFunction != '') {
-            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_jobfunction2'), 
+            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3'), 
                 jobFunction, false, 0)
         }
         
         if (jobPosition != '') {
-            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_jobposition2'), 
+            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3'), 
                 jobPosition, false, 0)
         }
         
         if (module != '') {
-            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_module2'), 
+            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3'), 
                 module, false, 0)
         }
         
         if (subModule != '') {
-            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_submodule2'), 
+            WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3'), 
                 subModule, false, 0)
         }
         
         if (soalQuestion != '') {
-            attribute = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/textarea_soal'), 
+            attribute = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'), 
                 'value')
 
             WebUI.verifyMatch(attribute, soalQuestion, false)
@@ -154,45 +158,41 @@ if (levelCompetence != 'Alfabet') {
         
         if (tipeSoal == 'Pilihan Ganda') {
             if (jawabanA != '') {
-                A1 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_answerA2'), 
-                    'value')
+                A1 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanA_v3'), 'value')
 
                 WebUI.verifyMatch(A1, jawabanA, false)
             }
             
             if (jawabanB != '') {
-                A2 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_answerB2'), 
-                    'value')
+                A2 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanB_v3'), 'value')
 
                 WebUI.verifyMatch(A2, jawabanB, false)
             }
             
             if (jawabanC != '') {
-                A3 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_answerC2'), 
-                    'value')
+                A3 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanC_v3'), 'value')
 
                 WebUI.verifyMatch(A3, jawabanC, false)
             }
             
             if (jawabanD != '') {
-                A4 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/input_answerD2'), 
-                    'value')
+                A4 = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanD_v3'), 'value')
 
                 WebUI.verifyMatch(A4, jawabanD, false)
             }
             
             if (kunciJawabanPilgan != '') {
-                WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_kuncijawabanpilgan2'), 
+                WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3'), 
                     kunciJawabanPilgan, false, 0)
             }
         } else if (tipeSoal == 'Benar / Salah') {
             if (kunciJawaban != '') {
-                WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/select_kuncijawabanbenarsalah2'), 
+                WebUI.verifyOptionSelectedByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanBenarSalah_v3'), 
                     kunciJawaban, false, 0)
             }
         } else {
             if (kunciJawaban != '') {
-                uraianVar = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/textarea_kuncijawabanuraian2'), 
+                uraianVar = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputKunciJawabanUraian_v3'), 
                     'value')
 
                 WebUI.verifyMatch(uraianVar, uraian, false)

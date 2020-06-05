@@ -30,43 +30,41 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Questio
 WebUI.delay(5)
 
 if (tipeSoal != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTipeSoal'), tipeSoal, 
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3'), tipeSoal, 
         false)
 }
 
 if (jobFunction != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/jobFunction_v2'), jobFunction, 
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3'), jobFunction, 
         false)
 }
 
 WebUI.delay(3)
 
 if (jobPosition != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJobPosition_v2'), 
-        jobPosition, false)
-}
-
-if (module != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldModul'), module, 
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3'), jobPosition, 
         false)
 }
 
+if (module != '') {
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3'), module, false)
+}
+
 if (subModule != '') {
-    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldSubModul'), subModule, 
+    WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3'), subModule, 
         false)
 }
 
 if (technicalCompetence != '') {
-    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldTechnicalCompetence'), technicalCompetence, 
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTechnicalComp_v3'), technicalCompetence, 
         FailureHandling.STOP_ON_FAILURE)
 }
 
 if (levelCompetence != '') {
-    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'), levelCompetence, 
-        FailureHandling.STOP_ON_FAILURE)
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputLevelComp_v3'), levelCompetence, FailureHandling.STOP_ON_FAILURE)
 
     if (levelCompetence == 'Alfabet') {
-        atribut = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldLevelCompetence'), 
+        atribut = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputLevelComp_v3'), 
             'value')
 
         WebUI.verifyNotMatch(atribut, levelCompetence, false)
@@ -74,49 +72,49 @@ if (levelCompetence != '') {
 }
 
 if (levelCompetence != 'Alfabet') {
-	if (soalQuestion != '') {
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldQuestion'), soalQuestion)
-	}
-	
-	if (tipeSoal == 'Pilihan Ganda') {
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerA'), jawabanA)
-	
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerB'), jawabanB)
-	
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerC'), jawabanC)
-	
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldAnswerD'), jawabanD)
-	
-		if (kunciJawabanPilgan != '') {
-			WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldJawabanPilgan'),
-				kunciJawabanPilgan, false)
-		}
-	} else if (tipeSoal == 'Benar / Salah') {
-		WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/fieldBenarSalah'), kunciJawaban,
-			false)
-	} else if (tipeSoal == 'Uraian') {
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'), uraian)
-	}
-	
-	if (condition == 'passed') {
-		WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
-	
-		WebUI.delay(5)
-	
-		WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'), soalQuestion)
-	
-		WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch'))
-	
-		WebUI.delay(3)
-	
-		WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali',
-				[('text') : soalQuestion]), FailureHandling.STOP_ON_FAILURE)
-	} else {
-		WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
-	
-		WebUI.delay(5)
-	
-		WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
-	}
+    if (soalQuestion != '') {
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'), soalQuestion)
+    }
+    
+    if (tipeSoal == 'Pilihan Ganda') {
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanA_v3'), jawabanA)
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanB_v3'), jawabanB)
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanC_v3'), jawabanC)
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanD_v3'), jawabanD)
+
+        if (kunciJawabanPilgan != '') {
+            WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3'), 
+                kunciJawabanPilgan, false)
+        }
+    } else if (tipeSoal == 'Benar / Salah') {
+        WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanBenarSalah_v3'), 
+            kunciJawaban, false)
+    } else if (tipeSoal == 'Uraian') {
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/kunciJawabanUraian'), uraian)
+    }
+    
+    if (condition == 'passed') {
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
+
+        WebUI.delay(5)
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'), soalQuestion)
+
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch'))
+
+        WebUI.delay(3)
+
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali', 
+                [('text') : soalQuestion]), FailureHandling.STOP_ON_FAILURE)
+    } else {
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
+
+        WebUI.delay(5)
+
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit'))
+    }
 }
 
