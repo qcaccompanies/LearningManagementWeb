@@ -6,12 +6,12 @@
    <elementGuidId>bfa9108d-a3e3-489a-8c2b-099455717026</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//label[(text() = '${text}' or . = '${text}')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//label[@name='label13'])[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = '${text}' or . = '${text}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

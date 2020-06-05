@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Slider" time="479.017" tests="8" failures="1" errors="0">
+   <testsuite name="Manage Slider" tests="8" failures="1" errors="0" time="479.017" timestamp="2020-06-04 09:15:02" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Manage Slider">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_091446\\Christi\\Manage Slider\\20200604_091446"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_091446\\Christi\\Manage Slider\\20200604_091446\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_091446\\Christi\\Manage Slider\\20200604_091446\\1591237379908.png, C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_091446\\Christi\\Manage Slider\\20200604_091446\\1591237380325.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="4ce2556f1f951c609b705afb7587d152"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="70.444" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:15:04 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:15:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:15:06 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:15:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:15:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:15:07 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-04 09:15:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:15:13 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:15:22 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:15:27 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 348daede3ca83388eb34cca4f10001bf
+
+2020-06-04 09:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:15:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:15:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:15:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:15:34 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:15:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:15:35 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:15:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:15:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:15:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:15:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:15:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:15:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:15:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:15:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:15:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:15:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:15:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:15:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text '123456789000123456789123456789000123456789' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:15:59 - [MESSAGE][PASSED] - Text '123456789000123456789123456789000123456789' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:15:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:16:03 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:16:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:07 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:16:07 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:16:07 - [TEST_STEP][PASSED] - if (upload == "yes"): null
+
+2020-06-04 09:16:07 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:16:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:16:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:16:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:16:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="57.581" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:16:14 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:16:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:16:14 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:16:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:16:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:16:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:16:17 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:16:26 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:16:29 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf3bef1cbe8a08498a62253622e7ea79
+
+2020-06-04 09:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:16:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:16:34 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:16:35 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:16:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:16:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:16:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:16:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:16:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:16:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:16:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:16:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:16:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:16:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:16:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:16:57 - [MESSAGE][PASSED] - Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:16:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text '123456789000123456789123456789000123456789' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:17:01 - [MESSAGE][PASSED] - Text '123456789000123456789123456789000123456789' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:17:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:04 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:17:04 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:17:04 - [TEST_STEP][PASSED] - if (upload == "yes"): null
+
+2020-06-04 09:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:17:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:17:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:17:08 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:17:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:17:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="56.01" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:17:12 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:17:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:17:12 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:17:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:17:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:17:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:17:15 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:17:22 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:17:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:17:30 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:17:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:17:30 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:17:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:17:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:17:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:17:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:17:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:17:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:17:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:17:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:17:52 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:17:52 - [MESSAGE][PASSED] - Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:17:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:17:56 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:17:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:17:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:17:59 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:17:59 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:17:59 - [TEST_STEP][PASSED] - if (upload == "yes"): Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB' is present
+
+2020-06-04 09:17:59 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Manage Sliders/input_Icon_files"), img_slider): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\Aristotles.jpg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:18:00 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\Aristotles.jpg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:18:00 - [TEST_STEP][PASSED] - if (max_image_size == "yes"): Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB' is present
+
+2020-06-04 09:18:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB"), 1): Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB' is present
+
+2020-06-04 09:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_File size exceeded limit Max upload size is 1MB' is present
+
+2020-06-04 09:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:18:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:18:04 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:18:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:18:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="56.649" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:18:08 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:18:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:18:08 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:18:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:18:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:18:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:18:11 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:18:18 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:18:22 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c447fe4673c4237fac65f906ca7b4312
+
+2020-06-04 09:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:18:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:18:27 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:18:27 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:18:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:18:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:18:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:18:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:18:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:18:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:18:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:18:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:18:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:18:49 - [MESSAGE][PASSED] - Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:18:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:18:53 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:18:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:18:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:18:56 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:18:56 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:18:56 - [TEST_STEP][PASSED] - if (upload == "yes"): Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff' is present
+
+2020-06-04 09:18:56 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Manage Sliders/input_Icon_files"), img_slider): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\01. What Business Are we in.pdf' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:18:57 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\01. What Business Are we in.pdf' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:18:57 - [TEST_STEP][PASSED] - if (max_image_size == "yes"): null
+
+2020-06-04 09:18:57 - [TEST_STEP][PASSED] - else if (img_file_invalid == "yes"): Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff' is present
+
+2020-06-04 09:18:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff"), 1): Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff' is present
+
+2020-06-04 09:18:57 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders_Alert/div_Expected file extension is jpegjpgpngtiff' is present
+
+2020-06-04 09:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:18:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:19:01 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:19:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="58.838" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:19:05 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:19:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:19:05 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:19:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:19:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:19:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:19:08 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:19:15 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:19:19 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6d175209489dae823d1d5447442575bc
+
+2020-06-04 09:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:19:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:19:23 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:19:24 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:19:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:19:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:19:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:19:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:19:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:19:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:19:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:19:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text '' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:19:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:19:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:19:50 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:19:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:53 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:19:53 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:53 - [TEST_STEP][PASSED] - if (upload == "yes"): null
+
+2020-06-04 09:19:53 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Manage Sliders/input_Icon_files"), img_slider): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\WhatsApp Image 2020-02-20 at 08.37.35 (1).jpeg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:19:54 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\WhatsApp Image 2020-02-20 at 08.37.35 (1).jpeg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:19:54 - [TEST_STEP][PASSED] - if (max_image_size == "yes"): null
+
+2020-06-04 09:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:19:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:19:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:19:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:19:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:20:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="57.504" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:20:04 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:20:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:20:04 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:20:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:20:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:20:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:20:07 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:20:14 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:20:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:20:22 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:20:23 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:20:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:20:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:20:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:20:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:20:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:20:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:20:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:20:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:20:45 - [MESSAGE][PASSED] - Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:20:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text '' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:20:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:20:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:51 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:20:51 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:20:51 - [TEST_STEP][PASSED] - if (upload == "yes"): null
+
+2020-06-04 09:20:51 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Manage Sliders/input_Icon_files"), img_slider): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\WhatsApp Image 2020-02-20 at 08.37.35 (1).jpeg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:20:52 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\WhatsApp Image 2020-02-20 at 08.37.35 (1).jpeg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:20:52 - [TEST_STEP][PASSED] - if (max_image_size == "yes"): null
+
+2020-06-04 09:20:52 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:20:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:20:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:20:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:20:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:21:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="56.457" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="PASSED">
+         <system-out><![CDATA[2020-06-04 09:21:01 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider
+
+2020-06-04 09:21:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:21:01 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:21:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:21:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:21:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:21:04 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:21:13 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:21:17 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e65368444c3cd95e76cebdca2a5a170e
+
+2020-06-04 09:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:21:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:21:21 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:21:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:21:21 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:21:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:21:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:21:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:21:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:21:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:21:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:21:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:21:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:21:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:21:43 - [MESSAGE][PASSED] - Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:21:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:21:47 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:21:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:50 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-06-04 09:21:50 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:21:50 - [TEST_STEP][PASSED] - if (upload == "yes"): null
+
+2020-06-04 09:21:50 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:21:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:21:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:21:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:21:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 09:21:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - new slider" time="62.213" classname="Test Cases/Christi/Admin/Manage Slider - new slider" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Christi/Admin/Manage Slider - new slider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 09:21:58 - [TEST_CASE][FAILED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 09:21:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:21:58 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 09:21:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 09:21:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 09:22:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 09:22:00 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:22:08 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 09:22:08 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:22:11 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ce2556f1f951c609b705afb7587d152
+
+2020-06-04 09:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 09:22:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:22:16 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 09:22:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:22:16 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 09:22:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:22:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 09:22:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 09:22:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 09:22:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 09:22:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 09:22:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is clicked on
+
+2020-06-04 09:22:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/label_Add Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:22:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:22:37 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Add Slider' is present
+
+2020-06-04 09:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_nama_slider"), nama_slider): Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:22:38 - [MESSAGE][PASSED] - Text 'Slider Service' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_nama_slider'
+
+2020-06-04 09:22:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink"), url): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:22:42 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtSliderLink'
+
+2020-06-04 09:22:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:45 - [TEST_STEP][FAILED] - if (expected == "pass"): Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 09:22:45 - [TEST_STEP][PASSED] - if (upload == "yes"): Object 'Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully' is present
+
+2020-06-04 09:22:45 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Icon_files"), img_slider): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\WhatsApp Image 2020-02-20 at 08.37.35 (1).jpeg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:22:45 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\WhatsApp Image 2020-02-20 at 08.37.35 (1).jpeg' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 09:22:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully' is present
+
+2020-06-04 09:22:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:22:48 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully' is present
+
+2020-06-04 09:22:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Christi/Page_Manage Sliders/span_Confirm")): Object 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clickable
+
+2020-06-04 09:22:51 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clickable
+
+2020-06-04 09:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/span_Confirm")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Confirm' is clicked on
+
+2020-06-04 09:22:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 09:22:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 09:22:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Manage Sliders/button_New Slider"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is present
+
+2020-06-04 09:22:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 09:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/button_New Slider' is present
+
+2020-06-04 09:22:55 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Slider", ["text":nama_slider]), 3): Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 09:22:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-04 09:23:00 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_091446\\Christi\\Manage Slider\\20200604_091446\\1591237379908.png]]
+
+2020-06-04 09:23:00 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_091446\\Christi\\Manage Slider\\20200604_091446\\1591237380325.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 09:21:58 - [TEST_CASE][FAILED] - Test Cases/Christi/Admin/Manage Slider - new slider: Test Cases/Christi/Admin/Manage Slider - new slider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-04 09:15:02 - [TEST_SUITE][FAILED] - Manage Slider: Test Cases/Christi/Admin/Manage Slider - new slider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-04 09:15:02 - [TEST_SUITE][FAILED] - Manage Slider: Test Cases/Christi/Admin/Manage Slider - new slider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Manage Slider - new slider.run(Manage Slider - new slider:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591236886166.run(TempTestSuite1591236886166.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Manage Sliders/label_Slider' located by 'By.xpath: //label[(text() = 'Slider Service' or . = 'Slider Service')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

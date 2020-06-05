@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Pretest" time="133.106" tests="1" failures="0" errors="0">
+   <testsuite name="Manage Pretest" tests="1" failures="0" errors="0" time="133.106" timestamp="2020-06-05 14:10:25" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Manage Pretest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200605_141007\\Christi\\Manage Pretest\\20200605_141007"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200605_141007\\Christi\\Manage Pretest\\20200605_141007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="a4b6cc4b1bc30bb44835f8d77f86a70e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/Admin/Pretest PostTest - Upload CSV" time="130.29" classname="Test Cases/Christi/Admin/Pretest PostTest - Upload CSV" status="PASSED">
+         <system-out><![CDATA[2020-06-05 14:10:26 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/Pretest PostTest - Upload CSV: Test Cases/Christi/Admin/Pretest PostTest - Upload CSV
+
+2020-06-05 14:10:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-05 14:10:27 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-05 14:10:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-05 14:10:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-05 14:10:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-05 14:10:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-05 14:10:37 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-05 14:10:58 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-05 14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-05 14:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-05 14:11:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-05 14:11:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-05 14:11:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-05 14:11:10 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-05 14:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-05 14:11:11 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-05 14:11:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-05 14:11:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-05 14:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-05 14:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-05 14:11:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-05 14:11:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-05 14:11:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-05 14:11:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-05 14:11:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-05 14:11:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard Admin/button_Manage Test"), 0): Object 'Object Repository/Christi/Page_Dashboard Admin/button_Manage Test' is present
+
+2020-06-05 14:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-05 14:11:27 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard Admin/button_Manage Test' is present
+
+2020-06-05 14:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/button_Manage Test")): Object: 'Object Repository/Christi/Page_Dashboard Admin/button_Manage Test' is clicked on
+
+2020-06-05 14:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/button_Manage Test' is clicked on
+
+2020-06-05 14:11:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-05 14:11:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-05 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test' is clicked on
+
+2020-06-05 14:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test' is clicked on
+
+2020-06-05 14:11:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-05 14:11:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-05 14:11:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Test/label_Manage Pre-Test dan Post-Test"), 0): Object 'Object Repository/Christi/Page_Manage Test/label_Manage Pre-Test dan Post-Test' is present
+
+2020-06-05 14:11:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-05 14:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Test/label_Manage Pre-Test dan Post-Test' is present
+
+2020-06-05 14:11:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-05 14:11:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-05 14:11:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Manage Test/input_Clear button_files"), file_upload): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\Pre-Test_LEMON.csv' sent to object: 'Object Repository/Christi/Page_Manage Test/input_Clear button_files'
+
+2020-06-05 14:11:51 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\Pre-Test_LEMON.csv' sent to object: 'Object Repository/Christi/Page_Manage Test/input_Clear button_files'
+
+2020-06-05 14:11:51 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Manage Test/label_isi_soal_pretest_postest' is present
+
+2020-06-05 14:11:51 - [TEST_STEP][PASSED] - delay(30, STOP_ON_FAILURE): Delayed 30 second(s)
+
+2020-06-05 14:12:21 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-06-05 14:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/click_search")): Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-06-05 14:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/click_search' is clicked on
+
+2020-06-05 14:12:21 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage Test/Page_Manage Test/input_search"), soal): Text 'new pretest upload' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-06-05 14:12:31 - [MESSAGE][PASSED] - Text 'new pretest upload' is set on object 'Object Repository/Alda/Admin - Manage Test/Page_Manage Test/input_search'
+
+2020-06-05 14:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Test/button_search")): Object: 'Object Repository/Christi/Page_Manage Test/button_search' is clicked on
+
+2020-06-05 14:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Test/button_search' is clicked on
+
+2020-06-05 14:12:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-05 14:12:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-05 14:12:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Test/label_isi_soal_pretest_postest", ["text":soal]), 0): Object 'Object Repository/Christi/Page_Manage Test/label_isi_soal_pretest_postest' is present
+
+2020-06-05 14:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-05 14:12:36 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Test/label_isi_soal_pretest_postest' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-05 14:10:25 - [TEST_SUITE][PASSED] - Manage Pretest: Test Cases/Christi/Admin/Pretest PostTest - Upload CSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

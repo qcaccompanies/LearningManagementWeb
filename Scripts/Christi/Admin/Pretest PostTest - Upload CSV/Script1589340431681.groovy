@@ -35,10 +35,19 @@ WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Christi/Page_Manage Test/input_Clear button_files'), file_upload)
 
-WebUI.delay(3)
-
 if (expected == 'pass') {
-    WebUI.acceptAlert()
+    WebUI.delay(30, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Manage Test/click_search'))
+
+    WebUI.setText(findTestObject('Alda/Admin - Manage Test/Page_Manage Test/input_search'), soal)
+
+    WebUI.click(findTestObject('Christi/Page_Manage Test/button_search'))
+
+    WebUI.delay(3)
+
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Test/label_isi_soal_pretest_postest', [('text') : soal]), 
+        0)
 } else if (expected == 'fail') {
     if (status == 'error, expected file csv') {
         WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Test/div_Expected file extension is csv'), 0)

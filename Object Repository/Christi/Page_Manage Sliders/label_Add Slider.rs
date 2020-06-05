@@ -6,12 +6,12 @@
    <elementGuidId>a3bfc620-28f7-4e87-8275-91f18296453b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'app-label labelNewSlider' and (text() = 'Add Slider' or . = 'Add Slider')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//label[@name='label24']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'label24' and (text() = 'Add Slider' or . = 'Add Slider')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>Add Slider</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -70,10 +70,10 @@
       <matchCondition>equals</matchCondition>
       <name>widget-id</name>
       <type>Main</type>
-      <value>widget-id320</value>
+      <value>widget-id304</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -112,14 +112,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[3]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +141,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-page-managesliders/div/div/div/div/div/div/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::label[1]</value>
    </webElementXpaths>
 </WebElementEntity>

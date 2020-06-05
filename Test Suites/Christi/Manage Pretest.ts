@@ -26,7 +26,7 @@
          <id>15225a56-f87e-4271-9811-d850e911b709</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Christi/upload pretest posttest</testDataId>
       </testDataLink>
@@ -47,6 +47,12 @@
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>b2576098-bbde-43da-b0cc-b570e144a457</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4e9c25d3-2ad4-4d06-b7ca-3c82571cef43</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Slider" time="85.036" tests="1" failures="1" errors="0">
+   <testsuite name="Manage Slider" tests="1" failures="1" errors="0" time="85.036" timestamp="2020-06-04 12:13:36" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Manage Slider">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_121327\\Christi\\Manage Slider\\20200604_121327"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_121327\\Christi\\Manage Slider\\20200604_121327\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_121327\\Christi\\Manage Slider\\20200604_121327\\1591247700292.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="6934100fec7c6ceed86d83441f2cd463"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/Admin/Manage Slider - Edit" time="83.183" classname="Test Cases/Christi/Admin/Manage Slider - Edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Christi/Admin/Manage Slider - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 12:13:37 - [TEST_CASE][FAILED] - Test Cases/Christi/Admin/Manage Slider - Edit: Test Cases/Christi/Admin/Manage Slider - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 12:13:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 12:13:38 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-04 12:13:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 12:13:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-04 12:13:39 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-04 12:13:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 12:13:44 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 12:13:55 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-04 12:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 12:14:02 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6934100fec7c6ceed86d83441f2cd463
+
+2020-06-04 12:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-04 12:14:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 12:14:06 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-04 12:14:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 12:14:07 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-04 12:14:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 12:14:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 12:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 12:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-04 12:14:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-04 12:14:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-04 12:14:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-04 12:14:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 12:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider' is clicked on
+
+2020-06-04 12:14:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:26 - [TEST_STEP][FAILED] - if (find_slider == "found"): Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 12:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/label_Slider", ["text":nama_slider]), 3): Object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+
+2020-06-04 12:14:27 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/label_Slider' is present
+
+2020-06-04 12:14:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE' is clicked on
+
+2020-06-04 12:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE' is clicked on
+
+2020-06-04 12:14:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:40 - [TEST_STEP][FAILED] - switch (edit.toString()): Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 12:14:40 - [TEST_STEP][FAILED] - case "change all":: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 12:14:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Slider name (edit)"), nama_slider_baru): Text 'Brand New Slider' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Slider name (edit)'
+
+2020-06-04 12:14:40 - [MESSAGE][PASSED] - Text 'Brand New Slider' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Slider name (edit)'
+
+2020-06-04 12:14:40 - [TEST_STEP][PASSED] - if (max_character == "yes"): null
+
+2020-06-04 12:14:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink"), url_slider_baru): Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'
+
+2020-06-04 12:14:44 - [MESSAGE][PASSED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is set on object 'Object Repository/Christi/Page_Manage Sliders/input_Section Link_txtEditSliderLink'
+
+2020-06-04 12:14:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:47 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Christi/Page_Manage Sliders/input_Icon_files"), img_slider_baru): File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\Cover Modul - Welcoming Kit.png' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 12:14:48 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWeb\konten lms\Cover Modul - Welcoming Kit.png' sent to object: 'Object Repository/Christi/Page_Manage Sliders/input_Icon_files'
+
+2020-06-04 12:14:48 - [TEST_STEP][PASSED] - if (max_image_size == "yes"): null
+
+2020-06-04 12:14:48 - [TEST_STEP][PASSED] - else if (img_file_invalid == "yes"): null
+
+2020-06-04 12:14:48 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully' is present
+
+2020-06-04 12:14:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Manage Sliders/div_File uploaded successfully"), 0): Object 'Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully' is present
+
+2020-06-04 12:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-04 12:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully' is present
+
+2020-06-04 12:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders_Edit/button_Update Slider")): Object: 'Object Repository/Christi/Page_Manage Sliders_Edit/button_Update Slider' is clicked on
+
+2020-06-04 12:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders_Edit/button_Update Slider' is clicked on
+
+2020-06-04 12:14:51 - [TEST_STEP][FAILED] - if (expected == "pass"): Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 12:14:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE")): Object: 'Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE' is clicked on
+
+2020-06-04 12:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Sliders/span_Edit NEOP SERVICE' is clicked on
+
+2020-06-04 12:14:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-04 12:14:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-04 12:14:59 - [TEST_STEP][PASSED] - verifyTextPresent(nama_slider_baru, false): Text 'Brand New Slider' is present on page 
+
+2020-06-04 12:14:59 - [MESSAGE][PASSED] - Text 'Brand New Slider' is present on page 
+
+2020-06-04 12:14:59 - [TEST_STEP][FAILED] - verifyTextPresent(url_slider_baru, false): Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-04 12:15:00 - [MESSAGE][FAILED] - Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+)
+
+2020-06-04 12:15:00 - [MESSAGE][FAILED] - Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200604_121327\\Christi\\Manage Slider\\20200604_121327\\1591247700292.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 12:13:37 - [TEST_CASE][FAILED] - Test Cases/Christi/Admin/Manage Slider - Edit: Test Cases/Christi/Admin/Manage Slider - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-04 12:13:36 - [TEST_SUITE][FAILED] - Manage Slider: Test Cases/Christi/Admin/Manage Slider - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-04 12:13:36 - [TEST_SUITE][FAILED] - Manage Slider: Test Cases/Christi/Admin/Manage Slider - Edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Manage Slider - Edit.run(Manage Slider - Edit:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591247607116.run(TempTestSuite1591247607116.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/onlineLearningDetail?modulID=6' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,18 +6,18 @@
    <elementGuidId>698965f6-c47e-4fb6-8abc-e7537fe5d557</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'btn-caption' and (text() = 'Confirm' or . = 'Confirm')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//body[@id='ng-app']/modal-container/app-page-managesliders/div/div/div/div/div[6]/div/button/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'btn-caption' and (text() = 'Confirm' or . = 'Confirm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

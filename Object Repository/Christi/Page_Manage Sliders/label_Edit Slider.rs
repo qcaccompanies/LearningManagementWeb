@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//label[(text() = 'Edit Slider' or . = 'Edit Slider')]</value>
+         <value>//label[@name = 'label24' and (text() = 'Edit Slider' or . = 'Edit Slider')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <value>widget-id166</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

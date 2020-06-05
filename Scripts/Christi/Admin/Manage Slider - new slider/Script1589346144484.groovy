@@ -24,11 +24,13 @@ WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/span_
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Christi/Page_Manage Sliders/button_New Slider'))
+WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/button_New Slider'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Christi/Page_Manage Sliders/input_Slider name (edit)'), nama_slider)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Manage Sliders/label_Add Slider'), 0)
+
+WebUI.setText(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_nama_slider'), nama_slider)
 
 WebUI.delay(3)
 
@@ -38,22 +40,25 @@ WebUI.delay(3)
 
 if (expected == 'pass') {
     if (upload == 'yes') {
-        WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
+        WebUI.uploadFile(findTestObject('Object Repository/Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
 
-        WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/div_File uploaded successfully'), 0)
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Manage Sliders/div_File uploaded successfully'), 
+            0)
     }
     
     WebUI.delay(3)
 
-    WebUI.verifyElementClickable(findTestObject('Christi/Page_Manage Sliders/span_Confirm'))
+    WebUI.verifyElementClickable(findTestObject('Object Repository/Christi/Page_Manage Sliders/span_Confirm'))
 
-    WebUI.click(findTestObject('Christi/Page_Manage Sliders/span_Confirm'))
+    WebUI.click(findTestObject('Object Repository/Christi/Page_Manage Sliders/span_Confirm'))
 
     WebUI.delay(3)
 
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/button_New Slider'), 0)
+    WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Manage Sliders/button_New Slider'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_Slider', [('text') : nama_slider]), 0)
+    WebUI.delay(3)
+
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_NEOP UW', [('text') : nama_slider]), 3)
 } else if (expected == 'fail') {
     if (upload == 'yes') {
         WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)
