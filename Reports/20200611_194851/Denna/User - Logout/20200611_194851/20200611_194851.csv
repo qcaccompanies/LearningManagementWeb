@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User - Logout,Chrome 83.0.4103.97,,,2020-06-11 19:49:10,2020-06-11 19:51:03,"1m - 52,548s",PASSED
+,,,,,,,
+Test Cases/Denna/User - Logout,Chrome 83.0.4103.97,,,2020-06-11 19:49:11,2020-06-11 19:51:03,"1m - 51,642s",PASSED
+"callTestCase(findTestCase(""Denna/Login(User)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-11 19:49:12,2020-06-11 19:50:33,"1m - 20,559s",PASSED
+delay(10),Chrome 83.0.4103.97,,,2020-06-11 19:50:33,2020-06-11 19:50:43,"10,007s",PASSED
+"click(findTestObject(""Object Repository/Denna/User - Logout/icon Photo Profile""))",Chrome 83.0.4103.97,,,2020-06-11 19:50:43,2020-06-11 19:50:44,"1,035s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Logout/logout_v2""))",Chrome 83.0.4103.97,,,2020-06-11 19:50:44,2020-06-11 19:50:46,"2,226s",PASSED
+delay(15),Chrome 83.0.4103.97,,,2020-06-11 19:50:46,2020-06-11 19:51:01,"15,005s",PASSED
+"verifyElementVisible(findTestObject(""Rizka/Admin/Admin - Login/btnLogin""))",Chrome 83.0.4103.97,,,2020-06-11 19:51:01,2020-06-11 19:51:02,"0,586s",PASSED
+closeBrowser(),Chrome 83.0.4103.97,,,2020-06-11 19:51:02,2020-06-11 19:51:03,"1,170s",PASSED

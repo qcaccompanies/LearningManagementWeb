@@ -15,15 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main')
+WebUI.openBrowser('https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning')
 
 WebUI.maximizeWindow()
 
+WebUI.delay(15)
+
 WebUI.click(findTestObject('Denna/User-Login/button login'))
 
-WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), '14426')
+WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), '06677')
 
-WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), 'Password2')
+WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), '#@ccPerfect2o19#')
 
 WebUI.click(findTestObject('Denna/User-Login/button login 1 masuk'))
 

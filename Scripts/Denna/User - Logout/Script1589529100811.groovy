@@ -18,13 +18,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Denna/Login(User)'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Denna/User - Logout/icon Photo Profile'))
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Logout/button Log  Out'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Logout/logout_v2'))
 
 WebUI.delay(15)
 
-WebUI.verifyElementVisible(findTestObject('Denna/User-Login/button login'))
+WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Login/btnLogin'))
 
 WebUI.closeBrowser()
 
