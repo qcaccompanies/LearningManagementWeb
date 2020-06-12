@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Denna/Login(Admin)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Manage Test'))
+WebUI.click(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/button_Test Management'))
 
-WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Pre-Test  Post-Test'))
+WebUI.click(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/span_Pre-Test  Post-Test'))
 
 WebUI.delay(2)
 
@@ -30,60 +30,58 @@ WebUI.click(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - E
 
 WebUI.delay(4)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category'), 
+WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select category'), 
     category, true)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal'), 
+WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select tipe soal'), 
     tipeSoal, true)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function'), 
+WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select job function'), 
     jobFunction, true)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Position'), 
+WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select job position'), 
     jobPosition, true)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module'), 
-    module, true)
+WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select module'), module, 
+    true)
 
-WebUI.setText(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence'), 
+WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Technical Competence'), 
     technicalCompentence)
 
-WebUI.setText(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence'), 
-    levelCompetence)
+WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Level Competence'), levelCompetence)
 
-WebUI.setText(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal'), 
-    soal)
+WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/textarea Soal'), soal)
 
 if (tipeSoal == 'Pilihan Ganda') {
-    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban A'), jawabanA)
+    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban A'), jawabanA)
 
-    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban B'), jawabanB)
+    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban B'), jawabanB)
 
-    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban C'), jawabanC)
+    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban C'), jawabanC)
 
-    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban D'), jawabanD)
+    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban D'), jawabanD)
 
-    WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select ABCD'), jawabanABCD, 
-        false)
+    WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select ABCD'), 
+        jawabanABCD, false)
 } else if (tipeSoal == 'Uraian') {
-    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Kunci Jawaban Uraian'), 
+    WebUI.setText(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/textarea Kunci Jawaban Uraian'), 
         jawabanUraian)
 } else {
-    WebUI.selectOptionByLabel(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select BenarSalah'), 
+    WebUI.selectOptionByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select BenarSalah'), 
         jawabanBenarSalah, true)
 }
 
-WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit'))
+WebUI.click(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/button Submit'))
 
 switch (kondisi) {
     case 'fail':
         WebUI.delay(8)
 
-        WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Submit'))
+        WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/button Submit'))
 
         break
     case 'pass':
-        WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/label Edit Test Success'))
+        WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/label Edit Test Success'))
 
         WebUI.delay(2)
 
@@ -93,28 +91,28 @@ switch (kondisi) {
 
         WebUI.delay(3)
 
-        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select category verif'), 
+        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select category verif'), 
             category, false, 0)
 
-        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select tipe soal verif'), 
+        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select tipe soal verif'), 
             tipeSoal, false, 0)
 
-        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job Function verif'), 
+        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select job function verif'), 
             jobFunction, false, 0)
 
-        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select job position verif'), 
+        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select job position verif'), 
             jobPosition, false, 0)
 
-        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select module verif'), 
+        WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select module verif'), 
             module, false, 0)
 
-        technical = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Technical Competence verif'), 
+        technical = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Technical Competence verif'), 
             'value')
 
-        level = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Level Competence verif'), 
+        level = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Level Competence verif'), 
             'value')
 
-        soal = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Soal verif'), 
+        soal = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/textarea Soal verif'), 
             'value')
 
         WebUI.verifyEqual(technical, technicalCompentence, FailureHandling.STOP_ON_FAILURE)
@@ -124,16 +122,16 @@ switch (kondisi) {
         WebUI.verifyEqual(soal, soal, FailureHandling.STOP_ON_FAILURE)
 
         if (tipeSoal == 'Pilihan Ganda') {
-            A = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban A verif'), 
+            A = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban A verif'), 
                 'value')
 
-            B = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban B verif'), 
+            B = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban B verif'), 
                 'value')
 
-            C = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban C verif'), 
+            C = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban C verif'), 
                 'value')
 
-            D = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/input Jawaban D verif'), 
+            D = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Jawaban D verif'), 
                 'value')
 
             WebUI.verifyEqual(A, jawabanA, FailureHandling.STOP_ON_FAILURE)
@@ -144,15 +142,15 @@ switch (kondisi) {
 
             WebUI.verifyEqual(D, jawabanD, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.verifyOptionNotPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select ABCD verif'), 
+            WebUI.verifyOptionNotPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select ABCD verif'), 
                 jawabanABCD, false, 0)
         } else if (tipeSoal == 'Uraian') {
-            uraian = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/textarea Kunci Jawaban Uraian verif'), 
+            uraian = WebUI.getAttribute(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/textarea Kunci Jawaban Uraian verif'), 
                 'value')
 
             WebUI.verifyEqual(uraian, jawabanUraian, FailureHandling.STOP_ON_FAILURE)
         } else {
-            WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit2/select BenarSalah verif'), 
+            WebUI.verifyOptionPresentByLabel(findTestObject('Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select BenarSalah verif'), 
                 jawabanBenarSalah, false, 0)
         }
         
