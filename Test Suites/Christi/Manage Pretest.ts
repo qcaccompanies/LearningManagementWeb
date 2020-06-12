@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>f68f2087-2558-4ab9-b251-8506f862a711</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Christi/Admin/Pretest PostTest - Upload CSV</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -53,6 +53,39 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>4e9c25d3-2ad4-4d06-b7ca-3c82571cef43</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34e0baf1-39e3-43d0-9c4b-f42ce9d276bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f7f60d79-7123-44c9-826a-b1da9c807afd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Christi/delete pretest</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f7f60d79-7123-44c9-826a-b1da9c807afd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>searchID</value>
+         <variableId>3a7092ac-0165-44d8-9019-f8dbae12616a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f7f60d79-7123-44c9-826a-b1da9c807afd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kondisi</value>
+         <variableId>55f65d77-b2c4-41d5-ae2e-475ffb9ad257</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f7f60d79-7123-44c9-826a-b1da9c807afd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>keterangan</value>
+         <variableId>da073591-e9a9-450d-9f19-bbc63b70b9bb</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

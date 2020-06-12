@@ -15,11 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Christi/User/user login'), [('username') : '14426', ('password') : 'Password2'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Christi/Page_Homepage/i_My Learning Icon_app-icon wi wi-menu fa-lg'))
-
-WebUI.click(findTestObject('Christi/Page_Homepage/span_Online Learning'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Christi/User/user login'), [('username') : '06677', ('password') : '#@ccPerfect2o19#'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

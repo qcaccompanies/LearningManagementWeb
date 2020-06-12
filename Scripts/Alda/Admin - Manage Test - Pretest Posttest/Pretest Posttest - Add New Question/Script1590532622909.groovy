@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/button_Test Management'))
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/a_Pre-Test  Post-Test'))
 
 WebUI.delay(3)
 

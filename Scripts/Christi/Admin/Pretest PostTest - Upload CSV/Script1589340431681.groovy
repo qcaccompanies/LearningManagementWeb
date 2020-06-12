@@ -19,9 +19,9 @@ WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '1
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Manage Test'), 0)
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Test Management'), 0)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/button_Manage Test'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/button_Test Management'))
 
 WebUI.delay(3)
 

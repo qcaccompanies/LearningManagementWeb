@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Online Learning" time="222.514" tests="3" failures="0" errors="0">
+   <testsuite name="Online Learning" tests="3" failures="0" errors="0" time="222.514" timestamp="2020-06-12 17:13:00" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Online Learning">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200612_171250\\Christi\\Online Learning\\20200612_171250"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWeb\\Reports\\20200612_171250\\Christi\\Online Learning\\20200612_171250\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="ed0efe0fd7265bdeda8227d30ab0a35a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/User/Online Learning - View Review" time="66.869" classname="Test Cases/Christi/User/Online Learning - View Review" status="PASSED">
+         <system-out><![CDATA[2020-06-12 17:13:02 - [TEST_CASE][PASSED] - Test Cases/Christi/User/Online Learning - View Review: Test Cases/Christi/User/Online Learning - View Review
+
+2020-06-12 17:13:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/User/user login"), ["username":"06677", "password":"#@ccPerfect2o19#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/User/user login' successfully
+
+2020-06-12 17:13:04 - [TEST_CASE][PASSED] - Test Cases/Christi/User/user login: Test Cases/Christi/User/user login
+
+2020-06-12 17:13:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-12 17:13:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 17:13:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-12 17:13:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-12 17:13:13 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning' successfully
+
+2020-06-12 17:13:24 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning' successfully
+
+2020-06-12 17:13:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_login")): Object: 'Object Repository/Christi/Page_Main/span_login' is clicked on
+
+2020-06-12 17:13:28 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6fdc8047cd15e12a0751e1cf5a8d751
+
+2020-06-12 17:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_login' is clicked on
+
+2020-06-12 17:13:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:13:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:13:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '06677' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-12 17:13:33 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-12 17:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-12 17:13:34 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-12 17:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_Remember me")): Object: 'Object Repository/Christi/Page_Main/span_Remember me' is clicked on
+
+2020-06-12 17:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_Remember me' is clicked on
+
+2020-06-12 17:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_login_1")): Object: 'Object Repository/Christi/Page_Main/span_login_1' is clicked on
+
+2020-06-12 17:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_login_1' is clicked on
+
+2020-06-12 17:13:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 17:13:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 17:13:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/User/user login' successfully
+
+2020-06-12 17:13:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:13:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Job Functions/input_Back button_searchModul"), module_name): Text 'yyyyyyyyyyy' is set on object 'Object Repository/Christi/Page_Job Functions/input_Back button_searchModul'
+
+2020-06-12 17:13:56 - [MESSAGE][PASSED] - Text 'yyyyyyyyyyy' is set on object 'Object Repository/Christi/Page_Job Functions/input_Back button_searchModul'
+
+2020-06-12 17:13:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search")): Object: 'Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-12 17:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-12 17:13:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:13:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:13:59 - [TEST_STEP][PASSED] - if (found == "yes"): null
+
+2020-06-12 17:13:59 - [TEST_STEP][PASSED] - else if (found == "no"): Object 'Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan' is present
+
+2020-06-12 17:13:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan"), 0): Object 'Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan' is present
+
+2020-06-12 17:14:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Search Result/label_tidak ditemukan' is present
+
+2020-06-12 17:14:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:14:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:14:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 17:14:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/User/Online Learning - View Review" time="77.864" classname="Test Cases/Christi/User/Online Learning - View Review" status="PASSED">
+         <system-out><![CDATA[2020-06-12 17:14:09 - [TEST_CASE][PASSED] - Test Cases/Christi/User/Online Learning - View Review: Test Cases/Christi/User/Online Learning - View Review
+
+2020-06-12 17:14:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/User/user login"), ["username":"06677", "password":"#@ccPerfect2o19#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/User/user login' successfully
+
+2020-06-12 17:14:09 - [TEST_CASE][PASSED] - Test Cases/Christi/User/user login: Test Cases/Christi/User/user login
+
+2020-06-12 17:14:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-12 17:14:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 17:14:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-12 17:14:12 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning' successfully
+
+2020-06-12 17:14:24 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning' successfully
+
+2020-06-12 17:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_login")): Object: 'Object Repository/Christi/Page_Main/span_login' is clicked on
+
+2020-06-12 17:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_login' is clicked on
+
+2020-06-12 17:14:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:14:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:14:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '06677' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-12 17:14:33 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-12 17:14:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-12 17:14:34 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-12 17:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_Remember me")): Object: 'Object Repository/Christi/Page_Main/span_Remember me' is clicked on
+
+2020-06-12 17:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_Remember me' is clicked on
+
+2020-06-12 17:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_login_1")): Object: 'Object Repository/Christi/Page_Main/span_login_1' is clicked on
+
+2020-06-12 17:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_login_1' is clicked on
+
+2020-06-12 17:14:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 17:14:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 17:14:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/User/user login' successfully
+
+2020-06-12 17:14:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:14:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Job Functions/input_Back button_searchModul"), module_name): Text 'NEOP AAV' is set on object 'Object Repository/Christi/Page_Job Functions/input_Back button_searchModul'
+
+2020-06-12 17:14:55 - [MESSAGE][PASSED] - Text 'NEOP AAV' is set on object 'Object Repository/Christi/Page_Job Functions/input_Back button_searchModul'
+
+2020-06-12 17:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search")): Object: 'Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-12 17:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-12 17:14:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:14:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:14:59 - [TEST_STEP][PASSED] - if (found == "yes"): Object 'Object Repository/Christi/Page_Online Learning Detail/Review_div_No data found' is present
+
+2020-06-12 17:14:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci"), 0): Object 'Object Repository/Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci' is present
+
+2020-06-12 17:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci' is present
+
+2020-06-12 17:15:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:15:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Online Learning Search Result/span_Lihat Modul")): Object: 'Object Repository/Christi/Page_Online Learning Search Result/span_Lihat Modul' is clicked on
+
+2020-06-12 17:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Online Learning Search Result/span_Lihat Modul' is clicked on
+
+2020-06-12 17:15:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:15:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:15:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Online Learning Detail/span_Review"), 0): Object 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is present
+
+2020-06-12 17:15:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:15:21 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is present
+
+2020-06-12 17:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Online Learning Detail/span_Review")): Object: 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is clicked on
+
+2020-06-12 17:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is clicked on
+
+2020-06-12 17:15:22 - [TEST_STEP][PASSED] - if (expected == "fail"): Object 'Object Repository/Christi/Page_Online Learning Detail/Review_div_No data found' is present
+
+2020-06-12 17:15:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Online Learning Detail/Review_div_No data found"), 0): Object 'Object Repository/Christi/Page_Online Learning Detail/Review_div_No data found' is present
+
+2020-06-12 17:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:15:23 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Detail/Review_div_No data found' is present
+
+2020-06-12 17:15:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:15:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:15:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 17:15:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/User/Online Learning - View Review" time="75.939" classname="Test Cases/Christi/User/Online Learning - View Review" status="PASSED">
+         <system-out><![CDATA[2020-06-12 17:15:27 - [TEST_CASE][PASSED] - Test Cases/Christi/User/Online Learning - View Review: Test Cases/Christi/User/Online Learning - View Review
+
+2020-06-12 17:15:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/User/user login"), ["username":"06677", "password":"#@ccPerfect2o19#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/User/user login' successfully
+
+2020-06-12 17:15:27 - [TEST_CASE][PASSED] - Test Cases/Christi/User/user login: Test Cases/Christi/User/user login
+
+2020-06-12 17:15:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-12 17:15:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 17:15:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-12 17:15:30 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning' successfully
+
+2020-06-12 17:15:41 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning' successfully
+
+2020-06-12 17:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_login")): Object: 'Object Repository/Christi/Page_Main/span_login' is clicked on
+
+2020-06-12 17:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_login' is clicked on
+
+2020-06-12 17:15:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:15:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '06677' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-12 17:15:50 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-12 17:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-12 17:15:51 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-12 17:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_Remember me")): Object: 'Object Repository/Christi/Page_Main/span_Remember me' is clicked on
+
+2020-06-12 17:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_Remember me' is clicked on
+
+2020-06-12 17:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/span_login_1")): Object: 'Object Repository/Christi/Page_Main/span_login_1' is clicked on
+
+2020-06-12 17:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/span_login_1' is clicked on
+
+2020-06-12 17:15:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 17:15:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 17:15:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/User/user login' successfully
+
+2020-06-12 17:15:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:16:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Job Functions/input_Back button_searchModul"), module_name): Text 'WELCOMING KIT' is set on object 'Object Repository/Christi/Page_Job Functions/input_Back button_searchModul'
+
+2020-06-12 17:16:12 - [MESSAGE][PASSED] - Text 'WELCOMING KIT' is set on object 'Object Repository/Christi/Page_Job Functions/input_Back button_searchModul'
+
+2020-06-12 17:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search")): Object: 'Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-12 17:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Job Functions/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-12 17:16:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:16:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:16:15 - [TEST_STEP][PASSED] - if (found == "yes"): Object 'Object Repository/Christi/Page_Online Learning Detail/label_review_author' is present
+
+2020-06-12 17:16:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci"), 0): Object 'Object Repository/Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci' is present
+
+2020-06-12 17:16:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Search Result/label_Ditemukan modul dengan kata kunci' is present
+
+2020-06-12 17:16:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:16:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Online Learning Search Result/span_Lihat Modul")): Object: 'Object Repository/Christi/Page_Online Learning Search Result/span_Lihat Modul' is clicked on
+
+2020-06-12 17:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Online Learning Search Result/span_Lihat Modul' is clicked on
+
+2020-06-12 17:16:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:16:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:16:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Online Learning Detail/span_Review"), 0): Object 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is present
+
+2020-06-12 17:16:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is present
+
+2020-06-12 17:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Online Learning Detail/span_Review")): Object: 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is clicked on
+
+2020-06-12 17:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Online Learning Detail/span_Review' is clicked on
+
+2020-06-12 17:16:38 - [TEST_STEP][PASSED] - if (expected == "fail"): null
+
+2020-06-12 17:16:38 - [TEST_STEP][PASSED] - else if (expected == "pass"): Object 'Object Repository/Christi/Page_Online Learning Detail/label_review_author' is present
+
+2020-06-12 17:16:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Online Learning Detail/label_review_author", ["text":view_review_by]), 0): Object 'Object Repository/Christi/Page_Online Learning Detail/label_review_author' is present
+
+2020-06-12 17:16:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-12 17:16:39 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Online Learning Detail/label_review_author' is present
+
+2020-06-12 17:16:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-12 17:16:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-12 17:16:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 17:16:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-12 17:13:00 - [TEST_SUITE][PASSED] - Online Learning: Test Cases/Christi/User/Online Learning - View Review]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

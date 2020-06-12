@@ -20,11 +20,11 @@ WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '1
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Manage Test'), 0)
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard Admin/button_Test Management'), 0)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/button_Manage Test'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/button_Test Management'))
 
-WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/a_Pre-Test  Post-Test'))
 
 WebUI.delay(3)
 
