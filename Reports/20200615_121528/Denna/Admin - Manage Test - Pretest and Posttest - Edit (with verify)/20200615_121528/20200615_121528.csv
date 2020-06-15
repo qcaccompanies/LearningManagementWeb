@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Manage Test - Pretest and Posttest - Edit (with verify),Chrome 83.0.4103.97,,,2020-06-15 12:15:40,2020-06-15 12:18:31,"2m - 50,968s",FAILED
+,,,,,,,
+Test Cases/Denna/Admin - Manage Test - Pretest and Posttest - Edit2,Chrome 83.0.4103.97,,,2020-06-15 12:15:42,2020-06-15 12:18:31,"2m - 48,655s",FAILED
+"callTestCase(findTestCase(""Denna/Login(Admin)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-15 12:15:45,2020-06-15 12:16:26,"40,778s",PASSED
+"click(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/button_Test Management""))",Chrome 83.0.4103.97,,,2020-06-15 12:16:26,2020-06-15 12:16:33,"6,833s",PASSED
+"click(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/span_Pre-Test  Post-Test""))",Chrome 83.0.4103.97,,,2020-06-15 12:16:33,2020-06-15 12:16:34,"0,685s",PASSED
+delay(2),Chrome 83.0.4103.97,,,2020-06-15 12:16:34,2020-06-15 12:16:36,"2,018s",PASSED
+"click(findTestObject(""Object Repository/Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button EditOrDelete""))",Chrome 83.0.4103.97,,,2020-06-15 12:16:36,2020-06-15 12:16:51,"14,779s",PASSED
+"click(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit2/button Edit""))",Chrome 83.0.4103.97,,,2020-06-15 12:16:51,2020-06-15 12:16:51,"0,712s",PASSED
+delay(4),Chrome 83.0.4103.97,,,2020-06-15 12:16:51,2020-06-15 12:16:55,"4,005s",PASSED
+"selectOptionByLabel(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select category""), category, true)",Chrome 83.0.4103.97,,,2020-06-15 12:16:55,2020-06-15 12:17:00,"5,087s",PASSED
+"selectOptionByLabel(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select tipe soal""), tipeSoal, true)",Chrome 83.0.4103.97,,,2020-06-15 12:17:00,2020-06-15 12:17:01,"1,069s",PASSED
+"selectOptionByLabel(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select job function""), jobFunction, true)",Chrome 83.0.4103.97,,,2020-06-15 12:17:01,2020-06-15 12:17:03,"1,184s",PASSED
+"selectOptionByLabel(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select job position""), jobPosition, true)",Chrome 83.0.4103.97,,,2020-06-15 12:17:03,2020-06-15 12:17:06,"3,694s",PASSED
+"selectOptionByLabel(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/select module""), module, true)",Chrome 83.0.4103.97,,,2020-06-15 12:17:06,2020-06-15 12:17:08,"1,847s",PASSED
+"setText(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Technical Competence""), technicalCompentence)",Chrome 83.0.4103.97,,,2020-06-15 12:17:08,2020-06-15 12:17:09,"0,593s",PASSED
+"setText(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/input Level Competence""), levelCompetence)",Chrome 83.0.4103.97,,,2020-06-15 12:17:09,2020-06-15 12:17:09,"0,659s",PASSED
+"setText(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/textarea Soal""), soal)",Chrome 83.0.4103.97,,,2020-06-15 12:17:09,2020-06-15 12:17:10,"0,978s",PASSED
+"if (tipeSoal == ""Pilihan Ganda"")",Chrome 83.0.4103.97,,,2020-06-15 12:17:10,2020-06-15 12:17:10,"0,001s",PASSED
+"else if (tipeSoal == ""Uraian"")",Chrome 83.0.4103.97,,,2020-06-15 12:17:10,2020-06-15 12:17:11,"0,627s",PASSED
+"click(findTestObject(""Denna/Admin - Manage Test - Pretest and Posttest - Edit new/button Submit""))",Chrome 83.0.4103.97,,,2020-06-15 12:17:11,2020-06-15 12:17:11,"0,520s",PASSED
+switch (kondisi),Chrome 83.0.4103.97,,,2020-06-15 12:17:11,2020-06-15 12:18:31,"1m - 19,417s",FAILED

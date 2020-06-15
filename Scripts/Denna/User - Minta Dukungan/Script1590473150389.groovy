@@ -20,16 +20,16 @@ WebUI.callTestCase(findTestCase('Denna/Login(User)'), [:], FailureHandling.STOP_
 
 WebUI.click(findTestObject('Object Repository/Denna/User - Minta Dukungan/profile'))
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Minta Dukungan/button Minta Dukungan'))
+WebUI.click(findTestObject('Denna/User - Minta Dukungan/btnMintaDukungan_v2'))
 
-WebUI.setText(findTestObject('Object Repository/Denna/User - Minta Dukungan/textarea TELL US YOUR ISSUE'), issue)
+WebUI.setText(findTestObject('Denna/User - Minta Dukungan/fieldMasukan_v2'), issue)
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Minta Dukungan/button Kirim'))
+WebUI.click(findTestObject('Denna/User - Minta Dukungan/btnKirim_v2'))
 
 if (keterangan == 'emptyIssue') {
-    WebUI.verifyElementVisible(findTestObject('Denna/User - Minta Dukungan/label Inputan tidak boleh kosong'))
+    WebUI.verifyElementVisible(findTestObject('Denna/User - Minta Dukungan/alertIsEmpty_v2'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Denna/User - Minta Dukungan/label Permintaan Dukungan Telah Dikirim'))
+    WebUI.verifyElementVisible(findTestObject('Denna/User - Minta Dukungan/notifSuccess_v2'), FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.closeBrowser()

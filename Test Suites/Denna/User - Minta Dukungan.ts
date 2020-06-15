@@ -20,7 +20,7 @@
          <id>27c274f4-0dd7-4dd4-9d5e-c301df515d5d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/User - Minta Dukungan</testDataId>
       </testDataLink>

@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>ed9e1828-e652-44a5-a29f-c2f28f97ebb6</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <iterationType>ALL</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/Admin - Manege Test - Pretest adn Posttest - Edit</testDataId>
       </testDataLink>

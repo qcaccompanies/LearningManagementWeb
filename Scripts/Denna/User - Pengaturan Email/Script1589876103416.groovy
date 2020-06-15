@@ -20,17 +20,16 @@ WebUI.callTestCase(findTestCase('Denna/Login(User)'), [:], FailureHandling.STOP_
 
 WebUI.click(findTestObject('Object Repository/Denna/User - Pengaturan Email/button Profile'))
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Pengaturan Email/button Pengaturan Email'))
+WebUI.click(findTestObject('Denna/User - Pengaturan Email/btnPengaturanEmail_v2'))
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Pengaturan Email/button Edit'))
+WebUI.click(findTestObject('Denna/User - Pengaturan Email/btnAddAnotherEmail_v2'))
 
-WebUI.setText(findTestObject('Object Repository/Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail'), 
-    email)
+WebUI.setText(findTestObject('Denna/User - Pengaturan Email/fieldInputEmail_v2'), email)
 
 if (keterangan == 'cancel') {
-    WebUI.click(findTestObject('Denna/User - Pengaturan Email/button Cancel Email'))
+    WebUI.click(findTestObject('Denna/User - Pengaturan Email/btnCancel_v2'))
 } else {
-    WebUI.click(findTestObject('Denna/User - Pengaturan Email/button Update Email'))
+    WebUI.click(findTestObject('Denna/User - Pengaturan Email/btnSubmit_v2'))
 }
 
 WebUI.delay(5)

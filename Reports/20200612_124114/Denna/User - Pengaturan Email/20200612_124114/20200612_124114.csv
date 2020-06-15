@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User - Pengaturan Email,Chrome 83.0.4103.97,,,2020-06-12 12:41:26,2020-06-12 12:43:19,"1m - 52,937s",PASSED
+,,,,,,,
+Test Cases/Denna/User - Pengaturan Email,Chrome 83.0.4103.97,,,2020-06-12 12:41:26,2020-06-12 12:43:19,"1m - 52,206s",PASSED
+"callTestCase(findTestCase(""Denna/Login(User)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-12 12:41:27,2020-06-12 12:43:01,"1m - 33,711s",PASSED
+"click(findTestObject(""Object Repository/Denna/User - Pengaturan Email/button Profile""))",Chrome 83.0.4103.97,,,2020-06-12 12:43:01,2020-06-12 12:43:02,"0,480s",PASSED
+"click(findTestObject(""Denna/User - Pengaturan Email/btnPengaturanEmail_v2""))",Chrome 83.0.4103.97,,,2020-06-12 12:43:02,2020-06-12 12:43:04,"2,092s",PASSED
+"click(findTestObject(""Denna/User - Pengaturan Email/btnAddAnotherEmail_v2""))",Chrome 83.0.4103.97,,,2020-06-12 12:43:04,2020-06-12 12:43:08,"4,591s",PASSED
+"setText(findTestObject(""Denna/User - Pengaturan Email/fieldInputEmail_v2""), email)",Chrome 83.0.4103.97,,,2020-06-12 12:43:08,2020-06-12 12:43:09,"1,282s",PASSED
+"if (keterangan == ""cancel"")",Chrome 83.0.4103.97,,,2020-06-12 12:43:09,2020-06-12 12:43:09,"0,003s",PASSED
+else,Chrome 83.0.4103.97,,,2020-06-12 12:43:09,2020-06-12 12:43:11,"1,880s",PASSED
+delay(5),Chrome 83.0.4103.97,,,2020-06-12 12:43:11,2020-06-12 12:43:16,"5,007s",PASSED
+switch (kondisi),Chrome 83.0.4103.97,,,2020-06-12 12:43:16,2020-06-12 12:43:17,"0,525s",PASSED
+closeBrowser(),Chrome 83.0.4103.97,,,2020-06-12 12:43:17,2020-06-12 12:43:19,"1,685s",PASSED

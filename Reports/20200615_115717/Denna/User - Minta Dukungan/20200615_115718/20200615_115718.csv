@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User - Minta Dukungan,Chrome 83.0.4103.97,,,2020-06-15 11:57:31,2020-06-15 12:00:48,"3m - 16,865s",FAILED
+,,,,,,,
+Test Cases/Denna/User - Minta Dukungan,Chrome 83.0.4103.97,,,2020-06-15 11:57:32,2020-06-15 11:58:54,"1m - 21,395s",PASSED
+"callTestCase(findTestCase(""Denna/Login(User)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-15 11:57:34,2020-06-15 11:58:33,"59,138s",PASSED
+"click(findTestObject(""Object Repository/Denna/User - Minta Dukungan/profile""))",Chrome 83.0.4103.97,,,2020-06-15 11:58:33,2020-06-15 11:58:45,"11,802s",PASSED
+"click(findTestObject(""Denna/User - Minta Dukungan/btnMintaDukungan_v2""))",Chrome 83.0.4103.97,,,2020-06-15 11:58:45,2020-06-15 11:58:47,"2,197s",PASSED
+"setText(findTestObject(""Denna/User - Minta Dukungan/fieldMasukan_v2""), issue)",Chrome 83.0.4103.97,,,2020-06-15 11:58:47,2020-06-15 11:58:51,"4,163s",PASSED
+"click(findTestObject(""Denna/User - Minta Dukungan/btnKirim_v2""))",Chrome 83.0.4103.97,,,2020-06-15 11:58:51,2020-06-15 11:58:52,"0,520s",PASSED
+"if (keterangan == ""emptyIssue"")",Chrome 83.0.4103.97,,,2020-06-15 11:58:52,2020-06-15 11:58:52,"0,576s",PASSED
+closeBrowser(),Chrome 83.0.4103.97,,,2020-06-15 11:58:52,2020-06-15 11:58:54,"1,236s",PASSED
+,,,,,,,
+Test Cases/Denna/User - Minta Dukungan,Chrome 83.0.4103.97,,,2020-06-15 11:58:54,2020-06-15 12:00:48,"1m - 53,804s",FAILED
+"callTestCase(findTestCase(""Denna/Login(User)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-15 11:58:54,2020-06-15 11:59:43,"49,533s",PASSED
+"click(findTestObject(""Object Repository/Denna/User - Minta Dukungan/profile""))",Chrome 83.0.4103.97,,,2020-06-15 11:59:43,2020-06-15 11:59:55,"11,580s",PASSED
+"click(findTestObject(""Denna/User - Minta Dukungan/btnMintaDukungan_v2""))",Chrome 83.0.4103.97,,,2020-06-15 11:59:55,2020-06-15 11:59:57,"2,104s",PASSED
+"setText(findTestObject(""Denna/User - Minta Dukungan/fieldMasukan_v2""), issue)",Chrome 83.0.4103.97,,,2020-06-15 11:59:57,2020-06-15 12:00:01,"4,058s",PASSED
+"click(findTestObject(""Denna/User - Minta Dukungan/btnKirim_v2""))",Chrome 83.0.4103.97,,,2020-06-15 12:00:01,2020-06-15 12:00:02,"0,651s",PASSED
+"if (keterangan == ""emptyIssue"")",Chrome 83.0.4103.97,,,2020-06-15 12:00:02,2020-06-15 12:00:02,"0,002s",PASSED
+else,Chrome 83.0.4103.97,,,2020-06-15 12:00:02,2020-06-15 12:00:48,"45,704s",FAILED

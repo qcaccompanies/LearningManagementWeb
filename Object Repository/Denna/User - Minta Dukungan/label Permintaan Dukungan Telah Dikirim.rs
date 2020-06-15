@@ -6,14 +6,18 @@
    <elementGuidId>4992dd35-5374-4385-ab51-b0b002aaf69b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;toast-container&quot;)/div[@class=&quot;toast-success toast&quot;]/div[@class=&quot;toast-message&quot;][count(. | //div[@class = 'toast-message' and (text() = 'Permintaan Dukungan Telah Dikirim' or . = 'Permintaan Dukungan Telah Dikirim')]) = count(//div[@class = 'toast-message' and (text() = 'Permintaan Dukungan Telah Dikirim' or . = 'Permintaan Dukungan Telah Dikirim')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='toast-container']/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>alert</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>Permintaan Dukungan Telah Dikirim</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

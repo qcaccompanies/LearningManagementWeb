@@ -6,6 +6,10 @@
    <elementGuidId>9efc522a-7ba2-4c60-9364-2c9ab6727f4e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'jobFunction']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='widget-id2417']</value>
       </entry>
@@ -69,7 +73,7 @@
       <value>widget-id2417</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

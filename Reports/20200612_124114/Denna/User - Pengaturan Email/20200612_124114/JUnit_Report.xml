@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - Pengaturan Email" time="113.509" tests="1" failures="0" errors="0">
+   <testsuite name="User - Pengaturan Email" tests="1" failures="0" errors="0" time="113.509" timestamp="2020-06-12 12:41:26" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Denna/User - Pengaturan Email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200612_124114\\Denna\\User - Pengaturan Email\\20200612_124114"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200612_124114\\Denna\\User - Pengaturan Email\\20200612_124114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.100.39"/>
+         <property name="sessionId" value="79bb5737c31a8cfc91249db9421d5246"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Pengaturan Email" time="112.206" classname="Test Cases/Denna/User - Pengaturan Email" status="PASSED">
+         <system-out><![CDATA[2020-06-12 12:41:26 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email
+
+2020-06-12 12:41:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:41:28 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-06-12 12:41:28 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:41:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 12:41:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-12 12:42:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:42:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-12 12:42:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-12 12:42:20 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-12 12:42:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-12 12:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:42:35 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "06677"): Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:42:36 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:42:36 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "#@ccPerfect2o19#"): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:42:37 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:42:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:43:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:43:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Pengaturan Email/button Profile")): Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:43:02 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnPengaturanEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnAddAnotherEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:43:07 - [MESSAGE][ERROR] - javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-NHES7H6', ip: '192.168.100.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59400}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79bb5737c31a8cfc91249db9421d5246
+
+2020-06-12 12:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:43:08 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Pengaturan Email/fieldInputEmail_v2"), email): Text '' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:43:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:43:09 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): null
+
+2020-06-12 12:43:09 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:43:09 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnSubmit_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:43:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 12:43:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 12:43:16 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-06-12 12:43:16 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-06-12 12:43:16 - [TEST_STEP][PASSED] - if (keterangan == "emptyEmail"): Object 'Object Repository/Denna/User - Pengaturan Email/label_Harap diisi' is visible
+
+2020-06-12 12:43:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Pengaturan Email/label_Harap diisi")): Object 'Object Repository/Denna/User - Pengaturan Email/label_Harap diisi' is visible
+
+2020-06-12 12:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Pengaturan Email/label_Harap diisi' is visible
+
+2020-06-12 12:43:17 - [TEST_STEP][PASSED] - break: null
+
+2020-06-12 12:43:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 12:43:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-12 12:41:26 - [TEST_SUITE][PASSED] - User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

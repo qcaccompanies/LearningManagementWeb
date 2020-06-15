@@ -20,7 +20,7 @@
          <id>56f0656a-d0fc-44e9-b9ac-693114fac2d4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>3-3</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/User - Pengaturan Email</testDataId>
       </testDataLink>

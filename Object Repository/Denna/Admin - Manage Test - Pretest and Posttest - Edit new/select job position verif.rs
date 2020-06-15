@@ -6,6 +6,10 @@
    <elementGuidId>f0588e2e-5ab9-4cbc-9987-8f982cf1a045</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//select[@role = 'input' and @class = 'app-select form-control ng-untouched ng-pristine ng-valid' and @name = 'jobPosition']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='widget-id2421']</value>
       </entry>
@@ -34,14 +38,14 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -69,7 +73,7 @@
       <value>widget-id2421</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

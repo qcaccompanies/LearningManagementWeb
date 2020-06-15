@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - Pengaturan Email" time="352.526" tests="4" failures="0" errors="0">
+   <testsuite name="User - Pengaturan Email" tests="4" failures="0" errors="0" time="352.526" timestamp="2020-06-12 12:43:48" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Denna/User - Pengaturan Email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200612_124338\\Denna\\User - Pengaturan Email\\20200612_124338"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200612_124338\\Denna\\User - Pengaturan Email\\20200612_124338\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.100.39"/>
+         <property name="sessionId" value="30b329a51d00c839f23839a8c1bf8bb3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Denna/User - Pengaturan Email" time="95.785" classname="Test Cases/Denna/User - Pengaturan Email" status="PASSED">
+         <system-out><![CDATA[2020-06-12 12:43:48 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email
+
+2020-06-12 12:43:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:43:49 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-06-12 12:43:50 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:43:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 12:43:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-12 12:44:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:44:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-12 12:44:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-12 12:44:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-12 12:44:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-12 12:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:44:49 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "06677"): Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:44:49 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:44:49 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "#@ccPerfect2o19#"): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:44:50 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:44:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:44:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Pengaturan Email/button Profile")): Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnPengaturanEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnAddAnotherEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Pengaturan Email/fieldInputEmail_v2"), email): Text '' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:45:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:45:17 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): null
+
+2020-06-12 12:45:17 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnSubmit_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:45:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 12:45:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 12:45:22 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-06-12 12:45:22 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-06-12 12:45:22 - [TEST_STEP][PASSED] - if (keterangan == "emptyEmail"): Object 'Object Repository/Denna/User - Pengaturan Email/label_Harap diisi' is visible
+
+2020-06-12 12:45:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Pengaturan Email/label_Harap diisi")): Object 'Object Repository/Denna/User - Pengaturan Email/label_Harap diisi' is visible
+
+2020-06-12 12:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Pengaturan Email/label_Harap diisi' is visible
+
+2020-06-12 12:45:23 - [TEST_STEP][PASSED] - break: null
+
+2020-06-12 12:45:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 12:45:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Pengaturan Email" time="75.926" classname="Test Cases/Denna/User - Pengaturan Email" status="PASSED">
+         <system-out><![CDATA[2020-06-12 12:45:24 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email
+
+2020-06-12 12:45:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:45:24 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-06-12 12:45:24 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:45:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 12:45:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:45:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-12 12:45:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-12 12:45:50 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-12 12:46:05 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-12 12:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:46:05 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "06677"): Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:46:06 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:46:06 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "#@ccPerfect2o19#"): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:46:07 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:46:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:46:14 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:46:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Pengaturan Email/button Profile")): Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnPengaturanEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnAddAnotherEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Pengaturan Email/fieldInputEmail_v2"), email): Text 'yoke' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:46:33 - [MESSAGE][PASSED] - Text 'yoke' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:46:33 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): null
+
+2020-06-12 12:46:33 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:46:33 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnSubmit_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:46:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 12:46:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - if (keterangan == "emptyEmail"): null
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - else if (keterangan == "invalidEmail"): Object 'Object Repository/Denna/User - Pengaturan Email/label_Invalid email' is visible
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User - Pengaturan Email/label_Invalid email")): Object 'Object Repository/Denna/User - Pengaturan Email/label_Invalid email' is visible
+
+2020-06-12 12:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User - Pengaturan Email/label_Invalid email' is visible
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - break: null
+
+2020-06-12 12:46:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 12:46:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Pengaturan Email" time="92.901" classname="Test Cases/Denna/User - Pengaturan Email" status="PASSED">
+         <system-out><![CDATA[2020-06-12 12:46:40 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email
+
+2020-06-12 12:46:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:46:40 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-06-12 12:46:40 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:46:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 12:47:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:47:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-12 12:47:23 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-12 12:47:23 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-12 12:47:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-12 12:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "06677"): Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:47:39 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:47:39 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "#@ccPerfect2o19#"): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:47:39 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:47:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:47:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:47:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Pengaturan Email/button Profile")): Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnPengaturanEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnAddAnotherEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Pengaturan Email/fieldInputEmail_v2"), email): Text 'dennaleksanti@gmail.com' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:48:06 - [MESSAGE][PASSED] - Text 'dennaleksanti@gmail.com' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:48:06 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): Object: 'Object Repository/Denna/User - Pengaturan Email/btnCancel_v2' is clicked on
+
+2020-06-12 12:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnCancel_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnCancel_v2' is clicked on
+
+2020-06-12 12:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnCancel_v2' is clicked on
+
+2020-06-12 12:48:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 12:48:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 12:48:11 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-06-12 12:48:11 - [TEST_STEP][PASSED] - case "fail":: null
+
+2020-06-12 12:48:11 - [TEST_STEP][PASSED] - if (keterangan == "emptyEmail"): null
+
+2020-06-12 12:48:11 - [TEST_STEP][PASSED] - else if (keterangan == "invalidEmail"): null
+
+2020-06-12 12:48:11 - [TEST_STEP][PASSED] - else if (keterangan == "cancel"): Actual object 'dennaleksanti@gmail.com' and expected object 'dennaleksanti@gmail.com' are equal
+
+2020-06-12 12:48:11 - [TEST_STEP][PASSED] - emailValue = getAttribute(findTestObject("Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail - Copy"), "value"): Attribute 'value' of object 'Object Repository/Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail - Copy' is: 'dennaleksanti@gmail.com'
+
+2020-06-12 12:48:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail - Copy' is: 'dennaleksanti@gmail.com'
+
+2020-06-12 12:48:12 - [TEST_STEP][PASSED] - verifyEqual(emailValue, email): Actual object 'dennaleksanti@gmail.com' and expected object 'dennaleksanti@gmail.com' are equal
+
+2020-06-12 12:48:12 - [MESSAGE][PASSED] - Actual object 'dennaleksanti@gmail.com' and expected object 'dennaleksanti@gmail.com' are equal
+
+2020-06-12 12:48:12 - [TEST_STEP][PASSED] - break: null
+
+2020-06-12 12:48:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 12:48:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Denna/User - Pengaturan Email" time="86.567" classname="Test Cases/Denna/User - Pengaturan Email" status="PASSED">
+         <system-out><![CDATA[2020-06-12 12:48:13 - [TEST_CASE][PASSED] - Test Cases/Denna/User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email
+
+2020-06-12 12:48:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Denna/Login(User)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:48:13 - [TEST_CASE][PASSED] - Test Cases/Denna/Login(User): Test Cases/Denna/Login(User)
+
+2020-06-12 12:48:13 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:48:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-12 12:48:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/Main?redirectTo=onlineLearning'
+
+2020-06-12 12:48:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-12 12:48:44 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-12 12:48:44 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-12 12:48:59 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-12 12:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login")): Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login' is clicked on
+
+2020-06-12 12:48:59 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/input NPK username"), "06677"): Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:49:00 - [MESSAGE][PASSED] - Text '06677' is set on object 'Object Repository/Denna/User-Login/input NPK username'
+
+2020-06-12 12:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User-Login/inputPassword"), "#@ccPerfect2o19#"): Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:49:01 - [MESSAGE][PASSED] - Text '#@ccPerfect2o19#' is set on object 'Object Repository/Denna/User-Login/inputPassword'
+
+2020-06-12 12:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User-Login/button login 1 masuk")): Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User-Login/button login 1 masuk' is clicked on
+
+2020-06-12 12:49:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Denna/User-Login/button_My Learning IconMy Learning")): Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/Denna/User-Login/button_My Learning IconMy Learning' is visible
+
+2020-06-12 12:49:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Denna/Login(User)' successfully
+
+2020-06-12 12:49:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Denna/User - Pengaturan Email/button Profile")): Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/button Profile' is clicked on
+
+2020-06-12 12:49:24 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnPengaturanEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnPengaturanEmail_v2' is clicked on
+
+2020-06-12 12:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnAddAnotherEmail_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnAddAnotherEmail_v2' is clicked on
+
+2020-06-12 12:49:32 - [TEST_STEP][PASSED] - setText(findTestObject("Denna/User - Pengaturan Email/fieldInputEmail_v2"), email): Text 'rizkariz20@gmail.com' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:49:33 - [MESSAGE][PASSED] - Text 'rizkariz20@gmail.com' is set on object 'Object Repository/Denna/User - Pengaturan Email/fieldInputEmail_v2'
+
+2020-06-12 12:49:33 - [TEST_STEP][PASSED] - if (keterangan == "cancel"): null
+
+2020-06-12 12:49:33 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Denna/User - Pengaturan Email/btnSubmit_v2")): Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Denna/User - Pengaturan Email/btnSubmit_v2' is clicked on
+
+2020-06-12 12:49:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-12 12:49:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-12 12:49:38 - [TEST_STEP][PASSED] - switch (kondisi): null
+
+2020-06-12 12:49:38 - [TEST_STEP][PASSED] - case "pass":: null
+
+2020-06-12 12:49:38 - [TEST_STEP][PASSED] - emailValue = getAttribute(findTestObject("Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail - Copy"), "value"): Attribute 'value' of object 'Object Repository/Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail - Copy' is: 'rizkariz20@gmail.com'
+
+2020-06-12 12:49:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Denna/User - Pengaturan Email/input Alamat email yang lain_secondEmail - Copy' is: 'rizkariz20@gmail.com'
+
+2020-06-12 12:49:38 - [TEST_STEP][PASSED] - verifyEqual(emailValue, email): Actual object 'rizkariz20@gmail.com' and expected object 'rizkariz20@gmail.com' are equal
+
+2020-06-12 12:49:38 - [MESSAGE][PASSED] - Actual object 'rizkariz20@gmail.com' and expected object 'rizkariz20@gmail.com' are equal
+
+2020-06-12 12:49:38 - [TEST_STEP][PASSED] - break: null
+
+2020-06-12 12:49:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-12 12:49:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-12 12:43:48 - [TEST_SUITE][PASSED] - User - Pengaturan Email: Test Cases/Denna/User - Pengaturan Email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
