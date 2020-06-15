@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>a067ab96-a01d-438e-8198-fd30d78fe485</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>11-16</value>
+            <iterationType>ALL</iterationType>
+            <value>16</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/User - Forgot Password</testDataId>
       </testDataLink>

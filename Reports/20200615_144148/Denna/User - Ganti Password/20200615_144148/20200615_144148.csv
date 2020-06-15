@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User - Ganti Password,Chrome 83.0.4103.97,,,2020-06-15 14:42:04,2020-06-15 14:43:36,"1m - 31,628s",PASSED
+,,,,,,,
+Test Cases/Denna/User - Ganti Password,Chrome 83.0.4103.97,,,2020-06-15 14:42:05,2020-06-15 14:43:36,"1m - 30,912s",PASSED
+"callTestCase(findTestCase(""Denna/Login(User)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-15 14:42:06,2020-06-15 14:42:58,"52,074s",PASSED
+delay(10),Chrome 83.0.4103.97,,,2020-06-15 14:42:58,2020-06-15 14:43:08,"10,006s",PASSED
+"click(findTestObject(""Denna/User - Ganti Password/btnProfile_v2""))",Chrome 83.0.4103.97,,,2020-06-15 14:43:08,2020-06-15 14:43:11,"2,497s",PASSED
+"click(findTestObject(""Denna/User - Ganti Password/btnGantiPassword_v2""))",Chrome 83.0.4103.97,,,2020-06-15 14:43:11,2020-06-15 14:43:13,"2,229s",PASSED
+"setText(findTestObject(""Denna/User - Ganti Password/fieldCurrentPass_v2""), currentPassword)",Chrome 83.0.4103.97,,,2020-06-15 14:43:13,2020-06-15 14:43:31,"17,961s",PASSED
+"setText(findTestObject(""Denna/User - Ganti Password/fieldNewPass_v2""), newPassword)",Chrome 83.0.4103.97,,,2020-06-15 14:43:31,2020-06-15 14:43:33,"1,747s",PASSED
+"setText(findTestObject(""Denna/User - Ganti Password/fieldConfirmNewPass_v2""), confirmPassword)",Chrome 83.0.4103.97,,,2020-06-15 14:43:33,2020-06-15 14:43:33,"0,472s",PASSED
+"click(findTestObject(""Denna/User - Ganti Password/btnSubmit_v2""))",Chrome 83.0.4103.97,,,2020-06-15 14:43:33,2020-06-15 14:43:34,"0,497s",PASSED
+switch (kondisi),Chrome 83.0.4103.97,,,2020-06-15 14:43:34,2020-06-15 14:43:34,"0,520s",PASSED
+closeBrowser(),Chrome 83.0.4103.97,,,2020-06-15 14:43:34,2020-06-15 14:43:36,"1,544s",PASSED

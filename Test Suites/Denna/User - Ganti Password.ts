@@ -20,7 +20,7 @@
          <id>9603b29b-55b0-4939-9cfc-bd990ac05625</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>13-15</value>
+            <value>6-14</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/User - Ganti Password</testDataId>
       </testDataLink>

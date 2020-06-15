@@ -18,28 +18,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Denna/Login(User)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Ganti Password/profile'))
+WebUI.click(findTestObject('Denna/User - Ganti Password/btnProfile_v2'))
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Ganti Password/button Ganti Password'))
+WebUI.click(findTestObject('Denna/User - Ganti Password/btnGantiPassword_v3'))
 
-WebUI.setText(findTestObject('Object Repository/Denna/User - Ganti Password/input Current Password'), currentPassword)
+WebUI.setText(findTestObject('Denna/User - Ganti Password/fieldCurrentPass_v2'), currentPassword)
 
-WebUI.setText(findTestObject('Object Repository/Denna/User - Ganti Password/input newPassword'), newPassword)
+WebUI.setText(findTestObject('Denna/User - Ganti Password/fieldNewPass_v2'), newPassword)
 
-WebUI.setText(findTestObject('Object Repository/Denna/User - Ganti Password/input confirmNewPassword'), confirmPassword)
+WebUI.setText(findTestObject('Denna/User - Ganti Password/fieldConfirmNewPass_v2'), confirmPassword)
 
-WebUI.click(findTestObject('Object Repository/Denna/User - Ganti Password/button Submit new Password'))
+WebUI.click(findTestObject('Denna/User - Ganti Password/btnSubmit_v2'))
 
 switch (kondisi) {
     case 'fail':
         if (keterangan == 'emptyAll') {
-            WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers'))
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/alert_v2'))
         } else if (keterangan == 'emptyCurrentPassword') {
-            WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label Current password maybe wrong or invalid'))
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/alert_v2'))
         } else if (keterangan == 'emptyNewPassword') {
-            WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers'))
+            WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/alert_v2'))
         } else if (keterangan == 'emptyConfirmPassword') {
             WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label Passwords are not match'))
         } else if (keterangan == 'invalidCurrentPassword') {
@@ -48,10 +48,6 @@ switch (kondisi) {
             WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label The password must be at least 6 characters and contain uppercase lowercase letters and numbers'))
         } else if (keterangan == 'notMatch') {
             WebUI.verifyElementVisible(findTestObject('Denna/User - Ganti Password/label Passwords are not match'))
-        } else if (keterangan == 'cancel') {
-            WebUI.delay(3)
-
-            WebUI.click(findTestObject('Denna/User - Ganti Password/button Batal'))
         } else if (keterangan == 'wrongOTP') {
             WebUI.setText(findTestObject('Object Repository/Denna/User - Ganti Password/input_Kode OTP_text1'), otp1)
 
@@ -98,9 +94,9 @@ switch (kondisi) {
 
         WebUI.click(findTestObject('Denna/User-Login/button login'))
 
-        WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), '14426')
+        WebUI.setText(findTestObject('Denna/User-Login/input NPK username'), '06677')
 
-        WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), 'Password3')
+        WebUI.setText(findTestObject('Denna/User-Login/inputPassword'), '#@ccPerfect2o19#')
 
         WebUI.click(findTestObject('Denna/User-Login/button login 1 masuk'))
 
