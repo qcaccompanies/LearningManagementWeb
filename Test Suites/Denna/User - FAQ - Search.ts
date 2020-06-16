@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>442ee360-c82a-4a80-839d-f6bee31f6e24</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>2-2</value>
+            <iterationType>ALL</iterationType>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/User - FAQ - Search</testDataId>
       </testDataLink>

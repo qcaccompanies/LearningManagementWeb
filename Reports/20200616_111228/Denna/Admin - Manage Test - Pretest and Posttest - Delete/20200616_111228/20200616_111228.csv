@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Manage Test - Pretest and Posttest - Delete,Chrome 83.0.4103.97,,,2020-06-16 11:12:43,2020-06-16 11:15:11,"2m - 28,222s",FAILED
+,,,,,,,
+Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete,Chrome 83.0.4103.97,,,2020-06-16 11:12:44,2020-06-16 11:15:11,"2m - 27,405s",FAILED
+"callTestCase(findTestCase(""Denna/Login(Admin)""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-16 11:12:45,2020-06-16 11:13:59,"1m - 14,069s",PASSED
+delay(2),Chrome 83.0.4103.97,,,2020-06-16 11:13:59,2020-06-16 11:13:59,"0,007s",NOT_RUN
+"click(findTestObject(""Denna/Admin - Manage Test - Prestest and Protest - Delete/btnManageFAQ_v2""))",Chrome 83.0.4103.97,,,2020-06-16 11:13:59,2020-06-16 11:14:11,"11,906s",PASSED
+delay(3),Chrome 83.0.4103.97,,,2020-06-16 11:14:11,2020-06-16 11:14:14,"3,019s",PASSED
+"setText(findTestObject(""Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2""), searchID)",Chrome 83.0.4103.97,,,2020-06-16 11:14:14,2020-06-16 11:14:17,"3,153s",PASSED
+"sendKeys(findTestObject(""Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2""), Keys.chord(ENTER))",Chrome 83.0.4103.97,,,2020-06-16 11:14:17,2020-06-16 11:14:18,"0,438s",PASSED
+delay(3),Chrome 83.0.4103.97,,,2020-06-16 11:14:18,2020-06-16 11:14:21,"3,006s",PASSED
+switch (kondisi),Chrome 83.0.4103.97,,,2020-06-16 11:14:21,2020-06-16 11:15:11,"50,440s",FAILED

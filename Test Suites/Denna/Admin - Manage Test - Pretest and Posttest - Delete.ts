@@ -20,7 +20,7 @@
          <id>da481ef8-c0de-40d9-a290-56271844f6da</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>3-3</value>
+            <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/Denna/Admin - Manage Test - Pretest and Posttest - Delete</testDataId>
       </testDataLink>

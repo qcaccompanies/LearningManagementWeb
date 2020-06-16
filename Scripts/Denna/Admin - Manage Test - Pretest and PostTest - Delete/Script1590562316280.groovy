@@ -20,60 +20,51 @@ WebUI.callTestCase(findTestCase('Denna/Login(Admin)'), [:], FailureHandling.STOP
 
 not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Manage Test'))
-
-WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Pre-Test  Post-Test'))
+WebUI.click(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/btnManageFAQ_v2'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'), searchID)
+WebUI.setText(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2'), searchID)
 
-not_run: WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
 
 switch (kondisi) {
     case 'fail':
-        WebUI.verifyElementVisible(findTestObject('Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/div_No data found'))
+        WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/div_Searching Not Found'))
 
         break
     case 'pass':
-        WebUI.click(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/button edit or delete'))
-
-        WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button Delete'))
+        WebUI.click(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/btnDelete_v2'))
 
         if (keterangan == 'cancel') {
-            WebUI.click(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/button CANCEL'))
+            WebUI.click(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/btnTidak_v2'))
+
+            WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/label_1771'))
         } else {
-            WebUI.click(findTestObject('Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/button_OK'))
+            WebUI.click(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/btnYa_v3'))
+
+            WebUI.delay(5)
+
+            WebUI.setText(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2'), '')
+
+            WebUI.sendKeys(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2'), Keys.chord(
+                    Keys.ENTER))
+
+            WebUI.delay(8)
+
+            WebUI.setText(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2'), searchID)
+
+            WebUI.sendKeys(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/fieldSearch_v2'), Keys.chord(
+                    Keys.ENTER))
+
+            WebUI.delay(5)
+
+            WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/div_Searching Not Found'))
+
+            break
         }
-        
-        WebUI.setText(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'), 
-            '')
-
-        WebUI.sendKeys(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'), 
-            Keys.chord(Keys.ENTER))
-
-        WebUI.delay(8)
-
-        WebUI.setText(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'), 
-            searchID)
-
-        WebUI.sendKeys(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/input_Back button_search1'), 
-            Keys.chord(Keys.ENTER))
-
-        WebUI.delay(5)
-
-        if (keterangan == 'cancel') {
-            WebUI.verifyElementVisible(findTestObject('Denna/Admin - Manage Test - Prestest and Protest - Delete/content'))
-        } else {
-            WebUI.verifyElementVisible(findTestObject('Object Repository/Denna/Admin - Manage Test - Prestest and Protest - Delete/div_No data found'))
-        }
-        
-        break
 }
 
 WebUI.closeBrowser()
