@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin_Manage FAQ - Edit" time="156.742" tests="1" failures="0" errors="0">
+   <testsuite name="Admin_Manage FAQ - Edit" tests="1" failures="0" errors="0" time="156.742" timestamp="2020-06-17 13:08:40" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Alda/Admin_Manage FAQ - Edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWebs\\Reports\\20200617_130834\\Alda\\Admin_Manage FAQ - Edit\\20200617_130834"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWebs\\Reports\\20200617_130834\\Alda\\Admin_Manage FAQ - Edit\\20200617_130834\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="92d8c1062b34a2ca1f732a514a9fb38f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alda/Admin - Manage FAQ/Edit" time="155.801" classname="Test Cases/Alda/Admin - Manage FAQ/Edit" status="PASSED">
+         <system-out><![CDATA[2020-06-17 13:08:41 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage FAQ/Edit: Test Cases/Alda/Admin - Manage FAQ/Edit
+
+2020-06-17 13:08:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Alda/Admin - Manage FAQ/Search"), ["var_search":var_search, "expected_output":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Alda/Admin - Manage FAQ/Search' successfully
+
+2020-06-17 13:08:43 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage FAQ/Search: Test Cases/Alda/Admin - Manage FAQ/Search
+
+2020-06-17 13:08:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/Custom/Admin - Login"), ["username":"11666", "password":"Password3", "rememberMe":"yes", "condition":"passed"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-06-17 13:08:43 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Login: Test Cases/Rizka/Admin/Custom/Admin - Login
+
+2020-06-17 13:08:44 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-17 13:08:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-17 13:08:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-17 13:09:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-17 13:09:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-17 13:09:36 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-17 13:09:36 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2020-06-17 13:10:06 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2020-06-17 13:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-17 13:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-17 13:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), username): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-17 13:10:07 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-17 13:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), password): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-17 13:10:08 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-17 13:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-17 13:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-17 13:10:08 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-17 13:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-17 13:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-17 13:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 13:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 13:10:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-06-17 13:10:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-06-17 13:10:19 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-06-17 13:10:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Login/span_Dashboard")): Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-06-17 13:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Login/span_Dashboard' is visible
+
+2020-06-17 13:10:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/Custom/Admin - Login' successfully
+
+2020-06-17 13:10:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 13:10:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 13:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard Admin/span_Manage FAQ")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 13:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 13:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 13:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 13:10:28 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search"), var_search): Text 'question112' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 13:10:31 - [MESSAGE][PASSED] - Text 'question112' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 13:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search"), STOP_ON_FAILURE): Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 13:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 13:10:32 - [TEST_STEP][PASSED] - if (expected_output == "found"): null
+
+2020-06-17 13:10:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Alda/Admin - Manage FAQ/Search' successfully
+
+2020-06-17 13:10:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 13:10:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 13:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/btn_edit")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_edit' is clicked on
+
+2020-06-17 13:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_edit' is clicked on
+
+2020-06-17 13:10:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/header_edit_page")): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/header_edit_page' is visible
+
+2020-06-17 13:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/header_edit_page' is visible
+
+2020-06-17 13:10:44 - [TEST_STEP][PASSED] - switch (opsi_edit): null
+
+2020-06-17 13:10:44 - [TEST_STEP][PASSED] - case "all":: null
+
+2020-06-17 13:10:44 - [TEST_STEP][PASSED] - clearText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question"), STOP_ON_FAILURE): Text of object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question' is cleared
+
+2020-06-17 13:10:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question' is cleared
+
+2020-06-17 13:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question"), var_question_new): Text 'question 5 adalah?' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'
+
+2020-06-17 13:10:45 - [MESSAGE][PASSED] - Text 'question 5 adalah?' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'
+
+2020-06-17 13:10:45 - [TEST_STEP][PASSED] - clearText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer"), STOP_ON_FAILURE): Text of object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer' is cleared
+
+2020-06-17 13:10:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer' is cleared
+
+2020-06-17 13:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer"), var_answer_new): Text 'jawaban pertanyaan 5' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'
+
+2020-06-17 13:10:46 - [MESSAGE][PASSED] - Text 'jawaban pertanyaan 5' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'
+
+2020-06-17 13:10:46 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar"), var_gambar_new): File 'C:\Users\ASUS\git\LearningManagementWebs\gambar_alda.jpg' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar'
+
+2020-06-17 13:10:46 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\LearningManagementWebs\gambar_alda.jpg' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar'
+
+2020-06-17 13:10:46 - [TEST_STEP][PASSED] - if (expected_image == "success"): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'
+
+2020-06-17 13:10:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_success_upload_image")): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_success_upload_image' is visible
+
+2020-06-17 13:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_success_upload_image' is visible
+
+2020-06-17 13:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag' is clicked on
+
+2020-06-17 13:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag' is clicked on
+
+2020-06-17 13:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag"), var_tag_new): Text 'pertanyaan' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'
+
+2020-06-17 13:11:04 - [MESSAGE][PASSED] - Text 'pertanyaan' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'
+
+2020-06-17 13:11:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'
+
+2020-06-17 13:11:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'
+
+2020-06-17 13:11:04 - [TEST_STEP][PASSED] - break: null
+
+2020-06-17 13:11:04 - [TEST_STEP][PASSED] - switch (expected_output): null
+
+2020-06-17 13:11:04 - [TEST_STEP][PASSED] - case "pass":: null
+
+2020-06-17 13:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit' is clicked on
+
+2020-06-17 13:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit' is clicked on
+
+2020-06-17 13:11:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-17 13:11:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-17 13:11:08 - [TEST_STEP][PASSED] - clearText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search")): Text of object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is cleared
+
+2020-06-17 13:11:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is cleared
+
+2020-06-17 13:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 13:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 13:11:13 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search"), var_search_after_edit): Text 'question 5 adalah?' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 13:11:13 - [MESSAGE][PASSED] - Text 'question 5 adalah?' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 13:11:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 13:11:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 13:11:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible - Copy", ["text":var_search_after_edit])): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible - Copy' is visible
+
+2020-06-17 13:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible - Copy' is visible
+
+2020-06-17 13:11:16 - [TEST_STEP][PASSED] - break: null
+
+2020-06-17 13:11:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-17 13:11:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-17 13:08:40 - [TEST_SUITE][PASSED] - Admin_Manage FAQ - Edit: Test Cases/Alda/Admin - Manage FAQ/Edit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

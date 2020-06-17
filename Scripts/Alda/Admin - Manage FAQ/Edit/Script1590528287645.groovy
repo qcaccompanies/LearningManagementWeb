@@ -16,113 +16,210 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Alda/Admin - Manage FAQ/Search'), [('var_search') : var_search, ('expected_output') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '11666', ('password') : 'Password3'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/btn_edit'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Manage FAQ'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/header_edit_page'))
+WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
 
-switch (opsi_edit) {
-    case 'all':
-        WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search)
 
-        WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), var_question_new)
+WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), FailureHandling.STOP_ON_FAILURE)
+if (expected_search == 'found') {
+    WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible', [('text') : var_search]))
 
-        WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), var_answer_new)
+    WebUI.delay(5)
 
-        WebUI.uploadFile(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar'), var_gambar_new)
+    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/btn_edit'))
 
-        if (expected_image == 'success') {
-            WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_success_upload_image'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/header_edit_page'))
 
-            WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'))
+    switch (opsi_edit.toString()) {
+        case 'all':
+            WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'), var_tag_new)
+            if (var_question_new != '') {
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), var_question_new)
+            }
+            
+            WebUI.delay(3)
 
-            WebUI.sendKeys(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'), Keys.chord(Keys.ENTER))
-        } else if (expected_image == 'error') {
-            WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_error_upload_image'))
-        }
-        
-        break
-    case 'question_only':
-        WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), FailureHandling.STOP_ON_FAILURE)
+            if (var_answer_new != '') {
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), var_answer_new)
+            }
+            
+            WebUI.delay(3)
 
-        WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), var_question_new)
+            WebUI.uploadFile(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar'), var_gambar_new)
 
-        WebUI.delay(2)
+            if (var_gambar_new != '') {
+                if (expected_image == 'file to big') {
+                    WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/div_File size exceeded limit Max upload size is 03MB'), 
+                        0)
+                } else if (expected_image == 'wrong file extension') {
+                    WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/div_ERROR'), 0)
+                }
+            }
+            
+            if (var_tag_new != '') {
+                WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'))
 
-        break
-    case 'answer_only':
-        WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'), var_tag_new)
 
-        WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.sendKeys(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_tag'), Keys.chord(Keys.ENTER))
+            }
+            
+            if (expected_output == 'pass') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
 
-        WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), var_answer_new)
+                WebUI.delay(3)
 
-        WebUI.delay(2)
+                WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
 
-        break
-    case 'picture_only':
-        WebUI.uploadFile(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar'), var_gambar_new)
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search_after_edit)
 
-        if (expected_image == 'success') {
-            WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_success_upload_image'))
+                WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), 
+                    FailureHandling.STOP_ON_FAILURE)
+            } else if (expected_output == 'fail') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
 
+                WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/p_Terjadi kesalahan harap periksa kembali'), 
+                    0)
+
+                WebUI.click(findTestObject('Alda/Page_Manage Faq/button_OK'))
+            } else if (expected_output == 'cancel') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_cancel_edit'))
+            }
+            
+            break
+        case 'question_only':
+            WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), FailureHandling.STOP_ON_FAILURE)
+
+            if (var_question_new != '') {
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_question'), var_question_new)
+            }
+            
             WebUI.delay(2)
-        } else if (expected_image == 'error') {
-            WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_error_upload_image'))
-        }
-        
-        break
-}
 
-switch (expected_output) {
-    case 'pass':
-        WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
+            if (expected_output == 'pass') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
 
-        WebUI.delay(3)
+                WebUI.delay(3)
 
-        WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
+                WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
 
-        WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search_after_edit)
 
-        WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search_after_edit)
+                WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), 
+                    FailureHandling.STOP_ON_FAILURE)
+            } else if (expected_output == 'fail') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
 
-        WebUI.sendKeys(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), Keys.chord(Keys.ENTER))
+                WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/p_Terjadi kesalahan harap periksa kembali'), 
+                    0)
 
-        WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible - Copy', 
-                [('text') : var_search_after_edit]))
+                WebUI.click(findTestObject('Alda/Page_Manage Faq/button_OK'))
+            } else if (expected_output == 'cancel') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_cancel_edit'))
+            }
+            
+            break
+        case 'answer_only':
+            WebUI.clearText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), FailureHandling.STOP_ON_FAILURE)
 
-        break
-    case 'pass_image':
-        WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible - Copy', 
-                [('text') : var_search_after_edit]))
+            if (var_answer_new != '') {
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_answer'), var_answer_new)
+            }
+            
+            WebUI.delay(2)
 
-        WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
+            if (expected_output == 'pass') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
 
-        break
-    case 'fail':
-        WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
+                WebUI.delay(3)
 
-        WebUI.delay(3)
+                WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
 
-        WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/alert_error'))
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search_after_edit)
 
-        WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/ok_edit_error'))
+                WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), 
+                    FailureHandling.STOP_ON_FAILURE)
+            } else if (expected_output == 'fail') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
 
-        break
-    case 'cancel':
-        WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_cancel_edit'))
+                WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/p_Terjadi kesalahan harap periksa kembali'), 
+                    0)
 
-        break
+                WebUI.click(findTestObject('Alda/Page_Manage Faq/button_OK'))
+            } else if (expected_output == 'cancel') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_cancel_edit'))
+            }
+            
+            break
+        case 'picture_only':
+            if (var_gambar_new != '') {
+                WebUI.uploadFile(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/edit_gambar'), var_gambar_new)
+
+                if (expected_image == 'file to big') {
+                    WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/div_File size exceeded limit Max upload size is 03MB'), 
+                        0)
+                } else if (expected_image == 'wrong file extension') {
+                    WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/div_ERROR'), 0)
+                } else {
+                    WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
+
+                    WebUI.delay(3)
+
+                    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
+
+                    WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search_after_edit)
+
+                    WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), 
+                        FailureHandling.STOP_ON_FAILURE)
+                }
+            }
+            
+            break
+        case 'add tags':
+            WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_tag'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.setText(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_tag'), var_tag_new, 
+                FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.sendKeys(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_tag'), Keys.chord(Keys.ENTER), 
+                FailureHandling.STOP_ON_FAILURE)
+
+            if (expected_output == 'pass') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
+
+                WebUI.delay(3)
+
+                WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
+
+                WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search_after_edit)
+
+                WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), 
+                    FailureHandling.STOP_ON_FAILURE)
+            } else if (expected_output == 'fail') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_save_edit'))
+
+                WebUI.verifyElementPresent(findTestObject('Alda/Page_Manage Faq/p_Terjadi kesalahan harap periksa kembali'), 
+                    0)
+
+                WebUI.click(findTestObject('Alda/Page_Manage Faq/button_OK'))
+            } else if (expected_output == 'cancel') {
+                WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_cancel_edit'))
+            }
+            
+            break
+    }
+} else if (expected_search == 'not found') {
+    WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found'))
 }
 
 WebUI.closeBrowser()

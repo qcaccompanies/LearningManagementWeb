@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin_Manage FAQ - Delete" time="293.923" tests="3" failures="0" errors="0">
+   <testsuite name="Admin_Manage FAQ - Delete" tests="3" failures="0" errors="0" time="293.923" timestamp="2020-06-17 17:45:19" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Alda/Admin_Manage FAQ - Delete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\LearningManagementWebs\\Reports\\20200617_174502\\Alda\\Admin_Manage FAQ - Delete\\20200617_174502"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\LearningManagementWebs\\Reports\\20200617_174502\\Alda\\Admin_Manage FAQ - Delete\\20200617_174502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="f804639e20d94bfcb11e4e0c3ef73fac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alda/Admin - Manage FAQ/Delete" time="64.498" classname="Test Cases/Alda/Admin - Manage FAQ/Delete" status="PASSED">
+         <system-out><![CDATA[2020-06-17 17:45:20 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage FAQ/Delete: Test Cases/Alda/Admin - Manage FAQ/Delete
+
+2020-06-17 17:45:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-17 17:45:22 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-17 17:45:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-17 17:45:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-17 17:45:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-17 17:45:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-17 17:45:32 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-17 17:45:42 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-17 17:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-17 17:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-17 17:45:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-17 17:45:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-17 17:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-17 17:45:57 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-17 17:45:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-17 17:45:59 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-17 17:45:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:46:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 17:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 17:46:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:46:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:46:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-17 17:46:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:46:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard Admin/span_Manage FAQ")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 17:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 17:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 17:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 17:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search"), var_search): Text 'xxxxx' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 17:46:21 - [MESSAGE][PASSED] - Text 'xxxxx' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 17:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search"), STOP_ON_FAILURE): Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 17:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 17:46:22 - [TEST_STEP][PASSED] - if (expected_search == "found"): null
+
+2020-06-17 17:46:22 - [TEST_STEP][PASSED] - else if (expected_search == "not found"): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible
+
+2020-06-17 17:46:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found")): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible
+
+2020-06-17 17:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage FAQ/Delete" time="54.888" classname="Test Cases/Alda/Admin - Manage FAQ/Delete" status="PASSED">
+         <system-out><![CDATA[2020-06-17 17:46:24 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage FAQ/Delete: Test Cases/Alda/Admin - Manage FAQ/Delete
+
+2020-06-17 17:46:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-17 17:46:25 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-17 17:46:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-17 17:46:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-17 17:46:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-17 17:46:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-17 17:46:29 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-17 17:46:39 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-17 17:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-17 17:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-17 17:46:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-17 17:46:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-17 17:46:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-17 17:46:51 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-17 17:46:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-17 17:46:52 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-17 17:46:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:46:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 17:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 17:46:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:47:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:47:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-17 17:47:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:47:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:47:08 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard Admin/span_Manage FAQ")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 17:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 17:47:08 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 17:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 17:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search"), var_search): Text 'answer14' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 17:47:15 - [MESSAGE][PASSED] - Text 'answer14' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 17:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search"), STOP_ON_FAILURE): Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 17:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 17:47:15 - [TEST_STEP][PASSED] - if (expected_search == "found"): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible' is visible
+
+2020-06-17 17:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)' is clicked on
+
+2020-06-17 17:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)' is clicked on
+
+2020-06-17 17:47:18 - [TEST_STEP][PASSED] - if (expected_delete == "delete"): null
+
+2020-06-17 17:47:18 - [TEST_STEP][PASSED] - else if (expected_delete == "cancel"): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible' is visible
+
+2020-06-17 17:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Faq/span_TIDAK")): Object: 'Object Repository/Christi/Page_Manage Faq/span_TIDAK' is clicked on
+
+2020-06-17 17:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Faq/span_TIDAK' is clicked on
+
+2020-06-17 17:47:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible", ["text":var_search])): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible' is visible
+
+2020-06-17 17:47:19 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alda/Admin - Manage FAQ/Delete" time="171.892" classname="Test Cases/Alda/Admin - Manage FAQ/Delete" status="PASSED">
+         <system-out><![CDATA[2020-06-17 17:47:19 - [TEST_CASE][PASSED] - Test Cases/Alda/Admin - Manage FAQ/Delete: Test Cases/Alda/Admin - Manage FAQ/Delete
+
+2020-06-17 17:47:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Admin/admin login"), ["username":"11666", "password":"Password3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-17 17:47:19 - [TEST_CASE][PASSED] - Test Cases/Christi/Admin/admin login: Test Cases/Christi/Admin/admin login
+
+2020-06-17 17:47:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-17 17:47:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-17 17:47:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-17 17:47:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-17 17:47:25 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-17 17:49:12 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn' successfully
+
+2020-06-17 17:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/button_login")): Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-17 17:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/button_login' is clicked on
+
+2020-06-17 17:49:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-17 17:49:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-17 17:49:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_NPK_username"), username): Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-17 17:49:33 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Christi/Page_Main/input_NPK_username'
+
+2020-06-17 17:49:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Main/input_Password_password"), password): Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-17 17:49:34 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Christi/Page_Main/input_Password_password'
+
+2020-06-17 17:49:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:49:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:49:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 17:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 17:49:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:49:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:49:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Admin/admin login' successfully
+
+2020-06-17 17:49:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 17:49:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 17:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard Admin/span_Manage FAQ")): Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 17:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard Admin/span_Manage FAQ' is clicked on
+
+2020-06-17 17:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 17:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search' is clicked on
+
+2020-06-17 17:50:03 - [TEST_STEP][PASSED] - setText(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/input_search"), var_search): Text 'question14' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 17:50:03 - [MESSAGE][PASSED] - Text 'question14' is set on object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'
+
+2020-06-17 17:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search"), STOP_ON_FAILURE): Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 17:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search' is clicked on
+
+2020-06-17 17:50:04 - [TEST_STEP][PASSED] - if (expected_search == "found"): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible
+
+2020-06-17 17:50:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)")): Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)' is clicked on
+
+2020-06-17 17:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)' is clicked on
+
+2020-06-17 17:50:06 - [TEST_STEP][PASSED] - if (expected_delete == "delete"): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible
+
+2020-06-17 17:50:06 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Manage Faq/span_YA")): Object: 'Object Repository/Christi/Page_Manage Faq/span_YA' is clicked on
+
+2020-06-17 17:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Manage Faq/span_YA' is clicked on
+
+2020-06-17 17:50:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found")): Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible
+
+2020-06-17 17:50:11 - [MESSAGE][PASSED] - Object 'Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-17 17:45:19 - [TEST_SUITE][PASSED] - Admin_Manage FAQ - Delete: Test Cases/Alda/Admin - Manage FAQ/Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

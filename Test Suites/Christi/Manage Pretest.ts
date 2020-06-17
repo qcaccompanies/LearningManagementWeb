@@ -19,13 +19,13 @@
    <testCaseLink>
       <guid>f68f2087-2558-4ab9-b251-8506f862a711</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/Admin/Pretest PostTest - Upload CSV</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>15225a56-f87e-4271-9811-d850e911b709</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Christi/upload pretest posttest</testDataId>
@@ -58,7 +58,7 @@
    <testCaseLink>
       <guid>34e0baf1-39e3-43d0-9c4b-f42ce9d276bb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Denna/Admin - Manage Test - Pretest and PostTest - Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

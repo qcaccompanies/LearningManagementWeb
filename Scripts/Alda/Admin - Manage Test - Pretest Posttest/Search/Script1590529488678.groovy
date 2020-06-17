@@ -16,20 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username') : '11666', ('password') : 'Password3'
-        , ('rememberMe') : 'yes', ('condition') : 'passed'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '11666', ('password') : 'Password3'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_manage_test'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Test Management'))
 
-WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Dashboard Admin/span_pretest_posttest'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Pre-Test  Post-Test'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Alda/Admin - Manage Test/Page_Manage Test/click_search'))
 
 WebUI.setText(findTestObject('Alda/Admin - Manage Test/Page_Manage Test/input_search'), var_search)
 
-WebUI.sendKeys(findTestObject('Alda/Admin - Manage Test/Page_Manage Test/click_search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Christi/Page_Manage Test/button_Clear button_app-search-button wi wi-search'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

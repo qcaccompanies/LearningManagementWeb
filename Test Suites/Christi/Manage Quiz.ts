@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>4aa14724-d735-419e-9c71-c55938782f9b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Christi/Admin/Quiz - Download CSV</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -25,8 +25,8 @@
          <combinationType>ONE</combinationType>
          <id>985e3921-5c02-4b52-8e70-48316b244cad</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-2</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Christi/upload quiz</testDataId>
       </testDataLink>

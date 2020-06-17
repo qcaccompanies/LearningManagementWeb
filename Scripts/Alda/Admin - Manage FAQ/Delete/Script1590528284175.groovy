@@ -15,18 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Alda/Admin - Manage FAQ/Search'), [('var_search') : var_search, ('expected_output') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '11666', ('password') : 'Password3'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)'))
+WebUI.delay(5)
 
-if (expected_output == 'delete') {
-    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/btn_yes_delete'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Manage FAQ'))
 
+WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'))
+
+WebUI.setText(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_search'), var_search)
+
+WebUI.click(findTestObject('Christi/Page_Manage Faq/button_Clear button_app-search-button wi wi-search'), FailureHandling.STOP_ON_FAILURE)
+
+if (expected_search == 'found') {
+    WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_delete (1)'))
+
+    if (expected_delete == 'delete') {
+        WebUI.click(findTestObject('Christi/Page_Manage Faq/span_YA'))
+
+        WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found'))
+    } else if (expected_delete == 'cancel') {
+        WebUI.click(findTestObject('Christi/Page_Manage Faq/span_TIDAK'))
+
+        WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible', [('text') : var_search]))
+    }
+} else if (expected_search == 'not found') {
     WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_searching_not_found'))
-} else if (expected_output == 'cancel') {
-    WebUI.click(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/btn_no_delete'))
-
-    WebUI.verifyElementVisible(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/label_search_visible', [('text') : var_search]))
 }
 

@@ -6,18 +6,18 @@
    <elementGuidId>c4790c0d-6a7d-4a9a-a68e-aba5ad89e69f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@name='labelFaqQuestion']</value>
+         <key>BASIC</key>
+         <value>//label[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '${text}' or . = '${text}')]</value>
+         <key>XPATH</key>
+         <value>//label[@name='labelFaqQuestion']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

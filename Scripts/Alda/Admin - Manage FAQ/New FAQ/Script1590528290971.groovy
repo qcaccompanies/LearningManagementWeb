@@ -16,10 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Rizka/Admin/Custom/Admin - Login'), [('username') : '11666', ('password') : 'Password3'
-        , ('rememberMe') : 'yes', ('condition') : 'passed'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '11666', ('password') : 'Password3'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Dashboard Admin/span_manage_faq'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Manage FAQ'))
 
 WebUI.click(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/btn_new_faq'))
 
@@ -30,9 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Man
 if (optional_gambar == 'ya') {
     WebUI.uploadFile(findTestObject('Alda/Admin - Manage FAQ/Page_Manage Faq/input_gambar'), var_gambar, FailureHandling.STOP_ON_FAILURE)
 
-    if (expected_image == 'success') {
-        WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_success_upload_image'))
-    } else if (expected_image == 'error') {
+    if (expected_image == 'error') {
         WebUI.verifyElementVisible(findTestObject('Object Repository/Alda/Admin - Manage FAQ/Page_Manage Faq/alert_error_upload_image'))
     }
 }

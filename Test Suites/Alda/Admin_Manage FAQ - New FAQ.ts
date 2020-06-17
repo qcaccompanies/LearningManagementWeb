@@ -20,7 +20,7 @@
          <id>a6fab266-d5f7-45e2-b14f-0425b0f9a88d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Alda/Admin_Manage FAQ - New FAQ</testDataId>
       </testDataLink>

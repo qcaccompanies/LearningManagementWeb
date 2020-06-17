@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Christi/Admin/admin login'), [('username') : '1
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard Admin/span_Manage Slider'))
+WebUI.click(findTestObject('Christi/Page_Dashboard Admin/span_Manage Slider'))
 
 WebUI.delay(3)
 
@@ -55,10 +55,6 @@ if (expected == 'pass') {
     WebUI.delay(3)
 
     WebUI.verifyElementPresent(findTestObject('Object Repository/Christi/Page_Manage Sliders/button_New Slider'), 0)
-
-    WebUI.delay(3)
-
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Manage Sliders/label_NEOP UW', [('text') : nama_slider]), 3)
 } else if (expected == 'fail') {
     if (upload == 'yes') {
         WebUI.uploadFile(findTestObject('Christi/Page_Manage Sliders/input_Icon_files'), img_slider)

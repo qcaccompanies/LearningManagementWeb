@@ -6,15 +6,15 @@
    <elementGuidId>b50d778b-08fc-4647-8f8d-b3677b10bf96</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/modal-container[2]/app-page-managefaq/div/div/div/h4</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;ng-app&quot;)/modal-container[@class=&quot;modal fade in&quot;]/app-page-managefaq[1]/div[@class=&quot;modal-dialog app-dialog modal-dialog app-alert-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;app-dialog-header modal-header&quot;]/h4[@class=&quot;app-dialog-title modal-title&quot;][count(. | //*[(text() = 'Alert' or . = 'Alert')]) = count(//*[(text() = 'Alert' or . = 'Alert')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/modal-container[2]/app-page-managefaq/div/div/div/h4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
