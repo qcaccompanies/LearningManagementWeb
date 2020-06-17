@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Change Password" time="91.495" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Change Password" tests="1" failures="0" errors="0" time="91.495" timestamp="2020-06-17 15:45:56" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Custom/Admin - Change Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200617_154545\\Rizka\\Admin\\Admin - Custom\\Admin - Change Password\\20200617_154545"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200617_154545\\Rizka\\Admin\\Admin - Custom\\Admin - Change Password\\20200617_154545\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.64"/>
+         <property name="sessionId" value="ca43873395aa35ba6aa8c6179f8efe54"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Custom/Admin - Change Password" time="89.327" classname="Test Cases/Rizka/Admin/Custom/Admin - Change Password" status="PASSED">
+         <system-out><![CDATA[2020-06-17 15:45:57 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Custom/Admin - Change Password: Test Cases/Rizka/Admin/Custom/Admin - Change Password
+
+2020-06-17 15:45:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-17 15:45:58 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-17 15:45:59 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-17 15:45:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-17 15:45:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-17 15:46:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-17 15:46:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-17 15:46:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-17 15:46:27 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-17 15:46:42 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-17 15:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-17 15:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-17 15:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-17 15:46:44 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-17 15:46:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-17 15:46:44 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-17 15:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-17 15:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-17 15:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-17 15:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-17 15:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 15:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-17 15:46:46 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-17 15:47:01 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-17 15:47:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-17 15:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/btnMyProfile")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnMyProfile' is clicked on
+
+2020-06-17 15:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnMyProfile' is clicked on
+
+2020-06-17 15:47:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-17 15:47:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-17 15:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/btnChangePassword_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnChangePassword_v2' is clicked on
+
+2020-06-17 15:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnChangePassword_v2' is clicked on
+
+2020-06-17 15:47:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 15:47:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 15:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/eyeCurrentPass")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/eyeCurrentPass' is clicked on
+
+2020-06-17 15:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/eyeCurrentPass' is clicked on
+
+2020-06-17 15:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/txtCurrentPassword"), currentPass): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/txtCurrentPassword'
+
+2020-06-17 15:47:12 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/txtCurrentPassword'
+
+2020-06-17 15:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/eyeNewPass")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/eyeNewPass' is clicked on
+
+2020-06-17 15:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/eyeNewPass' is clicked on
+
+2020-06-17 15:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/txtNewPassword"), newPass): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/txtNewPassword'
+
+2020-06-17 15:47:13 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/txtNewPassword'
+
+2020-06-17 15:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/eyeConfirmNewPass")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/eyeConfirmNewPass' is clicked on
+
+2020-06-17 15:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/eyeConfirmNewPass' is clicked on
+
+2020-06-17 15:47:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/txtxNewPasswordConfirm"), confirmNewPass): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/txtxNewPasswordConfirm'
+
+2020-06-17 15:47:14 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/txtxNewPasswordConfirm'
+
+2020-06-17 15:47:14 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Change Password/notifGantiPasswordSukses' is visible
+
+2020-06-17 15:47:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/btnResetPassword")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnResetPassword' is clicked on
+
+2020-06-17 15:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnResetPassword' is clicked on
+
+2020-06-17 15:47:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-17 15:47:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-17 15:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/input_Kode OTP_text1"), "2"): Text '2' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text1'
+
+2020-06-17 15:47:20 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text1'
+
+2020-06-17 15:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/input_Kode OTP_text2"), "4"): Text '4' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text2'
+
+2020-06-17 15:47:20 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text2'
+
+2020-06-17 15:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/input_Kode OTP_text3"), "9"): Text '9' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text3'
+
+2020-06-17 15:47:21 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text3'
+
+2020-06-17 15:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/input_Kode OTP_text4"), "9"): Text '9' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text4'
+
+2020-06-17 15:47:21 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text4'
+
+2020-06-17 15:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/input_Kode OTP_text5"), "2"): Text '2' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text5'
+
+2020-06-17 15:47:22 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text5'
+
+2020-06-17 15:47:22 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Change Password/input_Kode OTP_text6"), "1"): Text '1' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text6'
+
+2020-06-17 15:47:22 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Rizka/Admin/Admin - Change Password/input_Kode OTP_text6'
+
+2020-06-17 15:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Change Password/btnKonfirmasi")): Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnKonfirmasi' is clicked on
+
+2020-06-17 15:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Change Password/btnKonfirmasi' is clicked on
+
+2020-06-17 15:47:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Change Password/notifGantiPasswordSukses")): Object 'Object Repository/Rizka/Admin/Admin - Change Password/notifGantiPasswordSukses' is visible
+
+2020-06-17 15:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Change Password/notifGantiPasswordSukses' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-17 15:45:56 - [TEST_SUITE][PASSED] - Admin - Change Password: Test Cases/Rizka/Admin/Custom/Admin - Change Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Change Password,Chrome 83.0.4103.97,,,2020-06-17 15:45:56,2020-06-17 15:47:26,"1m - 30,081s",PASSED
+,,,,,,,
+Test Cases/Rizka/Admin/Custom/Admin - Change Password,Chrome 83.0.4103.97,,,2020-06-17 15:45:57,2020-06-17 15:47:26,"1m - 29,327s",PASSED
+"callTestCase(findTestCase(""Rizka/Admin/AdminMainLogin""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.97,,,2020-06-17 15:45:58,2020-06-17 15:47:01,"1m - 3,321s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Change Password/btnMyProfile""))",Chrome 83.0.4103.97,,,2020-06-17 15:47:01,2020-06-17 15:47:02,"0,636s",PASSED
+delay(3),Chrome 83.0.4103.97,,,2020-06-17 15:47:02,2020-06-17 15:47:05,"3,007s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Change Password/btnChangePassword_v2""))",Chrome 83.0.4103.97,,,2020-06-17 15:47:05,2020-06-17 15:47:06,"0,584s",PASSED
+delay(5),Chrome 83.0.4103.97,,,2020-06-17 15:47:06,2020-06-17 15:47:11,"5,006s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Change Password/eyeCurrentPass""))",Chrome 83.0.4103.97,,,2020-06-17 15:47:11,2020-06-17 15:47:11,"0,422s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Change Password/txtCurrentPassword""), currentPass)",Chrome 83.0.4103.97,,,2020-06-17 15:47:11,2020-06-17 15:47:12,"0,622s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Change Password/eyeNewPass""))",Chrome 83.0.4103.97,,,2020-06-17 15:47:12,2020-06-17 15:47:12,"0,434s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Change Password/txtNewPassword""), newPass)",Chrome 83.0.4103.97,,,2020-06-17 15:47:12,2020-06-17 15:47:13,"0,592s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Change Password/eyeConfirmNewPass""))",Chrome 83.0.4103.97,,,2020-06-17 15:47:13,2020-06-17 15:47:13,"0,454s",PASSED
+"setText(findTestObject(""Rizka/Admin/Admin - Change Password/txtxNewPasswordConfirm""), confirmNewPass)",Chrome 83.0.4103.97,,,2020-06-17 15:47:13,2020-06-17 15:47:14,"0,722s",PASSED
+"if (condition == ""passed"")",Chrome 83.0.4103.97,,,2020-06-17 15:47:14,2020-06-17 15:47:26,"12,334s",PASSED

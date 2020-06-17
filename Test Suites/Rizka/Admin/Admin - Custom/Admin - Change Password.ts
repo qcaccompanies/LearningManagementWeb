@@ -17,36 +17,42 @@
       <testCaseId>Test Cases/Rizka/Admin/Custom/Admin - Change Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>8b214fb6-87fe-4334-b43f-b043fab61aea</id>
+         <id>ae6d4c86-105d-41eb-b42b-dfb73c7174f4</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>15</value>
          </iterationEntity>
          <testDataId>Data Files/Rizka/Admin/Admin - Custom/Admin - Change Password</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>8b214fb6-87fe-4334-b43f-b043fab61aea</testDataLinkId>
+         <testDataLinkId>ae6d4c86-105d-41eb-b42b-dfb73c7174f4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>currentPassword</value>
          <variableId>1ee87851-1751-40f0-a946-593c20ccc5af</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8b214fb6-87fe-4334-b43f-b043fab61aea</testDataLinkId>
+         <testDataLinkId>ae6d4c86-105d-41eb-b42b-dfb73c7174f4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>newPassword</value>
          <variableId>c40d2736-885d-4f28-98d2-fcf736109fb0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8b214fb6-87fe-4334-b43f-b043fab61aea</testDataLinkId>
+         <testDataLinkId>ae6d4c86-105d-41eb-b42b-dfb73c7174f4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>confirmPassword</value>
          <variableId>87ece8cf-88fe-444b-a220-55c3435168bf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8b214fb6-87fe-4334-b43f-b043fab61aea</testDataLinkId>
+         <testDataLinkId>ae6d4c86-105d-41eb-b42b-dfb73c7174f4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>condition</value>
          <variableId>b628dae1-f403-4a35-8bb0-1b15f896405d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ae6d4c86-105d-41eb-b42b-dfb73c7174f4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ket</value>
+         <variableId>b6892ad9-f8fc-419d-83b7-fb10940823f6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

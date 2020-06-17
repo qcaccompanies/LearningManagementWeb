@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Rizka/Admin/Admin - Change Password/btnMyProfile'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Change Password/btnChangePass'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Change Password/btnChangePassword_v2'))
 
 WebUI.delay(5)
 
@@ -62,6 +62,26 @@ if (condition == 'passed') {
 } else {
     WebUI.click(findTestObject('Rizka/Admin/Admin - Change Password/btnResetPassword'))
 
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Change Password/alert1'))
+    if (ket == 'invalid') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Change Password/alert1'))
+    } else if (ket == 'OTPSalah') {
+        WebUI.delay(5)
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Change Password/input_Kode OTP_text1'), '2')
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Change Password/input_Kode OTP_text2'), '0')
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Change Password/input_Kode OTP_text3'), '0')
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Change Password/input_Kode OTP_text4'), '0')
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Change Password/input_Kode OTP_text5'), '0')
+
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Change Password/input_Kode OTP_text6'), '0')
+
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Change Password/btnKonfirmasi'))
+
+        WebUI.verifyAlertPresent(0)
+    }
 }
 
