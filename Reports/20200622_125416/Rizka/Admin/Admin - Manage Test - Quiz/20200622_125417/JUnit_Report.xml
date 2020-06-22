@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="236.538" tests="2" failures="1" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="2" failures="1" errors="0" time="236.538" timestamp="2020-06-22 12:54:29" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200622_125416\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200622_125417"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200622_125416\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200622_125417\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200622_125416\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200622_125417\\1592805390947.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200622_125416\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200622_125417\\1592805392029.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="a9c82b35ae8b7f1512f8e56293d64388"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete" time="122.43" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-22 12:54:30 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-22 12:54:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-22 12:54:31 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-22 12:54:31 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-22 12:54:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-22 12:54:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-22 12:54:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-22 12:54:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-22 12:55:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-22 12:55:01 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-22 12:55:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-22 12:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-22 12:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-22 12:55:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-22 12:55:19 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-22 12:55:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-22 12:55:21 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-22 12:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-22 12:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-22 12:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-22 12:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-22 12:55:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-22 12:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-22 12:55:24 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-22 12:55:39 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-22 12:55:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-22 12:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-22 12:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-22 12:55:40 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-22 12:55:47 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-22 12:55:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-22 12:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-22 12:55:48 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-22 12:55:55 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-22 12:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), namaSoal): Text 'COBA 2' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:06 - [MESSAGE][PASSED] - Text 'COBA 2' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-22 12:56:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-22 12:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2' is clicked on
+
+2020-06-22 12:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2' is clicked on
+
+2020-06-22 12:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2' is clicked on
+
+2020-06-22 12:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2' is clicked on
+
+2020-06-22 12:56:14 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-06-22 12:56:14 - [TEST_STEP][FAILED] - else: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-22 12:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2' is clicked on
+
+2020-06-22 12:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2' is clicked on
+
+2020-06-22 12:56:15 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-22 12:56:22 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-22 12:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), namaSoal): Text 'COBA 2' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:23 - [MESSAGE][PASSED] - Text 'COBA 2' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:56:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-22 12:56:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-22 12:56:30 - [TEST_STEP][FAILED] - verifyElementNotVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2")): Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-22 12:56:31 - [MESSAGE][FAILED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200622_125416\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200622_125417\\1592805390947.png]]
+
+2020-06-22 12:56:32 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200622_125416\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200622_125417\\1592805392029.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-22 12:54:30 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete" time="110.934" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete" status="PASSED">
+         <system-out><![CDATA[2020-06-22 12:56:32 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete
+
+2020-06-22 12:56:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-22 12:56:33 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-22 12:56:33 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-22 12:56:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-22 12:56:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-22 12:57:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-22 12:57:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-22 12:57:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-22 12:57:02 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-22 12:57:17 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-22 12:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-22 12:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-22 12:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-22 12:57:19 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-22 12:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-22 12:57:20 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-22 12:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-22 12:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-22 12:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-22 12:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-22 12:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-22 12:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-22 12:57:22 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-22 12:57:37 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-22 12:57:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-22 12:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-22 12:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-22 12:57:38 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-22 12:57:45 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-22 12:57:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-22 12:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-22 12:57:45 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-22 12:57:52 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-22 12:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), namaSoal): Text '160708926' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:02 - [MESSAGE][PASSED] - Text '160708926' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-22 12:58:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-22 12:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2' is clicked on
+
+2020-06-22 12:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2' is clicked on
+
+2020-06-22 12:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2' is clicked on
+
+2020-06-22 12:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2' is clicked on
+
+2020-06-22 12:58:09 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+
+2020-06-22 12:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2' is clicked on
+
+2020-06-22 12:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2' is clicked on
+
+2020-06-22 12:58:10 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-22 12:58:17 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-22 12:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), namaSoal): Text '160708926' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:17 - [MESSAGE][PASSED] - Text '160708926' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-22 12:58:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-22 12:58:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-22 12:58:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+
+2020-06-22 12:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-22 12:54:29 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-22 12:54:29 - [TEST_SUITE][FAILED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$4.call(Unknown Source)
+	at Admin - Manage Test - Quiz - Delete.run(Admin - Manage Test - Quiz - Delete:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592805257015.run(TempTestSuite1592805257015.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

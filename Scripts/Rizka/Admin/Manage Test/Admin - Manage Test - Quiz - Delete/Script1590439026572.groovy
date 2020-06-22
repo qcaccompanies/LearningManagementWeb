@@ -14,44 +14,51 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2'))
 
 WebUI.delay(7)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2'))
 
 WebUI.delay(7)
+
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), namaSoal)
+
+WebUI.sendKeys(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnSettings_v2'))
+
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnDelete_v2'))
 
 if (condition == 'passed') {
-    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/label_160708926_1'), 0)
+    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnYes_v2'))
 
-    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/i_AS_app-icon wi wi-more-vert fa-2x'))
+    WebUI.delay(7)
 
-    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnDelete'))
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), namaSoal)
 
-    WebUI.delay(3)
-
-    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/span_YES'))
+    WebUI.sendKeys(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), Keys.chord(Keys.ENTER))
 
     WebUI.delay(5)
 
-    WebUI.verifyElementNotPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/label_160708926_1'), 0)
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2'))
 } else {
-    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'), 
-        0)
+    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnCancel_v2'))
 
-    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/i_NEOP Teller Cash  PDC dan FAB_app-icon wi wi-more-vert fa-2x'))
+    WebUI.delay(7)
 
-    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/btnDelete'))
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), namaSoal)
 
-    WebUI.delay(3)
+    WebUI.sendKeys(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/span_CANCEL'))
+    WebUI.delay(5)
 
-    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/label_Pengalihan kontrak dari nasabah lama ke nasabah baru yang akan melanjutkan pembayaran secara kredit disebut'), 
-        0)
+    WebUI.verifyElementNotVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/alertNoDataFound_v2'))
 }
 

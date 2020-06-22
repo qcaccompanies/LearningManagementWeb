@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>bcf25af7-e936-4b26-b4cf-a2a9f2ecd491</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -124,14 +124,14 @@
    <testCaseLink>
       <guid>8c92f3e0-95c7-4efb-9fe9-98eccc54d1e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>03b47416-3aa5-40bb-90ab-10b4ef3b604d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Rizka/Admin/Admin - Manage Test/Admin - Manage Test - Quiz - Delete</testDataId>
       </testDataLink>
@@ -140,6 +140,12 @@
          <type>DATA_COLUMN</type>
          <value>condition</value>
          <variableId>007e2ba2-04ba-42a3-a582-3956e9c2d7df</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>03b47416-3aa5-40bb-90ab-10b4ef3b604d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namaSoal</value>
+         <variableId>6fc49fad-f962-4dfa-ae65-3b110185a844</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
