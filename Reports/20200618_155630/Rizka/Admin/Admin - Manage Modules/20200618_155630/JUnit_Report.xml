@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Modules" time="81.286" tests="1" failures="1" errors="0">
+   <testsuite name="Admin - Manage Modules" tests="1" failures="1" errors="0" time="81.286" timestamp="2020-06-18 15:56:41" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Modules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200618_155630\\Rizka\\Admin\\Admin - Manage Modules\\20200618_155630"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200618_155630\\Rizka\\Admin\\Admin - Manage Modules\\20200618_155630\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200618_155630\\Rizka\\Admin\\Admin - Manage Modules\\20200618_155630\\1592470680316.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200618_155630\\Rizka\\Admin\\Admin - Manage Modules\\20200618_155630\\1592470680788.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="f927047fdafacc8d74f68b4aa0bf43a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page" time="79.081" classname="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-18 15:56:42 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-18 15:56:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-18 15:56:43 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-18 15:56:43 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-18 15:56:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-18 15:56:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-18 15:57:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-18 15:57:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-18 15:57:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-18 15:57:12 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-18 15:57:28 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-18 15:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-18 15:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-18 15:57:28 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-18 15:57:29 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-18 15:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-18 15:57:30 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-18 15:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-18 15:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-18 15:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-18 15:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-18 15:57:31 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-18 15:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-18 15:57:31 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-18 15:57:46 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-18 15:57:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-18 15:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Modules - Next Page/btnModuleManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnModuleManagement_v2' is clicked on
+
+2020-06-18 15:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnModuleManagement_v2' is clicked on
+
+2020-06-18 15:57:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 15:57:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-18 15:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Modules - Next Page/btnManageModule_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnManageModule_v2' is clicked on
+
+2020-06-18 15:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnManageModule_v2' is clicked on
+
+2020-06-18 15:57:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 15:57:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-18 15:57:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2"), 0): Scroll to object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' successfully
+
+2020-06-18 15:57:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-18 15:57:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' successfully
+
+2020-06-18 15:57:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 15:57:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-18 15:57:59 - [TEST_STEP][FAILED] - verifyElementNotClickable(findTestObject("Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2")): Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-18 15:58:00 - [MESSAGE][FAILED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200618_155630\\Rizka\\Admin\\Admin - Manage Modules\\20200618_155630\\1592470680316.png]]
+
+2020-06-18 15:58:01 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200618_155630\\Rizka\\Admin\\Admin - Manage Modules\\20200618_155630\\1592470680788.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-18 15:56:42 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-18 15:56:41 - [TEST_SUITE][FAILED] - Admin - Manage Modules: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-18 15:56:41 - [TEST_SUITE][FAILED] - Admin - Manage Modules: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Next Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Next Page.run(Admin - Manage Modules - Next Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592470591002.run(TempTestSuite1592470591002.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2' is clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

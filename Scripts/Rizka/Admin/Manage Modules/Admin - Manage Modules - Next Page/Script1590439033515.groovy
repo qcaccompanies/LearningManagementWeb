@@ -17,19 +17,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/button_Modules'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnModuleManagement_v2'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/a_Manage Modules'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnManageModule_v2'))
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnNextPage'), 0)
+WebUI.scrollToElement(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2'), 0)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnNextPage'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnPage2_v2'))
 
-WebUI.verifyElementClickable(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnPreviousPage'))
+WebUI.verifyElementClickable(findTestObject('Rizka/Admin/Admin - Manage Modules - Next Page/btnBefore_v2'))
 

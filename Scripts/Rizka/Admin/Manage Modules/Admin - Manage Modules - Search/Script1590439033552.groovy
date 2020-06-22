@@ -14,27 +14,69 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/button_Modules'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/a_Manage Modules'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/inputSearch_v2'), namaModul)
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2'), status, false)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSearch_v2'))
-
-WebUI.delay(3)
+WebUI.selectOptionByLabel(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2'), searchBy, false)
 
 if (condition == 'passed') {
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/label_NEOP Teller Cash  PDC dan FAB', 
-            [('text') : namaModul]), FailureHandling.STOP_ON_FAILURE)
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2'), searchText)
+
+    WebUI.sendKeys(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2'), Keys.chord(Keys.ENTER))
+
+    WebUI.delay(5)
+
+    if (status != 'All') {
+        if (status == 'Active') {
+            WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/labelActive_v3'))
+        } else {
+            WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/labelInactive_v3'))
+        }
+    }
+    
+    if (searchBy == 'Module') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/labelModul_v3'))
+    } else if (searchBy == 'Section') {
+        WebUI.delay(5)
+
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSettings_v2'))
+
+        WebUI.delay(5)
+
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnEdit_v2'))
+
+        WebUI.delay(5)
+
+        WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/btnSubmodul_v2'))
+
+        WebUI.delay(5)
+
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/labelSection_v3'))
+    } else if (searchBy == 'Course Name') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/labelCourseName_v3'))
+    } else if (searchBy == 'Training Name') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/labelLevel_v3'))
+    }
 } else {
-    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/alertNoDataFound'), 0)
+    if (searchBy == 'Search by') {
+        WebUI.verifyElementNotClickable(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2'))
+    } else {
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2'), searchText)
+
+        WebUI.sendKeys(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2'), Keys.chord(Keys.ENTER))
+
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Modules - Search/alertNoDataFound_v2'))
+    }
 }
 

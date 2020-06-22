@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Modules" time="131.748" tests="1" failures="1" errors="0">
+   <testsuite name="Admin - Manage Modules" tests="1" failures="1" errors="0" time="131.748" timestamp="2020-06-19 15:57:21" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Modules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200619_155709\\Rizka\\Admin\\Admin - Manage Modules\\20200619_155709"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200619_155709\\Rizka\\Admin\\Admin - Manage Modules\\20200619_155709\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200619_155709\\Rizka\\Admin\\Admin - Manage Modules\\20200619_155709\\1592557170689.png, D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200619_155709\\Rizka\\Admin\\Admin - Manage Modules\\20200619_155709\\1592557171154.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="bda661bfbd1041e3bf9895a9b7d6499a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search" time="127.897" classname="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-19 15:57:23 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-19 15:57:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-19 15:57:26 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-19 15:57:27 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-19 15:57:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-19 15:57:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-19 15:57:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-19 15:57:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-19 15:57:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-19 15:57:59 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-19 15:58:14 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-19 15:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-19 15:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-19 15:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-19 15:58:16 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-19 15:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-19 15:58:17 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-19 15:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-19 15:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-19 15:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-19 15:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-19 15:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-19 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-19 15:58:19 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-19 15:58:34 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-19 15:58:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-19 15:58:34 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2' is clicked on
+
+2020-06-19 15:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2' is clicked on
+
+2020-06-19 15:58:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-19 15:58:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-19 15:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3' is clicked on
+
+2020-06-19 15:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3' is clicked on
+
+2020-06-19 15:58:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-19 15:58:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-19 15:58:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2"), status, false): All options with label 'All' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2' 
+
+2020-06-19 15:58:43 - [MESSAGE][PASSED] - All options with label 'All' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2' 
+
+2020-06-19 15:58:43 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2"), searchBy, false): All options with label 'Search by' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2' 
+
+2020-06-19 15:58:44 - [MESSAGE][PASSED] - All options with label 'Search by' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2' 
+
+2020-06-19 15:58:44 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-06-19 15:58:44 - [TEST_STEP][FAILED] - else: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-19 15:58:44 - [TEST_STEP][FAILED] - if (searchBy == "Search by"): Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-19 15:58:44 - [TEST_STEP][FAILED] - verifyElementNotClickable(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2")): Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-19 15:59:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-19 15:59:31 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200619_155709\\Rizka\\Admin\\Admin - Manage Modules\\20200619_155709\\1592557170689.png]]
+
+2020-06-19 15:59:31 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200619_155709\\Rizka\\Admin\\Admin - Manage Modules\\20200619_155709\\1592557171154.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-19 15:57:23 - [TEST_CASE][FAILED] - Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-19 15:57:21 - [TEST_SUITE][FAILED] - Admin - Manage Modules: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-19 15:57:21 - [TEST_SUITE][FAILED] - Admin - Manage Modules: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' to be NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.verifyElementNotClickable(VerifyElementNotClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword.execute(VerifyElementNotClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(WebUiBuiltInKeywords.groovy:591)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotClickable$4.call(Unknown Source)
+	at Admin - Manage Modules - Search.run(Admin - Manage Modules - Search:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592557029980.run(TempTestSuite1592557029980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Search' and @name = 'search1']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.doCall(VerifyElementNotClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotClickableKeyword$_verifyElementNotClickable_closure1.call(VerifyElementNotClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

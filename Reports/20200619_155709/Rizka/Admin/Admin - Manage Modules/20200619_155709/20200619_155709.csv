@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Manage Modules,Chrome 83.0.4103.106,,,2020-06-19 15:57:21,2020-06-19 15:59:31,"2m - 9,674s",FAILED
+,,,,,,,
+Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search,Chrome 83.0.4103.106,,,2020-06-19 15:57:23,2020-06-19 15:59:31,"2m - 7,897s",FAILED
+"callTestCase(findTestCase(""Rizka/Admin/AdminMainLogin""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-19 15:57:25,2020-06-19 15:58:34,"1m - 8,174s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2""))",Chrome 83.0.4103.106,,,2020-06-19 15:58:34,2020-06-19 15:58:34,"0,652s",PASSED
+delay(3),Chrome 83.0.4103.106,,,2020-06-19 15:58:34,2020-06-19 15:58:37,"3,007s",PASSED
+"click(findTestObject(""Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3""))",Chrome 83.0.4103.106,,,2020-06-19 15:58:37,2020-06-19 15:58:38,"0,486s",PASSED
+delay(3),Chrome 83.0.4103.106,,,2020-06-19 15:58:38,2020-06-19 15:58:41,"3,006s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2""), status, false)",Chrome 83.0.4103.106,,,2020-06-19 15:58:41,2020-06-19 15:58:43,"2,683s",PASSED
+"selectOptionByLabel(findTestObject(""Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2""), searchBy, false)",Chrome 83.0.4103.106,,,2020-06-19 15:58:43,2020-06-19 15:58:44,"0,747s",PASSED
+"if (condition == ""passed"")",Chrome 83.0.4103.106,,,2020-06-19 15:58:44,2020-06-19 15:58:44,"0,001s",PASSED
+else,Chrome 83.0.4103.106,,,2020-06-19 15:58:44,2020-06-19 15:59:31,"46,984s",FAILED

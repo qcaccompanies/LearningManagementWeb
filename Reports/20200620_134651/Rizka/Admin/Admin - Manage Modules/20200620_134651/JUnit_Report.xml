@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Modules" time="84.052" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Manage Modules" tests="1" failures="0" errors="0" time="84.052" timestamp="2020-06-20 13:47:05" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Modules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200620_134651\\Rizka\\Admin\\Admin - Manage Modules\\20200620_134651"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200620_134651\\Rizka\\Admin\\Admin - Manage Modules\\20200620_134651\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.64"/>
+         <property name="sessionId" value="478acc197474c2aeb53694dcb2e75c28"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search" time="81.321" classname="Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-20 13:47:06 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search
+
+2020-06-20 13:47:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-20 13:47:08 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-20 13:47:08 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-20 13:47:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-20 13:47:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-20 13:47:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-20 13:47:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-20 13:47:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-20 13:47:42 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-20 13:47:57 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-20 13:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-20 13:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-20 13:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-20 13:47:58 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-20 13:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-20 13:47:59 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-20 13:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-20 13:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-20 13:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-20 13:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-20 13:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-20 13:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-20 13:48:01 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-20 13:48:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-20 13:48:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-20 13:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2' is clicked on
+
+2020-06-20 13:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnModulManagement_v2' is clicked on
+
+2020-06-20 13:48:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-20 13:48:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-20 13:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3' is clicked on
+
+2020-06-20 13:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/btnManageModul_v3' is clicked on
+
+2020-06-20 13:48:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-20 13:48:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-20 13:48:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2"), status, false): All options with label 'All' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2' 
+
+2020-06-20 13:48:26 - [MESSAGE][PASSED] - All options with label 'All' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownStatus_v2' 
+
+2020-06-20 13:48:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2"), searchBy, false): All options with label 'Search by' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2' 
+
+2020-06-20 13:48:27 - [MESSAGE][PASSED] - All options with label 'Search by' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/dropdownSearchBy_v2' 
+
+2020-06-20 13:48:27 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-06-20 13:48:27 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' is NOT clickable
+
+2020-06-20 13:48:27 - [TEST_STEP][PASSED] - if (searchBy == "Search by"): Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' is NOT clickable
+
+2020-06-20 13:48:27 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2")): Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' is NOT clickable
+
+2020-06-20 13:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Modules - Search/fieldSearch_v2' is NOT clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-20 13:47:05 - [TEST_SUITE][PASSED] - Admin - Manage Modules: Test Cases/Rizka/Admin/Manage Modules/Admin - Manage Modules - Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
