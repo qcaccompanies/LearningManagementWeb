@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="162.77" tests="1" failures="0" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="1" failures="0" errors="0" time="162.77" timestamp="2020-06-24 21:48:36" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200624_214814\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200624_214814"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200624_214814\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200624_214814\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="22d0eacc15ae11b3053af96e9b7347a6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" time="158.926" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question" status="PASSED">
+         <system-out><![CDATA[2020-06-24 21:48:38 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question
+
+2020-06-24 21:48:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-24 21:48:40 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-24 21:48:41 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-24 21:48:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-24 21:48:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-24 21:49:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-24 21:49:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-24 21:49:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-24 21:49:12 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-24 21:49:27 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-24 21:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-24 21:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-24 21:49:28 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-24 21:49:29 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-24 21:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-24 21:49:30 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-24 21:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-24 21:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-24 21:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-24 21:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-24 21:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-24 21:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-24 21:49:32 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-24 21:49:47 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-24 21:49:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-24 21:49:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-24 21:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-24 21:49:48 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-24 21:49:55 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-24 21:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-24 21:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-24 21:49:56 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-24 21:50:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-24 21:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-06-24 21:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion' is clicked on
+
+2020-06-24 21:50:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-24 21:50:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-24 21:50:19 - [TEST_STEP][PASSED] - if (tipeSoal != ""): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3' 
+
+2020-06-24 21:50:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3"), tipeSoal, false): All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3' 
+
+2020-06-24 21:50:25 - [MESSAGE][PASSED] - All options with label 'Pilihan Ganda' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTipeSoal_v3' 
+
+2020-06-24 21:50:25 - [TEST_STEP][PASSED] - if (jobFunction != ""): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3' 
+
+2020-06-24 21:50:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3"), jobFunction, false): All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3' 
+
+2020-06-24 21:50:32 - [MESSAGE][PASSED] - All options with label 'SALES' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobFunction_v3' 
+
+2020-06-24 21:50:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-24 21:50:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-24 21:50:35 - [TEST_STEP][PASSED] - if (jobPosition != ""): All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3' 
+
+2020-06-24 21:50:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3"), jobPosition, false): All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3' 
+
+2020-06-24 21:50:36 - [MESSAGE][PASSED] - All options with label 'SALES HEAD' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJobPosition_v3' 
+
+2020-06-24 21:50:36 - [TEST_STEP][PASSED] - if (module != ""): All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3' 
+
+2020-06-24 21:50:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3"), module, false): All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3' 
+
+2020-06-24 21:50:37 - [MESSAGE][PASSED] - All options with label 'NEOP Sales' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputModul_v3' 
+
+2020-06-24 21:50:37 - [TEST_STEP][PASSED] - if (subModule != ""): All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3' 
+
+2020-06-24 21:50:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3"), subModule, false): All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3' 
+
+2020-06-24 21:50:40 - [MESSAGE][PASSED] - All options with label '(Asuransi) Apa saja yang dijual?' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputSubModul_v3' 
+
+2020-06-24 21:50:40 - [TEST_STEP][PASSED] - if (technicalCompetence != ""): null
+
+2020-06-24 21:50:40 - [TEST_STEP][PASSED] - if (levelCompetence != ""): null
+
+2020-06-24 21:50:40 - [TEST_STEP][PASSED] - if (levelCompetence != "Alfabet"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-06-24 21:50:40 - [TEST_STEP][PASSED] - if (soalQuestion != ""): Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'
+
+2020-06-24 21:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3"), soalQuestion): Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'
+
+2020-06-24 21:50:43 - [MESSAGE][PASSED] - Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'
+
+2020-06-24 21:50:43 - [TEST_STEP][PASSED] - if (tipeSoal == "Pilihan Ganda"): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3' 
+
+2020-06-24 21:50:43 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanA_v3"), jawabanA): Text 'Mobil' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanA_v3'
+
+2020-06-24 21:50:44 - [MESSAGE][PASSED] - Text 'Mobil' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanA_v3'
+
+2020-06-24 21:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanB_v3"), jawabanB): Text 'Motor' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanB_v3'
+
+2020-06-24 21:50:45 - [MESSAGE][PASSED] - Text 'Motor' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanB_v3'
+
+2020-06-24 21:50:45 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanC_v3"), jawabanC): Text 'Truk' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanC_v3'
+
+2020-06-24 21:50:46 - [MESSAGE][PASSED] - Text 'Truk' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanC_v3'
+
+2020-06-24 21:50:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanD_v3"), jawabanD): Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanD_v3'
+
+2020-06-24 21:50:47 - [MESSAGE][PASSED] - Text 'Kelapa Sawit' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/jawabanD_v3'
+
+2020-06-24 21:50:47 - [TEST_STEP][PASSED] - if (kunciJawabanPilgan != ""): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3' 
+
+2020-06-24 21:50:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3"), kunciJawabanPilgan, false): All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3' 
+
+2020-06-24 21:50:49 - [MESSAGE][PASSED] - All options with label 'A' are selected in object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputJawabanPilgan_v3' 
+
+2020-06-24 21:50:49 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-06-24 21:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-06-24 21:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnSubmit' is clicked on
+
+2020-06-24 21:50:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-24 21:50:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-24 21:50:55 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch"), soalQuestion): Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-06-24 21:51:12 - [MESSAGE][PASSED] - Text 'New Question (1)' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'
+
+2020-06-24 21:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-06-24 21:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch' is clicked on
+
+2020-06-24 21:51:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-24 21:51:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-24 21:51:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali", ["text":soalQuestion]), STOP_ON_FAILURE): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible
+
+2020-06-24 21:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - New Question/label_Berikut adalah jenis dealer  dihandle oleh Sales officer new car adalah sebagai berikut kecuali' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-24 21:48:36 - [TEST_SUITE][PASSED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

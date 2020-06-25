@@ -17,29 +17,33 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Next Page/btnManageTest'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2'))
 
-WebUI.delay(10)
+WebUI.delay(7)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Next Page/btnQuiz'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2'))
 
-WebUI.delay(5)
+WebUI.delay(7)
 
-WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'), judulQuiz)
+WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'), judulQuiz)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'))
-
-not_run: WebUI.sendKeys(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/fieldSearch'), Keys.chord(Keys.ENTER, 
-        ''))
-
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
 if (condition == 'passed') {
-    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/label_1', [('text') : judulQuiz]), 
-        FailureHandling.STOP_ON_FAILURE)
+    if (ket == 'tipeSoal') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/label_benarsalah'))
+    } else if (ket == 'jobFunction') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/label_SERVICE'))
+    } else if (ket == 'jobPosition') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/label_TELLER'))
+    } else if (ket == 'modul') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/label_NEOP CSO'))
+    } else if (ket == 'soal') {
+        WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/label_Giro boleh dikirimkan customer melalui pos atau paket'))
+    }
 } else {
-    WebUI.verifyElementPresent(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/alertNoDataFound'), 0)
+    WebUI.verifyElementVisible(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found'))
 }
 

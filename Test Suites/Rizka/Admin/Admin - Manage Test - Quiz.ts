@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>8c92f3e0-95c7-4efb-9fe9-98eccc54d1e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -180,18 +180,24 @@
          <value>condition</value>
          <variableId>867b7add-a38a-4579-bb3c-e0fe0628be16</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>67233dbe-f09a-4c8e-9bac-d5d458f9954a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ket</value>
+         <variableId>eb258219-b2f2-4734-85bd-0e620a584bc4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7c4d5e9a-5dd8-49e2-99a9-52992a37c875</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - New Question</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e3fc8c8f-ee91-4b57-9e7c-126b0e0877b5</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>14</value>
+            <iterationType>RANGE</iterationType>
+            <value>8-15</value>
          </iterationEntity>
          <testDataId>Data Files/Rizka/Admin/Admin - Manage Test/Admin - Manage Tets - Quiz - New Question</testDataId>
       </testDataLink>

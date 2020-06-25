@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="206.811" tests="2" failures="0" errors="2">
+   <testsuite name="Admin - Manage Test - Quiz" tests="2" failures="0" errors="2" time="206.811" timestamp="2020-06-23 13:58:02" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200623_135746\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200623_135746"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200623_135746\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200623_135746\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="4c22159560d5599a411bd7683a4e04ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="99.887" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="ERROR">
+         <error type="ERROR" message="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)
+"/>
+         <system-out><![CDATA[2020-06-23 13:58:03 - [TEST_CASE][ERROR] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)
+
+
+2020-06-23 13:58:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 13:58:04 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 13:58:04 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 13:58:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 13:58:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-23 13:58:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 13:58:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 13:58:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 13:58:53 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 13:59:08 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 13:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 13:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 13:59:09 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 13:59:10 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 13:59:10 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 13:59:10 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 13:59:10 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 13:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 13:59:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 13:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 13:59:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 13:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 13:59:12 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 13:59:27 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 13:59:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 13:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 13:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 13:59:28 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 13:59:35 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 13:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 13:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 13:59:35 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 13:59:42 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 13:59:42 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), namaSoal): null]]></system-out>
+         <system-err><![CDATA[2020-06-23 13:58:03 - [TEST_CASE][ERROR] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="104.36" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="ERROR">
+         <error type="ERROR" message="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)
+"/>
+         <system-out><![CDATA[2020-06-23 13:59:43 - [TEST_CASE][ERROR] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)
+
+
+2020-06-23 13:59:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 13:59:43 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 13:59:43 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 13:59:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 13:59:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:00:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:00:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:00:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:00:37 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:00:52 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:00:54 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:00:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:00:54 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:00:57 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:01:12 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:01:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:01:12 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:01:19 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:01:20 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:01:27 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:01:27 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), namaSoal): null]]></system-out>
+         <system-err><![CDATA[2020-06-23 13:59:43 - [TEST_CASE][ERROR] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 13:58:02 - [TEST_SUITE][ERROR] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-06-23 13:58:02 - [TEST_SUITE][ERROR] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: namaSoal for class: Script1590439026715
+	at Admin - Manage Test - Quiz - Search.run(Admin - Manage Test - Quiz - Search:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592895466649.run(TempTestSuite1592895466649.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

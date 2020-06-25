@@ -17,13 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Rizka/Admin/AdminMainLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnManageTest'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2'))
 
-WebUI.delay(5)
+WebUI.delay(7)
 
-WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnQuiz'))
+WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2'))
 
-WebUI.delay(5)
+WebUI.delay(7)
 
 WebUI.click(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/btnNewQuestion'))
 
@@ -56,15 +56,16 @@ if (subModule != '') {
 }
 
 if (technicalCompetence != '') {
-    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputTechnicalComp_v3'), technicalCompetence, 
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/inputTechnicalCompetence_v2'), technicalCompetence, 
         FailureHandling.STOP_ON_FAILURE)
 }
 
 if (levelCompetence != '') {
-    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputLevelComp_v3'), levelCompetence, FailureHandling.STOP_ON_FAILURE)
+    WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/inputLevelCompetence_v2'), levelCompetence, 
+        FailureHandling.STOP_ON_FAILURE)
 
     if (levelCompetence == 'Alfabet') {
-        atribut = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputLevelComp_v3'), 
+        atribut = WebUI.getAttribute(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/inputLevelCompetence_v2'), 
             'value')
 
         WebUI.verifyNotMatch(atribut, levelCompetence, false)
@@ -73,7 +74,7 @@ if (levelCompetence != '') {
 
 if (levelCompetence != 'Alfabet') {
     if (soalQuestion != '') {
-        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - Edit/inputQuestion_v3'), soalQuestion)
+        WebUI.setText(findTestObject('Rizka/Admin/Admin - Manage Test - Quiz - New Question/inputSoal_v2'), soalQuestion)
     }
     
     if (tipeSoal == 'Pilihan Ganda') {

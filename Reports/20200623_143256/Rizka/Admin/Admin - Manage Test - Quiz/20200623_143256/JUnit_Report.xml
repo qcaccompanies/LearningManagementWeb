@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin - Manage Test - Quiz" time="679.073" tests="7" failures="0" errors="0">
+   <testsuite name="Admin - Manage Test - Quiz" tests="7" failures="0" errors="0" time="679.073" timestamp="2020-06-23 14:33:07" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/Admin/Admin - Manage Test - Quiz">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200623_143256\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200623_143256"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\LearningManagementWeb\\Reports\\20200623_143256\\Rizka\\Admin\\Admin - Manage Test - Quiz\\20200623_143256\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="d6514ce83201d0ebc09ce04104ea70f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="96.331" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:33:08 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:33:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:33:10 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:33:11 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:33:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:33:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-06-23 14:33:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:33:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:33:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:33:43 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:33:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:34:00 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:34:00 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:34:00 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:34:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:34:02 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:34:17 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:34:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:34:18 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:34:25 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:34:25 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:34:32 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'benarsalah' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:34:38 - [MESSAGE][PASSED] - Text 'benarsalah' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:34:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:34:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:34:44 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_benarsalah' is visible
+
+2020-06-23 14:34:44 - [TEST_STEP][PASSED] - if (ket == "tipeSoal"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_benarsalah' is visible
+
+2020-06-23 14:34:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/label_benarsalah")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_benarsalah' is visible
+
+2020-06-23 14:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_benarsalah' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="82.939" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:34:44 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:34:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:34:44 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:34:44 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:34:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 14:34:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:35:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:35:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:35:06 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:35:06 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:35:21 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:35:22 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:35:23 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:35:24 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:35:39 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:35:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:35:40 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:35:47 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:35:47 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:35:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:35:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'Service' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:36:01 - [MESSAGE][PASSED] - Text 'Service' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:36:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:36:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:36:07 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_SERVICE' is visible
+
+2020-06-23 14:36:07 - [TEST_STEP][PASSED] - if (ket == "tipeSoal"): null
+
+2020-06-23 14:36:07 - [TEST_STEP][PASSED] - else if (ket == "jobFunction"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_SERVICE' is visible
+
+2020-06-23 14:36:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/label_SERVICE")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_SERVICE' is visible
+
+2020-06-23 14:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_SERVICE' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="95.166" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:36:07 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:36:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:36:07 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:36:07 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:36:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 14:36:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:36:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:36:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:36:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:36:39 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:36:54 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:36:56 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:36:56 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:36:58 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:37:13 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:37:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:37:14 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:37:21 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:37:21 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:37:28 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'Teller' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:37:37 - [MESSAGE][PASSED] - Text 'Teller' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:37:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:37:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:37:42 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_TELLER' is visible
+
+2020-06-23 14:37:42 - [TEST_STEP][PASSED] - if (ket == "tipeSoal"): null
+
+2020-06-23 14:37:42 - [TEST_STEP][PASSED] - else if (ket == "jobFunction"): null
+
+2020-06-23 14:37:42 - [TEST_STEP][PASSED] - else if (ket == "jobPosition"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_TELLER' is visible
+
+2020-06-23 14:37:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/label_TELLER")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_TELLER' is visible
+
+2020-06-23 14:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_TELLER' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="104.312" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:37:43 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:37:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:37:43 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:37:43 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:37:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 14:37:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:38:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:38:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:38:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:38:24 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:38:39 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:38:40 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:38:41 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:38:43 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:38:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:38:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:38:58 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:39:05 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:39:06 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:39:13 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'NEOP CSO' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:39:21 - [MESSAGE][PASSED] - Text 'NEOP CSO' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:39:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:39:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:39:26 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_NEOP CSO' is visible
+
+2020-06-23 14:39:26 - [TEST_STEP][PASSED] - if (ket == "tipeSoal"): null
+
+2020-06-23 14:39:26 - [TEST_STEP][PASSED] - else if (ket == "jobFunction"): null
+
+2020-06-23 14:39:26 - [TEST_STEP][PASSED] - else if (ket == "jobPosition"): null
+
+2020-06-23 14:39:26 - [TEST_STEP][PASSED] - else if (ket == "modul"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_NEOP CSO' is visible
+
+2020-06-23 14:39:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/label_NEOP CSO")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_NEOP CSO' is visible
+
+2020-06-23 14:39:27 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_NEOP CSO' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="107.023" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:39:27 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:39:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:39:27 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:39:27 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:39:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 14:39:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:40:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:40:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:40:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:40:04 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:40:19 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:40:20 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:40:21 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:40:21 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:40:22 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:40:23 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:40:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:40:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:40:38 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:40:39 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:40:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:40:47 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:40:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'Giro boleh dikirimkan customer melalui pos atau paket' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:41:08 - [MESSAGE][PASSED] - Text 'Giro boleh dikirimkan customer melalui pos atau paket' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:41:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:41:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - if (condition == "passed"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_Giro boleh dikirimkan customer melalui pos atau paket' is visible
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - if (ket == "tipeSoal"): null
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - else if (ket == "jobFunction"): null
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - else if (ket == "jobPosition"): null
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - else if (ket == "modul"): null
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - else if (ket == "soal"): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_Giro boleh dikirimkan customer melalui pos atau paket' is visible
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/label_Giro boleh dikirimkan customer melalui pos atau paket")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_Giro boleh dikirimkan customer melalui pos atau paket' is visible
+
+2020-06-23 14:41:14 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/label_Giro boleh dikirimkan customer melalui pos atau paket' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="99.442" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:41:14 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:41:14 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:41:14 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:41:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 14:41:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:41:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:41:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:41:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:41:49 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:42:04 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:42:05 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:42:06 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:42:06 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:42:08 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:42:23 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:42:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:42:24 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:42:31 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:42:32 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:42:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'Quiz' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:42:47 - [MESSAGE][PASSED] - Text 'Quiz' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:42:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:42:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:42:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:42:53 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-06-23 14:42:53 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found' is visible
+
+2020-06-23 14:42:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found' is visible
+
+2020-06-23 14:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" time="90.598" classname="Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:42:53 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search
+
+2020-06-23 14:42:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/Admin/AdminMainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:42:54 - [TEST_CASE][PASSED] - Test Cases/Rizka/Admin/AdminMainLogin: Test Cases/Rizka/Admin/AdminMainLogin
+
+2020-06-23 14:42:54 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:42:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-23 14:42:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:43:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_LMS_WEB/#/admNLmn'
+
+2020-06-23 14:43:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:43:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:43:20 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:43:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin' is clicked on
+
+2020-06-23 14:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtUsername"), "11666"): Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:43:36 - [MESSAGE][PASSED] - Text '11666' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtUsername'
+
+2020-06-23 14:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Login/txtPassword"), "Password3"): Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:43:37 - [MESSAGE][PASSED] - Text 'Password3' is set on object 'Object Repository/Rizka/Admin/Admin - Login/txtPassword'
+
+2020-06-23 14:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnEyePass")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnEyePass' is clicked on
+
+2020-06-23 14:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/checkboxRememberMe")): Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/checkboxRememberMe' is clicked on
+
+2020-06-23 14:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Login/btnLogin2")): Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Login/btnLogin2' is clicked on
+
+2020-06-23 14:43:39 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-06-23 14:43:54 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-06-23 14:43:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/Admin/AdminMainLogin' successfully
+
+2020-06-23 14:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnTestManagement_v2' is clicked on
+
+2020-06-23 14:43:54 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:44:01 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:44:01 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2")): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/btnQuiz_v2' is clicked on
+
+2020-06-23 14:44:02 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-06-23 14:44:09 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-06-23 14:44:09 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2"), judulQuiz): Text 'IT Trainee ACC' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:44:18 - [MESSAGE][PASSED] - Text 'IT Trainee ACC' is set on object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Delete/fieldSearch_v2'
+
+2020-06-23 14:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2"), STOP_ON_FAILURE): Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/btnSearch2' is clicked on
+
+2020-06-23 14:44:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-23 14:44:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-23 14:44:24 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-06-23 14:44:24 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found' is visible
+
+2020-06-23 14:44:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found")): Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found' is visible
+
+2020-06-23 14:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/Admin/Admin - Manage Test - Quiz - Search/div_No data found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:33:07 - [TEST_SUITE][PASSED] - Admin - Manage Test - Quiz: Test Cases/Rizka/Admin/Manage Test/Admin - Manage Test - Quiz - Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
